@@ -1,4 +1,4 @@
-# putting_in_the_effort_CABB
+# Putting in the effort
 Code and data for project 'putting in the effort' by Sara Bögels, Tianyi Li, Marlou Rasenberg, Lotte Eijk, Wim Pouw1
 
 # Contact

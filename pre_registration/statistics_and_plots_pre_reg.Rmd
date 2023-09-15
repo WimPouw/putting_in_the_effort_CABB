@@ -1,0 +1,235 @@
+---
+title: "Plots and statistics for: Putting in the effort: Predicting communicative work based on joint communication effort and conceptual affordances (preliminary results and pre-registration)"
+output:
+  html_document:
+date: "2023-04-03"
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+```
+
+
+```{r include=FALSE,warning=FALSE, message= FALSE}
+library(readr)        #string manipulation
+library(ggplot2)      #plotting
+library(gridExtra)    #plotting
+library(cowplot)      #plotting
+library(colorRamps)   #plotting
+library(RColorBrewer) #plotting
+library(scales)       #rescaling
+library(plotly)       #plotting
+library(ggpubr)       #plotting
+library(magrittr)     #pipe operator
+library(lme4)         #lineat mixed modeling
+library(ggcorrplot)   #plotting correlations
+library(data.table)   #data wrangling
+library(reshape2)     #data wrangling
+library(plyr)         #data wrangling
+library(dplR)         #data wrangling
+library(dplyr)        #data wrangling
+library(lmerTest)     #posthoc testing
+library(simr)         #power analysis
+library(tidyr)        #piping etc.
+library(mixedpower)   #power analysis #devtools::install_github("DejanDraschkow/mixedpower")
+library(performance)  #model checks
+library(jtools)       #for plotting interaction
+library(ape)          #ape
+```
+
+This document contains all the plots and statistical testing for the preregistration. Every header with a confirmatory label is considered the prime analyses to be replicated in the large confirmatory dataset. The other analyses labeled exploratory we will perform but should be treated as such.
+
+## setup dir & read processed datasets
+```{r, warning = FALSE, message = FALSE}
+curfolder <- getwd()
+outputfolder <- paste0(curfolder, "/processed/")
+
+# loglog/linear LMs intercepts/slopes
+final_mat<-read.csv(paste0(outputfolder,"mat_lm_prepost_centered_shift_one.csv")) 
+final_mat_linear <- read.csv(paste0(outputfolder,"mat_lm_prepost_centered_linear.csv")) 
+
+# raw sum(energy) per pair
+energy <- read.csv(paste0(outputfolder,"energy.csv"))
+
+# raw energy per participant
+mat_diff <- read.csv(paste0(outputfolder,"mat_diff.csv"))
+
+# pre/post/visual centrality, average all the rest Fribbles for each Fribble (result in 1 x 16)
+centrality_all <- read.csv(paste0(outputfolder,"centrality_all.csv"))
+
+# centrality in long format: post and pre distances
+rdm_pair_long <- read.csv(paste0(outputfolder,"rdm_pair_long.csv"))
+
+# visual similarity 16 x 16 Fribbles
+vis_sim <- read.csv(paste0(outputfolder,"Ssim_RDM.csv"),header = F) 
+vis_sim <- vis_sim[1:16,1:16]
+vis_sim[row(vis_sim)==col(vis_sim)] <- NA
+
+# post/pre centrality
+rdm_mat <- read.csv(paste0(outputfolder,"rdm_mat_post.csv"))
+rdm_mat_pre <- read.csv(paste0(outputfolder,"rdm_mat_pre.csv"))
+```
+
+
+## linear vs. loglog plot: for average efforts and 4 measures seperately
+
+```{r, warning = FALSE, message = FALSE}
+tmp <- mat_diff
+tmp$File <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)])
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+p1 <- ggplot(tmp,aes(x=round,y=avg_effort)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab("combined effort")+theme_cowplot()
+
+p2 <- ggplot(tmp,aes(x=log(round+1),y=log(avg_effort+1))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log combined effort")+ theme(legend.position="right")+scale_colour_discrete(name="Pair")+theme_cowplot()
+
+ggarrange(p1,p2,common.legend = TRUE,legend = "bottom")
+
+```
+
+# Explained variance log-log versus untransformed
+```{r, warning = FALSE, message = FALSE}
+library(MuMIn)
+tmp <- mat_diff
+tmp$File <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)])
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+#test R squared for mixed regression model
+modelunt <- lmer(avg_effort~round+(1|pair),data=tmp) 
+summary(modelunt)
+
+tmp$avg_effortl <- log(tmp$avg_effort+1)
+tmp$roundl <- log(tmp$round)
+#test R squared for mixed regression model
+modellog <- lmer(avg_effortl~roundl+(1|pair),data=tmp) 
+summary(modellog)
+
+#Determine R2:
+r.squaredGLMM(modelunt) 
+
+#Determine R2:
+r.squaredGLMM(modellog) 
+```
+## Plot untransformed and log log
+```{r warning = FALSE, message = FALSE}
+p1 <- ggplot(tmp,aes(x=scale(round),y=avg_ges)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+ guides(colour="none")+geom_smooth(method='loess', color='black')+ylab("effort")
+
+p2 <- ggplot(tmp,aes(x=scale(log(round)),y=log(avg_ges+1))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='lm', color='black')+ylab("log shift effort")+ theme(legend.position="right")+scale_colour_discrete(name="Pair")
+
+p <- ggarrange(p1,p2,common.legend = TRUE,legend = "bottom")
+
+annotate_figure(p,top=text_grob("gesture change over rounds"))
+
+```
+## correlations: centrality of Fribbles (HYPOTHESIS 1)
+Visual similarity VS pre/post naming distance (per pair). Visdist correlate more with pre than with post naming distance (as expected)
+```{r}
+ggcorrplot(cor(centrality_all[,2:4]),method="square",lab=T)
+```
+
+### Mantel test: conclusion the same as avg per Fribble (the fig above)
+
+Pre naming vs visual dissimilarity (main confirmatory: Hypothesis 1)
+
+```{r}
+mantel.test(rdm_mat_pre,vis_sim) # set graph = T
+```
+
+```{r, warning = FALSE, message = FALSE}
+ggplot(centrality_all,aes(x=visdist,y=pair_predist)) + geom_point()+geom_smooth(method='lm', color='black')+ylab("pre centrality distance")+xlab("visual distance")
+```
+
+Post naming vs visual dissimilarity (exploratory)
+```{r}
+mantel.test(rdm_mat,vis_sim)
+```
+
+Pre naming vs post naming (exploratory)
+```{r}
+mantel.test(rdm_mat_pre,rdm_mat)
+```
+
+Pre  naming vs. post naming (exploratory)
+```{r}
+# double-check with vegan package - similar result
+mantel.test(rdm_mat_pre,rdm_mat,na.rm = T) # 0.001 0.004 0.026
+```
+## Prepare data for work analyses
+```{r, warning = FALSE, message = FALSE}
+tmp_mat <- final_mat
+tmp_mat[,c(2:9,11:14)] <- scale(tmp_mat[,c(2:9,11:14)])
+tmp_mat$avg_intercepts <- rowMeans(tmp_mat[,c("trans_intercept","env_intercept","ges_intercept","f0_intercept")])
+tmp_mat$avg_slopes <- rowMeans(tmp_mat[,c("trans_slope","env_slope","ges_slope","f0_slope")])
+all <- left_join(tmp_mat[,c(1:16)],energy[,c(1,2,8)],by=c("pair","target"))
+all<- left_join(all,rdm_pair_long,by=c("pair","target"="fribble"))
+```
+
+## plot: change/convergence ~ avg_slopes (confirmatory)
+
+```{r, warning = FALSE, message = FALSE}
+p1 <- ggplot(all,aes(x=avg_slopes,y=avg_dist)) + geom_point(aes(colour=factor(target), group=pair))+geom_smooth(method='lm', color='black')+ylab("change")+ggtitle("Average slope and change")
+
+p1
+```
+
+# Power analyses slopes and change (Confirmatory hypothesis 2)
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(prepost_change~(1|target)+(1|pair)+avg_slopes,data=all) 
+
+summary(model1)
+
+
+#data based power analyses
+  #devtools::install_github("DejanDraschkow/mixedpower") 
+  #if (!require("devtools")) {
+  #   install.packages("devtools", dependencies = TRUE)}
+  #   devtools::install_github("DejanDraschkow/mixedpower") 
+
+power_model1 <- mixedpower(model = model1, data = all,
+                      fixed_effects = c("avg_slopes"),
+                      simvar = "pair", steps = c(42, 47),
+                      critical_value = 1.96, n_sim = 500)
+power_model1
+```
+
+## plot: intercepts x predist
+```{r, warning = FALSE, message = FALSE}
+res <- all
+res$three <- cut(rank(res$predist),breaks=3,labels = c("low predist","mid predist","high predist")) 
+
+
+p<-ggplot(res, aes(x=avg_intercepts,y=avg_dist)) + geom_point(aes(colour=factor(target), group=pair))+geom_smooth(method='lm', color='black')+ylab("change")+facet_grid(.~three)+ggtitle("Average intercept and change for different Fribble pre naming distances")
+
+p # facet_grid(three.~) if horizontal
+
+# ggsave("./figs/three.png",p,height=7,width=7)
+```
+
+# Modeling Power analyses intercepts x predist (Confirmatory hypothesis 3)
+```{r, warning = FALSE, message = FALSE}
+model2 <- lmer(prepost_change~avg_intercepts*predist+(1|pair)+(1|target),data=all) 
+
+summary(model2)
+
+#data based power analyses
+  #devtools::install_github("DejanDraschkow/mixedpower") 
+  #if (!require("devtools")) {
+  #   install.packages("devtools", dependencies = TRUE)}
+  #   devtools::install_github("DejanDraschkow/mixedpower") 
+
+power_model2 <- mixedpower(model = model2, data = all,
+                      fixed_effects = c("avg_intercepts", "predist"),
+                      simvar = "pair", steps = c(42, 47),
+                      critical_value = 1.96, n_sim = 500)
+power_model2
+```
+

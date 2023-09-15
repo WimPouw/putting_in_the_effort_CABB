@@ -6,4 +6,4 @@ sara.boegels@donders.ru.nl
 wim.pouw@donders.ru.nl
 
 # Folders
-Pre_registration - Contains the processed data and the R code for reproducing the main confirmatory analyses of the 
+Pre_registration - Contains the processed data and the R code for reproducing the main confirmatory analyses of this study

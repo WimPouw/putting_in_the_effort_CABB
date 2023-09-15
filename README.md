@@ -1,5 +1,5 @@
 # Putting in the effort
-Code and data for project 'putting in the effort' by Sara Bögels, Tianyi Li, Marlou Rasenberg, Lotte Eijk, Wim Pouw1
+Code and data for project 'Putting in the effort: Predicting communicative work based on joint communication effort and conceptual affordances' by Sara Bögels, Tianyi Li, Marlou Rasenberg, Lotte Eijk, Wim Pouw
 
 # Contact
 sara.boegels@donders.ru.nl

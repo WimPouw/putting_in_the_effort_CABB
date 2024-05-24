@@ -1,0 +1,671 @@
+---
+title: "Confirmatory: There is a power law of joint communicative effort and it reflects communicative work"
+output:
+  html_document:
+date: "2023-04-03"
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo=TRUE)
+```
+
+
+```{r include=FALSE,warning=FALSE, message= FALSE}
+library(readr)        #string manipulation
+library(ggplot2)      #plotting
+library(gridExtra)    #plotting
+library(cowplot)      #plotting
+library(colorRamps)   #plotting
+library(RColorBrewer) #plotting                 
+library(scales)       #rescaling
+library(plotly)       #plotting
+library(ggpubr)       #plotting
+library(magrittr)     #pipe operator
+library(lme4)         #lineat mixed modeling
+library(ggcorrplot)   #plotting correlations
+library(data.table)   #data wrangling
+library(reshape2)     #data wrangling
+library(plyr)         #data wrangling
+library(dplR)         #data wrangling
+library(dplyr)        #data wrangling
+library(lmerTest)     #posthoc testing
+library(simr)         #power analysis
+library(tidyr)        #piping etc.
+library(performance)  #model checks
+library(jtools)       #for plotting interaction
+library(ape)          #ape
+library(MuMIn)
+```
+
+This document contains all the plots and statistical testing for the confirmatory study. Every header with a confirmatory label is considered the prime analyses to be replicated in the large confirmatory dataset. The other analyses labeled exploratory we will perform but should be treated as such.
+
+## setup dir & read processed datasets
+```{r confirmatory_data, warning = FALSE, message = FALSE}
+curfolder <- getwd()
+outputfolder <- paste0(curfolder, "/output_large/")
+
+# loglog/linear LMs intercepts/slopes
+final_mat<-read.csv(paste0(outputfolder,"mat_lm_prepost_centered_shift_one.csv")) 
+final_mat_linear <- read.csv(paste0(outputfolder,"mat_lm_prepost_centered_linear.csv")) 
+
+# raw sum(energy) per pair
+energy <- read.csv(paste0(outputfolder,"energy_n.csv"))
+
+# raw energy per participant
+mat_diff <- read.csv(paste0(outputfolder,"mat_diff.csv"))
+
+# pre/post/visual centrality, average all the rest Fribbles for each Fribble (result in 1 x 16)
+centrality_all <- read.csv(paste0(outputfolder,"centrality_all.csv"))
+
+# centrality in long format: post and pre distances
+rdm_pair_long <- read.csv(paste0(outputfolder,"rdm_pair_long.csv"))
+
+# visual similarity 16 x 16 Fribbles
+vis_sim <- read.csv(paste0(outputfolder,"Ssim_RDM.csv"),header = F) 
+vis_sim <- vis_sim[1:16,1:16]
+vis_sim[row(vis_sim)==col(vis_sim)] <- NA
+
+# post/pre centrality
+rdm_mat <- read.csv(paste0(outputfolder,"rdm_mat_post.csv"))
+rdm_mat_pre <- read.csv(paste0(outputfolder,"rdm_mat_pre.csv"))
+
+
+# make a color palette for 16 fribbles
+my_custom_palette <- c("#1f78b4", "#33a02c", "#e31a1c", "#ff7f00", "#6a3d9a", "#a6cee3", "#b2df8a", "#fb9a99", "#fdbf6f", "#cab2d6", "#ffff99", "#b15928", "#8dd3c7", "#fb8072", "#80b1d3", "#bebada")
+
+my2_custom_palette <- c("#1f78b4", "#33a02c", "#e31a1c", "#ff7f00", "#6a3d9a", "#a6cee3", "#b2df8a", "#fb9a99", "#fdbf6f", "#cab2d6", "#ffff99", "#b15928", "#8dd3c7", "#fb8072", "#80b1d3", "#bebada", "#377eb8", "#4daf4a", "#e41a1c", "#ff7f00", "#984ea3", "#a6cee3", "#b8e186", "#fc8d62", "#fdbf6f", "#8c510a", "#ffff99", "#d73027", "#4575b4", "#fc9272", "#91bfdb", "#d0d1e6", "#54278f", "#313695", "#fee08b", "#bd0026", "#66c2a5", "#393b79", "#637939", "#af8d12", "#d6616b", "#843c39", "#7b4173")
+
+my3_custom_palette  <- c("#1a9641", "#a6d96a", "#fdae61", "#fee08b", "#e0f3f8", "#4575b4", "#313695", "#66c2a5", "#d73027", "#313695", "#74add1", "#4575b4", "#313695", "#e0f3f8", "#31a354", "#225ea8", "#253494", "#a6bddb", "#2171b5", "#238b45", "#fd8d3c")
+```
+
+```{r exploratory_data, warning = FALSE, message = FALSE}
+curfolder <- dirname(getwd())
+outputfolder <- paste0(curfolder, "/preregistration/processed/")
+
+# loglog/linear LMs intercepts/slopes
+expl_final_mat<-read.csv(paste0(outputfolder,"mat_lm_prepost_centered_shift_one.csv")) 
+expl_final_mat_linear <- read.csv(paste0(outputfolder,"mat_lm_prepost_centered_linear.csv")) 
+
+# raw sum(energy) per pair
+expl_energy <- read.csv(paste0(outputfolder,"energy.csv"))
+
+# raw energy per participant
+expl_mat_diff <- read.csv(paste0(outputfolder,"mat_diff.csv"))
+
+# pre/post/visual centrality, average all the rest Fribbles for each Fribble (result in 1 x 16)
+expl_centrality_all <- read.csv(paste0(outputfolder,"centrality_all.csv"))
+
+# centrality in long format: post and pre distances
+expl_rdm_pair_long <- read.csv(paste0(outputfolder,"rdm_pair_long.csv"))
+
+# visual similarity 16 x 16 Fribbles
+expl_vis_sim <- read.csv(paste0(outputfolder,"Ssim_RDM.csv"),header = F) 
+expl_vis_sim <- vis_sim[1:16,1:16]
+expl_vis_sim[row(vis_sim)==col(vis_sim)] <- NA
+
+# post/pre centrality
+expl_rdm_mat <- read.csv(paste0(outputfolder,"rdm_mat_post.csv"))
+expl_rdm_mat_pre <- read.csv(paste0(outputfolder,"rdm_mat_pre.csv"))
+```
+
+# Notes
++ avg_dist: change, avg(A(pre,post), B(pre,post))
+
++ prepost_convergence: convergence, pre(A,B)-post(A,B)
+
+
+## linear vs. loglog plot: for average efforts and 4 measures seperately
+
+```{r lin_loglog, warning = FALSE, message = FALSE}
+####################Exploratory
+tmp <- expl_mat_diff
+tmp$trial <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)], center = FALSE) ### center = false DEVIATION from pre-reg
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+expl_p1 <- ggplot(tmp,aes(x=round,y=avg_effort)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab("combined effort")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(name="round", breaks=c(1:6))+
+    theme(legend.justification = "left")
+   
+
+expl_p2 <- ggplot(tmp,aes(x=round,y=log(avg_effort))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black')+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))
+   
+
+A <- ggarrange(expl_p1,expl_p2)
+
+
+# Confirmatory
+tmp <- mat_diff
+tmp$trial <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)], center = FALSE) ### center = false DEVIATION from pre-reg
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+p1 <- ggplot(tmp,aes(x=round,y=avg_effort)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab("combined effort")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(name="round", breaks=c(1:6))+
+    theme(legend.justification = "left")
+  
+
+p2 <- ggplot(tmp,aes(x=round,y=log(avg_effort))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(combined effort)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+   
+
+B <- ggarrange(p1,p2)
+
+plot_grid(A, B, align = "hv")
+```
+
+# External Dataset Hawkins et al. (2023) and other datasets
+```{r}
+# external dataset
+fnam <- paste0(curfolder,'/confirmatory/external_datasets/HawkinsFranketal2023_dataset/tangramsSequential.csv')
+extdat <- read.csv(fnam)
+
+extdatav <- extdat  %>% group_by(repetitionNum,gameid) %>% summarise(avg_words=mean(numRawWords))
+
+p1 <- ggplot(extdatav,aes(x=repetitionNum,y=avg_words)) + geom_point(aes(group=as.factor(gameid)))+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab("average number of raw words")+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(name="number of repetitions", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p2 <- ggplot(extdatav,aes(x=repetitionNum,y=log(avg_words))) + geom_point(aes(group=as.factor(gameid)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(average number of raw words)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name="log (number of repetitions)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+mplot <- grid.arrange(p1, p2 ,nrow= 1)
+
+
+#test R squared for mixed regression model
+modelunt <- lmer(avg_words~repetitionNum+(1|gameid),data=extdatav) 
+summary(modelunt)
+
+extdatav$avg_wordsl <- log(extdatav$avg_words)
+extdatav$repetitionNuml <- log(extdatav$repetitionNum)
+#test R squared for mixed regression model
+modellog <- lmer(avg_wordsl~repetitionNuml+(1|gameid),data=extdatav) 
+summary(modellog)
+
+#test R squared logarithmic for mixed regression model
+modelloga <- lmer(avg_words~repetitionNuml+(1|gameid),data=extdatav) 
+
+#Determine R2:
+r.squaredGLMM(modelunt) 
+
+#Determine R2:
+r.squaredGLMM(modellog)
+
+#Determine R2:
+print('logarithmic R2 for Hawkins')
+r.squaredGLMM(modelloga)
+
+
+
+# Lets add manually derived data
+study1 <- "From Figure 2 \n Clark & Wilkes-Gibbs, 1986"
+xlabel1 <- 'Trials'
+ylabel1 <- 'Mean number of words'
+x1 <- c(1:6)
+y1 <- c(42, 19.5, 13, 11, 9, 8) #estimated from the figure
+dd1 <- cbind.data.frame(x1, y1)
+
+# Compute R-squared
+model <- lm(y1 ~ x1, data  = dd1)
+r_squared1 <- summary(model)$r.squared
+r_squared1 <- round(r_squared1, 2)
+
+# Compute R-squared
+model <- lm(log(y1) ~ log(x1), data  = dd1)
+r_squared1_log <- summary(model)$r.squared
+r_squared1_log <- round(r_squared1_log, 2)
+
+p1 <- ggplot(dd1,aes(x=x1,y=y1)) + geom_point()+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab(ylabel1)+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(name=xlabel1, breaks=c(1:6))+
+    theme(legend.justification = "left")+ggtitle(paste0(study1, '\n R^2 = ', r_squared1))
+
+p2 <- ggplot(dd1,aes(x=x1,y=log(y1))) + geom_point()+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab(paste0('log(', ylabel1, ')'))+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name=paste0("log(", xlabel1, ')'), breaks=c(1:6))+
+    theme(legend.justification = "left")+ggtitle(paste0(study1, '\n log-log', '\n R^2 = ', r_squared1_log))
+
+handplot1 <- grid.arrange(p1, p2 ,nrow= 1)
+
+
+study2 <- 'From Figure 11 Holler, 2022'
+xlabel2 <- 'Repetition'
+ylabel2 <- c("Mean duration of director's lexical items (ms)")
+x2 <- c(0:5)
+y2 <- c(895, 815, 705, 620, 595, 590) #estimated from the figure
+dd2 <- cbind.data.frame(x2, y2)
+
+# Compute R-squared
+model <- lm(y2 ~ x2, data  = dd2)
+r_squared2 <- summary(model)$r.squared
+r_squared2 <- round(r_squared2, 2)
+
+# Compute R-squared
+model <- lm(log(y2) ~ log(x2+1), data  = dd2) # the rounds count from 0, but this gives issues with log, so we count from 1
+r_squared2_log <- summary(model)$r.squared
+r_squared2_log <- round(r_squared2_log, 2)
+
+
+p1 <- ggplot(dd2,aes(x=x2+1,y=y2)) + geom_point()+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab(ylabel2)+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(name=xlabel2, breaks=c(1:6))+
+    theme(legend.justification = "left")+ggtitle(study2)+ggtitle(paste0(study2, '\n R^2 = ', r_squared2))
+
+p2 <- ggplot(dd2,aes(x=x2+1,y=log(y2))) + geom_point()+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab(paste0('log(', ylabel2, ')'))+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name=paste0("log(", xlabel2, ')'), breaks=c(1:6))+
+    theme(legend.justification = "left")+ggtitle(paste0(study2, '\n log-log'))+ggtitle(paste0(study1, '\n R^2 = ', r_squared2_log))
+
+handplot2 <- grid.arrange(p1, p2 ,nrow= 1)
+
+study3 <- c('From descriptives Branigan, Catchpole, & Pickering, 2011')
+fac3 <- c(rep('Monologue', times=8), rep('Dialogue', times=8) )
+xlabel3 <- 'Mean words (SD) used by director'
+ylabel3 <- 'Round'
+x3   <- c(1:8)
+y3 <- c(30.1, 27.3, 26.1, 23.3, 20.5, 19.4, 18.8, 23.0,
+        30.4, 17.3, 12.5, 10.7, 8.8, 6.8, 5.8, 6.0) #from descriptives
+dd3 <- cbind.data.frame(x3, y3, fac3)
+
+# Compute R-squared
+dd3$fac3 <- as.factor(dd3$fac3)
+model <- lm(y3 ~ x3, data  = dd3[dd3$fac3=='Monologue',])
+r_squared3_mono <- summary(model)$r.squared
+r_squared3_mono <- round(r_squared3_mono, 2)
+
+# Compute R-squared
+model <- lm(log(y3) ~ log(x3+1), data  = dd3[dd3$fac3=='Monologue',]) # the rounds count from 0, but this gives issues with log, so we count from 1
+r_squared3_log_mono <- summary(model)$r.squared
+r_squared3_log_mono <- round(r_squared3_log_mono, 2)
+
+# Compute R-squared
+dd3$fac3 <- as.factor(dd3$fac3)
+model <- lm(y3 ~ x3, data  = dd3[dd3$fac3=='Dialogue',])
+r_squared3_dia <- summary(model)$r.squared
+r_squared3_dia <- round(r_squared3_dia,2)
+
+# Compute R-squared
+model <- lm(log(y3) ~ log(x3+1), data  = dd3[dd3$fac3=='Dialogue',]) # the rounds count from 0, but this gives issues with log, so we count from 1
+r_squared3_log_dia <- summary(model)$r.squared
+r_squared3_log_dia  <- round(r_squared3_log_dia,2)
+
+
+p1 <- ggplot(dd3,aes(x=x3,y=y3)) + geom_point()+ guides(colour="none")+geom_smooth(method='lm', color='black', alpha=0.1)+geom_smooth(method='loess', color='purple', alpha=0.1)+ylab(ylabel3)+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(name=xlabel3, breaks=c(1:8))+
+    theme(legend.justification = "left")+ggtitle(paste0(study3, '\n R^2 Monologue = ', r_squared3_mono, '\n R^2 Dialogue = ',  r_squared3_dia)) + facet_grid(fac3~.)
+
+p2 <- ggplot(dd3,aes(x=x3,y=log(y3))) + geom_point()+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab(paste0('log(', ylabel3, ')'))+scale_colour_discrete(name="fac3")+theme_cowplot()+ theme(legend.position = "none")+scale_x_continuous(trans='log')+scale_x_continuous(trans='log', name=paste0("log(", xlabel3, ')'), breaks=c(1:8))+
+    theme(legend.justification = "left")+ggtitle(paste0(study3, '\n log-log', '\n R^2 Monologue = ', r_squared3_log_mono, '\n R^2 Dialogue = ',  r_squared3_log_dia))+ facet_grid(fac3~.)
+
+handplot3 <- grid.arrange(p1, p2 ,nrow= 1)
+
+
+handplots <- grid.arrange(handplot1, handplot3)
+
+hawkhand <- grid.arrange(mplot, handplot2)
+grid.arrange(hawkhand, handplots, nrow= 1)
+```
+
+# Explained variance log-log versus untransformed
+```{r, warning = FALSE, message = FALSE}
+# Exploratory
+library(MuMIn)
+tmp <- expl_mat_diff
+tmp$File <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)], center = FALSE) # DEVIATION pre-registration
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+#test R squared for mixed regression model
+modelunt <- lmer(avg_effort~round+(1|pair),data=tmp) 
+summary(modelunt)
+
+tmp$avg_effortl <- log(tmp$avg_effort)
+tmp$roundl <- log(tmp$round)
+#test R squared for mixed regression model
+modellog <- lmer(avg_effortl~roundl+(1|pair),data=tmp) 
+summary(modellog)
+
+
+#Determine R2:
+r.squaredGLMM(modelunt) 
+
+#Determine R2:
+r.squaredGLMM(modellog)
+
+######## COnfirmatory
+
+library(MuMIn)
+tmp <- mat_diff
+tmp$File <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)], center = FALSE) # DEVIATION pre-registration
+
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+#test R squared for mixed regression model
+modelunt <- lmer(avg_effort~round+(1|pair),data=tmp) 
+summary(modelunt)
+
+tmp$avg_effortl <- log(tmp$avg_effort)
+tmp$roundl <- log(tmp$round)
+#test R squared for mixed regression model
+modellog <- lmer(avg_effortl~roundl+(1|pair),data=tmp) 
+summary(modellog)
+
+#test R squared for mixed regression model logarithmic
+modelloga <- lmer(avg_effort~roundl+(1|pair),data=tmp) 
+#summary(modelloga)
+
+#Determine R2:
+r.squaredGLMM(modelunt) 
+
+#Determine R2:
+r.squaredGLMM(modellog)
+
+# Determine R2 logarithmic
+print("testing a logarithmic relationship where y = log(x)")
+r.squaredGLMM(modelloga)
+```
+
+
+## Plot untransformed and log log
+```{r warning = FALSE, message = FALSE}
+tmp <- mat_diff
+tmp$File <- NULL
+
+tmp<- tmp %>% group_by(round,pair) %>% summarise(avg_env=mean(peaks1+peaks2),avg_ges=mean(gesture1+gesture2),avg_trans=mean(transitions),avg_f0range=mean(range1+range2))
+
+tmp[,c(3:6)] <- scale(tmp[,c(3:6)], center = FALSE) # DEVIATION pre-registration
+tmp$avg_effort <- rowMeans(tmp[,c(3:6)])
+
+p1b <- ggplot(tmp,aes(x=round,y=log(avg_env))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(speech)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p1a <- ggplot(tmp,aes(x=round,y=avg_env)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("speech")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+ scale_x_continuous(breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p1 <- grid.arrange(p1a, p1b, nrow= 1)
+   
+p2b <- ggplot(tmp,aes(x=round,y=log(avg_ges))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(movement)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p2a <- ggplot(tmp,aes(x=round,y=avg_ges)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("movement")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+ scale_x_continuous(breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p2 <- grid.arrange(p2a, p2b, nrow= 1)
+
+p3b <- ggplot(tmp,aes(x=round,y=log(avg_trans))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(interaction)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p3a <- ggplot(tmp,aes(x=round,y=avg_trans)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("interaction")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+ scale_x_continuous(breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p3 <- grid.arrange(p3a, p3b, nrow= 1)
+
+p4b <- ggplot(tmp,aes(x=round,y=log(avg_f0range))) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("log(prosody)")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+scale_x_continuous(trans='log', name="log (round)", breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p4a <- ggplot(tmp,aes(x=round,y=avg_f0range)) + geom_point(aes(colour=as.factor(pair), group=as.factor(pair)))+geom_smooth(method='loess', color='purple', alpha=0.1)+geom_smooth(method='lm', color='black', alpha=0.1)+ylab("prosody")+scale_colour_discrete(name="Pair")+theme_cowplot()+ theme(legend.position = "none")+ scale_color_manual(values = my2_custom_palette)+ scale_x_continuous(breaks=c(1:6))+
+    theme(legend.justification = "left")
+
+p4 <- grid.arrange(p4a, p4b, nrow= 1)
+
+grid.arrange(p1, p2, p3, p4)
+
+```
+
+
+## correlations: centrality of Fribbles (HYPOTHESIS 1)
+Visual similarity VS pre/post naming distance (per pair). Visdist correlate more with pre than with post naming distance (as expected)
+```{r}
+ggcorrplot(cor(centrality_all[,2:4]),method="square",lab=T)
+```
+
+### Mantel test: conclusion the same as avg per Fribble (the fig above)
+
+Pre naming vs visual dissimilarity (main confirmatory: Hypothesis 1)
+
+```{r}
+mantel.test(rdm_mat_pre,vis_sim) # set graph = T
+```
+
+```{r, warning = FALSE, message = FALSE}
+ggplot(centrality_all,aes(x=visdist,y=pair_predist)) + geom_point()+geom_smooth(method='lm', color='black')+ylab("pre centrality distance")+xlab("visual distance")
+```
+
+Post naming vs visual dissimilarity (exploratory)
+```{r}
+mantel.test(rdm_mat,vis_sim)
+```
+
+Pre naming vs post naming (exploratory)
+```{r}
+mantel.test(rdm_mat_pre,rdm_mat)
+```
+
+Pre  naming vs. post naming (exploratory)
+```{r}
+# double-check with vegan package - similar result
+mantel.test(rdm_mat_pre,rdm_mat,na.rm = T) # 0.001 0.004 0.026
+```
+
+## Prepare data for work analyses
+```{r, warning = FALSE, message = FALSE}
+tmp_mat <- final_mat
+tmp_mat[,c(3:14)] <- scale(tmp_mat[,c(3:14)])
+tmp_mat$avg_intercepts <- rowMeans(tmp_mat[,c("trans_intercept","env_intercept","ges_intercept","f0_intercept")])
+tmp_mat$avg_slopes <- rowMeans(tmp_mat[,c("trans_slope","env_slope","ges_slope","f0_slope")])
+all <- left_join(tmp_mat[,c(1:16)],energy[,c(1,2,8)],by=c("pair","target"))
+all<- left_join(all,rdm_pair_long[,c(1:3)],by=c("pair","target"="fribble"))
+
+# rename variable so that they are not confusing
+colnames(all)[colnames(all) == "prepost_change"] <- "prepost_convergence"
+
+
+# do the same for exploratory dataset
+expl_tmp_mat <- expl_final_mat
+expl_tmp_mat[,c(3:14)] <- scale(expl_tmp_mat[,c(3:14)])
+expl_tmp_mat$avg_intercepts <- rowMeans(expl_tmp_mat[,c("trans_intercept","env_intercept","ges_intercept","f0_intercept")])
+expl_tmp_mat$avg_slopes <- rowMeans(expl_tmp_mat[,c("trans_slope","env_slope","ges_slope","f0_slope")])
+expl_all <- left_join(expl_tmp_mat[,c(1:16)],expl_energy[,c(1,2,8)],by=c("pair","target"))
+expl_all<- left_join(expl_all,expl_rdm_pair_long[,c(1:3)],by=c("pair","target"="fribble"))
+
+# rename variable so that they are not confusing
+colnames(expl_all)[colnames(expl_all) == "prepost_change"] <- "prepost_convergence"
+
+```
+
+## change ~ avg_slopes (confirmatory and exploratory)
+
+```{r, warning = FALSE, message = FALSE}
+p1 <- ggplot(all,aes(x=avg_slopes,y=avg_dist, color = as.factor(target))) + geom_point(aes(group=pair))+geom_smooth(method='lm', alpha = 0, size = 0.7)+geom_smooth(method='lm', alpha=0.5, color = 'black')+ylab("change pre to post")+ggtitle("Confirmatory: Average slope and change")+theme_bw()+ scale_color_manual(values = my_custom_palette)
+p1
+
+p1_exploratory <- ggplot(expl_all,aes(x=avg_slopes,y=avg_dist, color = as.factor(target))) + geom_point(aes(group=pair))+geom_smooth(method='lm', alpha = 0, size = 0.7)+geom_smooth(method='lm', alpha=0.5, color = 'black')+ylab("change pre to post")+ggtitle("Exploratory: Average slope and change")+theme_bw()+ scale_color_manual(values = my_custom_palette)
+p1_exploratory
+
+
+
+# also show convergence
+p1 <- ggplot(all,aes(x=avg_slopes,y=prepost_convergence, color = as.factor(target))) + geom_point(aes(group=pair))+geom_smooth(method='lm', alpha = 0, size = 0.7)+geom_smooth(method='lm', alpha=0.5, color = 'black')+ylab("convergence relative to pre")+ggtitle("Confirmatory: Average slope and convergence")+theme_bw()+ scale_color_manual(values = my_custom_palette)
+p1
+```
+
+# slopes and change (Confirmatory hypothesis 2)
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(avg_dist~(1|target)+(1|pair)+avg_slopes,data=all) 
+summary(model1)
+
+# Exploratory for convergence
+model1 <- lmer(prepost_convergence~(1|target)+(1|pair)+avg_slopes,data=all) 
+summary(model1)
+```
+
+## plot: intercepts x predist
+```{r, warning = FALSE, message = FALSE}
+res <- all
+res$three <- cut(rank(res$predist),breaks=3,labels = c("low predist","mid predist","high predist")) 
+
+
+p<-ggplot(res, aes(x=avg_intercepts,y=avg_dist)) + geom_point(aes(colour=factor(target), group=pair))+geom_smooth(method='lm', color='black')+ylab("change")+facet_grid(.~three)+ggtitle("Average intercept and change for different Fribble pre naming distances")+theme_bw()
+
+p # facet_grid(three.~) if horizontal
+
+# ggsave("./figs/three.png",p,height=7,width=7)
+```
+
+
+# intercepts x predist (Confirmatory hypothesis 3)
+```{r, warning = FALSE, message = FALSE}
+#model2 <- lmer(prepost_convergence~avg_intercepts*predist+(1|pair)+(1|target),data=all) 
+model2 <- lmer(avg_dist~avg_intercepts*predist+(1|pair)+(1|target),data=all) 
+
+summary(model2)
+```
+
+# Exploratory analyses with the full dataset
+
+ # per modality slopes convergence and change
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(avg_dist~ges_slope+trans_slope+f0_slope+env_slope+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+model2 <- lmer(prepost_convergence~ges_slope+trans_slope+f0_slope+env_slope+(1|pair)+(1|target),data=all) 
+summary(model2)
+```
+
+# per modality intercepts convergence and change
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(avg_dist~avg_intercepts+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+# possible interesting
+cor.test(all$avg_intercepts, all$avg_slopes) #note 
+model1 <- lmer(prepost_convergence~avg_intercepts+avg_slopes+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+# possible interesting more different 
+model1 <- lmer(pre~avg_slopes+avg_intercepts+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+model1 <- lmer(avg_dist~ges_intercept+trans_intercept+f0_intercept+env_intercept+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+model2 <- lmer(prepost_convergence~ges_intercept+trans_intercept+f0_intercept+env_intercept+(1|pair)+(1|target),data=all) 
+summary(model2)
+```
+  
+  # combined model
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(avg_dist~ges_intercept+trans_intercept+f0_intercept+env_intercept+ges_slope+trans_slope+f0_slope+env_slope+(1|pair)+(1|target),data=all) 
+summary(model1)
+```
+  
+  
+  # does pre increase invested effort? Lower alignment at pre predicts gesture effort and envelope effort*** 
+```{r, warning = FALSE, message = FALSE}
+model1 <- lmer(pre~ges_intercept+trans_intercept+f0_intercept+env_intercept+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+p1 <- ggplot(all,aes(x=pre,y=ges_intercept, color = as.factor(target))) + geom_point(aes(group=pair))+geom_smooth(method='lm', alpha = 0, size = 0.7)+geom_smooth(method='lm', alpha=0.5, color = 'black')+ylab("change pre to post")+ggtitle("Exploratory: pre predicts gesture intercept")+theme_bw()+ scale_color_manual(values = my_custom_palette)
+
+p2 <- ggplot(all,aes(x=pre,y=env_intercept, color = as.factor(target))) + geom_point(aes(group=pair))+geom_smooth(method='lm', alpha = 0, size = 0.7)+geom_smooth(method='lm', alpha=0.5, color = 'black')+ylab("change pre to post")+ggtitle("Exploratory: pre predicts gesture intercept")+theme_bw()+ scale_color_manual(values = my_custom_palette)
+
+grid.arrange(p1,p2)
+
+# slopes and change
+model1 <- lmer(avg_dist~ges_slope+trans_slope+f0_slope+env_slope+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+# slopes and convergence
+model1 <- lmer(prepost_convergence~ges_slope+trans_slope+f0_slope+env_slope+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+# intercepts and change
+model1 <- lmer(avg_dist~ges_intercept+trans_slope+f0_intercept+env_intercept+(1|pair)+(1|target),data=all) 
+summary(model1)
+
+# intercepts and convergence
+model1 <- lmer(prepost_convergence~ges_intercept+trans_intercept+f0_intercept+env_intercept+(1|pair)+(1|target),data=all)
+summary(model1)
+
+```
+
+
+
+```{r, warning = FALSE, message = FALSE}
+res <- all
+res$three <- cut(rank(res$predist),breaks=3,labels = c("low predist","mid predist","high predist")) 
+
+
+p<-ggplot(res, aes(x=avg_intercepts,y=prepost_convergence)) + geom_point(aes(colour=factor(target), group=pair))+geom_smooth(method='lm', color='black')+ylab("convergence")+facet_grid(.~three)+ggtitle("Average intercept and convergence for different Fribble pre naming distances")+theme_bw()
+
+#p<-ggplot(res, aes(x=avg_slopes,y=predist)) + geom_point(aes(colour=factor(target), group=pair))+geom_smooth(method='lm', color='black')+ylab("predist")
+
+p # facet_grid(three.~) if horizontal
+
+
+```
+
+```{r, warning = FALSE, message = FALSE}
+model2 <- lmer(prepost_convergence~avg_intercepts*predist+(1|pair)+(1|target),data=all) 
+
+summary(model2)
+
+
+```
+
+# Empirical proof of analytical reasoning in the discussion
+Note that a constant proportional reduction rate yields a curvilinear reducton, but it is logarithmic reduction and not a power function.
+```{r exploratory_simple_simulation}
+# does more effort in the beginning, predict lower effort at end
+# Define parameters
+initial_population <- 1000
+max_generations <- 40
+selection_constant <- 0.1 #Adjust as needed
+
+# Function to calculate selection rate based on population size
+calculate_selection_rate <- function(population_size) {
+  return(selection_constant*(population_size))
+}
+
+# Function to simulate evolution and return population sizes over generations
+simulate_evolution <- function(initial_population, max_generations) {
+  population_sizes <- numeric(max_generations)
+  population <- initial_population
+  
+  for (generation in 1:max_generations) {
+    # Store current population size
+    population_sizes[generation] <- population
+    
+    # Calculate selection rate based on current population size
+    selection_rate <- calculate_selection_rate(population)
+    
+    # Reduce population size based on selection rate
+    population <- population - selection_rate
+    
+    # Break the loop if population becomes zero
+    if (population <= 0) {
+      cat("Population extinct at generation", generation, "\n")
+      break
+    }
+  }
+  
+  return(population_sizes)
+}
+
+# Run the simulation
+population_sizes <- simulate_evolution(initial_population, max_generations)
+
+# Plot population size over generations
+plot(1:max_generations, population_sizes, type = "l", xlab = "Generation", ylab = "Population Size", main = "Population Size Over Generations")
+
+plot(log(1:max_generations), log(population_sizes)) #logarithmic relation
+```
+

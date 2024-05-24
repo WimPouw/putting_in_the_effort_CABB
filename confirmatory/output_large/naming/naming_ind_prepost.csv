@@ -1,0 +1,1105 @@
+"Pair","Session","Fribble_nr","Name_a","Name_b","labels_a","labels_b","snautdist_a","snautdist_b","avg_dist"
+"001002","pre","1","schoef aan bovenkant","twee pinnen vierkant","schoef aan bovenkant : schroef platte plaat","twee pinnen vierkant : schroeven schoorsteen vierkant",0.242048,0.217135,0.2295915
+"001002","pre","2","piramide aan bovenkant","driehoek op bovenkant","piramide aan bovenkant : piramide","driehoek op bovenkant : piramide",0.244887,0.39209,0.3184885
+"001002","pre","3","rust op driehoek","staat op driehoek","rust op driehoek : wijnglas","staat op driehoek : wijnglas",0.584964,0.65174,0.618352
+"001002","pre","4","afgesneden driehoek bovenkant","is teken zijkant","afgesneden driehoek bovenkant : afgesneden piramide","is teken zijkant : afgezaagde driehoek",0.154054,0.364244,0.259149
+"001002","pre","5","balk bovenop horizontaal","meest compact","balk bovenop horizontaal : robot","meest compact : scheppen aan zijkant",0.619481,0.605392,0.6124365
+"001002","pre","6","kopje met lepel","bolletje met pin","kopje met lepel : balk door bol","bolletje met pin : lepel rechts rondje",0.38002,0.265075,0.3225475
+"001002","pre","7","tafel als plateau","balk bovenin","tafel als plateau : tafel eettafel","balk bovenin : tafel",0.233764,0.546026,0.389895
+"001002","pre","8","twee ruiten bovenkant","bovenkant doorboord vierkant","twee ruiten bovenkant : schaap","bovenkant doorboord vierkant : schaap",0.65404,0.626779,0.6404095
+"001002","pre","9","cillinder kegel rondje","ovaal voetstuk","cillinder kegel rondje : ovalen steun onderkant","ovaal voetstuk : ovaal voetstuk",0.395213,5.96046e-08,0.1976065298023
+"001002","pre","10","twee cillinder bol","stok door onderkant","twee cillinder bol : zonnepaneel","stok door onderkant : zonnepaneel",0.480678,0.675266,0.577972
+"001002","pre","11","bol driehoek zijkant","bolletje in het midden","bol driehoek zijkant : bol platte balk","bolletje in het midden : driehoekige balk",0.195063,0.397981,0.296522
+"001002","pre","12","rond plateau vuurwerk pijl","niks bovenkant onderkant","rond plateau vuurwerk pijl : bijzettafeltje met tuutje","niks bovenkant onderkant : bijzettafel",0.425086,0.666985,0.5460355
+"001002","pre","13","plateau lijkt zwembad","staat op vierkant","plateau lijkt zwembad : zwembad","staat op vierkant : zwembad",0.191488,0.685881,0.4386845
+"001002","pre","14","balk naar beneden","balletje op bovenkant","balk naar beneden : balk voor mok","balletje op bovenkant : bal en balk",0.286489,0.22183,0.2541595
+"001002","pre","15","twee cillinders bovenop","vierkant door midden","twee cillinders bovenop : glijbaan","vierkant door midden : glijbaan",0.556536,0.628174,0.592355
+"001002","pre","16","twee ronde kegels","piek op bovenkant","twee ronde kegels : rechtopstaande lepel sliert","piek op bovenkant : kegel boven en zijkant",0.273115,0.277266,0.2751905
+"003004","pre","1","verrekijker sateliet","plat vierkant voorop","verrekijker sateliet : verrekijker","plat vierkant voorop : verrekijker",0.168449,0.584804,0.3766265
+"003004","pre","2","punthoed wielen neus","uitstekende driehoek bovenop","punthoed wielen neus : punthoofd","uitstekende driehoek bovenop : puntmuts",0.622274,0.466948,0.544611
+"003004","pre","3","rechte lijnen figuren","op gedraaid statief","rechte lijnen figuren : graal beker houder","op gedraaid statief : driehoek statief",0.581947,0.205841,0.393894
+"003004","pre","4","motor van boot","dubbele balk rechts","motor van boot : deurklink","dubbele balk rechts : deurklink",0.523963,0.453703,0.488833
+"003004","pre","5","raketmotoren","balk horizontaal bovenop","raketmotoren : hanenkam","balk horizontaal bovenop : hanenkam",0.862777,0.596279,0.729528
+"003004","pre","6","neus piercing","staaf door rondje","neus piercing : neuspiercing","staaf door rondje : neuspiercing",0.299921,0.532039,0.41598
+"003004","pre","7","plank houder","plank snijdt middenboven","plank houder : bakje plank","plank snijdt middenboven : kom houder plank",0.22849,0.325053,0.2767715
+"003004","pre","8","pinokkio wetenschap kunst","ruit staaf bovenop","pinokkio wetenschap kunst : boiler","ruit staaf bovenop : boiler",0.812551,0.527008,0.6697795
+"003004","pre","9","suiker pot","pijp handvat links","suiker pot : theekopje","pijp handvat links : theekopje",0.37316,0.431811,0.4024855
+"003004","pre","10","rollen schuine plank","bolletje op handvaten","rollen schuine plank : buis door kopje","bolletje op handvaten : staaf links klein",0.363666,0.343295,0.3534805
+"003004","pre","11","indiaan","ronde bal rechtsvoor","indiaan : indiaan","ronde bal rechtsvoor : indiaan",1.19209e-07,0.581819,0.2909095596045
+"003004","pre","12","trechter kom plaat","horizontaal rondje voorop","trechter kom plaat : taart houder","horizontaal rondje voorop : taart houder",0.386099,0.522435,0.454267
+"003004","pre","13","zwembad trap afscheiding","twee kraal ketting zijkanten","zwembad trap afscheiding : pippi langkous","twee kraal ketting zijkanten : pippi langkous",0.736913,0.690237,0.713575
+"003004","pre","14","balhoofd armen neus","verticale balk voorkant","balhoofd armen neus : basketbal armpjes","verticale balk voorkant : basketbal",0.289703,0.722568,0.5061355
+"003004","pre","15","glijbaan speelplaats","vierkant snijdt middenonder","glijbaan speelplaats : glijbaan","vierkant snijdt middenonder : glijbaan",0.0879744,0.676499,0.3822367
+"003004","pre","16","theepot tol","linksvoor boven zelfde","theepot tol : vijzel","linksvoor boven zelfde : vijzel",0.389817,0.615333,0.502575
+"005006","pre","1","stapels vierkante blokjes","spijke in bovenkant","stapels vierkante blokjes : spijker scherm blokjes","spijke in bovenkant : spijker bovenkant blokken torentjes",0.233541,0.193654,0.2135975
+"005006","pre","2","hanenkam en puntneus","driehoek aan bovenkant","hanenkam en puntneus : hanekam vierkant cirkel","driehoek aan bovenkant : hanenkam prisma voorkant",0.322744,0.258657,0.2907005
+"005006","pre","3","trofee met blokjes","gedraaide driehoek onder","trofee met blokjes : gedraaide balk driehoek","gedraaide driehoek onder : gedraaide driehoek onder",0.385788,0,0.192894
+"005006","pre","4","gelijk aan teken","twee balkjes rechts","gelijk aan teken : afgekapt hoedje is teken","twee balkjes rechts : is teken pilon",0.208051,0.487028,0.3475395
+"005006","pre","5","vierkante staaf liggend","langwerpige balk bovenop","vierkante staaf liggend : shuttle balkje bovenop","langwerpige balk bovenop : spaceshuttle liggende balk",0.385728,0.240195,0.3129615
+"005006","pre","6","vierkant balletje cirkel","doorboorde bol voorkant","vierkant balletje cirkel : staaf bolletje cirkel","doorboorde bol voorkant : balk bol voorkant",0.123704,0.163414,0.143559
+"005006","pre","7","mengkom door tafel","tafel aan voorkant","mengkom door tafel : tafeltje met schoteltje","tafel aan voorkant : tafel met bakje",0.25352,0.246833,0.2501765
+"005006","pre","8","langwerpig hexagon neus","doorboord vierkant bovenop","langwerpig hexagon neus : doorboord vierkant glijbaan","doorboord vierkant bovenop : glijbaan doorboord vierkant",0.233125,0.103313,0.168219
+"005006","pre","9","halve cirkel kegel","schijf aan achterkant","halve cirkel kegel : blokje onderin cirkel","schijf aan achterkant : schijf acterkant ballon",0.182248,0.229277,0.2057625
+"005006","pre","10","bolletjes twee stokken","liggend scherm achterkant","bolletjes twee stokken : scherm achter spijkers","liggend scherm achterkant : liggend scherm achterkant",0.40242,0,0.20121
+"005006","pre","11","bolle neus driehoek","bol aan voorkant","bolle neus driehoek : bolletje driehoek staafje","bol aan voorkant : bol gleufje links",0.187331,0.275088,0.2312095
+"005006","pre","12","spijker schuin hartje","spijker uitstekende deel","spijker schuin hartje : spijker hartje schijf","spijker uitstekende deel : spijker in hartje",0.144372,0.272594,0.208483
+"005006","pre","13","vierkante ondergrond","twee uitstekende kralensnoeren","vierkante ondergrond : kralen vierkanten plaat","twee uitstekende kralensnoeren : kralenketting dienblad",0.342959,0.42237,0.3826645
+"005006","pre","14","vierkante stok vooraanzicht","bol op bovenkant","vierkante stok vooraanzicht : bolletje armen staaf","bol op bovenkant : bol boven armpjes",0.308445,0.170793,0.239619
+"005006","pre","15","schuine cilinder vierkant","twee blokjes bovenop","schuine cilinder vierkant : tutu torens","twee blokjes bovenop : twin towers tutu",0.542137,0.599044,0.5705905
+"005006","pre","16","kegels vierkantjes zijkant","blokjes aan voorkant","kegels vierkantjes zijkant : ballonnetjes vierkanten blokjes","blokjes aan voorkant : balon boven links",0.124494,0.457898,0.291196
+"007008","pre","1","vierkant oog met twee schroef oren","vierkant voorkant","vierkant oog met twee schroef oren : champignon kapsel robot","vierkant voorkant : mushroom uitpuilende ogen",0.390832,0.464575,0.4277035
+"007008","pre","2","scherp driehoekige pet","driehoek bovenop","scherp driehoekige pet : pyramide pet","driehoek bovenop : driehoek met kogel",0.295328,0.178659,0.2369935
+"007008","pre","3","mogelijk mensenlijk lichaam","gedraaid uitsteeksel onderkant","mogelijk mensenlijk lichaam : menselijke trofee","gedraaid uitsteeksel onderkant : trofee",0.45736,0.684285,0.5708225
+"007008","pre","4","pastoor achtig hoedje","is aan rechterkant","pastoor achtig hoedje : pastor met een is teken","is aan rechterkant : is teken",0.439936,0.30306,0.371498
+"007008","pre","5","rechthoekig balk op de beker","rechthoek bovenop","rechthoekig balk op de beker : robot stofzuigende snoepmachine","rechthoek bovenop : omgekeerde beker schepje",0.450141,0.378198,0.4141695
+"007008","pre","6","appelvormig beker","vliegtuig propellor voorkant","appelvormig beker : clown toeter","vliegtuig propellor voorkant : toeter appel blaadje",0.559201,0.423235,0.491218
+"007008","pre","7","tafel vormig pet","veel bovenkant","tafel vormig pet : ouderwetse pistool","veel bovenkant : ak zevenenveertig",0.336205,0.720797,0.528501
+"007008","pre","8","satelliet kop met pinokkio neus","neus en sik","satelliet kop met pinokkio neus : pinokkio sitcom satelliet","neus en sik : satteliet en sik",0.268988,0.205245,0.2371165
+"007008","pre","9","oude camera toestel","lange neus staart","oude camera toestel : oude zijwaartse cameratoestel","lange neus staart : nek halve cirkel",0.265866,0.235004,0.250435
+"007008","pre","10","dikke handvaten beker","honkbalknuppel achterkant","dikke handvaten beker : elektrische fiets meter","honkbalknuppel achterkant : honkbalknuppel electrische fiets",0.506562,0.283012,0.394787
+"007008","pre","11","een watermeloen neus","bolle neus","een watermeloen neus : onkruid schotel","bolle neus : misvormde waterdruppel boven",0.314748,0.314212,0.31448
+"007008","pre","12","pacman oortje","rond platform rechts","pacman oortje : pacman helicopter landing","rond platform rechts : pacman helikopterplatform",0.229746,0.582491,0.4061185
+"007008","pre","13","symmetrische koffie beker","vierkant onderkant","symmetrische koffie beker : diamanten kop koffie oren","vierkant onderkant : diamantjes plat vierkant",0.21114,0.134654,0.172897
+"007008","pre","14","hangende koffie beker","bol bovenop","hangende koffie beker : moderne lantaarnpaal lamp","bol bovenop : toren en bol",0.45362,0.203893,0.3287565
+"007008","pre","15","een groetende robotje","twee stokjes bovenop","een groetende robotje : groetende stofzuiger robot","twee stokjes bovenop : robot met arm",0.355476,0.422557,0.3890165
+"007008","pre","16","boomstam in beker","twee stelen","boomstam in beker : twee waterdruppels","twee stelen : twee druppels water",0.393953,0.36527,0.3796115
+"009010","pre","1","stekker robot vierkant","vierkant rechts vooraan","stekker robot vierkant : robot plaat antenne","vierkant rechts vooraan : robot",0.170352,0.706446,0.438399
+"009010","pre","2","piramide trapezium","piramide bovenaan","piramide trapezium : piramide pipet","piramide bovenaan : piramide bovenop",0.242168,0.145421,0.1937945
+"009010","pre","3","pirouette armen omhoog","driehoek onderaan","pirouette armen omhoog : cocktailglas pirouette","driehoek onderaan : cocktailglas",0.363025,0.621024,0.4920245
+"009010","pre","4","kip duckface hanenkam","twee balken rechts","kip duckface hanenkam : eend kip","twee balken rechts : eend",0.168689,0.612387,0.390538
+"009010","pre","5","lampenkap schouders balk","lange balk bovenop","lampenkap schouders balk : lampenkap balk","lange balk bovenop : balk bovenop",0.0608375,0.0629312,0.06188435
+"009010","pre","6","neuspiercing kuifje staaf","doorboord ei rechts","neuspiercing kuifje staaf : doorboord ei","doorboord ei rechts : doorboord ei",0.337189,0.0666856,0.2019373
+"009010","pre","7","opgetilde plank bakje","pootjes plaat bovenaan","opgetilde plank bakje : plantenbak opgetild tafeltje","pootjes plaat bovenaan : hangend aan tafeltje",0.195614,0.255201,0.2254075
+"009010","pre","8","wijzend been omhoog","gebogen balk onderaan","wijzend been omhoog : ruitjes oude camera's","gebogen balk onderaan : ruit achterkant",0.565115,0.280315,0.422715
+"009010","pre","9","basis koffie deksel","cirkel links achter","basis koffie deksel : pannetje deksel kegel","cirkel links achter : steelpan deksel",0.179477,0.602642,0.3910595
+"009010","pre","10","superman armen wijd","kleine eitjes weerszijden","superman armen wijd : peper zout paaseitjes","kleine eitjes weerszijden : peper en zout",0.695485,0.486122,0.5908035
+"009010","pre","11","ronde neus staartjes","los ei rechts","ronde neus staartjes : ei wolkenkrabber hoofd","los ei rechts : ei voorop",0.382885,0.220214,0.3015495
+"009010","pre","12","trechter bijzettafel reling","plat ovaal rechts","trechter bijzettafel reling : b vormige reling bijzettafel","plat ovaal rechts : balk bijzettafeltje",0.111505,0.35421,0.2328575
+"009010","pre","13","zwembad kralenketting","plaat onderaan","zwembad kralenketting : clown zwembad kralenketting","plaat onderaan : clown",0.0771341,0.632038,0.35458605
+"009010","pre","14","plank knuffel geven","ei bovenop","plank knuffel geven : wolkenkrabber knuffelen","ei bovenop : wolkenkrabber knuffel",0.439281,0.564212,0.5017465
+"009010","pre","15","tutu slurf hendel","plaat doorheen voorwerp","tutu slurf hendel : tutu slurf hendel","plaat doorheen voorwerp : tutu",-1.19209e-07,0.673531,0.3367654403955
+"009010","pre","16","telescoop twee hendels","meerdere blokjes rechts","telescoop twee hendels : oude camera kegels","meerdere blokjes rechts : twee plugs",0.281688,0.410234,0.345961
+"011012","pre","1","antenne erop","robot met verrekijker","antenne erop : antenne blokjes plaat","robot met verrekijker : verrekijker met antenne",0.232619,0.14381,0.1882145
+"011012","pre","2","driehoekige punt erboven","piramide bovenop","driehoekige punt erboven : driehoek punt blok","piramide bovenop : driehoek bovenop",0.168536,0.157244,0.16289
+"011012","pre","3","op spiraal staaf","wijnglas met blokjes","op spiraal staaf : trofee driehoek plateau","wijnglas met blokjes : trofee met blokjes",0.485638,0.185124,0.335381
+"011012","pre","4","twee uithangbordjes rechts","eend met staart","twee uithangbordjes rechts : uithangborden lampenkap staartje","eend met staart : uithangbordjes en lampenkap",0.404581,0.494189,0.449385
+"011012","pre","5","liggende staaf erop","kuikentje met hanenkam","liggende staaf erop : balk erop vleugeltjes","kuikentje met hanenkam : balk bovenop vleugels",0.279545,0.365671,0.322608
+"011012","pre","6","viekant door bol","helikopter","viekant door bol : zuignap","helikopter : bol met zuignap",0.496719,0.577196,0.5369575
+"011012","pre","7","bakje op plank","beker door tafel","bakje op plank : tafeltje bakje","beker door tafel : tafeltje met bakje",0.151547,0.302057,0.226802
+"011012","pre","8","blokjes door ruit","filter met handvaten","blokjes door ruit : erachter ruit blokken","filter met handvaten : ruit toenemende vierkanten",0.205575,0.370377,0.287976
+"011012","pre","9","ronde plaat erachter","beker met pollepel","ronde plaat erachter : ronde plaat erachter","beker met pollepel : rechtsbovenin pollepel",-1.19209e-07,0.256058,0.1280289403955
+"011012","pre","10","staaf bol uiteinden erdoor","deegroller door kopje","staaf bol uiteinden erdoor : staaf bolletjes zonnescherm","deegroller door kopje : zonnepaneel balk rondje",0.182244,0.434411,0.3083275
+"011012","pre","11","driehoekig prisma zijkant","neus en bowlingpin","driehoekig prisma zijkant : bolletje bowlingpin","neus en bowlingpin : bolletje aan voorkant",0.355292,0.297185,0.3262385
+"011012","pre","12","rond dienblad rechts","plateau en trompet","rond dienblad rechts : trompet","plateau en trompet : trompet rond plateau",0.627161,0.0578533,0.34250715
+"011012","pre","13","spiraal erdoor","kopje met diamanten","spiraal erdoor : drie puntjes rondje","kopje met diamanten : diamanten op plateau",0.455055,0.264533,0.359794
+"011012","pre","14","balletje erop","fietsstuur met bolletje","balletje erop : staaf bol armpjes","fietsstuur met bolletje : balk met bol",0.32311,0.278691,0.3009005
+"011012","pre","15","plaat erdoor","kopje twee stokjes","plaat erdoor : plaat erdoor slurf","kopje twee stokjes : schijf door midden",0.0918127,0.441643,0.26672785
+"011012","pre","16","blokken rechts voor","bowlingpin bovenkant zijkant","blokken rechts voor : blokken rechts eruit","bowlingpin bovenkant zijkant : twee bowling pinnen",0.101939,0.466152,0.2840455
+"013014","pre","1","symmetrisch vierkant vlak uitsteeksel","twee torens links","symmetrisch vierkant vlak uitsteeksel : vlak voorkant paddestoel","twee torens links : paddenstoel",0.193077,0.678061,0.435569
+"013014","pre","2","puntig compact complex","tol linker kant","puntig compact complex : driehoek erop","tol linker kant : piramide rotzooi",0.536891,0.505268,0.5210795
+"013014","pre","3","complex puntig lang","spiraal afvoer driehoek","complex puntig lang : spiraal driehoek bodem","spiraal afvoer driehoek : spiraal met driehoek",0.398148,0.125533,0.2618405
+"013014","pre","4","hoekig afgevlakte punt","hendel links torens","hoekig afgevlakte punt : handel afgevlakte driehoek","hendel links torens : afgevlakte driekhoek hendeltje",0.198598,0.276158,0.237378
+"013014","pre","5","symmetrisch complex puntig balk op de bovenkant twee half ronde uitsteeksel aan de zijkant","lampenkap links rechthoek","symmetrisch complex puntig balk op de bovenkant twee half ronde uitsteeksel aan de zijkant : kapjes zijkanten balk erop","lampenkap links rechthoek : rechthoek bovenkant lampenkap",0.182993,0.0733491,0.12817105
+"013014","pre","6","bekend rond uitsteeksel","lepel arm voorkant","bekend rond uitsteeksel : balk door de bol","lepel arm voorkant : slinger bal cirkel",0.368171,0.33442,0.3512955
+"013014","pre","7","puntig lang","schap met kommetje","puntig lang : tafel mok of bakje","schap met kommetje : tafel met bakje",0.543315,0.0944691,0.31889205
+"013014","pre","8","symmetrisch puntig twee blokkige uitsteeksel bodem en rechts","afvoer onder bocht","symmetrisch puntig twee blokkige uitsteeksel bodem en rechts : twee vierkanten met handels van kleinere kubussen","afvoer onder bocht : aangedreven vierkant slurven",0.300382,0.396138,0.34826
+"013014","pre","9","niet symmetrisch afgevlakte onderkant cirkel aan de achterzijde","pentagon staaf links","niet symmetrisch afgevlakte onderkant cirkel aan de achterzijde : cirkel achter balk erdoorheen","pentagon staaf links : cirkel achterkant",0.209738,0.362029,0.2858835
+"013014","pre","10","langwerpig voorwerp dwars doorheen vlak afgerond","gieter met zonnepaneel","langwerpig voorwerp dwars doorheen vlak afgerond : cilinder achterkant twee bolletjes","gieter met zonnepaneel : achterliggende staaf knobbels",0.279039,0.559974,0.4195065
+"013014","pre","11","bolvormige object aan de voorkant twee puntige uitsteeksels een uitsteeksel aan linkerzijde","kegel bovenkant bal","bolvormige object aan de voorkant twee puntige uitsteeksels een uitsteeksel aan linkerzijde : bal voorkant uitsteeksel zijkant","kegel bovenkant bal : losse bal voorkant",0.119635,0.193948,0.1567915
+"013014","pre","12","puntig complex interessant","pion omgekeerd links","puntig complex interessant : mok tafeltje lang gerekte pion","pion omgekeerd links : pion b tafeltje",0.433543,0.239497,0.33652
+"013014","pre","13","vlak vierkant bodem cirkel voorkant","lijn van bolletjes","vlak vierkant bodem cirkel voorkant : platte cirkel voorkant","lijn van bolletjes : kleine bolletjes plaat",0.0710582,0.227954,0.1495061
+"013014","pre","14","langwerpig ronde form bovenkant","symetrisch bal bovenkant","langwerpig ronde form bovenkant : bal op balk voorkant","symetrisch bal bovenkant : bal bovenkant balk",0.291539,0.121205,0.206372
+"013014","pre","15","complex puntig compact","reservoir plaat onderkant","complex puntig compact : slurf aan de voorkant plaat door heen","reservoir plaat onderkant : plaat met slurf",0.395653,0.196264,0.2959585
+"013014","pre","16","kopvormig vier uitsteeksel","twee ovalen knobbels","kopvormig vier uitsteeksel : cilinder bocht achter","twee ovalen knobbels : buis achterkant knik",0.393383,0.263515,0.328449
+"015016","pre","1","robothoofd met plaat","vierkant vlak voorkant","robothoofd met plaat : robot","vierkant vlak voorkant : robot",0.602397,0.662252,0.6323245
+"015016","pre","2","spitse punt omhoog","driehoek bovenop uitsteeksels","spitse punt omhoog : spitse punt","driehoek bovenop uitsteeksels : spitse driehoek bovenop",0.0639301,0.0717957,0.0678629
+"015016","pre","3","getordeerd","langwerpig blokje driehoek","getordeerd : trofee","langwerpig blokje driehoek : trofee wokkel",0.664002,0.463595,0.5637985
+"015016","pre","4","twee rechthoeken zijkant","twee blokken rechts","twee rechthoeken zijkant : platte driehoek","twee blokken rechts : platte driehoek bovenop",0.204675,0.269953,0.237314
+"015016","pre","5","v goot","compact balkje boven","v goot : kip","compact balkje boven : kip",0.779252,0.649139,0.7141955
+"015016","pre","6","stamper door neus","ei staaf rondje","stamper door neus : staaf door ei","ei staaf rondje : staaf door bal",0.156772,0.19938,0.178076
+"015016","pre","7","tafel met trechter","vierkant vlak hoog","tafel met trechter : tafel en bakje","vierkant vlak hoog : tafel bakje",0.121536,0.50769,0.314613
+"015016","pre","8","zeepaardje","uitsteeksels vier zijdes","zeepaardje : zeepaardje","uitsteeksels vier zijdes : zeepaardje",0,0.466077,0.2330385
+"015016","pre","9","zeshoekige staaf zijkant","rondje achterkant","zeshoekige staaf zijkant : zeshoekige staaf zijkant","rondje achterkant : rondje achterkant",5.96046e-08,0,2.98023e-08
+"015016","pre","10","aanknooppunt voor boten","uitsteeksels achterkant","aanknooppunt voor boten : staaf twee ballen","uitsteeksels achterkant : staaf ballen zijkant",0.462231,0.261007,0.361619
+"015016","pre","11","v goot zijkant","vier verschillend uitsteeksels","v goot zijkant : v goot zijkant","vier verschillend uitsteeksels : driehoek balkje links",-1.19209e-07,0.434709,0.2173544403955
+"015016","pre","12","toeter op arm","langwerpig links punt","toeter op arm : toeter","langwerpig links punt : toeter",0.201184,0.608261,0.4047225
+"015016","pre","13","geruite handvatten","vierkant vlak onder","geruite handvatten : zes ruiten zijkanten","vierkant vlak onder : zes bolletjes zijkant",0.339159,0.321238,0.3301985
+"015016","pre","14","bal op emmer","ei bovenop staaf","bal op emmer : staaf verticaal bal","ei bovenop staaf : bal bovenop",0.229107,0.19578,0.2124435
+"015016","pre","15","emmer in vierkant","vierkant halverwege","emmer in vierkant : vierkant midden emmer","vierkant halverwege : vierkant halverwege doorheen",0.0530626,0.0626571,0.05785985
+"015016","pre","16","twee ronde handvatten","twee kegels blokje","twee ronde handvatten : telescoop","twee kegels blokje : telescoop",0.684181,0.604951,0.644566
+"017018","pre","1","laserogen antenne","plaat spijker bovenop","laserogen antenne : links groterwordende vierkanten","plaat spijker bovenop : antenne plaat",0.40976,0.264258,0.337009
+"017018","pre","2","voetjes snavel mohawk","driehoek bovenop","voetjes snavel mohawk : driehoek achterop telescoop","driehoek bovenop : driehoek telescoop",0.465014,0.278515,0.3717645
+"017018","pre","3","tornado onderaan","wokkel driekhoek onderaan","tornado onderaan : wokkel met driehoek","wokkel driekhoek onderaan : wokkel driehoek",0.39373,0.159273,0.2765015
+"017018","pre","4","trapezium bovenop","twee balkjes rechts","trapezium bovenop : trapezium bovenop","twee balkjes rechts : trapezium",0,0.440988,0.220494
+"017018","pre","5","schoonmaakrobot","lange balk bovenop","schoonmaakrobot : schoonmaakrobot","lange balk bovenop : schoonmaakrobot",0,0.734285,0.3671425
+"017018","pre","6","heeft een snor","kopje steel bol","heeft een snor : appel steeltje doorboorde neus","kopje steel bol : appel steeltje",0.446342,0.260026,0.353184
+"017018","pre","7","rand rondom","plaat twee poten","rand rondom : tafel met bakje","plaat twee poten : tafel met schaaltje",0.501253,0.2813,0.3912765
+"017018","pre","8","doorboorde ruit bovenop","driehoek achter boven","doorboorde ruit bovenop : vierkanten door ruiten","driehoek achter boven : dubbele driehoek",0.306515,0.182012,0.2442635
+"017018","pre","9","kopje met citroen schijf","breed voetstuk onder","kopje met citroen schijf : cirkel achterop appel steeltje","breed voetstuk onder : rondje achterkant",0.275278,0.46361,0.369444
+"017018","pre","10","armen en matje","plaat achter kopje","armen en matje : waterval twee armen","plaat achter kopje : waterval",0.304389,0.568524,0.4364565
+"017018","pre","11","pennenbak met neus","kopje lepel staaf","pennenbak met neus : roerstaaf voor verf","kopje lepel staaf : verf spatel",0.234284,0.249178,0.241731
+"017018","pre","12","vastgeplakt aan kauwgom","langste spijker links","vastgeplakt aan kauwgom : oude spijker plateau","langste spijker links : oude spijker",0.373797,0.266044,0.3199205
+"017018","pre","13","pippi langkous","kralen links rechts","pippi langkous : pippi langkous","kralen links rechts : pippi staartjes",5.96046e-08,0.60252,0.3012600298023
+"017018","pre","14","korfbal korf met armen","rond bolletje bovenop","korfbal korf met armen : korf met bal","rond bolletje bovenop : korfbal",0.147264,0.793201,0.4702325
+"017018","pre","15","in een plaat","vierkant door figuur","in een plaat : platform doorboort glijbaan","vierkant door figuur : glijbaan",0.458791,0.645883,0.552337
+"017018","pre","16","links en boven dezelfde","vier verschillende uitsteeksels","links en boven dezelfde : lepel boven links","vier verschillende uitsteeksels : twee dezelfde lepels",0.187954,0.225232,0.206593
+"019020","pre","1","telescoop ogen","rechts vierkante plaat","telescoop ogen : twee telescopen","rechts vierkante plaat : twee telescopen",0.235145,0.492756,0.3639505
+"019020","pre","2","driehoek boven","driehoek bovenop","driehoek boven : scherpe driehoek","driehoek bovenop : driehoek en potloodpunt",0.21656,0.142423,0.1794915
+"019020","pre","3","gedraaide onderkant","groot aanhangsel onderaan","gedraaide onderkant : gedraaide onderkant","groot aanhangsel onderaan : groot aanhangsel blokjes",1.19209e-07,0.151407,0.0757035596045
+"019020","pre","4","vogeltje","twee balkjes rechts","vogeltje : vogeltje","twee balkjes rechts : vogel",0,0.621041,0.3105205
+"019020","pre","5","balk boven op","rechthoekig balkje bovenop","balk boven op : omgekeerd bekertje","rechthoekig balkje bovenop : balk omgekeerde bekers",0.463262,0.306674,0.384968
+"019020","pre","6","neus met staaf","ronde neus doorboord","neus met staaf : neus doorboord","ronde neus doorboord : doorboorde neus kuif",0.189767,0.145229,0.167498
+"019020","pre","7","tafeltje met bakje","tweepotige tafel","tafeltje met bakje : tafeltje met kom","tweepotige tafel : tweepotige tafel",0.12938,0,0.06469
+"019020","pre","8","kat","ruit bovenop","kat : kat","ruit bovenop : kat ruit bovenkant",-1.19209e-07,0.178159,0.0890794403955
+"019020","pre","9","beker met roerlepel","lepeltje rechts","beker met roerlepel : beker met lepeltje","lepeltje rechts : standaard en lepeltje",0.0646195,0.211934,0.13827675
+"019020","pre","10","horizontale doorlopende staaf","linksboven soort schans","horizontale doorlopende staaf : schans en spijker","linksboven soort schans : schroef erdoor schans",0.555122,0.267679,0.4114005
+"019020","pre","11","midden bovenste rij","verticale balk bovenop","midden bovenste rij : neus met pennetje","verticale balk bovenop : neus rechthoek pen",0.391361,0.280257,0.335809
+"019020","pre","12","spijker en plateau","rond plateau rechts","spijker en plateau : schijfje met spijker","rond plateau rechts : rond plateau rechts",0.284474,0,0.142237
+"019020","pre","13","rij met ruitjes","op een plaat","rij met ruitjes : macaroni","op een plaat : blad macaroni sprieten",0.503587,0.434696,0.4691415
+"019020","pre","14","balletje boven op","verticale balk zijkant","balletje boven op : bolletje ongelijke armen","verticale balk zijkant : bal rechthoek armen",0.343937,0.237822,0.2908795
+"019020","pre","15","twee balkjes boven","plaat door kopje","twee balkjes boven : vlak met slurf","plaat door kopje : blad door beker",0.304845,0.260653,0.282749
+"019020","pre","16","joystick boven op","rechtop midden lepel","joystick boven op : telescoop met pennen","rechtop midden lepel : joysticks telescoop wormpje",0.301938,0.44964,0.375789
+"021022","pre","1","uitschuifbare blokjes","dubbele spijker zijkant","uitschuifbare blokjes : paddestoel kaas plakje kijkes","dubbele spijker zijkant : paddestoel bovenop",0.341643,0.409912,0.3757775
+"021022","pre","2","hoge piramide","hoed aan bovenkant","hoge piramide : piramide koekje schroef","hoed aan bovenkant : spijker aan zijkant",0.333929,0.18146,0.2576945
+"021022","pre","3","omhoog gaande draaimolen","driehoek met spiraal","omhoog gaande draaimolen : beker trofee","driehoek met spiraal : trofee met kubussen",0.638844,0.290372,0.464608
+"021022","pre","4","vogel met twee snavels","dubbele plaatjes","vogel met twee snavels : hoedje vogel twee snavels","dubbele plaatjes : twee plaatjes zijkant",0.0510563,0.156819,0.10393765
+"021022","pre","5","stofzuigende robot","balk bovenop","stofzuigende robot : robot stofzuiger","balk bovenop : liggende balk bovenop",0.142006,0.0575776,0.0997918
+"021022","pre","6","langwerpige neuspiercing","staaf door ei","langwerpige neuspiercing : neuspiercing","staaf door ei : neus met piercing",0.181785,0.326837,0.254311
+"021022","pre","7","ophang plankje","plateau met bak","ophang plankje : tafeltje houder bakje","plateau met bak : plateau met bak",0.189402,0,0.094701
+"021022","pre","8","bloempot op een stokje","vierkant met uitsteeksel","bloempot op een stokje : klappen een standvlak","vierkant met uitsteeksel : ruit met doorboren",0.242087,0.324882,0.2834845
+"021022","pre","9","pinokkio","houder onderkant","pinokkio : cocktail halve cirkel","houder onderkant : smalle houder onder",0.65823,0.167855,0.4130425
+"021022","pre","10","centraal riolering punt","buis doorheen","centraal riolering punt : klep riool bolletjes","buis doorheen : cilinder met plateau",0.369414,0.283237,0.3263255
+"021022","pre","11","dikke indiaan","bal aan zijkant","dikke indiaan : indiaan omgedraaide kegel","bal aan zijkant : neus zonder piercing",0.253942,0.316016,0.284979
+"021022","pre","12","bijtelen","spijker in aanhangsel","bijtelen : spijker plateau","spijker in aanhangsel : spijker in pacman",0.341473,0.432449,0.386961
+"021022","pre","13","pan vaas afwassen","plateau onderkant","pan vaas afwassen : afwas houder doorboord","plateau onderkant : plateau onderaan",0.303179,0.136109,0.219644
+"021022","pre","14","bal in korfbal mandje","bal bovenop","bal in korfbal mandje : korfbal houder bal","bal bovenop : korfbal met paal",0.143366,0.336425,0.2398955
+"021022","pre","15","waterglijbaan","plateau midden","waterglijbaan : glijbaan","plateau midden : plateau met glijbaan",0.119029,0.240256,0.1796425
+"021022","pre","16","twee dezelfde pluimen","ovaal midden rechtop","twee dezelfde pluimen : identieke pluim","ovaal midden rechtop : zelfde uitsteeksel bovenop",0.220621,0.269254,0.2449375
+"023024","pre","1","stekker","horizontale torentjes paddestoel","stekker : robot met paddenstoel","horizontale torentjes paddestoel : robot champignon",0.578192,0.40606,0.492126
+"023024","pre","2","tent","puntmuts neus oor","tent : tent","puntmuts neus oor : tipi tent",5.96046e-08,0.631788,0.3158940298023
+"023024","pre","3","bier beker","scheef wijnglas blokjes","bier beker : wijn glas","scheef wijnglas blokjes : wijnglas speciaalbier",0.250589,0.29814,0.2743645
+"023024","pre","4","vis","snavel armpje pootje","vis : kuikentje","snavel armpje pootje : kuikentje",0.628353,0.385697,0.507025
+"023024","pre","5","graan machine","rechthoek bovenop","graan machine : chicken little","rechthoek bovenop : chicken little",0.552439,0.680719,0.616579
+"023024","pre","6","kop koffie","propellor neus sprietje","kop koffie : piercing","propellor neus sprietje : neuspiercing",0.63577,0.394227,0.5149985
+"023024","pre","7","picnic tafel","tafel schaaltje dienblad","picnic tafel : tafel met bakje","tafel schaaltje dienblad : tafeltje met bakje",0.244058,0.128375,0.1862165
+"023024","pre","8","pinokkio","twee pootjes scheef","pinokkio : pinokkio","twee pootjes scheef : dansend hobbelpaard",0,0.448558,0.224279
+"023024","pre","9","sauteer pan","wiegje handvat lepel","sauteer pan : cocktail","wiegje handvat lepel : cocktail citroen schijfje",0.511834,0.371166,0.4415
+"023024","pre","10","ernergie centrale","platte staaf courgette","ernergie centrale : courgette","platte staaf courgette : courgette",0.833608,0.190852,0.51223
+"023024","pre","11","indiaan clown","uitstekend rechthoek handvat","indiaan clown : neus fancy lepel","uitstekend rechthoek handvat : neus fancy lepel",0.467318,0.316093,0.3917055
+"023024","pre","12","bestuuringssysteem","tafelpoot plateau uitstekend","bestuuringssysteem : casino royaal","tafelpoot plateau uitstekend : casino hendel",0.547671,0.487184,0.5174275
+"023024","pre","13","kruk","vlechtjes neus dienblad","kruk : pippi langkous","vlechtjes neus dienblad : pippi langkous",0.712938,0.589135,0.6510365
+"023024","pre","14","basketbal hoop","fietsstuur balletje basket","basketbal hoop : basketball hoop","fietsstuur balletje basket : basketbal fietsstuur",0.240642,0.156639,0.1986405
+"023024","pre","15","maal machine","stoomschip verhoogd vierkant","maal machine : boot met tutu","stoomschip verhoogd vierkant : stoomboot met tutu",0.570151,0.417995,0.494073
+"023024","pre","16","blender","vier uitsteeksels","blender : stofzuiger","vier uitsteeksels : stofzuiger",0.435442,0.785404,0.610423
+"025026","pre","1","vierkant voorkant","paddestoel bovenop","vierkant voorkant : spijker vierkant","paddestoel bovenop : spijker vierkant vlak",0.160407,0.374327,0.267367
+"025026","pre","2","piramide driehoek bovenkant","persoon met pyramide","piramide driehoek bovenkant : piramide","persoon met pyramide : pyramide",0.170966,0.367986,0.269476
+"025026","pre","3","uitsteeksel onderkant lang","schroef onderin","uitsteeksel onderkant lang : driekhoek onderkant","schroef onderin : schroef op driehoek",0.191425,0.169826,0.1806255
+"025026","pre","4","twee rechthoeken rechts","kip","twee rechthoeken rechts : hoedje twee rechthoeken","kip : hoedje uitstekende puntjes",0.0912182,0.537821,0.3145196
+"025026","pre","5","meest compact","balk bovenop","meest compact : compact","balk bovenop : compact",0.157878,0.696157,0.4270175
+"025026","pre","6","klein uitsteeksel bovenkant","stok door neus","klein uitsteeksel bovenkant : stokje door neus","stok door neus : balk door neus",0.380961,0.136692,0.2588265
+"025026","pre","7","twee pootjes onderkant","kruiwagen","twee pootjes onderkant : kruiwagen","kruiwagen : kruiwagen",0.495056,0,0.247528
+"025026","pre","8","meest complex","dier op zijkant","meest complex : dier","dier op zijkant : dier op zijkant",0.694976,0,0.347488
+"025026","pre","9","verlengde onderkant","koffiekopje","verlengde onderkant : lepeltje halve circkel","koffiekopje : kopje half rondje",0.46531,0.462518,0.463914
+"025026","pre","10","handvaten rond uiteinde","gieter","handvaten rond uiteinde : schuin vierkant achterkant","gieter : gieter",0.212534,0,0.106267
+"025026","pre","11","neus en oor","ronde neus","neus en oor : neus driehoekje lepeltjes","ronde neus : neus twee uitsteeksels",0.253418,0.181372,0.217395
+"025026","pre","12","trechtervormig uitstekend linksboven","spijker bovenop","trechtervormig uitstekend linksboven : dienblad","spijker bovenop : dienblad spijker",0.497356,0.214337,0.3558465
+"025026","pre","13","vierkant aan onderkant","pot op vierkant","vierkant aan onderkant : vierkant onder kopje","pot op vierkant : vierkant object erop",0.31093,0.250764,0.280847
+"025026","pre","14","verticale rechthoek","balk en bal","verticale rechthoek : armen lange rechthoek","balk en bal : mannetje met armen",0.175271,0.371534,0.2734025
+"025026","pre","15","vierkant door object","vierkant omheen","vierkant door object : vierkant door midden","vierkant omheen : vierkant er doorheen",0.195398,0.11117,0.153284
+"025026","pre","16","ovaal boven links","theepot","ovaal boven links : theepot","theepot : theekan",0.537847,0.274341,0.406094
+"027028","pre","1","pot antenne armen","minion met verrekijker","pot antenne armen : antenne twee wolkenkrabbers","minion met verrekijker : twee skyscrapers",0.306404,0.573959,0.4401815
+"027028","pre","2","driehoek hoedje","zeil van zeilboot","driehoek hoedje : piramide feesthoedje","zeil van zeilboot : feesthoedje",0.251339,0.508623,0.379981
+"027028","pre","3","kalk trophee blokjes","typhoon","kalk trophee blokjes : trophee","typhoon : trofee",0.34195,0.737057,0.5395035
+"027028","pre","4","toilet spoeler staartje stekker","wiskundige vergelijking","toilet spoeler staartje stekker : stekker afgevlakte piramide","wiskundige vergelijking : adapter",0.301439,0.751421,0.52643
+"027028","pre","5","boekentas houder boek","watermolen","boekentas houder boek : boekentas krantenbak","watermolen : kleine rugzak",0.197899,0.858474,0.5281865
+"027028","pre","6","gewichtheffen spring haartje","ronde neus piercing","gewichtheffen spring haartje : neuspiercing spring haartje gewichtheffen","ronde neus piercing : neuspiercing",0.046553,0.326579,0.186566
+"027028","pre","7","schap hanger bloempot","trechter op salontafel","schap hanger bloempot : bloempot schapje","trechter op salontafel : bloembak",0.0786377,0.356887,0.21776235
+"027028","pre","8","armen ster uitstekels","pinokkio met hanenkam","armen ster uitstekels : bliksem ruitjes","pinokkio met hanenkam : ruiten en bliksemschicht",0.307189,0.370423,0.338806
+"027028","pre","9","nek pinokkio","rond oor","nek pinokkio : pollepel pinokkio","rond oor : cocktail",0.248019,0.650261,0.44914
+"027028","pre","10","gestrekte armen","diaprojector","gestrekte armen : krantenbak grote rugzak","diaprojector : grote rugzak",0.437457,0.607108,0.5222825
+"027028","pre","11","neus antennen oor","ronde neus rechteroor","neus antennen oor : ronde neus","ronde neus rechteroor : grote neus",0.277526,0.225019,0.2512725
+"027028","pre","12","rond dienblad splinter","neus omgekeerde eiffeltoren","rond dienblad splinter : splinter rond plateau","neus omgekeerde eiffeltoren : naald in arm",0.188823,0.335658,0.2622405
+"027028","pre","13","dienblad cirkel kopje","pippi langkous vlechten","dienblad cirkel kopje : pippi langkous onderzetter","pippi langkous vlechten : pippi langkous",0.538933,0.0525624,0.2957477
+"027028","pre","14","balk bal houder","neus op hoofd","balk bal houder : basketbalnet bal","neus op hoofd : basketbal",0.281461,0.596327,0.438894
+"027028","pre","15","twee uitsteekseltjes","rare glijbaan","twee uitsteekseltjes : tabakspijp glijbaan","rare glijbaan : glijbaan",0.421178,0.163249,0.2922135
+"027028","pre","16","tong uit mond","mixer","tong uit mond : doorboord wolkenkrabbers","mixer : wolkenkrabber",0.494981,0.830683,0.662832
+"029030","pre","1","vierkant aan zijkant","vierkant vlak voorkant","vierkant aan zijkant : twee minecraft vierkant","vierkant vlak voorkant : twee minecraft links",0.304879,0.437832,0.3713555
+"029030","pre","2","driehoek bovenop","driehoekige punt bovenop","driehoek bovenop : driehoek bovenop","driehoekige punt bovenop : driehoek bovenop",0,0.113431,0.0567155
+"029030","pre","3","staand op driehoek","wijnglas voet onderaan","staand op driehoek : wijnglas","wijnglas voet onderaan : wijnglas",0.549578,0.205297,0.3774375
+"029030","pre","4","twee horizontale balkjes","klein dekseltje erop","twee horizontale balkjes : vogeltje","klein dekseltje erop : eendje of vogeltje",0.604091,0.315923,0.460007
+"029030","pre","5","horizontaal balkje bovenop","steekt minste uit","horizontaal balkje bovenop : middelvinger","steekt minste uit : middelvinger",0.429173,0.50784,0.4685065
+"029030","pre","6","balk door bolletje","stampot stamper aan zijkant","balk door bolletje : stampot stamper","stampot stamper aan zijkant : stampot stamper",0.459581,0.140095,0.299838
+"029030","pre","7","plateau twee schuine pootjes","bankje ertegen","plateau twee schuine pootjes : bankje twee pootjes","bankje ertegen : tafeltje of bankje",0.126456,0.211454,0.168955
+"029030","pre","8","gebogen balkje onderkant","twee ruiten bovenop","gebogen balkje onderkant : ruitjes gebogen balk","twee ruiten bovenop : minecraft op vierkantjes",0.132927,0.464999,0.298963
+"029030","pre","9","rond balkje links","soeplepel rechtsboven","rond balkje links : voetstuk theelepel handvat","soeplepel rechtsboven : theelepeltje",0.422985,0.295743,0.359364
+"029030","pre","10","twee bolletjes zijkanten","knobbel handvaten tegenover","twee bolletjes zijkanten : twee knobbel handvatten","knobbel handvaten tegenover : knobbel handvaten",0.202127,0.0720743,0.13710065
+"029030","pre","11","ei zijkant","los paasei voorop","ei zijkant : ei twee uitsteeksels","los paasei voorop : ei voorop",0.141369,0.194641,0.168005
+"029030","pre","12","rond plateautje zijkant","spijker linksboven","rond plateautje zijkant : spijker rond plateau","spijker linksboven : spijker",0.175,0.20414,0.18957
+"029030","pre","13","op vierkant plateau","drie bolletjes slinger","op vierkant plateau : drie bolletjes","drie bolletjes slinger : drie bolletjes zijkanten",0.446551,0.109096,0.2778235
+"029030","pre","14","bolletje bovenop","verticale balk voorkant","bolletje bovenop : verticale balk ei","verticale balk voorkant : vertikale balk",0.291419,0.0730061,0.18221255
+"029030","pre","15","vierkant plateau halverwege","plaat erdoor heen","vierkant plateau halverwege : plateau doorheen schoorsteen","plaat erdoor heen : pijpje of schoorsteentje",0.190429,0.291842,0.2411355
+"029030","pre","16","drie kubusjes zijkant","twee haakse handvaten","drie kubusjes zijkant : minecraft twee handvatten","twee haakse handvaten : minecraft rechts",0.281803,0.440207,0.361005
+"031032","pre","1","plaat verrekijker handvat","plat vierkant zijkant","plaat verrekijker handvat : gekanteld plaat handvat","plat vierkant zijkant : plat vierkant voorkant",0.118533,0.0184156,0.0684743
+"031032","pre","2","feesthoed blok","driehoek bovenkant","feesthoed blok : feesthoed","driehoek bovenkant : feesthoedje bovenkant",0.15477,0.139297,0.1470335
+"031032","pre","3","hoog spiraal blokjes","twist naar beneden","hoog spiraal blokjes : cocktail","twist naar beneden : kronkel pizzapunt onderkant",0.605585,0.398752,0.5021685
+"031032","pre","4","uitlaat dakje staven","pot met kubus deksel","uitlaat dakje staven : parallele balken","pot met kubus deksel : parallelle staafjes zijkant",0.42786,0.391243,0.4095515
+"031032","pre","5","gootje balk jets","boek in mok","gootje balk jets : boek buisje","boek in mok : boek in mok",0.456091,1.19209e-07,0.2280455596045
+"031032","pre","6","bol staaf schijf","rechterkant vastgemaakt","bol staaf schijf : bal balk schijf","rechterkant vastgemaakt : buis met schijf",0.203966,0.415905,0.3099355
+"031032","pre","7","tafeltje bakje","soort kruk aan onderkant","tafeltje bakje : tafeltje","soort kruk aan onderkant : tafelpoot onderkant",0.0788307,0.12886,0.10384535
+"031032","pre","8","dubbele plaat","hengsel aan de rechterkant","dubbele plaat : parallele platen","hengsel aan de rechterkant : samengeperste vierkanten",0.392012,0.401274,0.396643
+"031032","pre","9","zeshoek schijf","halve maan bovenkant","zeshoek schijf : halve maan","halve maan bovenkant : halve maan",0.429097,0.0880305,0.25856375
+"031032","pre","10","vlak staven bollen","poot dwars door mok","vlak staven bollen : honkbal knuppel","poot dwars door mok : honkbalknuppel dwars doorheen",0.506058,0.205262,0.35566
+"031032","pre","11","bol gootje hendel","staaf in mok","bol gootje hendel : bal rare druppel","staaf in mok : rare druppel staafje",0.290928,0.363082,0.327005
+"031032","pre","12","schijf toeter","dik hengsel met twee strepen","schijf toeter : schijf dubbel uitsteeksel","dik hengsel met twee strepen : plaat zijkant",0.257957,0.250336,0.2541465
+"031032","pre","13","grondvlak bolletjes","driehoekjes aan zijkant","grondvlak bolletjes : bolletjes onderplaat schijf","driehoekjes aan zijkant : drie driehoekjes zijkant",0.210336,0.0732151,0.14177555
+"031032","pre","14","bal balk symmetrisch","balk aan zijkant","bal balk symmetrisch : bol balk handvaten","balk aan zijkant : bal bovenkant hengsel",0.154884,0.291689,0.2232865
+"031032","pre","15","plaat hoek buis","middenin een bierviltje","plaat hoek buis : bierviltje","middenin een bierviltje : bierviltje om mok",0.592315,0.285872,0.4390935
+"031032","pre","16","kijker hendels uitlaat","grote rechtstaande druppel","kijker hendels uitlaat : twee grote druppels","grote rechtstaande druppel : grote druppel bovenkant",0.496993,0.090203,0.293598
+"033034","pre","1","plat schroef torens","robot met verrekijker","plat schroef torens : robot","robot met verrekijker : robot empire state ogen",0.60924,0.323408,0.466324
+"033034","pre","2","hoedje en onderstel","onverklaarbare uitstulpingen alle zijden","hoedje en onderstel : potlood open kegel","onverklaarbare uitstulpingen alle zijden : holle kegel potloodpunt",0.386372,0.338306,0.362339
+"033034","pre","3","kelk lang beker","kubussen erop driehoek eronder","kelk lang beker : kelk","kubussen erop driehoek eronder : kelk driehoek voet",0.145855,0.266564,0.2062095
+"033034","pre","4","vogelbekdier staartje hoeje","is aan zijkant","vogelbekdier staartje hoeje : perry het vogelbekdier","is aan zijkant : perry is teken",0.160593,0.355706,0.2581495
+"033034","pre","5","ruimte chip boot balk","balk erop kraan ernaast","ruimte chip boot balk : koffiezetapparaat ruimteschip","balk erop kraan ernaast : koffieapparaat ruimteschip flapjes",0.412156,0.36944,0.390798
+"033034","pre","6","lepel toeter","spijker door neus","lepel toeter : indiaan lepel toeter","spijker door neus : indiaan toeter neus",0.0626125,0.246208,0.15441025
+"033034","pre","7","tafel bakje","tafel door kom","tafel bakje : tafel","tafel door kom : tafel met bakje",0.118207,0.228871,0.173539
+"033034","pre","8","grijper ruit gewicht","zo'n katten klok","grijper ruit gewicht : grijper met ruit","zo'n katten klok : grijphand empire state ogen",0.100711,0.488083,0.294397
+"033034","pre","9","pinokkio druppel cirkel","voetje cilinder schijf","pinokkio druppel cirkel : pinokkio neus cirkel lepel","voetje cilinder schijf : pinokkio voetje achterschijf",0.0833831,0.25471,0.16904655
+"033034","pre","10","fiets hendels vierkant deksel","kom met piemels","fiets hendels vierkant deksel : piemels","kom met piemels : kom piemels deksel",0.662452,0.113842,0.388147
+"033034","pre","11","vulpen bol neus","hoofd achtig compas naald op hoofd","vulpen bol neus : vulpen neus driehoek","hoofd achtig compas naald op hoofd : blokje vulpen bovenop",0.0678282,0.256428,0.1621281
+"033034","pre","12","opwindbaar rond plateau","bijzettafeltje b eruit","opwindbaar rond plateau : toeter en plateau","bijzettafeltje b eruit : toeter kom plateau",0.166211,0.437355,0.301783
+"033034","pre","13","plateau spiralen","plateau kom staartjes","plateau spiralen : spiralen bogen plateau","plateau kom staartjes : spirelli scooter achtig plateau",0.0430471,0.26085,0.15194855
+"033034","pre","14","bal handvaten staaf","bal erop slangen eruit","bal handvaten staaf : fietsstuur balk bol","bal erop slangen eruit : kom knuffelt stok",0.273046,0.297929,0.2854875
+"033034","pre","15","plateau staaf hendel","speeltoestel met schoorstenen","plateau staaf hendel : glijbaan plateau","speeltoestel met schoorstenen : glijbaan plaat halvewege",0.29167,0.244156,0.267913
+"033034","pre","16","vier lange uitstulpsels","bowlingpin boven en links","vier lange uitstulpsels : kegels toren flubbertje","bowlingpin boven en links : bowlingpins slurf achterzijde",0.33287,0.372781,0.3528255
+"035036","pre","1","groot vierkant voor","helikopter","groot vierkant voor : helikopter","helikopter : helikopter",0.64462,0,0.32231
+"035036","pre","2","piramide bovenop","kabouter met puntmuts","piramide bovenop : piramide","kabouter met puntmuts : piramide of punthoed",0.129885,0.29739,0.2136375
+"035036","pre","3","de trofee","urinoir gedraaide afvoer","de trofee : trofee","urinoir gedraaide afvoer : trofee",0.0812858,0.754821,0.4180534
+"035036","pre","4","twee rechthoeken rechts","twee rechthoekige oren","twee rechthoeken rechts : twee rechthoeken rechts","twee rechthoekige oren : twee rechthoeken rechts",0,0.155563,0.0777815
+"035036","pre","5","liggende staaf bovenop","gebouwtje op ijsberg","liggende staaf bovenop : saaie gebouw","gebouwtje op ijsberg : gebouw op berg",0.555093,0.249902,0.4024975
+"035036","pre","6","paal door bolletje","neuspiercing en staart","paal door bolletje : neuspiercing","neuspiercing en staart : neuspiercing",0.415571,0.177243,0.296407
+"035036","pre","7","diepe gootsteen","geweer langs hoofd","diepe gootsteen : geweer of gootsteen","geweer langs hoofd : geweer langs hoofd",0.241748,0,0.120874
+"035036","pre","8","dansende pinokkio kop","stier van onderen","dansende pinokkio kop : pinokkio","stier van onderen : pinokkio danst",0.204927,0.552445,0.378686
+"035036","pre","9","kopje op houdertje","waterkraan","kopje op houdertje : op houdertje","waterkraan : kop op houder",0.0834113,0.431356,0.25738365
+"035036","pre","10","gieter","vliegtuig met zonnepaneel","gieter : gieter","vliegtuig met zonnepaneel : gieter",0,0.562039,0.2810195
+"035036","pre","11","beslagkom met mixer","dartpijl in achterhoofd","beslagkom met mixer : dartpijl","dartpijl in achterhoofd : dartpijl in achterhoofd",0.502338,5.96046e-08,0.2511690298023
+"035036","pre","12","omgekeerde pillon links","spijker in arm","omgekeerde pillon links : pillon","spijker in arm : omgekeerde pilon",0.273453,0.44502,0.3592365
+"035036","pre","13","zes kralen","kop op tafel","zes kralen : kralen","kop op tafel : kralen op tafel",0.132773,0.1933,0.1630365
+"035036","pre","14","bal bovenop","korfbal op korf","bal bovenop : bal bovenop","korfbal op korf : korfbal op korf",0,5.96046e-08,2.98023e-08
+"035036","pre","15","minder diepe gootsteen","kop in tafelblad","minder diepe gootsteen : gootsteen hendel links","kop in tafelblad : ondiep door tafel",0.291029,0.252972,0.2720005
+"035036","pre","16","twee uitstekende tampons","konijnenoren op onderzeeer","twee uitstekende tampons : tampons","konijnenoren op onderzeeer : twee tampons",0.29966,0.441007,0.3703335
+"037038","pre","1","robot met antenne","blokjes armen","robot met antenne : geblokte armen antenne","blokjes armen : antenne en blokken",0.308254,0.403657,0.3559555
+"037038","pre","2","poppetje met feestmuts","driehoekig hoofd","poppetje met feestmuts : mannetje met feestmuts","driehoekig hoofd : feestmuts",0.122042,0.576559,0.3493005
+"037038","pre","3","een benig juichend poppetje","standbeeld op voet","een benig juichend poppetje : standbeeld op statief","standbeeld op voet : standbeeld",0.395405,0.19597,0.2956875
+"037038","pre","4","zittend poppetje met stekels","vogel die vliegt","zittend poppetje met stekels : vogel met beentjes","vogel die vliegt : vogeltje",0.160535,0.349701,0.255118
+"037038","pre","5","hoofd met hanenkam","blok op eiland","hoofd met hanenkam : recht balkje mouwtjes","blok op eiland : blok en mouwtje",0.318829,0.3133,0.3160645
+"037038","pre","6","poppetje met ontstopper","appel","poppetje met ontstopper : appel met stamper","appel : appel met stampertje",0.306336,0.148668,0.227502
+"037038","pre","7","etende kat aan tafel","dienblad met schaal","etende kat aan tafel : schuin bakje tafel","dienblad met schaal : dienblad",0.287173,0.157553,0.222363
+"037038","pre","8","opspringende hond","antennes als oren","opspringende hond : springend hondje","antennes als oren : hondje",0.257037,0.541078,0.3990575
+"037038","pre","9","steelpan met lepel","koffiekopje met wafel","steelpan met lepel : steelpannetje met lepel","koffiekopje met wafel : steelpan",0.04537,0.376347,0.2108585
+"037038","pre","10","gieter met handvat","pin door kopje","gieter met handvat : balk door lichaam","pin door kopje : staaf en vierkant",0.410869,0.399787,0.405328
+"037038","pre","11","ronde neus hoofd","grote ronde neus","ronde neus hoofd : schuine kegel rondje","grote ronde neus : kegel en balk",0.324043,0.358424,0.3412335
+"037038","pre","12","spijker arm poppetje","vangrail en dienblad","spijker arm poppetje : spijker rails rondje","vangrail en dienblad : spijker in vangrail",0.233751,0.184812,0.2092815
+"037038","pre","13","poppetje met vlechtjes","ketting","poppetje met vlechtjes : twee kralen armpjes","ketting : kraaltjes",0.182627,0.333635,0.258131
+"037038","pre","14","een benig rond hoofdig poppetje","bol persoon","een benig rond hoofdig poppetje : cirkel armpjes balk","bol persoon : mens aan paal",0.258865,0.394379,0.326622
+"037038","pre","15","dj langwerpige neus","pinokkio met ogen","dj langwerpige neus : langwerpige neus handje","pinokkio met ogen : lange neus",0.129892,0.342716,0.236304
+"037038","pre","16","cactus plant met uitsteeksels","kaars met armen","cactus plant met uitsteeksels : cactus met uitsteeksels","kaars met armen : cactus",0.0457891,0.579038,0.31241355
+"039040","pre","1","verrekijker met antenne","vierkant vlak rechts","verrekijker met antenne : twee verrekijkers","vierkant vlak rechts : verrekijkers",0.323605,0.677872,0.5007385
+"039040","pre","2","driehoek bovenop","driehoek bovenop","driehoek bovenop : driehoek bovenop","driehoek bovenop : driehoek bovenop",0,0,0
+"039040","pre","3","stromend waterstraaltje","twist driehoek onderkant","stromend waterstraaltje : twirl","twist driehoek onderkant : driehoekige voet",0.897031,0.251782,0.5744065
+"039040","pre","4","stopcontact rechts","twee rechthoeken rechts","stopcontact rechts : stekker","twee rechthoeken rechts : stekker",0.24302,0.578248,0.410634
+"039040","pre","5","mini glijbaan links","liggende balk bovenop","mini glijbaan links : nikszeggend balkje bovenop","liggende balk bovenop : nietszeggend balk bovenop",0.371127,0.101399,0.236263
+"039040","pre","6","neuspiercing plukje haar","balk door ei","neuspiercing plukje haar : neuspiercing","balk door ei : neuspiercing",0.139122,0.544665,0.3418935
+"039040","pre","7","stoel tafel bakje","trapezium op dienblad","stoel tafel bakje : tafeltje met soepkom","trapezium op dienblad : dienblad",0.104654,0.180806,0.14273
+"039040","pre","8","uitsteeksel beneden rechts","staart onderkant","uitsteeksel beneden rechts : olifantje","staart onderkant : olifant",0.729986,0.429252,0.579619
+"039040","pre","9","omgekeerde druppel ondersteuning","schijf achter bovenkant","omgekeerde druppel ondersteuning : stokje links staartje","schijf achter bovenkant : halve cirkel achterkant",0.404647,0.207795,0.306221
+"039040","pre","10","uitsteeksels met bolletjes uiteinden","handvat links achter","uitsteeksels met bolletjes uiteinden : theekan","handvat links achter : theepot",0.400729,0.526325,0.463527
+"039040","pre","11","bolletjes neus oor haartjes","ei midden rechts","bolletjes neus oor haartjes : neus twee antennes","ei midden rechts : rondje voor",0.197841,0.420058,0.3089495
+"039040","pre","12","spijker rechts plateautje","horizontale schijf rechts","spijker rechts plateautje : plateau met trompet","horizontale schijf rechts : toeter",0.366852,0.496173,0.4315125
+"039040","pre","13","kralenketting horizontaal","staat op rechthoek","kralenketting horizontaal : staartjes","staat op rechthoek : staartjes",0.567823,0.712567,0.640195
+"039040","pre","14","mand eitjes pilaar","staande balk voorkant","mand eitjes pilaar : paal aan voorkant","staande balk voorkant : balk voorkant",0.386011,0.0467513,0.21638115
+"039040","pre","15","links arm slurf","twee cilinders bovenop","links arm slurf : slurf plaat erdoorheen","twee cilinders bovenop : vlak door basisfiguur",0.210304,0.454138,0.332221
+"039040","pre","16","enkele verrekijker","omgekeerde kegel bovenop","enkele verrekijker : een verrekijker","omgekeerde kegel bovenop : kegel boven zijkant",0.137424,0.138188,0.137806
+"041042","pre","1","spion met verrekijker","groot vierkant aangeplakt","spion met verrekijker : spion","groot vierkant aangeplakt : vierkant voor",0.221979,0.21901,0.2204945
+"041042","pre","2","misvormd puntig gezicht","een driehoek boven","misvormd puntig gezicht : vreemde vis","een driehoek boven : afgesneden piramide neus",0.487725,0.279479,0.383602
+"041042","pre","3","juichend persoon","lange poot driehoek","juichend persoon : juichend persoon","lange poot driehoek : driehoek staander beneden",0,0.178298,0.089149
+"041042","pre","4","angry bird vogel","twee balkjes rechts","angry bird vogel : angry bird","twee balkjes rechts : angry bird",0.0569702,0.680266,0.3686181
+"041042","pre","5","stokstijf persoon","klein balkje schuin voor","stokstijf persoon : stokstijf persoon hanekam","klein balkje schuin voor : balkje in hand",0.073782,0.19648,0.135131
+"041042","pre","6","gezicht met neuspiercing","beker gezicht met neusring","gezicht met neuspiercing : neuspiercing","beker gezicht met neusring : neuspiercing",0.17108,0.475968,0.323524
+"041042","pre","7","kruiwagen met bakje","hoog tafeltje","kruiwagen met bakje : kruiwagen","hoog tafeltje : hoge kruiwagen",0.151453,0.376094,0.2637735
+"041042","pre","8","robot op eenwieler","boven dubbel rechthoekig vierkant","robot op eenwieler : robot op eenwieler","boven dubbel rechthoekig vierkant : raampjes op hoofd",0,0.310769,0.1553845
+"041042","pre","9","pinokkio toilet","uitstekende cirkel achter","pinokkio toilet : pinokkio","uitstekende cirkel achter : pinokkio links neus",0.284195,0.391638,0.3379165
+"041042","pre","10","watergieter","gieter zonder handvat","watergieter : gieter","gieter zonder handvat : gieter",0.592081,0.203304,0.3976925
+"041042","pre","11","clown ronde neus","grote ei neus","clown ronde neus : clown ronde neus","grote ei neus : ei neus voor",1.19209e-07,0.0755162,0.0377581596045
+"041042","pre","12","drukpers met plankje","schuine cirkel voor","drukpers met plankje : drukpers met hendel","schuine cirkel voor : lange hendel linksboven",0.102279,0.251833,0.177056
+"041042","pre","13","drilboor met handvaten","platte rond voor","drilboor met handvaten : pippi langkous","platte rond voor : pippi langkous staartjes",0.686202,0.747344,0.716773
+"041042","pre","14","waterpomp met bal","lange balk voor","waterpomp met bal : waterpomp met bal","lange balk voor : open armen",0,0.453009,0.2265045
+"041042","pre","15","stofzuiger door grond","slurf op vierkant","stofzuiger door grond : stofzuiger slurf","slurf op vierkant : slurf op vierkant",0.219411,-2.38419e-07,0.1097053807905
+"041042","pre","16","stuurwiel van schepen","worm en vierkant","stuurwiel van schepen : pier in appel","worm en vierkant : wormpje achterkant pot",0.516616,0.253846,0.385231
+"043044","pre","1","verrekijker","vierkant aan voorkant","verrekijker : verrekijker met paddestoel","vierkant aan voorkant : robot",0.219679,0.648283,0.433981
+"043044","pre","2","feesthoedje","soort kegel bovenkant","feesthoedje : feesthoed met potloodpunt","soort kegel bovenkant : feesthoed met potlood",0.19188,0.345566,0.268723
+"043044","pre","3","tulp op driehoek","vierkant bovenop","tulp op driehoek : tulp op driehoek","vierkant bovenop : tulp",0,0.555745,0.2778725
+"043044","pre","4","f vorm","rechts twee balkjes","f vorm : f vorm","rechts twee balkjes : f",5.96046e-08,0.7115,0.3557500298023
+"043044","pre","5","pinguin","rechthoek op bovenkant","pinguin : pinguin","rechthoek op bovenkant : vogel",-1.19209e-07,0.513332,0.2566659403955
+"043044","pre","6","doorboorde neus","bol met rechthoek","doorboorde neus : doorboorde neus","bol met rechthoek : doorgeboorde neus",1.19209e-07,0.367879,0.1839395596045
+"043044","pre","7","tafel met kom","tafeltje met schaaltje","tafel met kom : tafel met schaaltje","tafeltje met schaaltje : tafel met schaaltje",0.16071,0.0304725,0.09559125
+"043044","pre","8","karate trap","dunne cilinder voorkant","karate trap : karate trap","dunne cilinder voorkant : pinokkio neus",-2.38419e-07,0.442335,0.2211673807905
+"043044","pre","9","beker met citroen schijf","links cilinder","beker met citroen schijf : beker met citroen schijf","links cilinder : citroentje",2.38419e-07,0.639998,0.3199991192095
+"043044","pre","10","armen en rugzak","staaf met bol","armen en rugzak : vliegtuig vleugels rugzak","staaf met bol : vleugels",0.213067,0.434454,0.3237605
+"043044","pre","11","neus en vulpen","alleen bol voorkant","neus en vulpen : vulpen en neus","alleen bol voorkant : neus en pen",0,0.281218,0.140609
+"043044","pre","12","rond dienblad","omgekeerde kleine pion","rond dienblad : omgekeerde pion","omgekeerde kleine pion : omgekeerde pion",0.58976,0.0673131,0.32853655
+"043044","pre","13","gootsteen met ketting","vierkant als ondergrond","gootsteen met ketting : gootsteen met kraaltjes","vierkant als ondergrond : plateau met kraaltjes",0.0875916,0.335784,0.2116878
+"043044","pre","14","armen en ei","bol op bovenkant","armen en ei : armen en ei","bol op bovenkant : ei met armpjes",0,0.304141,0.1520705
+"043044","pre","15","doorgesneden pot","dikke cilinder voorkant","doorgesneden pot : doorboord snijplank slurf","dikke cilinder voorkant : slurf",0.231083,0.293023,0.262053
+"043044","pre","16","propellor","twee ovaalvormige cillinders","propellor : propellor met staart","twee ovaalvormige cillinders : propellor",0.167716,0.410664,0.28919
+"045046","pre","1","antenne en vierkant","vierkante plaat vooraan","antenne en vierkant : antenne vierkant voor","vierkante plaat vooraan : vierkante plaat voor",0.0427353,0.105756,0.07424565
+"045046","pre","2","boven punt driehoek","driehoek bovenop","boven punt driehoek : raar blok driehoeks punt","driehoek bovenop : punt bovenop",0.205287,0.142957,0.174122
+"045046","pre","3","scheve stengel wijnglas","wokkel en blokken","scheve stengel wijnglas : wijnglas","wokkel en blokken : wijnglas",0.219029,0.746769,0.482899
+"045046","pre","4","hoedje twee balkjes","twee blokjes rechts","hoedje twee balkjes : deksel twee uitsteeksels","twee blokjes rechts : identieke blokjes rechts",0.215747,0.0444131,0.13008005
+"045046","pre","5","vleugels vierkant bovenuit","paaltje en blokken","vleugels vierkant bovenuit : spaceship met huisje","paaltje en blokken : ruimteschip en gebouw",0.425349,0.369194,0.3972715
+"045046","pre","6","pilaar door bolletje","heeft een ontstopper","pilaar door bolletje : neuspiercing","heeft een ontstopper : neus met piercing",0.514185,0.355726,0.4349555
+"045046","pre","7","tafel door kopje","hoge tafel","tafel door kopje : tafel met kopje","hoge tafel : tafel met bakje",0.0654347,0.244573,0.15500385
+"045046","pre","8","spijker door vierkant","wasbak met kraan","spijker door vierkant : wasbak doorgeprikt vierkant","wasbak met kraan : wasbak met kraan",0.241749,-2.38419e-07,0.1208743807905
+"045046","pre","9","potlood door kopje","ronde schijf achter","potlood door kopje : potlood cirkel lepel","ronde schijf achter : ronde schijf achter",0.197749,0,0.0988745
+"045046","pre","10","staaf door kopje","springplank achteraan","staaf door kopje : achterklep stangen","springplank achteraan : springplank achter",0.571646,0.0990995,0.33537275
+"045046","pre","11","speer staaf neus","neus en antennes","speer staaf neus : geen piercing hoofd","neus en antennes : neus zonder piercing",0.288668,0.256804,0.272736
+"045046","pre","12","spijker door arm","rond bijzettafeltje","spijker door arm : spijker bijtafel","rond bijzettafeltje : spijker en bijzettafel",0.207514,0.209671,0.2085925
+"045046","pre","13","kopje op platform","staat op vierkant","kopje op platform : plaat circkel sprieten","staat op vierkant : plateau en sprieten",0.576224,0.42741,0.501817
+"045046","pre","14","pilaar bol armpjes","bal bovenop","pilaar bol armpjes : poppetje met balk","bal bovenop : bal bovenop",0.293522,0,0.146761
+"045046","pre","15","platform door kopje","glijbaan en haak","platform door kopje : middel platform glijbaan","glijbaan en haak : glijbaan en haak",0.263116,1.19209e-07,0.1315580596045
+"045046","pre","16","plantenbak vierkante arm","ronde pijp achteruit","plantenbak vierkante arm : vierkanten twee stengels","ronde pijp achteruit : pijp achter",0.30494,0.220371,0.2626555
+"047048","pre","1","groot vierkant voorkant","robot met antenna","groot vierkant voorkant : robot","robot met antenna : robot",0.654503,0.235375,0.444939
+"047048","pre","2","feestmuts en wielen","driehoek op kop","feestmuts en wielen : feestmuts","driehoek op kop : feesthoedje",0.199724,0.370972,0.285348
+"047048","pre","3","draaiend wijnglas","wijnglas","draaiend wijnglas : wijnglas","wijnglas : wijnglas",0.140459,5.96046e-08,0.0702295298023
+"047048","pre","4","eend met uitlaat","is teken rechts","eend met uitlaat : is teken","is teken rechts : flappy bird is",0.525145,0.546507,0.535826
+"047048","pre","5","liggende balk bovenop","neus vormige neus links","liggende balk bovenop : neus met balk","neus vormige neus links : neus met balk",0.160789,0.177694,0.1692415
+"047048","pre","6","staaf door ei","lepel zuignap handvat","staaf door ei : zuignap","lepel zuignap handvat : zuignap",0.513825,0.170768,0.3422965
+"047048","pre","7","halve tafel poten","twee potige tafel","halve tafel poten : bijzet tafel poten","twee potige tafel : tafel twee poten",0.142403,0.183092,0.1627475
+"047048","pre","8","meeste balken uitsteeksels","ruit met handvaten","meeste balken uitsteeksels : kraan","ruit met handvaten : kraan",0.56735,0.432489,0.4999195
+"047048","pre","9","ronde plaat achterkant","pinokkio","ronde plaat achterkant : pinokkio","pinokkio : pinokkio",0.693443,0,0.3467215
+"047048","pre","10","lange korte vlaggenmast","niks aan voorkant","lange korte vlaggenmast : andere lengte uitsteeksels","niks aan voorkant : twee oneven handvaten",0.388244,0.43087,0.409557
+"047048","pre","11","balken voorkant ei","lepel balvormig handvat","balken voorkant ei : theelepel ei neus","lepel balvormig handvat : zuignap zonder zuignap",0.287086,0.332009,0.3095475
+"047048","pre","12","links uitstekende nier","spijker in handvat","links uitstekende nier : spijker bijzettafel","spijker in handvat : spijker bijzettafel",0.568525,0.275625,0.422075
+"047048","pre","13","twee strengen vierkantjes","kop met schotel","twee strengen vierkantjes : drie vierkantjes","kop met schotel : vierkantjes met schotel",0.0691186,0.134462,0.1017903
+"047048","pre","14","lange balk voorkant","bal kom balk","lange balk voorkant : fietsmand","bal kom balk : fietsmand met bal",0.523451,0.288291,0.405871
+"047048","pre","15","olifanten slurf twee schoorstenen","kop door schotel","olifanten slurf twee schoorstenen : slurf vierkant doorheen","kop door schotel : slurf",0.184311,0.456884,0.3205975
+"047048","pre","16","twee dichte parasols","twee deegroller handvaten","twee dichte parasols : deegrollers","twee deegroller handvaten : deegroller en minecraft",0.379566,0.165645,0.2726055
+"049050","pre","1","vierkant ervoor","paddenstoeltje bovenop","vierkant ervoor : paddenstoel vorm bovenop","paddenstoeltje bovenop : paddenstoel",0.372124,0.392251,0.3821875
+"049050","pre","2","puntige driehoek bovenop","puntige driehoek bovenop","puntige driehoek bovenop : scherpe driehoeks punt bovenop","puntige driehoek bovenop : puntig driehoek boven",0.152599,0.135402,0.1440005
+"049050","pre","3","driehoekige gedraaide verhoging","langwerpig kubus driehoek","driehoekige gedraaide verhoging : gedraaide staaf onderaan","langwerpig kubus driehoek : spiraal mannetje",0.195694,0.366505,0.2810995
+"049050","pre","4","twee strepen zijkant","afgevlakte driehoek bovenop","twee strepen zijkant : stompe punt bovenop","afgevlakte driehoek bovenop : vogel",0.263827,0.668168,0.4659975
+"049050","pre","5","horizontale staaf bovenop","balk bovenop compact","horizontale staaf bovenop : horizontale balk bovenop","balk bovenop compact : andere vogel",0.148029,0.589232,0.3686305
+"049050","pre","6","staaf door bolletje","staaf door bolletje","staaf door bolletje : staaf door bolletje","staaf door bolletje : bolletje staaf doorheen",-1.19209e-07,0.0632333,0.0316165903955
+"049050","pre","7","horizontale plank ervoor","tafel twee pootjes","horizontale plank ervoor : horizontale plank ervoor","tafel twee pootjes : tafel twee pootjes",0,0,0
+"049050","pre","8","ruit bovenop","haakjes zijkant onder","ruit bovenop : doorgestoken ruit bovenop","haakjes zijkant onder : diamant bovenkant",0.0982554,0.453886,0.2760707
+"049050","pre","9","halve cirkel achterkant","verborgen cirkel achter","halve cirkel achterkant : half rondje erachter","verborgen cirkel achter : halve cirkel achter",0.338524,0.143452,0.240988
+"049050","pre","10","zeshoekige staaf bolletjes","staaf door kopje","zeshoekige staaf bolletjes : ovaaltjes op staaf uiteinde","staaf door kopje : gieter",0.116368,0.529875,0.3231215
+"049050","pre","11","kegel staaf bovenop","bol aan voorkant","kegel staaf bovenop : volledig balletje voorop","bol aan voorkant : omgekeerde kegel bovenkant",0.399968,0.278003,0.3389855
+"049050","pre","12","horizontale cirkel schijf","rond plateautje zijkant","horizontale cirkel schijf : horizontale ronde schijf","rond plateautje zijkant : horizontaal rond plateau",0.0857174,0.216815,0.1512662
+"049050","pre","13","diamant stengels zijkanten","op plateau staand","diamant stengels zijkanten : diamanten bovenop plaat","op plateau staand : plateau diamantjes",0.284417,0.318917,0.301667
+"049050","pre","14","verticale langwerpige staaf","bol bovenop","verticale langwerpige staaf : verticale balk ervoor","bol bovenop : verticale vierkante staaf",0.265399,0.252926,0.2591625
+"049050","pre","15","halverwege door vierkant","vierkant door midden","halverwege door vierkant : vierkant horizontaal doorheen","vierkant door midden : vierkant dwars midden",0.174929,0.0748609,0.12489495
+"049050","pre","16","groeiend vierkant voorop","afgeronde staaf bovenop","groeiend vierkant voorop : groeiend vierkant zijkant","afgeronde staaf bovenop : twee pluimen",0.126673,0.347421,0.237047
+"051052","pre","1","schoorsteen op kopje","twee vierkante schroeven","schoorsteen op kopje : kopje met schoorsteentje","twee vierkante schroeven : paddestoel twee schroeven",0.132255,0.165926,0.1490905
+"051052","pre","2","punt bovenop kopje","grote driehoek bovenop","punt bovenop kopje : piramidedak en wijnflesje","grote driehoek bovenop : boven piramide wijnfles",0.307711,0.270107,0.288909
+"051052","pre","3","driehoekig pootje","spiraal staart","driehoekig pootje : wijnglas","spiraal staart : wijnglas driehoek statief",0.587979,0.372621,0.4803
+"051052","pre","4","rechts twee balkjes","trapezium bovenop","rechts twee balkjes : kluisdeur met deurklink","trapezium bovenop : deurklink halve driehoek",0.328565,0.29836,0.3134625
+"051052","pre","5","balkje op kopje","horizontale balk bovenop","balkje op kopje : koffie tuitje en rechthoek","horizontale balk bovenop : koffie tuitje horizontale balk",0.241541,0.127962,0.1847515
+"051052","pre","6","houder met zuignap","neuspiercing bolletje","houder met zuignap : beker met zuignap","neuspiercing bolletje : zuignap stokje",0.14224,0.280337,0.2112885
+"051052","pre","7","steun balkjes rondom kopje","rekje met bakje","steun balkjes rondom kopje : kuipje bovenop balk","rekje met bakje : plankje met bakje",0.297558,0.035687,0.1666225
+"051052","pre","8","tuitje onderaan kopje","schroef oren staart","tuitje onderaan kopje : tuitje aan onderkant","schroef oren staart : onderaan tuitje ruit",0.196788,0.256027,0.2264075
+"051052","pre","9","achthoekig handvat links","rondje achter","achthoekig handvat links : ovale onderkant","rondje achter : ovale statief lepel",0.195817,0.464311,0.330064
+"051052","pre","10","lange horizontale staaf","twee ronde schroeven","lange horizontale staaf : lange horizontale cilinder","twee ronde schroeven : twee ongelijke knoppen",0.110067,0.191991,0.151029
+"051052","pre","11","punt staafje in kopje","pen balletje","punt staafje in kopje : twee verschillende roerstaafjes","pen balletje : pen rond balletje",0.385259,0.0537746,0.2195168
+"051052","pre","12","spijker op handvat","spuit in arm","spijker op handvat : spijker en dienblaadje","spuit in arm : dienblad spijker arm",0.164039,0.23104,0.1975395
+"051052","pre","13","ruitjes aan weerszijden","diamanten armen ondergrond","ruitjes aan weerszijden : zes diamantjes ondergrond","diamanten armen ondergrond : diamanten staartjes",0.300539,0.223631,0.262085
+"051052","pre","14","rechthoekige poot rechts","verticale balk voorkant","rechthoekige poot rechts : waterpomp achtig met standaard","verticale balk voorkant : waterpomp",0.364128,0.583841,0.4739845
+"051052","pre","15","vierkant snijdt kopje","plaat als rokje","vierkant snijdt kopje : glijbaan en armpje","plaat als rokje : armpje twee staafjes",0.356081,0.308143,0.332112
+"051052","pre","16","drie verschillende handvaten","vier langwerpige armen","drie verschillende handvaten : drie handvaten","vier langwerpige armen : twee dezelfde armpjes",0.0492547,0.164095,0.10667485
+"053054","pre","1","twee uitdijende kubussen","plat vierkant voorkant","twee uitdijende kubussen : paddenstoel bovenop","plat vierkant voorkant : paddestoel",0.460994,0.514425,0.4877095
+"053054","pre","2","driehoek bovenop","feesthoedje bovenop","driehoek bovenop : driekhoek bovenop","feesthoedje bovenop : driehoek wolkje",0.109279,0.334999,0.222139
+"053054","pre","3","wokkel onderaan","driehoek onderkant","wokkel onderaan : wokkel schroef","driehoek onderkant : schroef",0.216416,0.370934,0.293675
+"053054","pre","4","twee uitstekende rechthoekjes rechts","rechts twee rechthoekjes","twee uitstekende rechthoekjes rechts : afgesneden piramide bovenop","rechts twee rechthoekjes : rechts twee rechthoekjes",0.289646,5.96046e-08,0.1448230298023
+"053054","pre","5","liggende rechthoek bovenop","horizontale staaf bovenop","liggende rechthoek bovenop : lampenkap zijkant","horizontale staaf bovenop : lampenkap",0.348269,0.596976,0.4726225
+"053054","pre","6","mini pluimpje linksboven","staaf door bol","mini pluimpje linksboven : bol staaf erdoorheen","staaf door bol : staaf door bol",0.415866,0,0.207933
+"053054","pre","7","uitstekend tafeltje","vierhoek kubus ondersteboven","uitstekend tafeltje : tafeltje","vierhoek kubus ondersteboven : tafel",0.137975,0.482129,0.310052
+"053054","pre","8","doorgestoken ruit bovenop","twee ruitjes boven","doorgestoken ruit bovenop : ruiten uitstulpende kubussen","twee ruitjes boven : twee ruitjes",0.297989,0.0631474,0.1805682
+"053054","pre","9","gedeeltelijke cirkel achterkant","platte schijf achter","gedeeltelijke cirkel achterkant : keukenmachine","platte schijf achter : keukenmachine",0.738895,0.568879,0.653887
+"053054","pre","10","achterzijde uitstekende klep","bolletjes aan steel","achterzijde uitstekende klep : zout potjes","bolletjes aan steel : zout potjes",0.68698,0.334241,0.5106105
+"053054","pre","11","vier verschillende uitsteeksels","bol drie stekels","vier verschillende uitsteeksels : drie uitsteeksels en bol","bol drie stekels : bol drie stekels",0.0919394,0,0.0459697
+"053054","pre","12","links uitsteeksel omhoog","horizontale schijf rechts","links uitsteeksel omhoog : toef met vierkant bovenop","horizontale schijf rechts : platte schijf",0.371174,0.176339,0.2737565
+"053054","pre","13","platte cirkel voorop","drie bolletjes zijkanten","platte cirkel voorop : zes dingetjes","drie bolletjes zijkanten : zes bolletjes",0.436444,0.0917087,0.26407635
+"053054","pre","14","ovaal bol bovenop","vierhoekige staaf voorkant","ovaal bol bovenop : rechthoek vooraan geplakt","vierhoekige staaf voorkant : rechthoekige staaf verticaal",0.198881,0.123278,0.1610795
+"053054","pre","15","identieke mini staafjes bovenop","groot vierkant doormidden","identieke mini staafjes bovenop : links l vorm","groot vierkant doormidden : l",0.400269,0.600419,0.500344
+"053054","pre","16","uitdijende kubus rechterzijde","twee grote kegels","uitdijende kubus rechterzijde : twee identieke pluimen","twee grote kegels : boven zijkant stekel",0.373081,0.387376,0.3802285
+"055056","pre","1","dun rechtopstaand vierkant","twee armen","dun rechtopstaand vierkant : robotarmen","twee armen : robotarmen spijker",0.540239,0.455636,0.4979375
+"055056","pre","2","piramide bovenop","punthoofd","piramide bovenop : punthoed","punthoofd : punthoofd blok neus",0.476728,0.214766,0.345747
+"055056","pre","3","driehoek helemaal onderaan","ijscoupe","driehoek helemaal onderaan : ijscoupe","ijscoupe : ijscoupe",0.516734,-2.38419e-07,0.2583668807905
+"055056","pre","4","vierkantjes rechterzijkant","gedraaid varkentje","vierkantjes rechterzijkant : varkentje","gedraaid varkentje : varkentje gedraaid",0.515015,0,0.2575075
+"055056","pre","5","brede staaf bovenkant","brievenbus","brede staaf bovenkant : broodrooster","brievenbus : broodrooster",0.612573,0.70563,0.6591015
+"055056","pre","6","zuignap koffielepel schuin","neuspiercing","zuignap koffielepel schuin : zuignap","neuspiercing : spijker neus",0.208205,0.402566,0.3053855
+"055056","pre","7","dienblad bij bovenkant","kopje schapje bakje","dienblad bij bovenkant : dienblad bakblik","kopje schapje bakje : schapje poten bakje",0.191269,0.128785,0.160027
+"055056","pre","8","driehoek met aanhangsel","pinokkio","driehoek met aanhangsel : biscuitje","pinokkio : ruitvormig koekje robotarmen",0.503952,0.605825,0.5548885
+"055056","pre","9","smalle ronde onderkant","koekje in koffie","smalle ronde onderkant : koffiekoekje","koekje in koffie : koekje in koffie",0.463327,0,0.2316635
+"055056","pre","10","lijkt op gieter","fotolijstje honkbalknuppel","lijkt op gieter : gieter","fotolijstje honkbalknuppel : gieter",0.239942,0.480927,0.3604345
+"055056","pre","11","driehoekig uitsteeksel zijkant","kop koffie ei","driehoekig uitsteeksel zijkant : ei voorkant","kop koffie ei : twee lepels ei",0.252586,0.187075,0.2198305
+"055056","pre","12","oorvormig uitsteeksel zijkant","prullenbak bezem","oorvormig uitsteeksel zijkant : oor","prullenbak bezem : oor dienblad",0.384663,0.431808,0.4082355
+"055056","pre","13","vierkante onderzetter","twee staartjes","vierkante onderzetter : spiraal vlechtjes","twee staartjes : vlechtjes ronde neus",0.491499,0.270773,0.381136
+"055056","pre","14","bol bovenop","bal kopje balk","bol bovenop : ei bovenop","bal kopje balk : ei kopje balk",0.169651,0.0853872,0.1275191
+"055056","pre","15","vierkant rond midden","stekker","vierkant rond midden : stekkertje bovenop","stekker : stekker",0.453225,0,0.2266125
+"055056","pre","16","rechtopstaande brede koffielepel","theepot met uitsteeksel","rechtopstaande brede koffielepel : slurf","theepot met uitsteeksel : vier verdeelde uitsteeksels",0.407932,0.345688,0.37681
+"057058","pre","1","twee legoblokken links","verticaal vierkant voorkant","twee legoblokken links : twee legoblokken links","verticaal vierkant voorkant : twee lego's vierkant",1.19209e-07,0.185608,0.0928040596045
+"057058","pre","2","puntige piramide bovenop","driehoek achter kogel","puntige piramide bovenop : piramide bovenop","driehoek achter kogel : pyramide kogel eend",0.0891116,0.21379,0.1514508
+"057058","pre","3","driehoek eronder hangend","gedraaid uitsteeksel onder","driehoek eronder hangend : draaiing naar driehoek","gedraaid uitsteeksel onder : gedraaid uitsteeksel onderaan",0.236148,0.0579929,0.14707045
+"057058","pre","4","afgeplatte conus bovenop","is aan zijkant","afgeplatte conus bovenop : is teken","is aan zijkant : afgekapte pyramide is",0.597096,0.333072,0.465084
+"057058","pre","5","platliggende rechthoek bovenop","lang balkje bovenop","platliggende rechthoek bovenop : platliggend balkje bovenop","lang balkje bovenop : balkje bovenop",0.176516,0.0591012,0.1178086
+"057058","pre","6","rechthoek door bol","staaf door neus","rechthoek door bol : kannibaal met piercing","staaf door neus : kannibaal inboorling piercing",0.479962,0.393713,0.4368375
+"057058","pre","7","bezet plateau rechtsboven","tafeltje omgekeerde pyramide","bezet plateau rechtsboven : plateau met pootjes","tafeltje omgekeerde pyramide : plank tafel pyramide",0.266015,0.129996,0.1980055
+"057058","pre","8","iss achterop boven","verticaal ruit uitsteeksels","iss achterop boven : iss bovenop","verticaal ruit uitsteeksels : spacestation arm onder",0.123889,0.454245,0.289067
+"057058","pre","9","halfronde schijf bovenop","lepel plat rondje","halfronde schijf bovenop : half rondje achterop","lepel plat rondje : rondje achter kwart",0.398189,0.227622,0.3129055
+"057058","pre","10","strandstoel linksboven","zonnepaneel knuppel achter","strandstoel linksboven : honkbalknuppel met strandstoel","zonnepaneel knuppel achter : knuppel strandstoel zonnepaneel",0.248859,0.0999901,0.17442455
+"057058","pre","11","rechthoek rechtop bovenop","bolle neus lepels","rechthoek rechtop bovenop : kannibaal zonder piercing","bolle neus lepels : neus kwast rechthoek",0.471095,0.145739,0.308417
+"057058","pre","12","trompet linksboven","horizontaal rondje zijkant","trompet linksboven : hartje met toeter","horizontaal rondje zijkant : hartjesvorm toeter rondje",0.472057,0.260224,0.3661405
+"057058","pre","13","confetti slinger erachter","drie bolletjes zijkant","confetti slinger erachter : op een plateau","drie bolletjes zijkant : plateau slinger schoteltje",0.456331,0.267349,0.36184
+"057058","pre","14","bol bovenop","bol bovenop","bol bovenop : armpjes met bol","bol bovenop : bol bovenop staaf",0.191348,0.0694126,0.1303803
+"057058","pre","15","vierkant minirokje","horizontaal snijvlak erdoorheen","vierkant minirokje : glijbaan en snijvlak","horizontaal snijvlak erdoorheen : snijvlak glijbaan vierkant",0.350579,0.207693,0.279136
+"057058","pre","16","legoblok rechts","handvaten bovenop zijkant","legoblok rechts : regenpijp links","handvaten bovenop zijkant : lego twee handvaten",0.253135,0.26445,0.2587925
+"061062","pre","1","blokken armpjes vierkant","vierkant blauw rond","blokken armpjes vierkant : blokjes piramides spijker","vierkant blauw rond : spijker piramides plaat",0.195094,0.406706,0.3009
+"061062","pre","2","tent trapezium cirkel","punt hoekig ovaal","tent trapezium cirkel : circustent trapezium koekje","punt hoekig ovaal : circus punt kubus",0.158016,0.322074,0.240045
+"061062","pre","3","taartpunt blok schroef","beker op driehoek","taartpunt blok schroef : trofee","beker op driehoek : trofee voetstuk draai pilaar",0.643652,0.275735,0.4596935
+"061062","pre","4","is tekentje hoedje pinokkio","twee rechthoeken streepje","is tekentje hoedje pinokkio : is tekentje keppeltje","twee rechthoeken streepje : is teken hoedje",0.155945,0.380098,0.2680215
+"061062","pre","5","rechthoek tuit schep","complexe voorkant","rechthoek tuit schep : neus omgedraaid","complexe voorkant : driehoek staafje stokje",0.386817,0.393335,0.390076
+"061062","pre","6","lantaarnpaal ei heft","stokje met rondjes","lantaarnpaal ei heft : piercing","stokje met rondjes : stokje door rondje",0.572556,0.11561,0.344083
+"061062","pre","7","picknickbankje piemeltje trapezium","rechthoekig frame","picknickbankje piemeltje trapezium : parkbankje","rechthoekig frame : bankje pootjes bakje",0.258112,0.411313,0.3347125
+"061062","pre","8","pinokkio ploeg linkerarm","ruiten vierkantjes haak","pinokkio ploeg linkerarm : ruitje blokken piramides","ruiten vierkantjes haak : ruiten piramides staafje",0.495994,0.214225,0.3551095
+"061062","pre","9","pinokkio cirkel heft","hendel schijf","pinokkio cirkel heft : ronde schijf hendeltje","hendel schijf : draaischijf hendel onderstuk",0.438507,0.202318,0.3204125
+"061062","pre","10","gieter vierkant handvat","gieter scherm schuin","gieter vierkant handvat : gieter zonnepaneeltje","gieter scherm schuin : gieter staafjes scherm",0.210526,0.0946527,0.15258935
+"061062","pre","11","vulpen lineaal ei","bak ruit","vulpen lineaal ei : vulpen pennenbakje","bak ruit : pen rondje tijd",0.165268,0.420663,0.2929655
+"061062","pre","12","bleekselderij cirkel spijker","spijker hendel rond","bleekselderij cirkel spijker : bleekselderij spijker","spijker hendel rond : spijker stengel plaatje",0.0589044,0.210517,0.1347107
+"061062","pre","13","platform kralen armpjes","zes rondjes boogje","platform kralen armpjes : drie bolletjes","zes rondjes boogje : drie puntjes zijkant",0.35744,0.221813,0.2896265
+"061062","pre","14","omarming ei pilaar","balletje hangende bak","omarming ei pilaar : knuffelaar ei","balletje hangende bak : hendels balletje staaf",0.281988,0.15245,0.217219
+"061062","pre","15","glijbaan hoek platform","pijp vierkant omringd","glijbaan hoek platform : konijntje","pijp vierkant omringd : pijp vierkante plaat",0.548642,0.191092,0.369867
+"061062","pre","16","negen uur blok","ovaal veel vierkantjes","negen uur blok : negen uur blokjes piramide","ovaal veel vierkantjes : twee hendels piramide",0.159358,0.28052,0.219939
+"063064","pre","1","paddenstoel bovenop","links en vierkant","paddenstoel bovenop : paddestoel groeiende kubussen","links en vierkant : vierkant oplopende kubussen",0.324287,0.262596,0.2934415
+"063064","pre","2","op wielen vlieger","puntig","op wielen vlieger : vlieger","puntig : vlieger",0.187581,0.786975,0.487278
+"063064","pre","3","trofee gedraaid kubusje","uitsteeksel onder","trofee gedraaid kubusje : trofee","uitsteeksel onder : trofee",0.271472,0.722104,0.496788
+"063064","pre","4","varken links gekanteld","links boven rechts","varken links gekanteld : varken","links boven rechts : varken",0.32581,0.660846,0.493328
+"063064","pre","5","vleugeltjes lange rechthoek","compact","vleugeltjes lange rechthoek : kip watertap","compact : kip watertap",0.406243,0.653185,0.529714
+"063064","pre","6","doorgestoken ei","rond rechts","doorgestoken ei : doorgestoken ei lepel","rond rechts : ei cirkel lepel",0.0620177,0.48126,0.27163885
+"063064","pre","7","tafel twee stoelpoten","zwevende poten","tafel twee stoelpoten : tafelpoten staartje","zwevende poten : tafel poten cupje",0.255049,0.285739,0.270394
+"063064","pre","8","pinokkio liggende zandloper","rechts midden onder","pinokkio liggende zandloper : groeiende kubussen armen","rechts midden onder : vierkant kubussen armen",0.339254,0.404851,0.3720525
+"063064","pre","9","drankje citroen lepel","links uitstekend","drankje citroen lepel : lepel citroen","links uitstekend : citroen lepel balk",0.0599763,0.620628,0.34030215
+"063064","pre","10","ijzeren pin erdoorheen","links rechts plat","ijzeren pin erdoorheen : zwaard","links rechts plat : zwaard",0.423841,0.535977,0.479909
+"063064","pre","11","ei omgekeerde kegel","twee uitsteeksels boven","ei omgekeerde kegel : ei kegel","twee uitsteeksels boven : ei omgekeerde kegel",0.0452833,0.334082,0.18968265
+"063064","pre","12","ijspegel cirkel","links hoog uitsteeksel","ijspegel cirkel : ijspegel c","links hoog uitsteeksel : cirkel c ijspegel",0.265103,0.466523,0.365813
+"063064","pre","13","zwembad met trapje","symmetrisch","zwembad met trapje : symmetrisch","symmetrisch : symmetrisch",0.620487,1.19209e-07,0.3102435596045
+"063064","pre","14","lange balk voorkant","langwerpige balk","lange balk voorkant : ei armen balk","langwerpige balk : ei balk armen",0.200264,0.166335,0.1832995
+"063064","pre","15","linkerarm zwevend vierkant","complex","linkerarm zwevend vierkant : glijbaan schoorsteentjes","complex : glijbaan schoorstenen",0.411664,0.597381,0.5045225
+"063064","pre","16","negen uur","vier uitsteeksels","negen uur : negen uur","vier uitsteeksels : negen uur",0,0.470949,0.2354745
+"065066","pre","1","robot ogen vierkant","antenne voorvlak uitsteeksels","robot ogen vierkant : robot","antenne voorvlak uitsteeksels : robot",0.268615,0.677401,0.473008
+"065066","pre","2","hoedje neus oor","punthoedje vierkante blok arm","hoedje neus oor : neus piramide","punthoedje vierkante blok arm : punthoedje dikke neus",0.274083,0.293339,0.283711
+"065066","pre","3","standaard vierkant driehoek","voetsteun blokken kopje","standaard vierkant driehoek : statief beker","voetsteun blokken kopje : statief vierkantje bovenop",0.506431,0.313588,0.4100095
+"065066","pre","4","onderzeeer boot","zitten rug uitsteeksels","onderzeeer boot : duikboot piramide","zitten rug uitsteeksels : onderzeeer autorijden",0.293152,0.607246,0.450199
+"065066","pre","5","bootje vinnen staaf","armen neus hoofddeksel","bootje vinnen staaf : duikboot pinnetje","armen neus hoofddeksel : onderzeeer neus met staafje",0.276737,0.241264,0.2590005
+"065066","pre","6","neus piercing staaf","wc ontstopper vasthouden","neus piercing staaf : neus piercing","wc ontstopper vasthouden : wc ontstopper neuspiercing",0.0631,0.0853661,0.07423305
+"065066","pre","7","tafel pootjes","tafel plateautje schaaltje","tafel pootjes : tafeltje pootjes","tafel plateautje schaaltje : bureautje met pootjes",0.0475059,0.219961,0.13373345
+"065066","pre","8","kraan sateliet","been omhoog vechtsport","kraan sateliet : kraantje","been omhoog vechtsport : kraantje vechtsporter",0.393408,0.493403,0.4434055
+"065066","pre","9","lepel staaf onderkant","voetsteun uitstekende arm","lepel staaf onderkant : lepeltje onderkant citroen","voetsteun uitstekende arm : boogschutter lepeltje armpje",0.166891,0.471085,0.318988
+"065066","pre","10","staaf benen staart","lichaampje op voorgrond","staaf benen staart : deegroller staaf","lichaampje op voorgrond : deegroller",0.268188,0.637578,0.452883
+"065066","pre","11","neus clown","bowling pion antenne bolletjes neus","neus clown : lepeltjes neus arm","bowling pion antenne bolletjes neus : ronde neus lepeltjes",0.213411,0.198582,0.2059965
+"065066","pre","12","plateau draaien","dienblad antenne uitsteeksel","plateau draaien : bankschroef plateau","dienblad antenne uitsteeksel : bankschroef dienblad",0.204774,0.250409,0.2275915
+"065066","pre","13","vierkant oren clown","ondergrond zwembad lijn zwemmen","vierkant oren clown : clown wokkels","ondergrond zwembad lijn zwemmen : zwembad wokkels zwembad lijn",0.236198,0.165877,0.2010375
+"065066","pre","14","hoofd armen neem","armen gespreid paal","hoofd armen neem : knuffel armen staaf","armen gespreid paal : omarm me",0.262467,0.519502,0.3909845
+"065066","pre","15","rokje arm","vierkante buikband","rokje arm : rokje vierkant","vierkante buikband : rokje vierkante buikband",0.144358,0.0838217,0.11408985
+"065066","pre","16","lepel staart armen","meerdere langwerpige uitsteeksels","lepel staart armen : mannetje lepeltje","meerdere langwerpige uitsteeksels : mannetje met uitstekels",0.194138,0.327533,0.2608355
+"067068","pre","1","verrekijkers","torentjes gekarteld zijkant","verrekijkers : verrekijkers","torentjes gekarteld zijkant : verrekijkers antenne vierkant",1.78814e-07,0.421381,0.210690589407
+"067068","pre","2","punthoed","feestmuts puntneus oor","punthoed : punthoed","feestmuts puntneus oor : net aanrakend dingetje",1.19209e-07,0.257381,0.1286905596045
+"067068","pre","3","langwerpig","lang gedraaide standaard","langwerpig : langwerpig","lang gedraaide standaard : lange voorwerp",0,0.352932,0.176466
+"067068","pre","4","vogel","twee balken rechterkant","vogel : vogel","twee balken rechterkant : vogeltje kuif snavel",0,0.508579,0.2542895
+"067068","pre","5","grote neus","balk bovenop horizontaal","grote neus : lego poppetje","balk bovenop horizontaal : balk bovenop staafje",0.589416,0.129506,0.359461
+"067068","pre","6","gootsteenontstopper","neus balk doorheen","gootsteenontstopper : gootsteenontstopper door neus","neus balk doorheen : ontstopper door neus",0.181513,0.282793,0.232153
+"067068","pre","7","hoge plank","vierkant bovenin eromheen","hoge plank : hoge plaat","vierkant bovenin eromheen : vierkant twee pootjes",0.13765,0.182846,0.160248
+"067068","pre","8","grijphaak","puntneus arm been","grijphaak : ruit met grijphaak","puntneus arm been : ruit arm been",0.169141,0.0746607,0.12190085
+"067068","pre","9","pinokkio","lepel halve schijf","pinokkio : pinokkio","lepel halve schijf : pinokkio",0,0.733625,0.3668125
+"067068","pre","10","gestrekte armen","lijkt op gieter","gestrekte armen : armpjes","lijkt op gieter : twee ronde stompjes",0.250902,0.407858,0.32938
+"067068","pre","11","zijkant gezicht","liniaal penseel bal","zijkant gezicht : kegel hoofd","liniaal penseel bal : erop balk kegel",0.285335,0.304763,0.295049
+"067068","pre","12","dienblad","pylon uitstekende arm","dienblad : ober","pylon uitstekende arm : pylon en dienblad",0.528289,0.239367,0.383828
+"067068","pre","13","pippi langkous","op vierkant varkensneus","pippi langkous : pippi langkous","op vierkant varkensneus : pippi langkous varkensneus",5.96046e-08,0.567211,0.2836055298023
+"067068","pre","14","basketbal","bal bovenop liggend","basketbal : basket","bal bovenop liggend : bol armpjes staaf",0.405625,0.255291,0.330458
+"067068","pre","15","danseres","vierkant bijna onderin","danseres : robot danseres","vierkant bijna onderin : robot of ballerina",0.169996,0.519596,0.344796
+"067068","pre","16","speldenkussen","theepot rare handvaten","speldenkussen : speldenkussen","theepot rare handvaten : wc borstels blokkendoos slurfje",0,0.279227,0.1396135
+"069070","pre","1","paddenstoel bovenop","twee groeiende vierkanten","paddenstoel bovenop : torentjes en paddenstoel","twee groeiende vierkanten : twee torentjes paddestoel",0.165341,0.257988,0.2116645
+"069070","pre","2","driehoek bovenop","driehoek bovenop","driehoek bovenop : tent","driehoek bovenop : piramide en kogel",0.690595,0.27558,0.4830875
+"069070","pre","3","vierkant blok bovenop","gedraaide verticale balk","vierkant blok bovenop : driehoek gedraaide balk","gedraaide verticale balk : driehoek gedraaide balk",0.293203,0.0494598,0.1713314
+"069070","pre","4","platte uitsteeksels rechts","uitsteeksel als is","platte uitsteeksels rechts : is teken","uitsteeksel als is : is platte driehoek",0.544974,0.279147,0.4120605
+"069070","pre","5","balk bovenop","horizontale balk bovenop","balk bovenop : de compacte","horizontale balk bovenop : compact balk boven",0.598955,0.136812,0.3678835
+"069070","pre","6","bol met uitsteeksels","balk door bal","bol met uitsteeksels : ding door bol","balk door bal : staaf door bal",0.274001,0.177122,0.2255615
+"069070","pre","7","tafel er doorheen","tafeltje aan zijkant","tafel er doorheen : picknicktafel","tafeltje aan zijkant : picknicktafel",0.439112,0.442094,0.440603
+"069070","pre","8","ruit uitsteeksels bovenop","onder rechts uitsteeksel","ruit uitsteeksels bovenop : ruit met torentjes","onder rechts uitsteeksel : ruit twee torentjes",0.201179,0.420961,0.31107
+"069070","pre","9","uitstekende cilinder links","op afronde balk","uitstekende cilinder links : die lang duurde","op afronde balk : ronde balk onderin",0.59769,0.146374,0.372032
+"069070","pre","10","uitsteeksels met bol","metsel schep aan rand","uitsteeksels met bol : ongelijke uitstekende dingen","metsel schep aan rand : twee ongelijke armen",0.46165,0.459582,0.460616
+"069070","pre","11","bol voorkant","pylon streep bovenuit","bol voorkant : twee verschillende uitsteeksels","pylon streep bovenuit : twee verschillende boven",0.346578,0.406467,0.3765225
+"069070","pre","12","spijker uitsteeksel links","pacman met uitsteeksel","spijker uitsteeksel links : spijker","pacman met uitsteeksel : spijker",0.252546,0.529965,0.3912555
+"069070","pre","13","ligt op plateau","twee rijen bolletjes","ligt op plateau : drie bolletjes","twee rijen bolletjes : drie balletjes zijkant",0.605595,0.155067,0.380331
+"069070","pre","14","balk rechtop voor","balk verticaal voorkant","balk rechtop voor : losstaande balk","balk verticaal voorkant : balk ervoor",0.218973,0.201433,0.210203
+"069070","pre","15","kleine uitsteeksels boven","plateau door midden","kleine uitsteeksels boven : plaat er doorheen","plateau door midden : plaat doorheen",0.367202,0.352168,0.359685
+"069070","pre","16","cactus in pot","groter wordende vierkanten","cactus in pot : plant in pot","groter wordende vierkanten : plant in pot",0.103395,0.560147,0.331771
+"071072","pre","1","bovenstuk van microscoop","mixer","bovenstuk van microscoop : mixer met antenne","mixer : mixer",0.407822,0,0.203911
+"071072","pre","2","hondenkop met feestmuts","feestmuts en toeter","hondenkop met feestmuts : hondenkop met feestmuts","feestmuts en toeter : feestmuts en toeter",0,0,0
+"071072","pre","3","een potige vogel","kampioenschaps beker","een potige vogel : kip","kampioenschaps beker : trofee",0.49001,0.266536,0.378273
+"071072","pre","4","vijf vinnige vis","hoedje en pijp","vijf vinnige vis : vijf vinnige vis","hoedje en pijp : met pijp",5.96046e-08,0.154963,0.0774815298023
+"071072","pre","5","hondenkop met kuif","ober","hondenkop met kuif : hondenkop met kuif","ober : ober",0,-1.19209e-07,-5.96045e-08
+"071072","pre","6","persoon met neuspiercing","mok met lepel","persoon met neuspiercing : man met neuspiercing","mok met lepel : neuspiercing",0.119537,0.62396,0.3717485
+"071072","pre","7","tweepotige mok houder","picknicktafel ervoor","tweepotige mok houder : plateau met pootjes","picknicktafel ervoor : afdak bovenaan",0.367074,0.346905,0.3569895
+"071072","pre","8","dansend schaap","niet automatische handboor","dansend schaap : dansend schaap","niet automatische handboor : dansend schaap",0,0.636417,0.3182085
+"071072","pre","9","urinoir met hendel","kinder ijsbeker pinguin","urinoir met hendel : mok op kano koekje","kinder ijsbeker pinguin : op kano koekje",0.445815,0.381145,0.41348
+"071072","pre","10","korte vlag houder","glijbaan","korte vlag houder : lucifer met mok","glijbaan : lucifer en plank",0.452905,0.620385,0.536645
+"071072","pre","11","beslagkom voor eieren","twee verfkwasten","beslagkom voor eieren : mok met roer spaantjes","twee verfkwasten : verfkwast en spaan",0.202197,0.347594,0.2748955
+"071072","pre","12","houtwerk met spijker","spijker links","houtwerk met spijker : houtwerk met spijker","spijker links : spijker",0,0.176454,0.088227
+"071072","pre","13","complexe halsketting hanger","op platform","complexe halsketting hanger : mok met kraaltjes","op platform : op vierkant plateau",0.262519,0.405892,0.3342055
+"071072","pre","14","olifant met bolhoedje","korf","olifant met bolhoedje : korf voor balsporten","korf : korf",0.42338,0,0.21169
+"071072","pre","15","waterpomp met plateau","lange neus","waterpomp met plateau : waterpomp met plateau","lange neus : vierkant erdoorheen",-1.19209e-07,0.401336,0.2006679403955
+"071072","pre","16","olifantenhoofd met blok aanhangsel","verbaasd poppetje tong","olifantenhoofd met blok aanhangsel : mok met roer handvaten","verbaasd poppetje tong : wcborstel en kubusjes",0.328434,0.350403,0.3394185
+"075076","pre","1","plat vierkant rechterkant","twee blokken stapels links","plat vierkant rechterkant : paddestoel bovenop","twee blokken stapels links : paddestoel bovenop",0.335304,0.401871,0.3685875
+"075076","pre","2","piramide bovenop","grote driehoek boven","piramide bovenop : piramide bovenop","grote driehoek boven : driehoek bovenop",5.96046e-08,0.110234,0.0551170298023
+"075076","pre","3","kubus rechts bovenop","wijnglas met blokken","kubus rechts bovenop : wijnbeker","wijnglas met blokken : wijnglas",0.401915,0.193212,0.2975635
+"075076","pre","4","trapezium bovenop midden","twee plankjes rechts","trapezium bovenop midden : kip","twee plankjes rechts : kip",0.604028,0.59592,0.599974
+"075076","pre","5","horizontale balk bovenop","liggend balkje boven","horizontale balk bovenop : compact","liggend balkje boven : compact",0.649079,0.634316,0.6416975
+"075076","pre","6","bol rechts midden","balkje door ei","bol rechts midden : ei staaf erdoorheen","balkje door ei : balk door ei",0.363693,0.10436,0.2340265
+"075076","pre","7","horizontale plaat middenin","in tafeltje","horizontale plaat middenin : tafel twee pootjes","in tafeltje : in tafeltje",0.286157,5.96046e-08,0.1430785298023
+"075076","pre","8","l vorm onderkant","boogje midden onder","l vorm onderkant : boek twee trappetjes","boogje midden onder : boek met blokken stapels",0.57336,0.454462,0.513911
+"075076","pre","9","halve cirkel linksboven","ronde schijf achterkant","halve cirkel linksboven : halve cirkel bovenop","ronde schijf achterkant : cirkel achter",0.111728,0.348779,0.2302535
+"075076","pre","10","weerskanten staaf bolletjes midden","tegenovergestelde zoutvaatjes zijkant","weerskanten staaf bolletjes midden : twee zoutvaatjes weerskanten","tegenovergestelde zoutvaatjes zijkant : zoutvaatjes",0.144487,0.293807,0.219147
+"075076","pre","11","bowlingkegel links bovenop","zijkant ei driehoek","bowlingkegel links bovenop : ei penseel linksboven","zijkant ei driehoek : ei rechts",0.448287,0.139776,0.2940315
+"075076","pre","12","rond plateau rechterkant","rond plateautje zijkant","rond plateau rechterkant : rond plateau rechts","rond plateautje zijkant : plateautje rechts",0.0485332,0.132399,0.0904661
+"075076","pre","13","plat vierkant onderop","op een vierkant","plat vierkant onderop : spiraaltjes weerskanten","op een vierkant : spiralen zijkant",0.467818,0.364024,0.415921
+"075076","pre","14","verticale balk rechts","ei boven achter","verticale balk rechts : verticale balk","ei boven achter : ei bovenop",0.0389152,0.125739,0.0823271
+"075076","pre","15","plat vierkant onder midden","in vierkant","plat vierkant onder midden : l vorm links","in vierkant : l links",0.355934,0.418206,0.38707
+"075076","pre","16","kegel middenin bovenop","midden boven uitsteeksel","kegel middenin bovenop : trapje twee kegels","midden boven uitsteeksel : trappetje rechts",0.24029,0.276927,0.2586085
+"077078","pre","1","kubusjes vierkant zijkanten","geplakt aan muur","kubusjes vierkant zijkanten : muur plakker spijker kubusjes","geplakt aan muur : paddenstoel groeit erop",0.203955,0.485898,0.3449265
+"077078","pre","2","driehoek bovenop","scherpe punt boven","driehoek bovenop : kogel pyramide","scherpe punt boven : kogel linkerkant",0.375429,0.396924,0.3861765
+"077078","pre","3","driehoekig pootje eronder","robot draaiend omhoog","driehoekig pootje eronder : cocktailglas","robot draaiend omhoog : fancy coctailglas",0.522999,0.459288,0.4911435
+"077078","pre","4","twee rechthoeken rechts","deur van onderzeeer","twee rechthoeken rechts : onderzeeer deur","deur van onderzeeer : deur in onderzeeer",0.445104,0.0613335,0.25321875
+"077078","pre","5","oorbellen en hanenkam","balkje bovenop","oorbellen en hanenkam : uitlaten hanenkam neus staaf","balkje bovenop : twee uitlaten",0.249256,0.530955,0.3901055
+"077078","pre","6","plukje haar neuspiercing","staartje en neuspiercing","plukje haar neuspiercing : neuspiercing plukje","staartje en neuspiercing : plukje en neuspiercing",0.0394439,0.071062,0.05525295
+"077078","pre","7","plank erdoor bovenin","bank met cakevorm","plank erdoor bovenin : bankje cakevorm","bank met cakevorm : bankje met cakeblik",0.322109,0.125291,0.2237
+"077078","pre","8","drie uitstulpsels rechtsonder","doorboord boek achter","drie uitstulpsels rechtsonder : doorboord boek handvaten","doorboord boek achter : boek door pierced achter",0.341854,0.161393,0.2516235
+"077078","pre","9","pannetje deksel lepel","cirkel achter beker","pannetje deksel lepel : steelpannetje lepel deksel","cirkel achter beker : afgerond voetje",0.0190219,0.35538,0.18720095
+"077078","pre","10","gieter met klepje","informatiebordje achter kopje","gieter met klepje : rare gieter","informatiebordje achter kopje : gieter met klepje",0.211106,0.292318,0.251712
+"077078","pre","11","ongelijke oren bovenop","twee lepels","ongelijke oren bovenop : tandenborstel bakje","twee lepels : bakje met tandenborstels",0.465831,0.269999,0.367915
+"077078","pre","12","spijker pacman zijtafel","spijker driekwart cilinder","spijker pacman zijtafel : pacman spijker zij tafeltje","spijker driekwart cilinder : spijker in pacman",0.102157,0.468974,0.2855655
+"077078","pre","13","plank eronder","pippi langkous staartjes","plank eronder : paardenstaartjes plank eronder","pippi langkous staartjes : pippi langkous staartjes",0.0444244,1.19209e-07,0.0222122596045
+"077078","pre","14","bol bovenop","basket met bal","bol bovenop : armpjes rechthoek bolletje","basket met bal : balk voor beker",0.293787,0.318865,0.306326
+"077078","pre","15","plank erdoor onderin","in een platform","plank erdoor onderin : glitch plankje slurf","in een platform : glitch door vierkant",0.285253,0.433701,0.359477
+"077078","pre","16","kubusjes rechter zijkant","stapel dozen rechts","kubusjes rechter zijkant : staartje uitsteeksels kubusjes","stapel dozen rechts : wormpje aan achterkant",0.175858,0.43232,0.304089
+"081082","pre","1","paddestoel vierkant wolkenkrabbers","bril op links","paddestoel vierkant wolkenkrabbers : verrekijker paddestoel vlak","bril op links : links bril vierkant",0.236481,0.121539,0.17901
+"081082","pre","2","piramide wiel champagnefles","piramide achter kopje","piramide wiel champagnefles : piramide champagnefles blok","piramide achter kopje : piramide bovenop",0.0686729,0.181448,0.12506045
+"081082","pre","3","mannetje voetstuk twister","kopje op spiraal","mannetje voetstuk twister : trofee voetstuk spiraal","kopje op spiraal : trofee",0.226229,0.705062,0.4656455
+"081082","pre","4","hoedje uitlaat forklift","twee balkjes rechts","hoedje uitlaat forklift : hoedje uitlaat balken","twee balkjes rechts : hoedje balkjes rechts",0.132872,0.0896932,0.1112826
+"081082","pre","5","balk voetjes driehoek neus","horizontaal balkje bovenop","balk voetjes driehoek neus : balk voetjes voorstuk","horizontaal balkje bovenop : horizontale balk bovenop",0.103668,0.168951,0.1363095
+"081082","pre","6","neuspiercing voetsteun oortje","neusring en staartje","neuspiercing voetsteun oortje : neuspiercing korfbalpaal staartje","neusring en staartje : neuspiercing",0.179777,0.365714,0.2727455
+"081082","pre","7","tafel bakje pootjes","afdakje twee poten","tafel bakje pootjes : tafeltje poten bakje","afdakje twee poten : tafeltje twee poten",0.0363843,0.0610251,0.0487047
+"081082","pre","8","voet ruiten arm","ruit achter kopje","voet ruiten arm : voetje vliegtuig staart neus","ruit achter kopje : vliegtuig achtervleugel ruit",0.267128,0.284504,0.275816
+"081082","pre","9","kegeltje voetstuk cirkel","neus naar links","kegeltje voetstuk cirkel : voetstukje cirkel cilinder","neus naar links : ronde plaat achterkant",0.118636,0.436172,0.277404
+"081082","pre","10","lucifers afdak ondersteuning","knuppel achter kopje","lucifers afdak ondersteuning : lucifers honkbalknuppels afdakje","knuppel achter kopje : horizontale knuppel",0.186745,0.252255,0.2195
+"081082","pre","11","bolle neus oren","bolletje aan voorkant","bolle neus oren : konijntje bol oren","bolletje aan voorkant : konijntje bolletje voor",0.159076,0.264145,0.2116105
+"081082","pre","12","b toeter tafeltje","projectie linksachter beamer","b toeter tafeltje : beamer tafeltje koker","projectie linksachter beamer : beamer projectie",0.251612,0.0914487,0.17153035
+"081082","pre","13","kraantjes oren ruitjes","krul links rechts","kraantjes oren ruitjes : vierkant spiraal oren kraantjes","krul links rechts : krullen links rechts",0.123628,0.072727,0.0981775
+"081082","pre","14","balk bol armen","verticale balk voorkant","balk bol armen : balken knuffelaar bol armen","verticale balk voorkant : balken knuffelaar",0.142809,0.390871,0.26684
+"081082","pre","15","cilinderachtige neus konijnenoren","plaat door midden","cilinderachtige neus konijnenoren : doorgesneden vlak oortjes","plaat door midden : plaat doormidden",0.190073,0.257382,0.2237275
+"081082","pre","16","worm kegels trap","kolom boven linksvoor","worm kegels trap : kegels pijp wolkenkrabber","kolom boven linksvoor : uitlaat twee kegels",0.264114,0.351504,0.307809
+"083084","pre","1","twee staven links","vierkant aan zijkant","twee staven links : tv","vierkant aan zijkant : robot vierkant voor",0.727316,0.274212,0.500764
+"083084","pre","2","halve kegel boven","puntig hoedje boven achterkant","halve kegel boven : tent als neus","puntig hoedje boven achterkant : tent als neus",0.398741,0.295355,0.347048
+"083084","pre","3","beneden staaf driehoek","gedraaide steel onderkant","beneden staaf driehoek : spring poppetje","gedraaide steel onderkant : springen met vierkant",0.400636,0.356195,0.3784155
+"083084","pre","4","twee liggende rechthoeken","twee balkjes rechterkant","twee liggende rechthoeken : twee staven rechts","twee balkjes rechterkant : twee balkjes rechterkant",0.206004,0,0.103002
+"083084","pre","5","liggende rechthoek bovenop","liggende balk bovenkant","liggende rechthoek bovenop : rechthoekige staaf bovenop","liggende balk bovenkant : balkje op hoofd",0.118331,0.293122,0.2057265
+"083084","pre","6","staaf door neus","steel door bol","staaf door neus : staaf door neus","steel door bol : stang door neus",0,0.240955,0.1204775
+"083084","pre","7","tafel bak bovenin","staat aan tafel","tafel bak bovenin : tafel met blok","staat aan tafel : tafeltje met bakje",0.177406,0.316711,0.2470585
+"083084","pre","8","vierkant staaf bovenin","twee hoekige stelen","vierkant staaf bovenin : spekje","twee hoekige stelen : spekje op hoofd",0.451001,0.396713,0.423857
+"083084","pre","9","lepel cirkel bovenin","ronde schijf achterkant","lepel cirkel bovenin : verhoging","ronde schijf achterkant : plateautje",0.575856,0.379675,0.4777655
+"083084","pre","10","staaf links rechts","schuine plank achterkant","staaf links rechts : peper en zout","schuine plank achterkant : peper en zout",0.568918,0.581812,0.575365
+"083084","pre","11","staaf rechthoek bovenin","losse bol voorkant","staaf rechthoek bovenin : sims teken","losse bol voorkant : sims tekentje",0.528114,0.479618,0.503866
+"083084","pre","12","links staaf tafelpoot","rond tafeltje zijkant","links staaf tafelpoot : dienblad en tafelpoot","rond tafeltje zijkant : dienblad als neus",0.171688,0.226796,0.199242
+"083084","pre","13","midden cirkel staven","geblokte stelen zijkanten","midden cirkel staven : drie kralen","geblokte stelen zijkanten : kraaltjes aan zijkanten",0.396402,0.171319,0.2838605
+"083084","pre","14","rechthoek verticaal beneden","bol op bovenkant","rechthoek verticaal beneden : verticale grote staaf","bol op bovenkant : balkje uitstekend beneden",0.21186,0.250269,0.2310645
+"083084","pre","15","plateau horizontaal midden","vierkant om midden","plateau horizontaal midden : rokje","vierkant om midden : rokje",0.630514,0.608489,0.6195015
+"083084","pre","16","staaf boven links","een toren blok zijkant","staaf boven links : blokkendoos als neus","een toren blok zijkant : blokkendoos als neus",0.412955,0.347598,0.3802765
+"087088","pre","1","vierkant voorop","magnemite sataliet","vierkant voorop : vierkant aan voorkant","magnemite sataliet : vierkant vlak armpjes",0.239704,0.433406,0.336555
+"087088","pre","2","driehoek op bovenkant","robotje punthoofd blok neus","driehoek op bovenkant : wiel onderaan","robotje punthoofd blok neus : robotje punthoofd blok neus",0.257591,-1.19209e-07,0.1287954403955
+"087088","pre","3","wijnglas met standaard","vogeldrinkbak fontein","wijnglas met standaard : wijnglas","vogeldrinkbak fontein : fontein wijnglas",0.175547,0.178973,0.17726
+"087088","pre","4","vijf uitsteeksels","is teken staartje hoedje","vijf uitsteeksels : is teken rechts","is teken staartje hoedje : is teken staartje",0.478738,0.0448928,0.2618154
+"087088","pre","5","balk op bovenkant","bel vormige arm","balk op bovenkant : staaf op bovenkant","bel vormige arm : balk bovenop belvormige armpjes",0.166407,0.332723,0.249565
+"087088","pre","6","paal door neus","neus bot erdoorheen","paal door neus : staaf door neus","neus bot erdoorheen : inboorling balk door neus",0.116287,0.245338,0.1808125
+"087088","pre","7","hoofd met bril","picknick tafel","hoofd met bril : picknicktafel","picknick tafel : picknicktafel",0.703433,0.30167,0.5025515
+"087088","pre","8","lange neus","pinokkio neus ruitvormige antenne","lange neus : ruit achterop","pinokkio neus ruitvormige antenne : ruit in achterhoofd",0.39922,0.283584,0.341402
+"087088","pre","9","half rondje bovenkant","draaiknop hendel voetstuk","half rondje bovenkant : smal voetstuk","draaiknop hendel voetstuk : halve uitstekende cirkel",0.331987,0.46534,0.3986635
+"087088","pre","10","twee rondjes","dubbele hendel stuur","twee rondjes : scherm aan achterkant","dubbele hendel stuur : stuur hendels scherm",0.439543,0.131676,0.2856095
+"087088","pre","11","rondje rechtsmidden","blob neus lange veer","rondje rechtsmidden : verf kwastje en staaf","blob neus lange veer : neus kwastje balkje",0.526614,0.222923,0.3747685
+"087088","pre","12","rechts ronde schijf","spijker platformpje rechts","rechts ronde schijf : dienblad rechts","spijker platformpje rechts : dienblad spijker",0.286028,0.236615,0.2613215
+"087088","pre","13","staat op vierkant","draaiknop vlechtjes","staat op vierkant : op vierkanten voetstuk","draaiknop vlechtjes : groot platform",0.167178,0.735008,0.451093
+"087088","pre","14","rondje op bovenkant","balletje balanceren","rondje op bovenkant : rondje bovenop","balletje balanceren : pilaar bal bovenop",0.142542,0.299303,0.2209225
+"087088","pre","15","vierkant om middel","salueren hoelahoep","vierkant om middel : vierkant om middel","salueren hoelahoep : hoelahoep",-1.19209e-07,0.122532,0.0612659403955
+"087088","pre","16","vier lange uitsteeksels","hendel links uitlaatpijp","vier lange uitsteeksels : vier uitsteeksels","hendel links uitlaatpijp : vier uitsteeksels groeiende vierkanten",0.0448171,0.481678,0.26324755
+"089090","pre","1","vierkant gezicht","groot vierkant oor","vierkant gezicht : vierkant op gezicht","groot vierkant oor : robot",0.060863,0.671241,0.366052
+"089090","pre","2","feesthoedje","piramide hoed","feesthoedje : feesthoedje op hoofd","piramide hoed : feesthoed grote snavel",0.197685,0.328526,0.2631055
+"089090","pre","3","been voet","klein kubusje rechtsboven","been voet : been","klein kubusje rechtsboven : flamingo",0.114979,0.62379,0.3693845
+"089090","pre","4","feesthoedje zonder punt","twee oren rechterkant","feesthoedje zonder punt : lijkt op stekker","twee oren rechterkant : stekker",0.276101,0.488497,0.382299
+"089090","pre","5","omgedraaide beker oren","minste uitsteeksels","omgedraaide beker oren : balk op hoofd","minste uitsteeksels : balkje schepje",0.340329,0.589791,0.46506
+"089090","pre","6","neuspiercing","neus staaf erdoor","neuspiercing : neuspiercing","neus staaf erdoor : neuspiercing",1.78814e-07,0.523964,0.261982089407
+"089090","pre","7","picknicktafel op hoofd","omgekeerde halve piramide","picknicktafel op hoofd : picknicktafel op hoofd","omgekeerde halve piramide : picknicktafel",0,0.659142,0.329571
+"089090","pre","8","pinokkio","omgekeerde ram","pinokkio : twee ruiten hoofd","omgekeerde ram : twee ruitjes vierkantjes",0.681816,0.544837,0.6133265
+"089090","pre","9","rondje op achterhoofd","pinokkio halve cirkel","rondje op achterhoofd : links kijkende pinokkio","pinokkio halve cirkel : pinokkio met cirkel",0.40214,0.0913278,0.2467339
+"089090","pre","10","twee verschillende armen","twee uitsteeksels rondjes","twee verschillende armen : twee knots armen","twee uitsteeksels rondjes : lange korte arm",0.144868,0.328892,0.23688
+"089090","pre","11","alleen bolle neus","ronde neus","alleen bolle neus : alleen ronde neus","ronde neus : omgekeerde kegel balk",0.107569,0.412056,0.2598125
+"089090","pre","12","beamer","uitstekend oor linkerkant","beamer : rond dienblad","uitstekend oor linkerkant : dakraam",0.601097,0.625539,0.613318
+"089090","pre","13","diamanten oren","drie kraaltjes oren","diamanten oren : diamanten uit oren","drie kraaltjes oren : diamantjes",0.0587347,0.2352,0.14696735
+"089090","pre","14","verticale neus","bolletje boven hoofd","verticale neus : verticale neus","bolletje boven hoofd : oma olifant knotje",0,0.346079,0.1730395
+"089090","pre","15","slurfje","hoed met pijp","slurfje : slurf en tutu","hoed met pijp : olifant tutu",0.260435,0.420983,0.340709
+"089090","pre","16","twee kegels snavel","uitstekende kubus rechts","twee kegels snavel : omgekeerde snavel","uitstekende kubus rechts : vogel omgekeerde snavel",0.140775,0.406738,0.2737565
+"093094","pre","1","schroef bovenkant vierkant","vierkant voorkant","schroef bovenkant vierkant : schroef in hoofd","vierkant voorkant : schroef bovenop",0.202471,0.313881,0.258176
+"093094","pre","2","puntig hoedje","driehoek bovenop","puntig hoedje : verjaardags hoedje met punt","driehoek bovenop : feesthoedje",0.305227,0.39667,0.3509485
+"093094","pre","3","langste object voet","gedraaide staaf onder","langste object voet : poppetje gekromde benen","gedraaide staaf onder : draaiende balk",0.411858,0.369535,0.3906965
+"093094","pre","4","is teken zijkant","twee strepen rechts","is teken zijkant : half verjaardags hoedje","twee strepen rechts : afgesneden punthoedje",0.470967,0.32625,0.3986085
+"093094","pre","5","compact zonder uitsteeksels","langwerpige balk boven","compact zonder uitsteeksels : balk bovenop hamer","langwerpige balk boven : moeilijke balk boven",0.467896,0.131958,0.299927
+"093094","pre","6","schroef door bolletje","neus met piercing","schroef door bolletje : neuspiercing","neus met piercing : neuspiercing",0.469442,0.324785,0.3971135
+"093094","pre","7","railing zijkant pyramide","soort tafel erom","railing zijkant pyramide : spoiler tafel","soort tafel erom : tafel spoiler",0.342117,0.317304,0.3297105
+"093094","pre","8","lichaam gebogen voet","kromme staaf onder","lichaam gebogen voet : mijn favoriet","kromme staaf onder : ruitje oren bovenop",0.65366,0.412874,0.533267
+"093094","pre","9","langwerpig verhoogd platform","rondje achter","langwerpig verhoogd platform : ronde pilaar cirkel","rondje achter : blok onder",0.387118,0.442387,0.4147525
+"093094","pre","10","armen schuin dak","soort gieter","armen schuin dak : diploma hoedje","soort gieter : gieter afstudeer hoedje",0.488634,0.242103,0.3653685
+"093094","pre","11","rond bolletje zijkant","bolle neus","rond bolletje zijkant : ronde neus voor","bolle neus : bolle neus",0.273254,-2.38419e-07,0.1366268807905
+"093094","pre","12","spijker in arm","rond platform rechts","spijker in arm : spijker arm","rond platform rechts : schroef in arm",0.0584637,0.338929,0.19869635
+"093094","pre","13","object op platform","zes uitstekende bolletjes","object op platform : clown op platform","zes uitstekende bolletjes : clown",0.249735,0.651068,0.4504015
+"093094","pre","14","poppetje balk zijkant","bolletje bovenop","poppetje balk zijkant : mannetje omarmt balk","bolletje bovenop : bol boven",0.2246,0.271743,0.2481715
+"093094","pre","15","twee streepjes bovenkant","lange neus vierkantje","twee streepjes bovenkant : rokjes platform pijp","lange neus vierkantje : vierkant rond midden",0.40271,0.289518,0.346114
+"093094","pre","16","twee ronde jongleer stokken","langwerpige punt boven","twee ronde jongleer stokken : diabolo's","langwerpige punt boven : twee diabolos",0.249801,0.451742,0.3507715
+"097098","pre","1","blokkentoren handvatten links","robot vierkant antenne","blokkentoren handvatten links : twee blokken handvatten links","robot vierkant antenne : vierkant antenne wolkenkrabber uitsteeksels",0.088315,0.149926,0.1191205
+"097098","pre","2","driehoek links bovenop kopje","eclectisch driehoek gradueel","driehoek links bovenop kopje : driehoek linksboven","eclectisch driehoek gradueel : driehoek boven",0.214041,0.347587,0.280814
+"097098","pre","3","vierkant rechtsboven rand","draai blokje driehoekje","vierkant rechtsboven rand : draaikolk onderin driehoek","draai blokje driehoekje : draai driehoekige voet",0.167126,0.284225,0.2256755
+"097098","pre","4","twee staafjes rechts","gelijkheidsteken hendel voetje","twee staafjes rechts : is teken rechts","gelijkheidsteken hendel voetje : twee rechthoeken rechts opzij",0.313681,0.260545,0.287113
+"097098","pre","5","rechthoekige staaf bovenop","sip hangend balkje","rechthoekige staaf bovenop : rechthoekig blok bovenop","sip hangend balkje : sip balkje gleuf",0.122668,0.0868636,0.1047658
+"097098","pre","6","theelepel linksbovenin kopje","eivormig balkje traanvormig","theelepel linksbovenin kopje : theelepel linksboven kopje","eivormig balkje traanvormig : eivormig platte cirkel",0.035625,0.0835523,0.05958865
+"097098","pre","7","plankje twee pootjes","plankje bakje plukje","plankje twee pootjes : plankje poten bakje","plankje bakje plukje : plankje bakje erop",0.0837065,0.0621746,0.07294055
+"097098","pre","8","blokkerige satelliet bovenop","ruitvormig bonenmaler uitsteeksels","blokkerige satelliet bovenop : vierkante satelliet linksboven","ruitvormig bonenmaler uitsteeksels : gebogen tuitje onder",0.209824,0.216467,0.2131455
+"097098","pre","9","lepel rechts boven","verscholen rondje voetje","lepel rechts boven : onderzetter koffielepel rechtsboven","verscholen rondje voetje : voetje platte cirkel",0.252781,0.213533,0.233157
+"097098","pre","10","steun plateau achter kopje","afgerond schuin balk","steun plateau achter kopje : rugsteun ongelijke handvatten","afgerond schuin balk : afgeronde tuitjes weerskanten",0.4068,0.237019,0.3219095
+"097098","pre","11","twee verschillende lepels","eivormig gleuf pijlvormig","twee verschillende lepels : staafdiagram lepel","eivormig gleuf pijlvormig : ei gleuf balkje",0.361489,0.230246,0.2958675
+"097098","pre","12","handvat met tentharing","plateau b vormig uitsteeksel","handvat met tentharing : tentharing linker handvat","plateau b vormig uitsteeksel : rond plateau voor",0.104609,0.344298,0.2244535
+"097098","pre","13","handvaten drie balletjes","bodem golfjes circel","handvaten drie balletjes : handvatten drie bolletjes","bodem golfjes circel : drie ruiten weerszijden",0.0696299,0.351436,0.21053295
+"097098","pre","14","balletje drijft linksboven","rechthoek ei hoek","balletje drijft linksboven : balletje linksbovenin kopje","rechthoek ei hoek : eivormig rechthoek voor",0.212231,0.20042,0.2063255
+"097098","pre","15","gelijke staafjes bovenop","etage hoek cilinder","gelijke staafjes bovenop : gelijke staafjes bovenop","etage hoek cilinder : doorklieven plateau onderaan",0,0.380532,0.190266
+"097098","pre","16","drie lange handvatten","stuur handvatten slurf wolkenkrabber","drie lange handvatten : blokken handvat rechts","stuur handvatten slurf wolkenkrabber : twee dezelfde handvatten",0.353336,0.315947,0.3346415
+"099100","pre","1","verrekijker","schroef op pot","verrekijker : omgekeerd hondje","schroef op pot : hondje ondersteboven",0.502349,0.44681,0.4745795
+"099100","pre","2","driehoek bovenaan","driehoek op pot","driehoek bovenaan : hoedje driehoek","driehoek op pot : driehoek op hoofd",0.189162,0.152999,0.1710805
+"099100","pre","3","lijkt op wijnglas","voetstuk onder pot","lijkt op wijnglas : wijnglas","voetstuk onder pot : wijnglas",0.194868,0.411667,0.3032675
+"099100","pre","4","bevat is teken","zijkant twee balkjes","bevat is teken : is teken","zijkant twee balkjes : is teken",0.118425,0.552653,0.335539
+"099100","pre","5","hanenkam korte mouwen","balkje op pot","hanenkam korte mouwen : espresso apparaat","balkje op pot : espressoapparaat",0.73041,0.604908,0.667659
+"099100","pre","6","rechthoek door neus","schroef door neus","rechthoek door neus : neus met staaf","schroef door neus : spijker door neus",0.183878,0.0957736,0.1398258
+"099100","pre","7","horizontale rechthoek bovenaan","bankje aan pot","horizontale rechthoek bovenaan : bankje tafeltje","bankje aan pot : bankje en duikplank",0.494196,0.200028,0.347112
+"099100","pre","8","een arm en been","hanekam schroef erdoor","een arm en been : helikopter","hanekam schroef erdoor : helikopter op hoofd",0.623207,0.432884,0.5280455
+"099100","pre","9","theepot deksel linksachter","opzetstuk onder pot","theepot deksel linksachter : theekopje met deksel","opzetstuk onder pot : theekopje een staafje",0.133047,0.277619,0.205333
+"099100","pre","10","vierkant bovenstuk paardenstaart","knuppel achter pot","vierkant bovenstuk paardenstaart : ongelijke armen","knuppel achter pot : knuppel achter pot",0.378239,0,0.1891195
+"099100","pre","11","liniaal in pennenbak","twee grotere roerstaafjes","liniaal in pennenbak : theemok twee lepeltjes","twee grotere roerstaafjes : theekopje",0.332333,0.428993,0.380663
+"099100","pre","12","rondvormig dienblad vasthouden","spijker in oor","rondvormig dienblad vasthouden : dienblad en spijker","spijker in oor : dienblad en spijker",0.142055,0.196463,0.169259
+"099100","pre","13","pippi langkous vlechten","plaat onder pot","pippi langkous vlechten : pippi langkous","plaat onder pot : pippi langkous",0.0525624,0.715777,0.3841697
+"099100","pre","14","een bol bovenaan","balletje op pot","een bol bovenaan : bol bovenaan","balletje op pot : balletje op pot",0.0521977,-1.19209e-07,0.0260987903955
+"099100","pre","15","vierkante tutu","plaat over pot","vierkante tutu : tutu","plaat over pot : ballerina",0.230935,0.663585,0.44726
+"099100","pre","16","wortelvormige neus haar","twee verschillende oren","wortelvormige neus haar : uitsteeksels legoblokjes slurf","twee verschillende oren : vier uitsteeksels",0.263957,0.233216,0.2485865
+"101102","pre","1","satelliet met antenne","kleine robot","satelliet met antenne : robot met antenne","kleine robot : robot",0.144993,0.144448,0.1447205
+"101102","pre","2","piramide bovenop","tovenaars hoedje","piramide bovenop : tovenaar vierkante neus","tovenaars hoedje : misvormde tovenaar",0.317854,0.240662,0.279258
+"101102","pre","3","gedraaid uitsteeksel onderkant","wijnglas","gedraaid uitsteeksel onderkant : wijnglas gedraaide poot","wijnglas : wijnglas",0.296839,5.96046e-08,0.1484195298023
+"101102","pre","4","is teken en minteken","heuveltje bovenop","is teken en minteken : is teken en minteken","heuveltje bovenop : min is teken",5.96046e-08,0.535526,0.2677630298023
+"101102","pre","5","vinnen beiderzijds","weinig uitstulpingen","vinnen beiderzijds : haaienvin met balk","weinig uitstulpingen : balk bovenop",0.519421,0.485493,0.502457
+"101102","pre","6","balletje op stokje","neuspiercing","balletje op stokje : poppetje met neuspiercing","neuspiercing : neuspiercing",0.247621,1.78814e-07,0.123810589407
+"101102","pre","7","tafel met bakje","uitklaptafeltje","tafel met bakje : tafeltje met bakje","uitklaptafeltje : tafel met kom",0.0326717,0.301381,0.16702635
+"101102","pre","8","satelliet vormig uitsteeksel bovenop","gespiest vierkant","satelliet vormig uitsteeksel bovenop : satelliet en staart","gespiest vierkant : satteliet bovenop",0.189689,0.479123,0.334406
+"101102","pre","9","mok lepel koekje","verborgen cirkel","mok lepel koekje : kopje lepeltje rondje","verborgen cirkel : verstopte cirkel",0.257442,0.196528,0.226985
+"101102","pre","10","gieter met dakje","armpjes met bolletjes","gieter met dakje : gieter met handvat","armpjes met bolletjes : gieter",0.130696,0.411671,0.2711835
+"101102","pre","11","kegel rechthoek bovenin","pluim op hoofd","kegel rechthoek bovenin : strip en zandloper uitsteeksel","pluim op hoofd : uitgerekte driehoek",0.29783,0.462483,0.3801565
+"101102","pre","12","kegel uit pacman uitsteeksel","bleekselderij","kegel uit pacman uitsteeksel : plateau en selderij","bleekselderij : bleekselderij links",0.405136,0.116551,0.2608435
+"101102","pre","13","kralensnoer op plateau","meisje met staartjes","kralensnoer op plateau : meisje met vlechten","meisje met staartjes : meisje met vlechten",0.439989,0.0978895,0.26893925
+"101102","pre","14","armen en hoofd","man naast paal","armen en hoofd : mannetje met paal","man naast paal : dikke man",0.309916,0.201812,0.255864
+"101102","pre","15","glijbaan op plateau","mannetje dat zwaait","glijbaan op plateau : zwaaiend met rokje","mannetje dat zwaait : zwaaiende ballerina",0.434873,0.409333,0.422103
+"101102","pre","16","uitgerekte kubus rechts","loodrechte dildos","uitgerekte kubus rechts : twee verschillende lepels","loodrechte dildos : twee lepels",0.370252,0.487493,0.4288725
+"103104","pre","1","verrekijker met walkie-talkie antenne","vastgeplakt vierkant zijkant","verrekijker met walkie-talkie antenne : verrekijker","vastgeplakt vierkant zijkant : verrekijker met vierkant",0.209187,0.292128,0.2506575
+"103104","pre","2","verjaardags hoedje op wieltjes","driehoek bovenop","verjaardags hoedje op wieltjes : piramide twee wieltjes","driehoek bovenop : driehoek op bovenkant",0.274014,0.135881,0.2049475
+"103104","pre","3","sierlijk gedraaide voet","staand gedraaide staaf","sierlijk gedraaide voet : gedraaide voet","staand gedraaide staaf : gedraaide voet",0.0611781,0.234834,0.14800605
+"103104","pre","4","split in oorlel","rechterkant twee rechthoekjes","split in oorlel : afgeplat trapezium bovenop","rechterkant twee rechthoekjes : afgestompte driehoek",0.416566,0.29193,0.354248
+"103104","pre","5","pinguin met hanenkam","compact drie uitsteeksels","pinguin met hanenkam : pinguin","compact drie uitsteeksels : pinguin",0.220156,0.625491,0.4228235
+"103104","pre","6","assymetrische dikke neus piercing","doorboorde bolle neus","assymetrische dikke neus piercing : neuspiercing","doorboorde bolle neus : neuspiercing",0.329347,0.489066,0.4092065
+"103104","pre","7","platte bril","plankje met beugels","platte bril : bril plankje","plankje met beugels : plankje en bril",0.143367,0.157219,0.150293
+"103104","pre","8","benige","doorboorde ruit bovenop","benige : gespiest ruit op voet","doorboorde ruit bovenop : gespiest ruit",0.499225,0.149187,0.324206
+"103104","pre","9","pinokkio op richel","ronde plaat achterkant","pinokkio op richel : schijf achter op richel","ronde plaat achterkant : richel",0.182709,0.341344,0.2620265
+"103104","pre","10","gespiest schuin afdakje","staaf ronde uiteinden","gespiest schuin afdakje : bolletjes spies plat dak","staaf ronde uiteinden : ronde bollen spies",0.174906,0.212071,0.1934885
+"103104","pre","11","dikke bolle neus","ronde bolle neus","dikke bolle neus : twee stokjes complex","ronde bolle neus : ronde neus sprieten",0.500809,0.0807269,0.29076795
+"103104","pre","12","ober met neus toeter","linkerkant puntige spijker","ober met neus toeter : ober met spijker","linkerkant puntige spijker : ober met spijker",0.113002,0.306805,0.2099035
+"103104","pre","13","symmetrisch met onderplaat","staat op viekant","symmetrisch met onderplaat : twee sprietjes op vierkant","staat op viekant : staand op vierkant",0.216078,0.327678,0.271878
+"103104","pre","14","gekruisigd aan paal","rechthoekige staaf zijkant","gekruisigd aan paal : knuffelende gekruisigde jezus","rechthoekige staaf zijkant : jezus",0.268275,0.730141,0.499208
+"103104","pre","15","zwemmen met gebalde vuist","omsluitende viekante band","zwemmen met gebalde vuist : vierkant rokje","omsluitende viekante band : vierkant rokje",0.417851,0.378796,0.3983235
+"103104","pre","16","whatever pinokkio punt haar","twee omgedraaide kegels","whatever pinokkio punt haar : twee kegels verrekijker","twee omgedraaide kegels : twee kegels",0.542539,0.0655232,0.3040311
+"105106","pre","1","twee armen controller","vierkant paddenstoel twee","twee armen controller : paddestoel vierkant kubus","vierkant paddenstoel twee : paddenstoel vierkant kubussen",0.54352,0.0837144,0.3136172
+"105106","pre","2","driehoek hoofd","driehoek kegel trapezium","driehoek hoofd : driehoek trapeze cirkel","driehoek kegel trapezium : driehoek trapezium",0.187831,0.0497973,0.11881415
+"105106","pre","3","standbeeld op pilaar","kubus draai driehoek","standbeeld op pilaar : wijnglas taartpunt vierkant","kubus draai driehoek : wijnglas draai kubus",0.445284,0.158694,0.301989
+"105106","pre","4","trapeze twee balkjes","is pijl trapezium","trapeze twee balkjes : is teken trapeze","is pijl trapezium : is trapezium pijl",0.273187,-1.19209e-07,0.1365934403955
+"105106","pre","5","notitie maken rechts","compact balk staafje","notitie maken rechts : goudstaaf kap","compact balk staafje : compact goudstaaf kap",0.545728,0.222017,0.3838725
+"105106","pre","6","wc ontstopper met rondje","bol balk erdoorheen","wc ontstopper met rondje : wc-ontstopper cirkel staaf","bol balk erdoorheen : ei staaf cirkel",0.43055,0.241062,0.335806
+"105106","pre","7","dienblad eetbak","plank tuitje uitsteeksels","dienblad eetbak : dienblad bakje","plank tuitje uitsteeksels : dienblad pootjes trapezium",0.0734602,0.202892,0.1381761
+"105106","pre","8","zeepaard staart oren","complex vierkanten staven","zeepaard staart oren : zeepaardje ruit kubus","complex vierkanten staven : zeepaardje ruit staven",0.330159,0.241836,0.2859975
+"105106","pre","9","pollepel staaf rond","cirkel onderkant lepel","pollepel staaf rond : plateau cirkel achter","cirkel onderkant lepel : onderstel cirkel lepel",0.29212,0.0882542,0.1901871
+"105106","pre","10","balk door midden","v","balk door midden : kanon staafjes ei","v : kanon eieren staaf",0.49484,0.866939,0.6808895
+"105106","pre","11","kom lepel bolletje","ei lepel driehoek","kom lepel bolletje : cirkel lepel staafjes","ei lepel driehoek : ei lepel rechthoek",0.155512,0.0387905,0.09715125
+"105106","pre","12","schroef balk dienblad","spijker cirkel b","schroef balk dienblad : spijker cirkel","spijker cirkel b : spijker b cirkel",0.227552,0,0.113776
+"105106","pre","13","vlechten spiegel platteau","cirkel dna ondergrond","vlechten spiegel platteau : dna cirkel vierkant","cirkel dna ondergrond : dna cirkel onderstuk",0.437968,0.107764,0.272866
+"105106","pre","14","zijkant lange balk","balk bol stang","zijkant lange balk : ei staaf balk","balk bol stang : ei balk staaf",0.2395,0.155825,0.1976625
+"105106","pre","15","vierkant rondom slurf","plateau buis hoek","vierkant rondom slurf : zeven slurf vierkant","plateau buis hoek : plateau slurf zeven",0.087515,0.250825,0.16917
+"105106","pre","16","staart armen antenne","kegels kubussen","staart armen antenne : kubus staafjes slurf","kegels kubussen : kubussen lepels staaf",0.251388,0.170138,0.210763
+"107108","pre","1","vierkant plateau rechts","verrekijker op hoofd","vierkant plateau rechts : robot verrekijker","verrekijker op hoofd : robot verrekijker",0.58427,0.238845,0.4115575
+"107108","pre","2","piramide bovenop","bak met feesthoedje","piramide bovenop : driehoek muts","bak met feesthoedje : punthoedje",0.428667,0.272884,0.3507755
+"107108","pre","3","gedraaide balk onderaan","zwaaiend en dansend","gedraaide balk onderaan : juichen omgekeerde hond","zwaaiend en dansend : juichende omgekeerde hond",0.499663,0.231767,0.365715
+"107108","pre","4","twee balkjes rechts","koffiezetapparaat","twee balkjes rechts : twitter vogeltje","koffiezetapparaat : twitter icoontje",0.531145,0.690045,0.610595
+"107108","pre","5","vierkant balkje bovenop","strak gezicht","vierkant balkje bovenop : gezicht twee oren","strak gezicht : gezicht met oren",0.377707,0.174915,0.276311
+"107108","pre","6","voorkant rondje balk","honden botje in bek","voorkant rondje balk : neuspiercing","honden botje in bek : neuspiercing",0.518801,0.467513,0.493157
+"107108","pre","7","rechts balk driehoek","keuken plankje met bakken houder","rechts balk driehoek : pan doorheen gezakt","keuken plankje met bakken houder : plank met pan",0.520551,0.174396,0.3474735
+"107108","pre","8","bovenaan vierkant staaf","twee staart danseres","bovenaan vierkant staaf : dansende poppetje","twee staart danseres : dansende poppetje",0.406132,0.307682,0.356907
+"107108","pre","9","achterkant cirkelvormig plateau","pinokkio met haarplukje","achterkant cirkelvormig plateau : cocktail pinokkio","pinokkio met haarplukje : pinokkio cocktail",0.671849,0.187629,0.429739
+"107108","pre","10","uitstekende balken rondje","honkbal uitrusting","uitstekende balken rondje : honkballer","honkbal uitrusting : honkbal uitrusting",0.788353,0,0.3941765
+"107108","pre","11","voorkant rechts rondje","bowl pion op hoofd","voorkant rechts rondje : bowlen pion","bowl pion op hoofd : bowling pion",0.469261,0.206704,0.3379825
+"107108","pre","12","links grote spijker","dienblad vasthouden","links grote spijker : spijker","dienblad vasthouden : spijker",0.235274,0.514766,0.37502
+"107108","pre","13","vierkante onderzetter","chips bak met slingers","vierkante onderzetter : plateau feestslingers","chips bak met slingers : tafel met slingers",0.32511,0.142299,0.2337045
+"107108","pre","14","vooraan lange balk","bol.com mannetje","vooraan lange balk : bol.com man","bol.com mannetje : bol.com poppetje",0.733639,0.167932,0.4507855
+"107108","pre","15","vierkant midden omheen","fabriek met buizen","vierkant midden omheen : meisjesrok fabriek","fabriek met buizen : fabriek meisje",0.634271,0.290984,0.4626275
+"107108","pre","16","twee ovalen staven","achteraanzicht kop miereneter","twee ovalen staven : miereneter","achteraanzicht kop miereneter : miereneter",0.603812,0.265658,0.434735
+"109110","pre","1","spijker op mok","vierkante ogen","spijker op mok : normale spijker","vierkante ogen : echte spijker",0.254368,0.455749,0.3550585
+"109110","pre","2","piramide bovenop","punthoofd","piramide bovenop : piramide","punthoofd : punthoofd kogel",0.129885,0.210416,0.1701505
+"109110","pre","3","gedraaide pilaar","hoge toren","gedraaide pilaar : struisvogel","hoge toren : wijnglas",0.602207,0.644258,0.6232325
+"109110","pre","4","flappy bird","gelijk aan teken","flappy bird : flappy bird","gelijk aan teken : flappy bird",-1.19209e-07,0.764051,0.3820254403955
+"109110","pre","5","dun cilindertje ernaast","raket vierkante top","dun cilindertje ernaast : balk","raket vierkante top : raket balk hoofd",0.533801,0.345058,0.4394295
+"109110","pre","6","spijker door bol","eivormige neus piercing","spijker door bol : indiaan met piercing","eivormige neus piercing : indiaan met piercing",0.388151,0.246866,0.3175085
+"109110","pre","7","twee potig platform","tafel twee poten","twee potig platform : tafel","tafel twee poten : tafel",0.477694,0.160949,0.3193215
+"109110","pre","8","negentig graden opzetstuk","vierkante spijker oren","negentig graden opzetstuk : doorboord boek","vierkante spijker oren : doorboord boek",0.555264,0.360645,0.4579545
+"109110","pre","9","doorboord glas ijsthee","chocomelk met wafel","doorboord glas ijsthee : ijsthee","chocomelk met wafel : ijsthee",0.224977,0.299632,0.2623045
+"109110","pre","10","ronde horizontale paal","zijwaartse peper zout","ronde horizontale paal : zout en peper","zijwaartse peper zout : peper en zout",0.598048,0.0730036,0.3355258
+"109110","pre","11","bol en uisteeksels","ei neus kegel antenne","bol en uisteeksels : indiaan zonder piercing","ei neus kegel antenne : indiaan met vulpen",0.437335,0.427206,0.4322705
+"109110","pre","12","dolk in balk","spijker in arm","dolk in balk : pacman","spijker in arm : pacman en vergrootglas",0.733743,0.524162,0.6289525
+"109110","pre","13","wokkel oren","beker op tafel","wokkel oren : wokkels","beker op tafel : wokkel oren",0.447597,0.427552,0.4375745
+"109110","pre","14","rechte verticale paal","eihoofd dunne armen","rechte verticale paal : breed","eihoofd dunne armen : macho",0.566114,0.620641,0.5933775
+"109110","pre","15","henry stofzuiger","vierkante dwarslaesie","henry stofzuiger : glijbaan fabriek","vierkante dwarslaesie : fabriek",0.432031,0.771909,0.60197
+"109110","pre","16","vier uitsteeksels","antenne drie armen","vier uitsteeksels : de moeilijke","antenne drie armen : robot moeilijk",0.556353,0.523998,0.5401755
+"113114","pre","1","vierkant vlak","blok achtige uitsteeksels links","vierkant vlak : wolkenkrabbers aan kopje","blok achtige uitsteeksels links : wolkenkrabber ogen plat vierkant",0.386901,0.329184,0.3580425
+"113114","pre","2","driehoek","grote driehoek bovenin","driehoek : soort tentvorm","grote driehoek bovenin : lowlands tentje klein aanhangsel",0.594078,0.417299,0.5056885
+"113114","pre","3","schroefvorm op driehoek","gedraaide steel onder","schroefvorm op driehoek : soort cocktailglas","gedraaide steel onder : cocktailglas",0.502301,0.48394,0.4931205
+"113114","pre","4","is teken","twee rechtse uitsteeksels","is teken : soort is teken","twee rechtse uitsteeksels : is teken",0.0908831,0.543683,0.31728305
+"113114","pre","5","soort masker","rechthoekje op kopje","soort masker : robot of uiltje","rechthoekje op kopje : robot uiltje",0.40117,0.495211,0.4481905
+"113114","pre","6","bol en schijfje","stang door bolletje","bol en schijfje : bolletje met stang","stang door bolletje : stang door bolletje",0.250448,-1.19209e-07,0.1252239403955
+"113114","pre","7","soort zwevend bankje","soort picknicktafel voorkant","soort zwevend bankje : soort zwevend bankje","soort picknicktafel voorkant : bankje bakje bovenop",5.96046e-08,0.254043,0.1270215298023
+"113114","pre","8","grootste object","ruit met armen","grootste object : wafelvorm bovenop","ruit met armen : wafels boven",0.610502,0.501732,0.556117
+"113114","pre","9","kom op verhoging","geribbeld uitsteeksel links","kom op verhoging : kop afgeronde balk","geribbeld uitsteeksel links : lepel platte schijf",0.474148,0.354513,0.4143305
+"113114","pre","10","tafel in kom","afgeronde uitsteeksels beiderzijds","tafel in kom : tafeltje in mok","afgeronde uitsteeksels beiderzijds : stompe armpjes tafeltje",0.235129,0.286636,0.2608825
+"113114","pre","11","penseel in kom","rechthoek uit kop","penseel in kom : penseel vorm","rechthoek uit kop : penseel bol driehoekig aanhangsel",0.210898,0.273125,0.2420115
+"113114","pre","12","soort serveerschaal","ribbel achtige en schijf uitsteeksel","soort serveerschaal : ronde platte schijf","ribbel achtige en schijf uitsteeksel : verkeers koontje platte schijf",0.397665,0.196477,0.297071
+"113114","pre","13","kleine kubusjes","vierkante plaat onderin","kleine kubusjes : vierkant met fonteintjes","vierkante plaat onderin : fontein plat vierkanten bodem",0.340427,0.180522,0.2604745
+"113114","pre","14","lange smalle balk","bolletje boven","lange smalle balk : uitstekende lange balk","bolletje boven : kopje hoger balk",0.111535,0.264251,0.187893
+"113114","pre","15","ronde balk","vierkant dwars doorheen","ronde balk : ronde lange balk","vierkant dwars doorheen : rokje armpje oogjes",0.0536789,0.442545,0.24811195
+"113114","pre","16","meerdere ronde handvaten","haakse bowlingpin achtige uitsteeksels","meerdere ronde handvaten : kegelvormen negentig graden","haakse bowlingpin achtige uitsteeksels : negentig graden kegels",0.530986,0.386865,0.4589255
+"119120","pre","1","robot antenne vierkant","verrekijker en antenne","robot antenne vierkant : robot spijker plaat","verrekijker en antenne : verrekijker",0.240461,0.161704,0.2010825
+"119120","pre","2","geometrisch hoedje","spitse driehoek bovenop","geometrisch hoedje : hoedje kogel","spitse driehoek bovenop : spitse driehoek bovenop",0.307431,0,0.1537155
+"119120","pre","3","draaien","spiraal op driehoek","draaien : draaiende voet","spiraal op driehoek : spiraal driehoekige voet",0.332737,0.170476,0.2516065
+"119120","pre","4","usbs staart hoedje","twee streepjes rechts","usbs staart hoedje : usbs staart papieren boot","twee streepjes rechts : usb-sticks",0.156889,0.682025,0.419457
+"119120","pre","5","symmetrisch waterafvoer raket boosters","driehoekige neus rechts","symmetrisch waterafvoer raket boosters : oorbellen balk","driehoekige neus rechts : lage oorbellen",0.547188,0.448376,0.497782
+"119120","pre","6","plantenbak citroen stamper plukje","bol voorkant doorboord","plantenbak citroen stamper plukje : ijsthee stamper","bol voorkant doorboord : ijsthee stamper",0.153509,0.560632,0.3570705
+"119120","pre","7","tafel","tafel met blokje","tafel : tafel","tafel met blokje : tafeltje",-1.19209e-07,0.25784,0.1289199403955
+"119120","pre","8","ninjaster als dumbbell","ruit bovenkant doorboord","ninjaster als dumbbell : dumbbell ruit","ruit bovenkant doorboord : doorboorde ruit bovenop",0.144738,0.115406,0.130072
+"119120","pre","9","pot still oude camera","pinokkio neus links","pot still oude camera : oude camera pinokkio","pinokkio neus links : pinokkio",0.231091,0.282812,0.2569515
+"119120","pre","10","draai emmer paneel","doorborende zeshoekige armen","draai emmer paneel : armen paneel draai emmer","doorborende zeshoekige armen : zeshoekige armen",0.0395547,0.0276248,0.03358975
+"119120","pre","11","puntig rond geometrisch","clownsneus driehoekig oor","puntig rond geometrisch : ijsthee prikker zonder ijsthee prikker","clownsneus driehoekig oor : neus zonder stamper",0.620548,0.25647,0.438509
+"119120","pre","12","kaneelstokje helicopterplatform batman signaal","toeter op arm","kaneelstokje helicopterplatform batman signaal : batmanlogo kaneelstokje helicopterplatform","toeter op arm : batman",0.1194,0.642296,0.380848
+"119120","pre","13","symmetrisch natuurlijk breed","stoom uit oren","symmetrisch natuurlijk breed : spiralen schotel octopus arm","stoom uit oren : stoomwolkjes uit oren",0.369834,0.101882,0.235858
+"119120","pre","14","armen plank","twee ronde armen","armen plank : dunne armen","twee ronde armen : knuffelende dunne armen",0.182441,0.216237,0.199339
+"119120","pre","15","plat doorgezakt semi symmetrisch","twee streepjes boven","plat doorgezakt semi symmetrisch : boot slang l","twee streepjes boven : stoomboot met l",0.416263,0.457242,0.4367525
+"119120","pre","16","deegrol handels oude usb","vier kubussen voorkant","deegrol handels oude usb : deegrollen","vier kubussen voorkant : deegroller",0.291854,0.563273,0.4275635
+"121122","pre","1","blokkige verrekijker","joystick bovenop","blokkige verrekijker : verrekijker vierkant","joystick bovenop : gamer",0.141668,0.560369,0.3510185
+"121122","pre","2","grote piramide bovenop","piramide bovenop","grote piramide bovenop : piramide bovenop","piramide bovenop : piramide bovenop",0.0453694,5.96046e-08,0.0226847298023
+"121122","pre","3","gedraaide steunpoot","trofee","gedraaide steunpoot : dna spiraal driehoek blok","trofee : dna streng",0.462548,0.807619,0.6350835
+"121122","pre","4","twee rechts uitstekende blokken","is teken zijkant","twee rechts uitstekende blokken : afgevlakte piramide bovenop","is teken zijkant : is teken zijkant",0.328533,0,0.1642665
+"121122","pre","5","horizontaal rechthoek blok bovenop","houdt potlood vast","horizontaal rechthoek blok bovenop : vierkante balk bovenop","houdt potlood vast : potloodje",0.225712,0.339487,0.2825995
+"121122","pre","6","neus met paal","kopje aan zuignap","neus met paal : neus plus ring","kopje aan zuignap : inboorling",0.268477,0.708893,0.488685
+"121122","pre","7","bumper driekwart hoogte","bankje","bumper driekwart hoogte : bumper piramide omgedraaid","bankje : bankje of bumper",0.263998,0.216019,0.2400085
+"121122","pre","8","verticaal vierkanten boven","twee kromme pootjes","verticaal vierkanten boven : sik","twee kromme pootjes : sikje",0.663577,0.360177,0.511877
+"121122","pre","9","cirkel achter hoofd","lijkt op steelpan","cirkel achter hoofd : op plateau","lijkt op steelpan : blok",0.477372,0.575266,0.526319
+"121122","pre","10","horizontale buis","zonnepaneel op achtergrond","horizontale buis : zonnepaneeltje bovenop","zonnepaneel op achtergrond : zonnepaneel",0.40061,0.225241,0.3129255
+"121122","pre","11","rechthoekig uitsteeksel middenboven","dikke neus voorkant","rechthoekig uitsteeksel middenboven : bolle neus","dikke neus voorkant : grote neus",0.404072,0.118441,0.2612565
+"121122","pre","12","niervormig uitsteeksel links","horizontaal rondje voorkant","niervormig uitsteeksel links : plateau rechts","horizontaal rondje voorkant : plantenbak",0.283587,0.555188,0.4193875
+"121122","pre","13","grote vierkante onderplaat","vierkante plaat eronder","grote vierkante onderplaat : twee staartjes horizontaal","vierkante plaat eronder : plaat eronder",0.423436,0.103108,0.263272
+"121122","pre","14","bal bovenop","verticale paal voorkant","bal bovenop : bol bovenop","verticale paal voorkant : verticale paal vooraan",0.145282,0.0503866,0.0978343
+"121122","pre","15","vierkante plaat middenhoog","in platte schijf","vierkante plaat middenhoog : vierkante rok midden","in platte schijf : tutu",0.21958,0.847695,0.5336375
+"121122","pre","16","blokkig uitsteeksel rechts","vierkantjes toren voorkant","blokkig uitsteeksel rechts : vierkante kijker rechts","vierkantjes toren voorkant : piraten verrekijker",0.30102,0.47633,0.388675
+"123124","pre","1","ruimteschip twee motors","bliksemschicht robot vierkant","ruimteschip twee motors : ruimteschip","bliksemschicht robot vierkant : ruimteschip",0.219033,0.299815,0.259424
+"123124","pre","2","piramide bovenop","driehoek boven","piramide bovenop : piramide en kogel","driehoek boven : piramide en kogel",0.190591,0.316224,0.2534075
+"123124","pre","3","troffe draaiende hendel","3d driehoek onder","troffe draaiende hendel : beker","3d driehoek onder : winnaars beker",0.619301,0.534912,0.5771065
+"123124","pre","4","nespresso cupje bovenop","twee balkjes rechts","nespresso cupje bovenop : kip","twee balkjes rechts : kip",0.515188,0.629406,0.572297
+"123124","pre","5","compact rechthoekje bovenop","ober balk cilindertje","compact rechthoekje bovenop : wall-e","ober balk cilindertje : wall-e robot",0.671339,0.566723,0.619031
+"123124","pre","6","neus met piercing","gieter hoofd","neus met piercing : neus met piercing","gieter hoofd : neus met piercing",0,0.349723,0.1748615
+"123124","pre","7","plank hoog","hoog ophang schapje links","plank hoog : schap met bakje","hoog ophang schapje links : schapje met bakje",0.46388,0.283336,0.373608
+"123124","pre","8","pinokkio gek hoedje","twee gebogen balkjes","pinokkio gek hoedje : karate kid","twee gebogen balkjes : karate kid",0.504963,0.741333,0.623148
+"123124","pre","9","ronde deksel achterop","pinokkio cilinder links","ronde deksel achterop : pinokkio met plukje","pinokkio cilinder links : pinokkio met cirkel",0.358173,0.219252,0.2887125
+"123124","pre","10","hamer","paaltje links rechts","hamer : hamer met standaard","paaltje links rechts : hamer vierkant plateau",0.234012,0.366727,0.3003695
+"123124","pre","11","neus zonder piercing","cirkel omgekeerde kegel","neus zonder piercing : neus zonder piercing","cirkel omgekeerde kegel : neus zonder piercing",0,0.515973,0.2579865
+"123124","pre","12","spijker in hendel","lippen schapje kegel","spijker in hendel : eiffeltoren serveerster","lippen schapje kegel : eiffeltoren spijker",0.491,0.381712,0.436356
+"123124","pre","13","op grote snijplank","diamantjes beide kanten","op grote snijplank : pippi langkous","diamantjes beide kanten : pippi langkous",0.674198,0.624018,0.649108
+"123124","pre","14","ei bovenop kopje","bol boven","ei bovenop kopje : omhelzing","bol boven : omhelzing",0.592247,0.581734,0.5869905
+"123124","pre","15","plank door kopje","twee cilinders boven","plank door kopje : olifant met arm","twee cilinders boven : olifant met arm",0.348055,0.463982,0.4060185
+"123124","pre","16","steekt overal uit","knuppel boven rechts","steekt overal uit : twee hendels","knuppel boven rechts : joystick",0.447065,0.52453,0.4857975
+"125126","pre","1","hoofd met verrekijker","vierkant aan voorzijde","hoofd met verrekijker : antenne en verrekijker","vierkant aan voorzijde : robot antenne met kubus verrekijker",0.168216,0.401655,0.2849355
+"125126","pre","2","driehoek bovenop","holle driehoek bovenop","driehoek bovenop : holle driehoek bovenop","holle driehoek bovenop : holle driehoek bovenop",0.0600479,0,0.03002395
+"125126","pre","3","opstaand juichend poppetje","trofee op driehoek","opstaand juichend poppetje : trofee","trofee op driehoek : trofee op driehoek",0.588316,5.96046e-08,0.2941580298023
+"125126","pre","4","platte vogel","uitkomst teken som rechterzijde","platte vogel : vogel","uitkomst teken som rechterzijde : oplossings teken lijkt vogeltje",0.173213,0.325268,0.2492405
+"125126","pre","5","halve kegel links","rechthoek bovenop beker","halve kegel links : rechthoek bovenop","rechthoek bovenop beker : lange zijde balk",0.267239,0.313715,0.290477
+"125126","pre","6","propellor met schijfje","hendel bal schijf","propellor met schijfje : ernie met piercing","hendel bal schijf : neus met piercing",0.346894,0.404816,0.375855
+"125126","pre","7","bakje op mok houder","tafelblad twee poten","bakje op mok houder : tafeltje met bakje","tafelblad twee poten : tafel met bakje",0.179963,0.274076,0.2270195
+"125126","pre","8","pinokkio neus schuinrechts","staaf doorboort vierkant","pinokkio neus schuinrechts : stoeptegel in achterhoofd","staaf doorboort vierkant : dubbele stoeptegel bovenkant",0.353702,0.227744,0.290723
+"125126","pre","9","cocktail met citroen schijfje","toilet op ovaal","cocktail met citroen schijfje : cocktail of wc","toilet op ovaal : cocktailglas half citroentje",0.260613,0.405668,0.3331405
+"125126","pre","10","bol einde armen","pilaren weerszijden vierkant","bol einde armen : amsterdamse paaltjes","pilaren weerszijden vierkant : verkeerspalen amsterdam zijkanten",0.497397,0.274898,0.3861475
+"125126","pre","11","bolle neus ernie","rechthoek pion bovenop","bolle neus ernie : ernie zijkant toblerone","rechthoek pion bovenop : ernie met driehoek",0.15283,0.299667,0.2262485
+"125126","pre","12","serveerder dienblad rechts","uitsteeksel holle cirkel","serveerder dienblad rechts : dienblad","uitsteeksel holle cirkel : dienblad met nagel",0.196408,0.371786,0.284097
+"125126","pre","13","platte circle neus","vierkante ondergrond beker","platte circle neus : mok bovenop vierkant","vierkante ondergrond beker : vierkant diamant strook zijkanten",0.333687,0.29122,0.3124535
+"125126","pre","14","balletje bovenop mok","bal bovenop","balletje bovenop mok : bolletje bovenop","bal bovenop : balletje rechte balk",0.130801,0.2803,0.2055505
+"125126","pre","15","vierkante tutu ballet","vierkant halverwege beker","vierkante tutu ballet : vierkante tutu slurfje","vierkant halverwege beker : tutu met slurf",0.154269,0.431266,0.2927675
+"125126","pre","16","ouderwetse theepot","ovaal bovenop links","ouderwetse theepot : uitklappende kubussen rechterkant","ovaal bovenop links : slurf met kubussen",0.432901,0.356385,0.394643
+"127128","pre","1","twee linker antennes","onweer en spijker","twee linker antennes : robot","onweer en spijker : robot",0.69687,0.618303,0.6575865
+"127128","pre","2","bovenop puntige driehoek","angrybirds hanekam","bovenop puntige driehoek : puntige driehoek bovenop","angrybirds hanekam : piramide uitlopend blok",0,0.493605,0.2468025
+"127128","pre","3","meest langwerpig","twister lange sokkel","meest langwerpig : voetbaltrofee","twister lange sokkel : voetbal trofee",0.700838,0.550766,0.625802
+"127128","pre","4","twee balkjes rechts","stekker met trapezium","twee balkjes rechts : stompe driehoek","stekker met trapezium : stekker",0.266462,0.232845,0.2496535
+"127128","pre","5","meest compact","hamer en drukknop","meest compact : meest compact","hamer en drukknop : hamer balk bovenop",0,0.252508,0.126254
+"127128","pre","6","bal midden voorkant","neusbot ei veer","bal midden voorkant : indiaan","neusbot ei veer : indiaan veer neusbot",0.550508,0.144794,0.347651
+"127128","pre","7","opgetild bakje","weegschaal wipwap bankje","opgetild bakje : tafeltje met salade bakje","weegschaal wipwap bankje : picknick tafel salade bak",0.212828,0.337637,0.2752325
+"127128","pre","8","doorboorde ruit bovenop","uitsteken naar buiten","doorboorde ruit bovenop : doorboorde ruit bovenop","uitsteken naar buiten : complexe figuur",1.19209e-07,0.601831,0.3009155596045
+"127128","pre","9","achterkant veertje rechtsboven","sokkel met lepel","achterkant veertje rechtsboven : spaarpot","sokkel met lepel : spaarpot met lepel",0.534793,0.129403,0.332098
+"127128","pre","10","lijkt op spagaat","zonnepaneel doorboring staaf","lijkt op spagaat : spagaat","zonnepaneel doorboring staaf : kantelscherm twee staven",0.195357,0.292822,0.2440895
+"127128","pre","11","ovale bol voorkant","zwevend ei lepel","ovale bol voorkant : ei liniaal lepel","zwevend ei lepel : zwevend ei lineaal",0.31306,0.100538,0.206799
+"127128","pre","12","pilon omgekeerd links","bijtel en platform","pilon omgekeerd links : dienblad omgedraaide pilon","bijtel en platform : dienblad pylon",0.253197,0.506151,0.379674
+"127128","pre","13","zes ruitjes totaal","pippi langkous plaat","zes ruitjes totaal : twee staartjes","pippi langkous plaat : pippi langkous",0.325696,0.0532982,0.1894971
+"127128","pre","14","lange balk voorkant","ei doorboorde tak","lange balk voorkant : balk ervoor ei bovenop","ei doorboorde tak : zwevend ei balk",0.20513,0.305037,0.2550835
+"127128","pre","15","vierkant rondom middel","platform door mok","vierkant rondom middel : glijbaan op platform","platform door mok : waterglijbaan platform",0.375555,0.397493,0.386524
+"127128","pre","16","grote pluim bovenop","waterdruppels en onweer","grote pluim bovenop : twee grote lepels","waterdruppels en onweer : twee grootste lepels",0.351736,0.513635,0.4326855
+"129130","pre","1","grote plaat rechtsvoor","vierkant rechts","grote plaat rechtsvoor : robot plat vierkant","vierkant rechts : de robot",0.341546,0.595707,0.4686265
+"129130","pre","2","puntige driehoek bovenop","piramide bovenop","puntige driehoek bovenop : grootste driehoek bovenin","piramide bovenop : groot driehoek muilkorf",0.203735,0.409665,0.3067
+"129130","pre","3","kubus rechts bovenop","twee vierkanten bovenop","kubus rechts bovenop : cocktail","twee vierkanten bovenop : de cocktail",0.635718,0.522047,0.5788825
+"129130","pre","4","twee balken rechts","is rechts","twee balken rechts : vogeltje is teken","is rechts : is teken vogeltje",0.511706,0.297932,0.404819
+"129130","pre","5","liggende balk bovenop","balkje horizontaal bovenop","liggende balk bovenop : meest compacte plaatje","balkje horizontaal bovenop : compact met vleugeltjes",0.436176,0.34701,0.391593
+"129130","pre","6","appel steeltje naar linksboven","ovaal met balk","appel steeltje naar linksboven : ei met zuignap","ovaal met balk : ei balk zuignap",0.305369,0.220365,0.262867
+"129130","pre","7","complex en breed","plank omgekeerde piramide","complex en breed : koffietafel appel steeltje poten","plank omgekeerde piramide : het bijzettafeltje",0.519157,0.45738,0.4882685
+"129130","pre","8","veel uitsteeksels overal","ruit schroef bovenop","veel uitsteeksels overal : kraan","ruit schroef bovenop : de kraan",0.617956,0.280416,0.449186
+"129130","pre","9","halve hockey puk linksboven","halve cirkel achterkant","halve hockey puk linksboven : halve cirkel linksboven","halve cirkel achterkant : halve cirkel balkje",0.188767,0.0717977,0.13028235
+"129130","pre","10","lang handvat rechts","gieter vierkant achter","lang handvat rechts : gieter schuin vierkant","gieter vierkant achter : de gieter",0.174791,0.169861,0.172326
+"129130","pre","11","liggend ei rechts","ovaal rechts","liggend ei rechts : kegel balk ei","ovaal rechts : ei omgekeerde kegel",0.248859,0.394306,0.3215825
+"129130","pre","12","ronde tafel schijf rechts","horizontale cirkel rechts","ronde tafel schijf rechts : biertap tafeltje","horizontale cirkel rechts : biertap met tafeltje",0.355294,0.534999,0.4451465
+"129130","pre","13","zes kleine diamantjes","bovenop een vierkant","zes kleine diamantjes : clown diamantjes","bovenop een vierkant : de clown",0.241399,0.468129,0.354764
+"129130","pre","14","bal bovenop","bal bovenop","bal bovenop : ei balk armen","bal bovenop : ei balk boogjes",0.310679,0.37446,0.3425695
+"129130","pre","15","twee","omringend vierkant halverwegen","twee : glijbaan vierkant plateau","omringend vierkant halverwegen : glijbaan plateau staafjes",0.631612,0.333913,0.4827625
+"129130","pre","16","bovenop rechtopstaand ovaal","rechts blokken","bovenop rechtopstaand ovaal : moeilijkste bespreekbaar","rechts blokken : de moeilijke",0.774992,0.638256,0.706624
+"131132","pre","1","verrekijker","twee torens links","verrekijker : dubbele verrekijker","twee torens links : twee verrekijker torens",0.154874,0.139283,0.1470785
+"131132","pre","2","puntige feesthoed","punthoed","puntige feesthoed : piramide hoed op wieltjes","punthoed : punthoed piramide",0.268533,0.181436,0.2249845
+"131132","pre","3","winnaars beker","gedraaide voet","winnaars beker : winnaars trofee","gedraaide voet : trofee",0.123776,0.623798,0.373787
+"131132","pre","4","vogel met snavel","is teken armpje","vogel met snavel : vogel","is teken armpje : vogeltje is teken",0.121444,0.119649,0.1205465
+"131132","pre","5","balk op bovenkant","rechthoekige hanenkam","balk op bovenkant : rechthoekige hanenkam","rechthoekige hanenkam : vierkante balk erop",0.383526,0.305628,0.344577
+"131132","pre","6","langwerpig grote neuspiercing","bolletje houdt stang","langwerpig grote neuspiercing : neuspiercing","bolletje houdt stang : neuspiercing staaf",0.249409,0.276558,0.2629835
+"131132","pre","7","tafeltje op hoogte","tafelpoten schuin trechter","tafeltje op hoogte : picknick tafel","tafelpoten schuin trechter : picknicktafel met trechter",0.334183,0.190568,0.2623755
+"131132","pre","8","pinokkio met hoed","ruit erop gewichtheffer","pinokkio met hoed : twee ruitjes hoed","ruit erop gewichtheffer : ruitjes gewichtheffen",0.22808,0.261277,0.2446785
+"131132","pre","9","hoekige cilinder neus","brede smalle voet","hoekige cilinder neus : pinokkio neus","brede smalle voet : pinocchio",0.343763,0.689028,0.5163955
+"131132","pre","10","cilinder er doorheen","stang erdoorheen breed","cilinder er doorheen : korte lange armen","stang erdoorheen breed : staaf erdoorheen ongelijk",0.511655,0.277148,0.3944015
+"131132","pre","11","spatel bakje met neus","twee verschillende roerstaafjes","spatel bakje met neus : lineaal en penceel","twee verschillende roerstaafjes : lineaal penseel staafjes",0.359253,0.405667,0.38246
+"131132","pre","12","lichtinval dakraam","dienblad en pacman handvat","lichtinval dakraam : dienblad en dakraam","dienblad en pacman handvat : dienblad en dakraam",0.223574,0.286401,0.2549875
+"131132","pre","13","lange oren","bodemplaat met horens","lange oren : pippi langkous oren","bodemplaat met horens : pippi langkous ribbels",0.465956,0.501045,0.4835005
+"131132","pre","14","bal bovenop","balletje erop","bal bovenop : lange kromme armen","balletje erop : twee dunne armpjes",0.32916,0.386915,0.3580375
+"131132","pre","15","ballerina rok","door vierkant plateau","ballerina rok : ballerina rok","door vierkant plateau : ballerina",1.19209e-07,0.617879,0.3089395596045
+"131132","pre","16","olifant slurf achterkant","twee ovalen handvatten","olifant slurf achterkant : verrekijker","twee ovalen handvatten : twee ronde uitsteeksels",0.435539,0.247746,0.3416425
+"133134","pre","1","plat vierkant paddestoel","robot telescoop ogen","plat vierkant paddestoel : paddestoel telescoop ogen","robot telescoop ogen : paddestoel twee telescopen",0.234857,0.218041,0.226449
+"133134","pre","2","driehoek bovenop","feesthoed en kogel","driehoek bovenop : scherpe piramide bovenop","feesthoed en kogel : punthoed en kogel",0.184435,0.0946399,0.13953745
+"133134","pre","3","gedraaid voetstuk wijnglas","wijnglas","gedraaid voetstuk wijnglas : wijnglas","wijnglas : wijnglas",0.167746,5.96046e-08,0.0838730298023
+"133134","pre","4","rechts twee balkjes","afgekapt feesthoedje","rechts twee balkjes : twee streepjes rechts","afgekapt feesthoedje : afgekapt feesthoedje",0.0664263,1.19209e-07,0.0332132096045
+"133134","pre","5","bovenop lange balk","raket met loopbrug","bovenop lange balk : lange balk bovenop","raket met loopbrug : raket met vleugels",-1.19209e-07,0.125244,0.0626219403955
+"133134","pre","6","neuspiercing","spijker door neus","neuspiercing : neuspiercing","spijker door neus : stok door neus",1.78814e-07,0.064314,0.032157089407
+"133134","pre","7","geknikte stok eromheen","afdakje","geknikte stok eromheen : tafel omgekeerde piramide","afdakje : tafel door kop",0.296651,0.442218,0.3694345
+"133134","pre","8","gebogen stukje eronder","afvoerbuis aan onderkant","gebogen stukje eronder : krom uitsteeksel eronder","afvoerbuis aan onderkant : platte vierkanten boven",0.127906,0.333332,0.230619
+"133134","pre","9","schijf tegen achterkant","cilinder bord lepel","schijf tegen achterkant : langwerpig afgerond voetstuk","cilinder bord lepel : lepel bord steelpan",0.469672,0.0985054,0.2840887
+"133134","pre","10","schuin vierkant erachter","deegroller door kop","schuin vierkant erachter : armpjes bolletje uiteinde","deegroller door kop : deegroller",0.279233,0.138148,0.2086905
+"133134","pre","11","ei neus en driehoek oor","neus en meetlat","ei neus en driehoek oor : feestneus twee haren","neus en meetlat : ronde neus steelpan",0.279958,0.291967,0.2859625
+"133134","pre","12","horizontaal schijfje rechts","spijker door steel","horizontaal schijfje rechts : bleekselderij dienblad","spijker door steel : spijker door bleekselderij",0.42514,0.203084,0.314112
+"133134","pre","13","horizontaal vierkant eronder","kop met vlechten","horizontaal vierkant eronder : vierkant horizontaal onderkant","kop met vlechten : kop met vlechten",0.038454,0,0.019227
+"133134","pre","14","voorkant verticale balk","dunne armpjes","voorkant verticale balk : verticale balk voorzijde","dunne armpjes : dunne armen",0.0306538,0.0825738,0.0566138
+"133134","pre","15","horizontaal vierkant doorheen","zwaaiend","horizontaal vierkant doorheen : horizontaal vierkant doorsnede","zwaaiend : plank door kop",0.0966627,0.444698,0.27068035
+"133134","pre","16","twee omgekeerde kegels","uitsteeksels alle kanten","twee omgekeerde kegels : rechts gestapelde blokjes","uitsteeksels alle kanten : vier richtingen uitsteeksels",0.232551,0.166987,0.199769
+"135136","pre","1","plat vierkant voorkant","voorin een vierkant","plat vierkant voorkant : paddenstoel bovenop","voorin een vierkant : paddenstoel",0.368527,0.612005,0.490266
+"135136","pre","2","grote neus kuif","driehoek bovenop","grote neus kuif : breder wordend vierkant","driehoek bovenop : vierkant bovenop",0.400135,0.113923,0.257029
+"135136","pre","3","gedraaid voetstuk","schroef driehoek onderin","gedraaid voetstuk : schroef driehoek onderkant","schroef driehoek onderin : schroef met voetstuk",0.307999,0.167239,0.237619
+"135136","pre","4","twee latjes rechts","twee rechthoeken rechts","twee latjes rechts : twee balkjes links","twee rechthoeken rechts : twee streepjes rechts",0.1203,0.0787806,0.0995403
+"135136","pre","5","compact balk bovenop","links half prisma","compact balk bovenop : balk en prisma's","links half prisma : balk bovenop",0.190321,0.44276,0.3165405
+"135136","pre","6","draagt een stok","bol staaf schijf","draagt een stok : staaf door bol","bol staaf schijf : bolletje balk schijf",0.31572,0.218718,0.267219
+"135136","pre","7","tafel met bakje","tafeltje bakje bovenin","tafel met bakje : tafel","tafeltje bakje bovenin : tafel",0.139384,0.233245,0.1863145
+"135136","pre","8","een gebogen been","haakje onderin","een gebogen been : gebogen stukje onderaan","haakje onderin : kromme ding onderin",0.177375,0.203549,0.190462
+"135136","pre","9","pan met lepel","omgekeerde kegel rechtsboven","pan met lepel : voetstuk halve cirkel","omgekeerde kegel rechtsboven : halve cirke",0.380508,0.463347,0.4219275
+"135136","pre","10","armen met handjes","doorlopende staaf bol","armen met handjes : staaf er doorheen","doorlopende staaf bol : balken schuin vlak",0.355885,0.335624,0.3457545
+"135136","pre","11","twee verschillende haar sprieten","bol rechthoek boven","twee verschillende haar sprieten : bol rechterkant","bol rechthoek boven : bol rechts",0.433578,0.129033,0.2813055
+"135136","pre","12","spijker in linkerarm","omgekeerde pion linksboven","spijker in linkerarm : dienblad","omgekeerde pion linksboven : omgekeerde pion",0.478616,0.0888505,0.28373325
+"135136","pre","13","vloer en oren","plateau onderin","vloer en oren : plaat onderaan","plateau onderin : onderste plank",0.369016,0.247391,0.3082035
+"135136","pre","14","bal bovenop","bol bovenop","bal bovenop : balk vooraan bol","bol bovenop : bal bovenop",0.305165,0.145282,0.2252235
+"135136","pre","15","draagt een rokje","twee streepjes boven","draagt een rokje : plaat midden","twee streepjes boven : plank iets hoger",0.508107,0.33619,0.4221485
+"135136","pre","16","drie verschillende armen","kegel boven links","drie verschillende armen : kegel bovenop zijkant","kegel boven links : twee kegels",0.402476,0.336768,0.369622
+"137138","pre","1","twee torens links","robot met antenne","twee torens links : twee torens links","robot met antenne : robot met antenne",2.38419e-07,5.96046e-08,1.490118e-07
+"137138","pre","2","pyramide bovenop","gezicht hanenkam wielen","pyramide bovenop : pyramide bovenop","gezicht hanenkam wielen : piramide kogel links",1.19209e-07,0.370832,0.1854160596045
+"137138","pre","3","staande voet trofee","voetstuk beker vlag","staande voet trofee : trofee","voetstuk beker vlag : trofee",0.25382,0.304098,0.278959
+"137138","pre","4","twee rechthoeken rechts","spijker stopcontact hoed","twee rechthoeken rechts : onafgemaakte pyramide bovenop","spijker stopcontact hoed : stompe piramide spijker",0.395049,0.303841,0.349445
+"137138","pre","5","geen enkele uitsteeksel","simpel weinig zichtbaar","geen enkele uitsteeksel : dun staafje voorkant","simpel weinig zichtbaar : rechthoek boven pennetje",0.366089,0.421166,0.3936275
+"137138","pre","6","balk door balletje","arm met hamer","balk door balletje : hamertje","arm met hamer : hamer",0.28286,0.150501,0.2166805
+"137138","pre","7","tafeltje met bakje","tafelblad potje zweven","tafeltje met bakje : ontbijt op bed","tafelblad potje zweven : ontbijttafel met schaal",0.357781,0.331517,0.344649
+"137138","pre","8","voet klein blokje","kat staart onder","voet klein blokje : boven torens vierkant","kat staart onder : staart pootjes kop",0.316055,0.140315,0.228185
+"137138","pre","9","rechtsboven soort druppel","kook steelpan","rechtsboven soort druppel : onafgemaakt plateau","kook steelpan : steelpan smal plateau",0.572463,0.271441,0.421952
+"137138","pre","10","uitsteeksels ronde kop","ding dwars erdoorheen","uitsteeksels ronde kop : bolletjes uiteinde","ding dwars erdoorheen : doorborende staaf",0.226725,0.390837,0.308781
+"137138","pre","11","balletje rechtsmidden","opberg mok met neus","balletje rechtsmidden : bolletje voorkant","opberg mok met neus : gereedschaps vaas met bol",0.332615,0.165575,0.249095
+"137138","pre","12","omgedraaide pion","kop met bekerhouder","omgedraaide pion : pion linksboven","kop met bekerhouder : pion bekerhouder",0.139785,0.180386,0.1600855
+"137138","pre","13","staat op plateau","plateau met kristallen","staat op plateau : enige op plateau","plateau met kristallen : drie kraaltjes",0.107049,0.358067,0.232558
+"137138","pre","14","uitsteeksel handvat links","pedalen bal op","uitsteeksel handvat links : bol bovenop","pedalen bal op : bal bovenop pedalen",0.371308,0.0626587,0.21698335
+"137138","pre","15","plateau in midden","zwaaiende olifant","plateau in midden : plateau in midden","zwaaiende olifant : zwaaiende olifant plateau",-1.19209e-07,0.0840971,0.0420484903955
+"137138","pre","16","toren omgekeerd rechts","lange uitsteeksels","toren omgekeerd rechts : toren rechtsmidden","lange uitsteeksels : uitsteeksels omgekeerde toren",0.180524,0.184945,0.1827345
+"141142","pre","1","vierkant gezicht","spijker en verrekijker","vierkant gezicht : vierkant er voor","spijker en verrekijker : spijker blokkentorens vierkant",0.269545,0.196466,0.2330055
+"141142","pre","2","piramide bovenop","piramide op kopje","piramide bovenop : piramide verrekijker","piramide op kopje : piramide en verrekijker",0.248429,0.256325,0.252377
+"141142","pre","3","twister been","wijnglas met blokjes","twister been : gedraaid been","wijnglas met blokjes : glas met blokjes",0.197615,0.0838507,0.14073285
+"141142","pre","4","twee rechthoeken rechts","lampenkap op kopje","twee rechthoeken rechts : lampenkap twee rechthoeken","lampenkap op kopje : lampenkap en balkjes",0.169567,0.167469,0.168518
+"141142","pre","5","lange rechthoek boven","langwerpig blok erop","lange rechthoek boven : balk boven op","langwerpig blok erop : balk en toblerone",0.260423,0.360306,0.3103645
+"141142","pre","6","punaise door bol","balkje door neus","punaise door bol : balk door bol","balkje door neus : spijker door bol",0.147206,0.195913,0.1715595
+"141142","pre","7","tafel voor zich","plank aan kopje","tafel voor zich : omgekeerde lampenkap dienblad","plank aan kopje : dienblad met lampenkap",0.484062,0.419916,0.451989
+"141142","pre","8","gebogen been","ruit aan zijkant","gebogen been : strik boven op","ruit aan zijkant : strik",0.421741,0.387768,0.4047545
+"141142","pre","9","pinokkio neus links","enkele uitstekende cilinder","pinokkio neus links : cirkel er achter","enkele uitstekende cilinder : cirkel aan zijkant",0.353659,0.382171,0.367915
+"141142","pre","10","staven met bol","kopje overdwarse cilinder","staven met bol : springplank er achter","kopje overdwarse cilinder : springplank achter cilinders",0.47509,0.346979,0.4110345
+"141142","pre","11","bol vooraan","kegel en blok","bol vooraan : bol twee kegels","kegel en blok : twee cilinder kopje",0.218071,0.317568,0.2678195
+"141142","pre","12","grote spijker links","pylon aan linkerzijde","grote spijker links : gekantelde bank spijker","pylon aan linkerzijde : spijker in bank",0.250304,0.415664,0.332984
+"141142","pre","13","cirkel voorop","kopje op onderzetter","cirkel voorop : diamantjes cirkel voorop","kopje op onderzetter : kopje met diamantjes",0.115192,0.180276,0.147734
+"141142","pre","14","bol boven op","balletje op kopje","bol boven op : bol twee armpjes","balletje op kopje : balk voor mannetje",0.308059,0.388278,0.3481685
+"141142","pre","15","twee kleine cilinders","vierkant door kopje","twee kleine cilinders : l vorm","vierkant door kopje : vierkant door kopje",0.495989,0,0.2479945
+"141142","pre","16","twee deegroller handvaten","enkele kegel erop","twee deegroller handvaten : twee roer kegels","enkele kegel erop : scheepsroer",0.296838,0.45605,0.376444
+"143144","pre","1","antenne twee moertjes","vierkant oor","antenne twee moertjes : robot","vierkant oor : de robot",0.569959,0.582843,0.576401
+"143144","pre","2","feesthoed dikke neus","punt hoofd","feesthoed dikke neus : feesthoedje","punt hoofd : feesthoedje op wielen",0.180103,0.458171,0.319137
+"143144","pre","3","lang met driehoek","draaikolk op standaard","lang met driehoek : torentje","draaikolk op standaard : het torentje",0.537856,0.436705,0.4872805
+"143144","pre","4","afgestompt hoedje","vogeltje met snavel","afgestompt hoedje : vogeltje","vogeltje met snavel : twitter vogel",0.396739,0.295791,0.346265
+"143144","pre","5","rechthoek hoed","leraar met stokje","rechthoek hoed : wijze uil","leraar met stokje : het uiltje",0.404197,0.428922,0.4165595
+"143144","pre","6","neuspiercing","piercing door neus","neuspiercing : neuspiercing","piercing door neus : neus piercing",1.78814e-07,0.0580065,0.029003339407
+"143144","pre","7","jachtgeweer","ober die serveert","jachtgeweer : dienblad","ober die serveert : mijn serveerder",0.455765,0.429888,0.4428265
+"143144","pre","8","lange neus hoedje","pinokkio met arm","lange neus hoedje : pinokkio hanenkam","pinokkio met arm : pinokkio met hanekam",0.317854,0.149816,0.233835
+"143144","pre","9","mok met lepel","pinokkio zonder arm","mok met lepel : gewone koffiekopje","pinokkio zonder arm : het gewone kopje",0.345813,0.409128,0.3774705
+"143144","pre","10","afdakje","stompe handvatten","afdakje : afdakje","stompe handvatten : het afdakje",0,0.426058,0.213029
+"143144","pre","11","ronde neus","rond neus","ronde neus : dikke neus","rond neus : dikke neus",0.201383,0.175676,0.1885295
+"143144","pre","12","toeter op neus","spijker arm","toeter op neus : spijker in arm","spijker arm : jouw serveerder",0.31331,0.620067,0.4666885
+"143144","pre","13","dienblad","gekke professor","dienblad : gehoorbescherming","gekke professor : de professor",0.741219,0.15746,0.4493395
+"143144","pre","14","waterleiding","olifantenslurf met armen","waterleiding : boiler","olifantenslurf met armen : de waterleiding",0.341526,0.528229,0.4348775
+"143144","pre","15","glijbaan neus","zwembandje om middel","glijbaan neus : glijbaan","zwembandje om middel : glijbaan met band",0.127407,0.439745,0.283576
+"143144","pre","16","kegel neus","twee roerstaven","kegel neus : rare armpjes","twee roerstaven : minecraft hand",0.407053,0.469864,0.4384585
+"145146","pre","1","schoorsteen plaat schroeven","twee blokjes balken","schoorsteen plaat schroeven : schoorsteentje vierkant blokken","twee blokjes balken : vierkant met schoorsteen",0.292082,0.278113,0.2850975
+"145146","pre","2","complex driehoek raketje","driehoek zijaanzicht gezicht","complex driehoek raketje : driehoek raketje rondje","driehoek zijaanzicht gezicht : driekhoek met bolletje",0.134827,0.334714,0.2347705
+"145146","pre","3","statief vierkant helix","gedraaide schroef onderaan","statief vierkant helix : helix kubus driehoek","gedraaide schroef onderaan : helix",0.196156,0.589163,0.3926595
+"145146","pre","4","is teken haakje trapezium","zijaanzicht vogel","is teken haakje trapezium : trapezium is teken boogje","zijaanzicht vogel : kip",0.0738397,0.55393,0.31388485
+"145146","pre","5","compact rechthoek op veger","compact met schuif bak","compact rechthoek op veger : op veger megafoon rechthoek","compact met schuif bak : zuiger",0.103008,0.401352,0.25218
+"145146","pre","6","ei basketbalpaal uitsteekseltje","neus doorboord","ei basketbalpaal uitsteekseltje : pluimpje ei neus basketbalpaal","neus doorboord : balk door neus",0.0988365,0.224962,0.16189925
+"145146","pre","7","bankje haakje bakje","plateau met bakje","bankje haakje bakje : bankje bakje uitsteekseltje","plateau met bakje : bankje",0.049504,0.346851,0.1981775
+"145146","pre","8","ruiten schroeven uitsteeksels","balk door ruit","ruiten schroeven uitsteeksels : ruit uisteeksels blokjes","balk door ruit : ruit met balk",0.231383,0.0542926,0.1428378
+"145146","pre","9","lepeltje rond plateau","zijaanzicht pinokkio gezicht","lepeltje rond plateau : half rondje kegeltje","zijaanzicht pinokkio gezicht : halve cirkel gezicht",0.262595,0.279337,0.270966
+"145146","pre","10","zonnepaneel lange staaf","buis zonder plateau","zonnepaneel lange staaf : gaspedaal balk lang","buis zonder plateau : gaspedaal",0.34648,0.532054,0.439267
+"145146","pre","11","vulpen ei staafjes","hoofd met voelsprieten","vulpen ei staafjes : vulpen ei neus uitsteeksels","hoofd met voelsprieten : hoofd met vulpen",0.124134,0.240598,0.182366
+"145146","pre","12","eiffeltoren rond plateau","horizontaal platte cirkel","eiffeltoren rond plateau : eiffeltoren rond plateau","horizontaal platte cirkel : eifeltoren",0,0.640878,0.320439
+"145146","pre","13","kom bolletjes haakjes","ondergrond met object","kom bolletjes haakjes : vierkant plateau bolletjes","ondergrond met object : bolletjes op vierkant",0.266193,0.342797,0.304495
+"145146","pre","14","ei symmetrisch verhoging","bol op theekop","ei symmetrisch verhoging : ei hoofd gespreide armen","bol op theekop : ei hoofd mannetje",0.265913,0.38355,0.3247315
+"145146","pre","15","glijbaan vierkant omhulsel","plateau door object","glijbaan vierkant omhulsel : vierkant plateau glijbaan","plateau door object : plateau door object",0.114632,1.19209e-07,0.0573160596045
+"145146","pre","16","schroef ovale uitsteeksels","bowlingkegels hoek negentig graden","schroef ovale uitsteeksels : kegeltjes blokjes uitsteeksel","bowlingkegels hoek negentig graden : twee kegels",0.184298,0.387617,0.2859575
+"147148","pre","1","twee armen links","plat vierkant voorkant","twee armen links : vierkant voorop","plat vierkant voorkant : platte vierkant ervoor",0.381906,0.150515,0.2662105
+"147148","pre","2","driehoek erboven","bovenkant driehoek","driehoek erboven : driehoek bovenop","bovenkant driehoek : puntige driekhoek bovenop",0.12021,0.195088,0.157649
+"147148","pre","3","driehoekig onder hangsel","op gedraaid voetstuk","driehoekig onder hangsel : spiraal onderin","op gedraaid voetstuk : gedraaid voetstuk driehoek",0.395468,0.0963286,0.2458983
+"147148","pre","4","twee armen rechts","afgekapte driekhoek bovenop","twee armen rechts : eend","afgekapte driekhoek bovenop : eend",0.636842,0.600375,0.6186085
+"147148","pre","5","rechthoekig blokje erboven","balk plat bovenop","rechthoekig blokje erboven : staafje plat bovenop","balk plat bovenop : balk plat bovenop",0.195962,0,0.097981
+"147148","pre","6","blokje door bol","balk door bol","blokje door bol : balk door bol","balk door bol : balk door rondje",0.163145,0.0849639,0.12405445
+"147148","pre","7","steiger voorop","vlak met pootjes","steiger voorop : tafel","vlak met pootjes : tafeltje",0.450472,0.376273,0.4133725
+"147148","pre","8","uitstekende cilinder voorkant","plat vierkant doorboord","uitstekende cilinder voorkant : uitsteeksel onder recht","plat vierkant doorboord : ingewikkelde vierkant doorboord",0.391119,0.0813866,0.2362528
+"147148","pre","9","ronde plaat achterkant","plat ovaal achter","ronde plaat achterkant : rondje achter","plat ovaal achter : plat rondje erachter",0.394256,0.20152,0.297888
+"147148","pre","10","arm beide kanten","scheef vierkant erachter","arm beide kanten : vierkant met steun","scheef vierkant erachter : vierkant met steuntje",0.339251,0.273873,0.306562
+"147148","pre","11","driehoekige arm links","ronde bol voorkant","driehoekige arm links : twee figuren bovenop","ronde bol voorkant : bovenop kegel balkje",0.282341,0.254434,0.2683875
+"147148","pre","12","spijker door arm","ijspegel linker zijstuk","spijker door arm : spijker","ijspegel linker zijstuk : spijker in zijkant",0.185293,0.228897,0.207095
+"147148","pre","13","ronde schaal voorkant","drie bolletjes zijkanten","ronde schaal voorkant : onderin plateau","drie bolletjes zijkanten : drie bolletjes zijkanten",0.313458,0,0.156729
+"147148","pre","14","rechthoekige voorkant","verticale balk voorkant","rechthoekige voorkant : staafje voorkant","verticale balk voorkant : balk ervoor",0.161927,0.183294,0.1726105
+"147148","pre","15","vierkant door midden","plat vierkant midden","vierkant door midden : twee kegeltjes bovenop","plat vierkant midden : pijpje linker zijkant",0.405005,0.323989,0.364497
+"147148","pre","16","drie uitstekende ellipsen","boven links kegel","drie uitstekende ellipsen : twee lepels","boven links kegel : kegels zijkant bovenkant",0.365488,0.253162,0.309325
+"149150","pre","1","paddenstoel op bovenkant","uitstekende ogen vierkant","paddenstoel op bovenkant : paddenstoel antene","uitstekende ogen vierkant : paddestoel hoofd vierkant",0.171192,0.231099,0.2011455
+"149150","pre","2","piramide op bovenkant","driehoek pet","piramide op bovenkant : verrekijker en piramide","driehoek pet : verrekijker piramide",0.220995,0.340971,0.280983
+"149150","pre","3","standaard onder mok","driehoek voetstuk vierkantjes","standaard onder mok : driehoek spiraal voetstuk","driehoek voetstuk vierkantjes : draaiend voetstuk vierkantjes",0.497392,0.100369,0.2988805
+"149150","pre","4","afgesneden piramide hoed","propellers puntig staart","afgesneden piramide hoed : onderzeeer","propellers puntig staart : onderzeeer",0.510599,0.41347,0.4620345
+"149150","pre","5","lang hoek als hoed","staafje bovenop","lang hoek als hoed : vloeistof afvoer","staafje bovenop : balk hoofd afvoerputje",0.563511,0.309184,0.4363475
+"149150","pre","6","stok door clownsneus","speer schildje in hand","stok door clownsneus : spies door clownsneus","speer schildje in hand : clownsneus speer",0.130086,0.18533,0.157708
+"149150","pre","7","picknicktafel door mok","draag rekje met bakje","picknicktafel door mok : picknicktafel met mandje","draag rekje met bakje : picknicktafel mandje",0.174271,0.307841,0.241056
+"149150","pre","8","ruit bovenkant mok","hoekige uitsteeksels puntneus","ruit bovenkant mok : poot doorstoken ruit","hoekige uitsteeksels puntneus : een been ruit",0.248373,0.384997,0.316685
+"149150","pre","9","halve cirkel achter","roerstokje rondje staafje","halve cirkel achter : bovenkant halve cirkel","roerstokje rondje staafje : roerstaafje plat voetstuk",0.0881697,0.254423,0.17129635
+"149150","pre","10","ballen aan hendels","staafjes handvat vierkantje","ballen aan hendels : piemels als handvaten","staafjes handvat vierkantje : piemel mok",0.249786,0.420166,0.334976
+"149150","pre","11","clownsneus","roerstaafjes bolletje staafje","clownsneus : clownsneus","roerstaafjes bolletje staafje : clownsneus roerstaafje kwastje",5.96046e-08,0.148226,0.0741130298023
+"149150","pre","12","omgekeerde langwerpige pion","opstapje handvat schoorsteen","omgekeerde langwerpige pion : dienblad omgekeerde pion","opstapje handvat schoorsteen : dienblad",0.13263,0.347792,0.240211
+"149150","pre","13","pippi langkous vlechtjes","vierkant voetstuk handvatten","pippi langkous vlechtjes : pippi langkous haren","vierkant voetstuk handvatten : pippi langkous",0.0447171,0.78322,0.41396855
+"149150","pre","14","bal op bovenkant","balkje handvatjes balletje","bal op bovenkant : bal op bovenkant","balkje handvatjes balletje : bal paal stengel armen",0,0.259105,0.1295525
+"149150","pre","15","tafel door midden","vierkant eromheen staafjes","tafel door midden : vierkante hoelahoep","vierkant eromheen staafjes : vierkante hoelahoep",0.450173,0.403996,0.4270845
+"149150","pre","16","groter wordend blokje","armen staart punthoofd","groter wordend blokje : groter wordend vierkant","armen staart punthoofd : staart uitbreidend vierkant",0.0800136,0.224444,0.1522288
+"151152","pre","1","vierkante verrekijker ogen","vlak rechts voor","vierkante verrekijker ogen : vierkante verrekijker","vlak rechts voor : verrekijker plaat paddenstoel",0.0702312,0.535707,0.3029691
+"151152","pre","2","verjaardags hoedje bovenop","driehoek bovenop","verjaardags hoedje bovenop : feesthoedje bovenop","driehoek bovenop : feesthoed rare neus",0.132032,0.479893,0.3059625
+"151152","pre","3","driehoekig voetje","blokje rechts boven","driehoekig voetje : driehoekje als voetje","blokje rechts boven : driehoek gedraaide poot",0.258137,0.285973,0.272055
+"151152","pre","4","twee vierkante linker oren","twee streepjes rechts","twee vierkante linker oren : twee linker blok oortjes","twee streepjes rechts : afgeplatte feesthoed",0.101188,0.344507,0.2228475
+"151152","pre","5","balk liggend bovenop","staafje liggend bovenop","balk liggend bovenop : liggend balkje bovenop","staafje liggend bovenop : balk afzuigkap",0.0779502,0.462693,0.2703216
+"151152","pre","6","heel aparte neuspiercing","cirkel stokje rechts","heel aparte neuspiercing : aparte neuspiercing","cirkel stokje rechts : neus piercing lepel",0.045512,0.395689,0.2206005
+"151152","pre","7","met hoog opberg plankje","tafeltje rechts","met hoog opberg plankje : picknick tafeltje met bakje","tafeltje rechts : picknickbank bak",0.213421,0.361921,0.287671
+"151152","pre","8","satelliet op achterhoofd","vierkant pootje midden","satelliet op achterhoofd : satelliet in achterhoofd","vierkant pootje midden : satelliet hoofd",0.0628226,0.446618,0.2547203
+"151152","pre","9","schijf half zichtbaar","lepel rechts","schijf half zichtbaar : afgerond langwerpig voetje","lepel rechts : zon",0.359793,0.598008,0.4789005
+"151152","pre","10","met dikke handvatten","vlak links boven","met dikke handvatten : vijzel","vlak links boven : vijzel",0.567573,0.738375,0.652974
+"151152","pre","11","dikke ronde neus","rondje rechts","dikke ronde neus : staand blokje bovenop","rondje rechts : cirkel dakgoot pen",0.413958,0.397448,0.405703
+"151152","pre","12","langwerpige omhoogstekende speaker","spijker links","langwerpige omhoogstekende speaker : spijker speaker","spijker links : spijker hondenbot",0.291156,0.180883,0.2360195
+"151152","pre","13","vierkante grondplaat","groot vlak onder","vierkante grondplaat : pippi langkous vlechtjes","groot vlak onder : pippi langkous",0.633808,0.75811,0.695959
+"151152","pre","14","bal bovenop pot","cirkel bovenop","bal bovenop pot : balletje bovenop","cirkel bovenop : bal bovenop",0.145823,0.156265,0.151044
+"151152","pre","15","twee cylindertjes bovenop","vlak rondom midden","twee cylindertjes bovenop : twee cylindertjes bovenop","vlak rondom midden : plaat slurf deurklink",0,0.588648,0.294324
+"151152","pre","16","sambaballen links bovenop","lepel recht omhoog","sambaballen links bovenop : sambaballen bovenop links","lepel recht omhoog : twee sambaballen",1.19209e-07,0.494717,0.2473585596045
+"153154","pre","1","gekanteld en vierkant","televisie houder met antenne","gekanteld en vierkant : schietstoel knop vierkant neuzen","televisie houder met antenne : verrekijker met spijker",0.259812,0.344491,0.3021515
+"153154","pre","2","puntmuts dikke neus","feestvarken met hoedje","puntmuts dikke neus : puntmuts dikke neus","feestvarken met hoedje : verjaardags hoed grote neus",0,0.187856,0.093928
+"153154","pre","3","verbogen trofee prijs","blij een benig poppetje","verbogen trofee prijs : trofee schuine poot","blij een benig poppetje : scheve trofee",0.248245,0.483531,0.365888
+"153154","pre","4","vogel snavel rechterkant","cocktailshaker","vogel snavel rechterkant : kip snavel vleugel","cocktailshaker : zwemmende kip",0.101407,0.532269,0.316838
+"153154","pre","5","dikke neus linkerkant","rokende pinguin","dikke neus linkerkant : paaseiland oorbel mohawk","rokende pinguin : paaseiland look-a-like",0.541081,0.439985,0.490533
+"153154","pre","6","zuignap aan stok","gewichts heffend koffiekopje","zuignap aan stok : zuignap lepel lans","gewichts heffend koffiekopje : zuignap als speer",0.105484,0.453379,0.2794315
+"153154","pre","7","kruiwagen handvaten","kortpotige kopje","kruiwagen handvaten : kruiwagen piramide","kortpotige kopje : half piramide hoofd",0.207441,0.405935,0.306688
+"153154","pre","8","soort zuurtje bovenop","oordop dragend zeepaardje","soort zuurtje bovenop : zuurtje snoeppapier slurfje","oordop dragend zeepaardje : toffee hoofd",0.115167,0.402756,0.2589615
+"153154","pre","9","pinokkio neus cirkel","opgehangen poppetje","pinokkio neus cirkel : pinokkio lepel schijf","opgehangen poppetje : staande pinokkio",0.229495,0.320473,0.274984
+"153154","pre","10","staaf bobbels doorheen","kopje naast loopband","staaf bobbels doorheen : wasbord kanonnen","kopje naast loopband : kanon met wasbord",0.413681,0.403932,0.4088065
+"153154","pre","11","dikke ronde neus","kopje met lepels","dikke ronde neus : twee lepels neus","kopje met lepels : kopje met lepels",0.226975,0,0.1134875
+"153154","pre","12","spijker in neus","kopje met dienblad","spijker in neus : dienblad popnagel neus","kopje met dienblad : dienblad",0.215153,0.140766,0.1779595
+"153154","pre","13","telraam kralen zijkant","kopje met muizentrapjes","telraam kralen zijkant : kralen weerszijde vierkant","kopje met muizentrapjes : ruit oren",0.107182,0.415079,0.2611305
+"153154","pre","14","waterpomp aan buis","kleine boom knuffelaar","waterpomp aan buis : pomp ei bovenop","kleine boom knuffelaar : pomp met ei",0.199422,0.358299,0.2788605
+"153154","pre","15","vierkante rok slurf","rokjes dragend kopje","vierkante rok slurf : tutu slurf staafjes","rokjes dragend kopje : tutu",0.191174,0.553599,0.3723865
+"153154","pre","16","drie tentakels neus","drie verschillende armen","drie tentakels neus : tentakels vierkante neus","drie verschillende armen : groter wordend vierkant",0.0982254,0.47533,0.2867777
+"155156","pre","1","platte vierkant midden","een spijker bovenop","platte vierkant midden : schroef met vierkant","een spijker bovenop : schroef vierkant paneel",0.18763,0.364932,0.276281
+"155156","pre","2","cirkel uitsteeksel linksonder","driehoek erop steuntje","cirkel uitsteeksel linksonder : driehoek bovenop","driehoek erop steuntje : driehoek bovenaan",0.275981,0.214056,0.2450185
+"155156","pre","3","langste figuur","schroef twee vierkantjes","langste figuur : schroef met kaas","schroef twee vierkantjes : schroef kaas",0.560368,0.234384,0.397376
+"155156","pre","4","twee vierkanten rechtsmidden","is gelijk aan","twee vierkanten rechtsmidden : het is teken","is gelijk aan : is gelijk aan",0.51636,2.38419e-07,0.2581801192095
+"155156","pre","5","twee vleugels midden","liggende balk bovenop","twee vleugels midden : rechthoek met vleugels","liggende balk bovenop : balk vleugels",0.174971,0.16481,0.1698905
+"155156","pre","6","gewicht heffen rechtsmidden","balk schijf bal","gewicht heffen rechtsmidden : gewichtheffen arm","balk schijf bal : gewichtheffer",0.403228,0.637277,0.5202525
+"155156","pre","7","springplank bovenin rechts","soort bankje ervoor","springplank bovenin rechts : sprinkplank","soort bankje ervoor : springplank",0.551508,0.613448,0.582478
+"155156","pre","8","poppetje een been","haakje eronder voorkant","poppetje een been : aap klappen handen","haakje eronder voorkant : diertje dat klapt",0.25595,0.366431,0.3111905
+"155156","pre","9","staat op klein aansluitende ondergrond","cirkel erachter","staat op klein aansluitende ondergrond : kegel rechts","cirkel erachter : ondersteuning cirkel kegel",0.431702,0.248024,0.339863
+"155156","pre","10","doorlopende buis midden","links rechts paaltje","doorlopende buis midden : zonnepaneel","links rechts paaltje : zonnepaneel schroef",0.584189,0.570652,0.5774205
+"155156","pre","11","uitstekende bol rechtsmidden","drie verschillende staafjes","uitstekende bol rechtsmidden : roer pannetje soep pannetje","drie verschillende staafjes : kookpotje",0.603555,0.501292,0.5524235
+"155156","pre","12","pijl steekt uit van linker uitsteeksel naar links boven","dienblad pikkel","pijl steekt uit van linker uitsteeksel naar links boven : pijl links boven","dienblad pikkel : pijl dienblad",0.111661,0.191912,0.1517865
+"155156","pre","13","zes ruitjes aaneen lopend","vierkant blad eronder","zes ruitjes aaneen lopend : zes kraaltjes","vierkant blad eronder : kraaltjes",0.179709,0.438643,0.309176
+"155156","pre","14","balk langwerpig rechterkant","bal erop balk","balk langwerpig rechterkant : balk rechterkant","bal erop balk : balk rechterkant",0.0877715,0.153297,0.12053425
+"155156","pre","15","vierkant omringend midden","glijbaan twee sprietjes","vierkant omringend midden : saturnus","glijbaan twee sprietjes : saturnus twee sprietjes",0.577644,0.186772,0.382208
+"155156","pre","16","cactus uitsteeksel boven","twee kegels","cactus uitsteeksel boven : cactus","twee kegels : cactus",0.387911,0.562363,0.475137
+"157158","pre","1","tank antenne scherm","paddenstoel boven vierkant","tank antenne scherm : paddenstoel","paddenstoel boven vierkant : paddenstoel",0.685894,0.227544,0.456719
+"157158","pre","2","punt pijltje blok","driehoek boven cilinder","punt pijltje blok : kegel","driehoek boven cilinder : kegel",0.437754,0.375584,0.406669
+"157158","pre","3","schroef vierkant","twee kubussen boven","schroef vierkant : trofee schroef","twee kubussen boven : trofee",0.239316,0.628379,0.4338475
+"157158","pre","4","trechter twee strepen","twee planken midden","trechter twee strepen : wegwijsborden","twee planken midden : wegwijzer",0.444636,0.762794,0.603715
+"157158","pre","5","kuif twee armen","balk boven lampenkapje","kuif twee armen : klok lampenkap","balk boven lampenkapje : klok",0.538455,0.424271,0.481363
+"157158","pre","6","olijf op stokje","balk bal dorheen","olijf op stokje : olijf","balk bal dorheen : olijf",0.218363,0.634569,0.426466
+"157158","pre","7","statafel plateau zweven","tafelpoten met bakje","statafel plateau zweven : tafel met soepkom","tafelpoten met bakje : tafel soepkom",0.363618,0.196409,0.2800135
+"157158","pre","8","zeepaardje grote oren","ruit balk doorheen","zeepaardje grote oren : zeepaardje","ruit balk doorheen : zeepaardje",0.164786,0.558405,0.3615955
+"157158","pre","9","lepeltje rond koekje","cilinder midden pookje","lepeltje rond koekje : pinokkio koekje","cilinder midden pookje : pinokkio",0.219666,0.654074,0.43687
+"157158","pre","10","paal doorheen scherm","vierkant boven cilinder","paal doorheen scherm : mri spiegel balk","vierkant boven cilinder : mri scanner spiegel",0.35061,0.540004,0.445307
+"157158","pre","11","ronde neus lepels","bol midden stekels","ronde neus lepels : twee theelepels","bol midden stekels : lepels",0.285315,0.485554,0.3854345
+"157158","pre","12","spijker in arm","rond plankje puntig","spijker in arm : spijker linkerarm","rond plankje puntig : spijker in arm",0.160077,0.351032,0.2555545
+"157158","pre","13","kralenketting ondergrond tafeltennis","ribbel cilinder aandrijfwiel","kralenketting ondergrond tafeltennis : kralen","ribbel cilinder aandrijfwiel : kralen",0.444924,0.476654,0.460789
+"157158","pre","14","omarm paal bolletje","bol boven balk","omarm paal bolletje : omarmen paal","bol boven balk : man knuffelt paal",0.234294,0.482372,0.358333
+"157158","pre","15","slurf rokje oortjes","twee staafjes boven","slurf rokje oortjes : dansende olifant","twee staafjes boven : dansende olifant",0.360369,0.460408,0.4103885
+"157158","pre","16","drie hendels blokje","pook boven pook midden","drie hendels blokje : vier hendels","pook boven pook midden : vier uitsteeksels",0.0772066,0.4615,0.2693533

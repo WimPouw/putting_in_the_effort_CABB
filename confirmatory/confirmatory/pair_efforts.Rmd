@@ -1,0 +1,425 @@
+---
+title: "large_dataset"
+output: html_document
+---
+
+```{r warning=FALSE, message= FALSE}
+library(readr)
+library(tuneR)
+library(zoo)
+library(seewave)
+library(signal)
+library(rPraat)
+library(dplR)
+library(tidyverse)
+library(pracma) # peakfinding function
+library(ggplot2)
+library(gridExtra)
+library(reshape2)
+library(plyr)
+library(scales)
+library(prospectr)
+library(plotly)
+library(dplyr)
+library(car)
+library(reticulate)
+```
+
+# efforts in pair level
+
+This script includes data pre-processing pipeline to get effort measures from raw time series of the large dataset (CABB, N=42 pairs).The code is almost the same as for the small dataset, but adjusted a bit to the different format/names in the large dataset. 
+
+
+## setup
+
+```{r}
+# setup dirs
+curfolder <- getwd()
+# audio data
+# /../RDC_3011157.03_721/Audio_processed/
+data_to_process <- paste0(curfolder,"/audio/") 
+list_wavs <- list.files(data_to_process, pattern = ".wav")
+# annotations including transcripts and start/end time for all the trials
+# /../Results/Performance_on_interaction/1_data/interaction_ToT_accuracy.txt
+annotations <- read.delim(paste0(curfolder, "/annotation/interaction_ToT_accuracy.txt"), header=TRUE, sep=";",colClasses = "character")
+
+annotations[,c("onset_msec","offset_msec","accuracy","target","round","trial_nr","trial_id")] <- sapply(annotations[,c("onset_msec","offset_msec","accuracy","target","round","trial_nr","trial_id")], as.numeric)
+
+
+# transcripts folder: one file per pair
+# ../Output_transcripts/
+list_trans <- paste0(curfolder,"/annotation/transctipt/")
+
+# kinect data
+# ../Results/Kinect/Processed_for_analysis/
+kinect <- paste0(curfolder,"/kinect/")
+
+# dir for outputs
+outputfolder <- paste0(curfolder, "/output_large/")
+```
+
+## prepare trial start/end times and other info
+
+```{r}
+# only reference task
+trial_times_l <- annotations[(annotations$task=="ref"),c("onset_msec","offset_msec","director","trial","target","pair")]
+
+# drop audio missing pairs, resulting in 42 pairs in total
+```
+
+## count peaks of amplitude envelopes
+
+Code adapt from: 
++ Pouw, W. & Trujillo, J. P. (2021-12-17). *Extracting a smoothed amplitude envelope from audio*. Retrieved from: https://wimpouw.github.io/EnvisionBootcamp2021/extract_AmplitudeEnvelope_Rmarkdown.html
+
+use extracted envelope time series from "./audio_preprocess.Rmd"
+
+
+```{r}
+sc.it <- function(x) {scale(x, center = FALSE)} # scale without centering
+```
+
+### sliding a count window for each trial
+
+```{r}
+sum_trial <- function(x,threshold=0) {
+  return(as.numeric(colSums(!is.na(x) & (x>=threshold))))
+}
+```
+
+### get envelope peaks
+
+## extract amplitude envelopes (from two-channel audio)
+
+Code adapt from: 
++ Pouw, W. & Trujillo, J. P. (2021-12-17). *Extracting a smoothed amplitude envelope from audio*. Retrieved from: https://wimpouw.github.io/EnvisionBootcamp2021/extract_AmplitudeEnvelope_Rmarkdown.html
+
+
+```{r}
+# input two-channel .wav, default channel: 1 Left (Speaker A)
+amplitude_envelope.extract <- function(locationsound, smoothingHz, resampledHz, channel=1) {
+  #read the sound file into R
+  snd <- rPraat::snd.read(locationsound)
+  #apply the hilbert on the signal : default channel 1 (left channel, ppA)
+  hilb <- seewave::hilbert(snd$sig, f = snd$fs, channel = channel, fftw =FALSE) 
+  #apply complex modulus
+  env <- as.vector(abs(hilb))
+  #smooth with a hanning window
+  env_smoothed <- dplR::hanning(x= env, n = snd$fs/smoothingHz)
+  #set undeterminable at beginning and end NA's to 0
+  env_smoothed[is.na(env_smoothed)] <- 0
+  #resample settings at desired sampling rate
+  f <- approxfun(1:(snd$duration*snd$fs),env_smoothed)
+  #resample apply
+  downsampled <- f(seq(from=0,to=snd$duration*snd$fs,by=snd$fs/resampledHz))
+  #let function return the downsampled smoothed amplitude envelope
+  return(downsampled[!is.na(downsampled)])
+}
+```
+
+```{r}
+for(wav in list_wavs) {
+   #do not run this when these files are already generated
+  if(!file.exists(paste0(outputfolder, "env/", substr(wav, 1, nchar(wav)-4), "_ENV", ".csv"))) {
+  #location of the current sound file in the loop  
+  locsound <- paste0(data_to_process, wav)
+  # TODO change: better with 8Hz Hanning, use the peak check script to test; not much differences when counting peaks
+  #get the amplitude envelope at location, 5Hz Hanning, 100Hz sampling
+  env1 <- amplitude_envelope.extract(locsound, 5, 100,channel=1) # ppA left channel
+  env2 <- amplitude_envelope.extract(locsound, 5, 100,channel=2) # ppB right channel
+  
+  #make a time vector based on sampling rate (1000/Hz)
+  time_ms <- seq(1000/100, length(env1)*(1000/100), by = 1000/100) # make sure the channels are of the same length
+  #bind into data frame
+  ENV <- cbind.data.frame(time_ms, env1, env2)
+  #save it to a folder
+  write.csv(ENV, file = paste0(paste0(outputfolder,"env/", substr(wav, 1, nchar(wav)-4), "_ENV", ".csv")),row.names=FALSE) 
+  }
+}
+```
+
+
+```{r}
+list_env <- list.files(paste0(outputfolder,"env/"), pattern="*_ENV.csv")
+final_envpeaks <- data.frame(matrix(ncol=8, nrow=0))
+colnames(final_envpeaks) <- c("StartTime","EndTime","director","trial","target","pair","peaks1","peaks2")
+
+for(env in list_env) {
+  env_ts <- read.csv(paste0(outputfolder,"env/", env))
+  #identify peaks: #this will give you the height of the peak, 
+  #the index, the index of the left through [,3] and the right through [,4]
+  peaks <- lapply(env_ts[c("env1", "env2")], function(x) (pracma::findpeaks(as.vector(sc.it(x)),minpeakdistance = 10, minpeakheight = 0.37))) # minpeakheight = mean(x)-(1*sd(x))))) 
+  # TODO using fixed threshold = avg(values)-2*std(values) should change this if use another dataset
+
+  #initialize a peak variable
+  env_ts$peaks1 <- NA 
+  env_ts$peaks2 <- NA
+  #at each location of the timeseries where there is a peak, load in the value of that peak so we can plot it later
+  env_ts$peaks1[peaks$env1[,2]] <- peaks$env1[,1]
+  env_ts$peaks2[peaks$env2[,2]] <- peaks$env2[,1]
+  #}
+  
+  dyad <- trial_times_l[trial_times_l$pair==substr(env,1,6),]
+
+  # TODO can merge into a general function with gesture & f0range
+  for(ibegin in 1:nrow(dyad)) {
+    interval_min <- round_any(dyad$onset_msec[ibegin],10,ceiling)
+    interval_max <- round_any(dyad$offset_msec[ibegin],10,floor)
+    rows <- env_ts[(env_ts$time_ms >= interval_min) & (env_ts$time_ms < interval_max),c("peaks1","peaks2")]
+    x <- sum_trial(rows, threshold = 0) 
+    final_envpeaks[nrow(final_envpeaks)+1,] <-  cbind.data.frame(interval_min,interval_max,dyad[ibegin,3:6],x[1],x[2])
+  }
+}
+```
+
+
+## get transitions
+
+### extract transitions from transcripts
+
+```{r}
+# start-endtime could be overlap! 
+# if1 [a ]{b }  a_end<=b_start: b_start
+# if2 [a {b ] } (a_start<=b_start) a_end<=b_end: b_start
+# if3 [a {b } ] (a_start<=b_start) a_end>=b_end: b_start & b_end
+
+transitions.extract <- function(transcript) {
+  # speaker = participant
+  
+  trans_times <- data.frame(matrix(ncol=3, nrow=0))
+  colnames(trans_times) <- c("Transtime","PrevSpeaker","NextSpeaker")
+  
+  prev_row <- NA
+  prev_speaker <- NA
+  
+  for(row in 1:nrow(transcript)) {
+    cur_speaker <- transcript[row,"participant"]
+    if(cur_speaker=="") next
+  
+    if(!is.na(prev_speaker) && prev_speaker != cur_speaker) {
+      trans_times[nrow(trans_times)+1,] <- c(transcript[row,"onset_msec"],prev_speaker,cur_speaker)
+      
+      if(transcript[prev_row,"offset_msec"] > transcript[row,"offset_msec"]) {
+        #print(row) 
+        trans_times[nrow(trans_times)+1,] <- c(transcript[row,"offset_msec"],cur_speaker,prev_speaker)
+      }
+      else {
+        prev_speaker <- cur_speaker
+        prev_row <- row
+      }
+    }
+    else { # when cur is 1st or the same speaker
+       prev_speaker <- cur_speaker
+       prev_row <- row
+    }
+  }
+  
+  trans_times[1]<-lapply(trans_times[1], function(x) as.numeric(x))
+  return(trans_times)
+}
+```
+
+
+```{r}
+final_trans <- data.frame(matrix(ncol=7, nrow=0))
+colnames(final_trans) <- c("StartTime","EndTime","director","trial","target","pair","transitions")
+
+for (env in list_wavs) {
+  #env <- list_wavs[1]
+# change to for (env in list_env) {
+  transcript <- read.table(paste0(list_trans,substr(env,1,6),"_transcript.txt"),sep=',', header = T,colClasses=c("pair"="character"))
+  
+  trans_times <- transitions.extract(transcript[transcript$task=="ref",])
+  
+  dyad <- trial_times_l[trial_times_l$pair==substr(env,1,6),]
+  
+  for(ibegin in 1:nrow(dyad)) {
+    interval_min <- round_any(dyad$onset_msec[ibegin],10,ceiling)
+    interval_max <- round_any(dyad$offset_msec[ibegin],10,floor)
+    rows <- trans_times[(trans_times$Transtime >= interval_min) & (trans_times$Transtime < interval_max),]
+    x <- sum_trial(rows[1], threshold = 0)
+    final_trans[nrow(final_trans)+1,] <- cbind.data.frame(interval_min,interval_max,dyad[ibegin,3:6],x)
+  }
+}
+```
+
+
+## get gesture: left & right handtips
+
+### get gesture speed peaks
+
+**already have speed in the large dataset**
+
+```{r}
+kin.get <- function(MT) {
+    peaks_tip    <- findpeaks(as.vector(MT$avg_handtip), minpeakdistance = 8, minpeakheight = 15) # 8; meanpeakheight=-1; 0.1
+    #time_ms <- seq(0, max(MT$time_ms), by = 250)
+    time_ms <- MT$time_ms[peaks_tip[,2]]
+    peak <- peaks_tip[,1]
+    gesture_ts <- cbind.data.frame(time_ms, peak)
+    #gesture_ts <- cbind.data.frame(time_ms, peaks_tip=NA)
+    #gesture_ts <- data.frame(time_ms)
+    #gesture_ts$peaks_tip <- NA
+    # change this together with freq 250/33.3 ~ 7.5 -> 8
+    # integer index? this version takes all the peaks(x) to index i, (i-1)<=x<(i+1)
+    #gesture_ts$peaks_tip[peaks_tip[,2]/8] <- peaks_tip[,1] 
+    #gesture_ts$peaksright_tip[peaksright_tip[,2]] <- peaksright_tip[,1]
+    return(gesture_ts)
+}
+```
+
+
+### count gesture speed peaks
+
+```{r}
+final_gestures <- data.frame(matrix(ncol=8, nrow=0))
+colnames(final_gestures) <- c("StartTime","EndTime","director","trial","target","pair","gesture1","gesture2")
+
+for (env in list_wavs) { 
+  #env <- list_wavs[1]
+  MT_a <- read.csv(paste0(kinect, substr(env,1,3), "_MT_processed.csv"))
+  MT_b <- read.csv(paste0(kinect, substr(env,4,6), "_MT_processed.csv"))
+  
+  MT_a <- MT_a[MT_a$time_ms>=0,13:15]
+  MT_b <- MT_b[MT_b$time_ms>=0,13:15]
+  
+  rownames(MT_a) <- 1:nrow(MT_a)
+  rownames(MT_b) <- 1:nrow(MT_b)
+ 
+  MT_a$avg_handtip <- (MT_a$v_handtip_left+MT_a$v_handtip_right)/2
+  
+  MT_b$avg_handtip <- (MT_b$v_handtip_left+MT_b$v_handtip_right)/2
+  
+  gesture_ts_a <- kin.get(MT_a)
+  gesture_ts_b <- kin.get(MT_b)
+  
+  colnames(gesture_ts_a) <- c("time_ms","peakstip_a") 
+  colnames(gesture_ts_b) <- c("time_ms","peakstip_b")
+  
+  merged <- merge(x=gesture_ts_a, y = gesture_ts_b, by = "time_ms", all=TRUE)
+  
+  dyad <- trial_times_l[trial_times_l$pair==substr(env,1,6),]
+  
+  for(ibegin in 1:nrow(dyad)) {
+    interval_min <- round_any(dyad$onset_msec[ibegin],10,ceiling)
+    interval_max <- round_any(dyad$offset_msec[ibegin],10,floor)
+    rows <- merged[(merged$time_ms >= interval_min) & (merged$time_ms < interval_max),c("peakstip_a","peakstip_b")]
+    x <- sum_trial(rows, threshold = 0)
+    
+    final_gestures[nrow(final_gestures)+1,] <-  cbind.data.frame(interval_min,interval_max,dyad[ibegin,3:6],x[1],x[2])
+  }
+}
+```
+
+
+## get F0 range (PVQ)
+
+### use F0_extract.praat script to get F0 then smooth it further below
++ this is a python chunk 
++ code adapted from Lotte (based on Katherine Marcoux's)
+
+```{python}
+import csv
+import numpy as np
+import math
+
+factor = 1.5
+# this function smoothens (de-noises) the given input list
+def smoothen(values):
+	res = []
+
+	for ix in range(len(values)):
+		if ix < 5:
+			# first ten values not stable, don't count them
+			continue
+
+		i = values[ix]
+
+		#if i == -1:
+		if math.isnan(i):
+			continue
+
+		twoBack = res[-2] if len(res) >= 2 else None
+		#lastRead = values[ix - 1] if ix > 0 else None
+		# Here I would insert the clause that the first value added has to be above 100
+		if twoBack == None or (i < twoBack and float(twoBack) / i < factor) or (i >= twoBack and float(i) / twoBack < factor):
+			res.append(i)
+			if len(res)==1 and res[0]<120:
+				#print("Removing " + str(res[-1]) + " at index " + str(ix))
+				del res[-1]
+	#return res
+	
+	# return 0 when it is NaN - PVQ should > 0
+	if len(res)==0:
+	  return 0
+	return (round(np.std(res)/np.mean(res),6) if (np.mean(res)!=0) else 0)
+
+```
+
+```{r}
+list_f0 <- list.files(paste0(outputfolder,"f0/"), pattern="*_ch1.csv")
+final_f0 <- data.frame(matrix(ncol=8, nrow=0))
+colnames(final_f0) <- c("StartTime","EndTime","director","trial","target","pair","range1","range2")
+
+for(it in list_f0) {
+  f0_ts_ch1 <- read.csv(paste0(outputfolder,"f0/",it))
+  f0_ts_ch2 <- read.csv(paste0(outputfolder,"f0/",substr(it,1,16),"2.csv"))
+  
+  f0_ts_ch1[f0_ts_ch1=="--undefined--"] <- NA
+  f0_ts_ch1$pitch <- as.numeric(f0_ts_ch1$pitch)
+  
+  #f0_ts_ch2$fmin <- trimws(f0_ts_ch2$fmin)
+  f0_ts_ch2[f0_ts_ch2=="--undefined--"] <- NA
+  f0_ts_ch2$pitch <- as.numeric(f0_ts_ch2$pitch)
+  f0_ts <- merge(f0_ts_ch1,f0_ts_ch2,by=c("soundfile","tmin"))
+  
+  dyad <- trial_times_l[trial_times_l$pair==substr(it,1,6),]
+  
+  for(ibegin in 1:nrow(dyad)) {
+    #ibegin <- 1
+    interval_min <- round_any(dyad$onset_msec[ibegin],10,ceiling)
+    interval_max <- round_any(dyad$offset_msec[ibegin],10,floor)
+    
+    rows <- f0_ts[((f0_ts$tmin*1000) >= interval_min) & ((f0_ts$tmin*1000) < interval_max),]
+    final_f0[nrow(final_f0)+1,] <-  cbind.data.frame(interval_min,interval_max,dyad[ibegin,3:6],py$smoothen(rows$pitch.x),py$smoothen(rows$pitch.y))
+  }
+}
+
+```
+
+
+## average measures per round
+
+```{r}
+# TODO merge into a function
+t1 <- final_envpeaks
+t1$psum <- t1$peaks1+t1$peaks2
+t1$round <- apply(t1,1,FUN=function(x) (as.numeric(strsplit(x[4],split="\\.|\\_")[[1]][1])))
+
+t2 <- final_trans
+t2$round <- apply(t2,1,FUN=function(x) (as.numeric(strsplit(x[4],split="\\.|\\_")[[1]][1]))) 
+
+t3<- final_gestures
+t3$gsum <- t3$gesture1+t3$gesture2
+t3$round <- apply(t3,1,FUN=function(x) (as.numeric(strsplit(x[4],split="\\.|\\_")[[1]][1])))
+
+
+t4<-final_f0
+t4$f0sum <- t4$range1+t4$range2
+t4$round <- apply(t4,1,FUN=function(x) (as.numeric(strsplit(x[4],split="\\.|\\_")[[1]][1])))
+```
+
+```{r}
+write.csv(t1, file = paste0(paste0(outputfolder,"final_envpeaks.csv")),row.names=FALSE) 
+write.csv(t2, file = paste0(paste0(outputfolder,"final_transitions.csv")),row.names=FALSE) 
+write.csv(t3, file = paste0(paste0(outputfolder,"final_gestures.csv")),row.names=FALSE) 
+write.csv(t4, file = paste0(paste0(outputfolder,"final_f0.csv")),row.names=FALSE) 
+```
+
+
+## check efforts per round/Fribble
+
+```{r}
+plotly1 <- t4 %>% ggplot(aes(x=round, y=f0sum, color=pair))+geom_line()+stat_summary(fun = "mean",geom = "point",size = 1,alpha = 0.6,color = "black") + facet_wrap(.~target)
+ggplotly(plotly1)
+```

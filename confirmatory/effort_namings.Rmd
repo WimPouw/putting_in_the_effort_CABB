@@ -1,0 +1,424 @@
+---
+title: "effort_namings"
+output: html_document
+---
+
+```{r warning=FALSE, message= FALSE}
+library(readr)
+library(tuneR)
+library(zoo)
+library(seewave)
+library(signal)
+library(rPraat)
+library(dplR)
+library(tidyverse)
+library(pracma) # peakfinding function
+library(ggplot2)
+library(gridExtra)
+library(reshape2)
+library(plyr)
+library(scales)
+library(prospectr)
+library(plotly)
+library(dplyr)
+library(car)
+```
+
+# efforts and namings
+
+This script further process effort measures to get intercepts and slopes, and calculate naming measures. 
+
+## setup
+
+```{r}
+# setup dirs
+curfolder <- getwd()
+# audio data
+data_to_process <- paste0(curfolder,"/audio/") 
+list_wavs <- list.files(data_to_process, pattern = ".wav")
+# annotations including transcripts and start/end time for all the trials
+annotations <- read.delim(paste0(curfolder, "/annotation/interaction_ToT_accuracy.txt"), header=TRUE, sep=";",colClasses = "character")
+annotations[,c("onset_msec","offset_msec","accuracy","target","round","trial_nr","trial_id")] <- sapply(annotations[,c("onset_msec","offset_msec","accuracy","target","round","trial_nr","trial_id")], as.numeric)
+
+# transcripts
+list_trans <- paste0(curfolder,"/annotation/transctipt/")
+# kinect data
+kinect <- paste0(curfolder,"/kinect/")
+# dir for outputs
+outputfolder <- paste0(curfolder, "/output_large/")
+```
+
+
+## efforts intercepts & slopes
+read in efforts from "./pair_efforts.Rmd"
+
+```{r}
+t1 <- read.csv(paste0(outputfolder,"final_envpeaks.csv"),colClasses=c("pair"="character"))
+t2 <- read.csv(paste0(outputfolder,"final_transitions.csv"),colClasses=c("pair"="character"))
+t3 <- read.csv(paste0(outputfolder,"final_gestures.csv"),colClasses=c("pair"="character"))
+t4 <- read.csv(paste0(outputfolder,"final_f0.csv"),colClasses=c("pair"="character"))
+```
+
+## get intercepts and slopes
+
+### loglog models
+
+```{r}
+# TODO wrap in functions?
+
+pairs <- unique(t2$pair)
+Fribbles <- seq(1,16)
+mat2_shift <- data.frame(matrix(ncol=4, nrow=0))
+colnames(mat2_shift) <- c("target","pair","trans_intercept","trans_slope")
+for(fribble in Fribbles) {
+  for(pair in pairs) {
+    tmp <- t2[t2$pair==pair & t2$target==fribble,]
+    model <- lm(log(transitions+1)~scale(log(round)),data=tmp)
+    # coef(model): intercept and slope
+    mat2_shift[nrow(mat2_shift)+1,] <- #cbind.data.frame(fribble, pair,coef(model)[1],coef(model)[2],mean(abs(model$residuals)))
+    cbind.data.frame(fribble, pair,coef(model)[1],coef(model)[2])
+  }
+}
+
+mat2_shift[,c("env_intercept","env_slope")] <- NA
+for(row in 1:nrow(mat2_shift)) {
+  fribble <- mat2_shift[row,"target"]
+  pair <- mat2_shift[row,"pair"]
+  tmp <- t1[t1$pair==pair & t1$target==fribble,]
+  model <- lm(log(psum+1)~scale(log(round)),data=tmp)
+  # coef(model): intercept and slope
+  mat2_shift[row,c("env_intercept","env_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+mat2_shift[,c("ges_intercept","ges_slope")] <- NA
+for(row in 1:nrow(mat2_shift)) {
+  fribble <- mat2_shift[row,"target"]
+  pair <- mat2_shift[row,"pair"]
+  tmp <- t3[t3$pair==pair & t3$target==fribble,]
+  model <- lm(log(gsum+1)~scale(log(round)),data=tmp)
+  # coef(model): intercept and slope
+  mat2_shift[row,c("ges_intercept","ges_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+mat2_shift[,c("f0_intercept","f0_slope")] <- NA
+for(row in 1:nrow(mat2_shift)) {
+  fribble <- mat2_shift[row,"target"]
+  pair <- mat2_shift[row,"pair"]
+  tmp <- t4[t4$pair==pair & t4$target==fribble,]
+  model <- lm(log(f0sum+1)~scale(log(round)),data=tmp)
+  # coef(model): intercept and slope
+  mat2_shift[row,c("f0_intercept","f0_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+#mat2_shift$pair <- apply(mat2_shift,1, function(x) as.numeric(substr(x[2],5,6)))
+```
+
+### linear models for comparison
+
+```{r}
+mat3 <- data.frame(matrix(ncol=4, nrow=0))
+colnames(mat3) <- c("target","pair","trans_intercept","trans_slope")
+
+for(fribble in Fribbles) {
+  for(pair in pairs) {
+    tmp <- t2[t2$pair==pair & t2$target==fribble,]
+    model <- lm(transitions~scale(round),data=tmp)
+    # coef(model): intercept and slope
+    mat3[nrow(mat3)+1,] <- cbind.data.frame(fribble, pair, coef(model)[1],coef(model)[2])
+  }
+}
+
+mat3[,c("env_intercept","env_slope")] <- NA
+for(row in 1:nrow(mat3)) {
+  fribble <- mat3[row,"target"]
+  pair <- mat3[row,"pair"]
+  tmp <- t1[t1$pair==pair & t1$target==fribble,]
+  model <- lm(psum~scale(round),data=tmp)
+  # coef(model): intercept and slope
+  mat3[row,c("env_intercept","env_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+mat3[,c("ges_intercept","ges_slope")] <- NA
+for(row in 1:nrow(mat3)) {
+  fribble <- mat3[row,"target"]
+  pair <- mat3[row,"pair"]
+  tmp <- t3[t3$pair==pair & t3$target==fribble,]
+  model <- lm(gsum~scale(round),data=tmp)
+  # coef(model): intercept and slope
+  mat3[row,c("ges_intercept","ges_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+mat3[,c("f0_intercept","f0_slope")] <- NA
+for(row in 1:nrow(mat3)) {
+  fribble <- mat3[row,"target"]
+  pair <- mat3[row,"pair"]
+  tmp <- t4[t4$pair==pair & t4$target==fribble,]
+  model <- lm(f0sum~scale(round),data=tmp)
+  # coef(model): intercept and slope
+  mat3[row,c("f0_intercept","f0_slope")] <- cbind.data.frame(coef(model)[1],coef(model)[2])
+}
+
+#mat3$pair <- apply(mat3,1, function(x) as.numeric(substr(x[2],5,6)))
+```
+
+
+## energy
+
+```{r}
+mat_diff <- merge(t1[,c(3:8,10)],t3[,c(3:8,10)],by=c("director","trial","target","pair","round"))
+mat_diff <- merge(mat_diff, t4[,c(3:8,10)], by=c("director","trial","target","pair","round"))
+mat_diff <- merge(mat_diff, t2[,c(3:8)],by=c("director","trial","target","pair","round"))
+
+#mat_diff$trial <- NULL # need to fix numeric trial as char when read from file
+write.csv(mat_diff, file=paste0(outputfolder,"mat_diff.csv"), row.names=F)
+```
+
+
+```{r}
+energy <- mat_diff
+#energy$pair <- apply(energy,1, function(x) as.numeric(substr(x[3],5,6)))
+#energy$File <- NULL
+
+energy <- energy %>% group_by(pair,target,round) %>% summarise(pair_peaks=mean(peaks1)+mean(peaks2),pair_gesture=mean(gesture1)+mean(gesture2),pair_range=mean(range1)+mean(range2),pair_transitions=mean(transitions))
+
+#energy<-left_join(energy,rdm_one_to_all_long,by=c("pair","target"="fribble")) %>% rename(dist_all=distance)
+rdm_pair_long$pair <- as.character(rdm_pair_long$pair)
+energy<-left_join(energy,rdm_pair_long,by=c("pair","target"="fribble")) #%>% rename(dist_pair=distance)
+
+write.csv(energy, file=paste0(outputfolder,"energy.csv"), row.names=F)
+```
+
+
+## naming measures
+
++ Adapt from Marlou's script naming_behstudy.Rmd
++ We used SNAUT (Mandera et al. 2017) to get Word2vec cosine distances, with corpus *NLPL Dutch CoNLL17*(2.610.658 items, 100 dimensions), as it worked best for the dataset [ref to previous test script]
++ input data is fully cleaned up and with typo corrected, details see Marlou's
+
+### same as Marlou's: get pre/post naming distances between two pair member A and B
+
+# get snaut input
+
+```{r}
+# RDC_3011157.03_721/Results/Lexical_similarity_Naming/1_data/naming_task_lexical_similarity.txt
+naming_data <- read.table(file=paste0(outputfolder,"naming/naming_task_lexical_similarity.txt"),sep=";",header=T,colClasses=c("Pair"="character"))
+
+# naming_data[with(naming_data,grepl("<e9><e9>n", Name_a) | grepl("<e9><e9>n", Name_b)), ] 
+
+# replace icons
+naming_data <- data.frame(lapply(naming_data, function(x) {gsub("<e9><e9>n ", "", x)}))
+# kaasplakje -> kaas plakje
+naming_data[337,"Name_a"] <- "paddestoel kaas plakje kijkes"
+# TODO sticom -> sitcom ???
+naming_data[120,"Name_a"] <- "pinokkio sitcom satelliet"
+
+naming_ab <- naming_data %>% mutate(labels = paste0(Name_a," : ",Name_b))
+write.table(naming_ab$labels, file=paste0(outputfolder,"naming_ab_for_snaut.txt"),row.names=F,col.names=F,quote=F)
+
+fromsnaut_ab <- read.csv(file=paste0(outputfolder,"naming/snaut_output_ab.csv")) %>% 
+  setNames(., c("Name_a","Name_b","snautdist")) %>%
+  mutate(labels = paste0(Name_a," : ",Name_b)) %>%
+  select(labels,snautdist) %>%
+  unique()
+
+# join snaut output with naming data
+naming_ab_final <- left_join(naming_ab,fromsnaut_ab,by="labels")
+
+write.csv2(naming_ab_final, file=paste0(outputfolder,"naming/naming_final_ab.csv"), row.names=F)
+```
+
+
+```{r}
+naming_ind_prepost <- naming_data %>% group_by(Pair,Fribble_nr) %>%
+  mutate(labels_a = paste0(Name_a[Session=="pre"]," : ",Name_a[Session=="post"]),
+         labels_b = paste0(Name_b[Session=="pre"]," : ",Name_b[Session=="post"]))
+
+write.table(unique(naming_ind_prepost$labels_a), file=paste0(outputfolder,"naming/naming_final_ind_a_for_snaut.txt"),row.names=F,col.names=F,quote=F)
+write.table(unique(naming_ind_prepost$labels_b), file=paste0(outputfolder,"naming/naming_final_ind_b_for_snaut.txt"),row.names=F,col.names=F,quote=F)
+
+fromsnaut_ind_a <- read.csv(file=paste0(outputfolder,"naming/snaut_output_ind_a.csv")) %>% 
+  setNames(., c("Name_a_pre","Name_a_post","snautdist_a")) %>%
+  mutate(labels_a = paste0(Name_a_pre," : ",Name_a_post)) %>%
+  select(labels_a,snautdist_a) %>%
+  unique()
+
+fromsnaut_ind_b <- read.csv(file=paste0(outputfolder,"naming/snaut_output_ind_b.csv")) %>% 
+  setNames(., c("Name_b_pre","Name_b_post","snautdist_b")) %>%
+  mutate(labels_b = paste0(Name_b_pre," : ",Name_b_post)) %>%
+  select(labels_b,snautdist_b) %>%
+  unique()
+
+t <- naming_ind_prepost %>% distinct(Pair, Fribble_nr, labels_a, labels_b, .keep_all = TRUE)
+
+f <- left_join(t,fromsnaut_ind_a,by="labels_a") %>%
+  left_join(fromsnaut_ind_b,by="labels_b")
+
+f$avg_dist <- rowMeans(f[,c("snautdist_a","snautdist_b")], na.rm=TRUE)
+write.csv(f, file=paste0(outputfolder,"naming/naming_ind_prepost.csv"), row.names=F)
+```
+
+
+
+### combine with effort intercepts and slopes before
+```{r}
+M <- dcast(naming_ab_final[,c("Session","Pair","Fribble_nr","snautdist")],Pair+Fribble_nr~Session)
+M$prepost_change <- M$pre-M$post
+
+f$Fribble_nr <- as.numeric(f$Fribble_nr)
+M$Fribble_nr <- as.numeric(M$Fribble_nr)
+# loglog models
+final_mat <- left_join(mat2_shift, f[,c("Pair","Fribble_nr","avg_dist")], by=c("pair"="Pair", "target"="Fribble_nr"))
+#final_mat$File <- NULL
+final_mat <- left_join(final_mat,M, by=c("pair"="Pair","target"="Fribble_nr"))
+
+final_mat$prepost_change<-final_mat$pre-final_mat$post 
+
+write.csv(final_mat, file = paste0(paste0(outputfolder,"mat_lm_prepost_centered_shift_one.csv")),row.names=FALSE) 
+
+# linear models
+final_mat_linear <- left_join(mat3, f[,c("Pair","Fribble_nr","avg_dist")], by=c("pair"="Pair", "target"="Fribble_nr"))
+#final_mat_linear$File <- NULL
+final_mat_linear <- left_join(final_mat_linear,M, by=c("pair"="Pair","target"="Fribble_nr"))
+final_mat_linear$prepost_change<-final_mat_linear$pre-final_mat_linear$post 
+
+write.csv(final_mat_linear, file = paste0(paste0(outputfolder,"mat_lm_prepost_centered_linear.csv")),row.names=FALSE) 
+```
+
+
+## centrality
+
+### pre centrality
+
+```{r}
+naming_final_pre <- naming_data[naming_data$Session=="pre",]
+
+colnames(naming_final_pre)[4:5] <- c("A","B")
+naming_final_pre$Session <- NULL
+#naming_final_pre[,c(5:6)] <- NULL
+
+naming_final_pre <- melt(naming_final_pre, id=c("Pair","Fribble_nr"))
+naming_final_pre<- rename(naming_final_pre,participant=variable,name=value)
+
+naming_final_pre <- naming_final_pre %>% group_by(Pair,participant,Fribble_nr) %>% arrange(.by_group = T)
+
+# input for snaut
+write.table(naming_final_pre$name, file=paste0(outputfolder,"naming/naming_pre_both_for_snaut.txt"),row.names=F,col.names=F,quote=F)
+
+# output from snaut
+all_pre_dist <- read.csv(file=paste0(outputfolder,"naming/pair_participant_pre_dist.csv"))
+```
+
+### post centrality 
+
+```{r}
+naming_final_posts <- naming_data[naming_data$Session=="post",]
+
+colnames(naming_final_posts)[4:5] <- c("A","B")
+naming_final_posts$Session <- NULL
+#naming_final_posts[,c(5:6)] <- NULL
+
+naming_final_posts <- melt(naming_final_posts, id=c("Pair","Fribble_nr"))
+naming_final_posts<- rename(naming_final_posts,participant=variable,name=value)
+
+naming_final_posts <- naming_final_posts %>% group_by(Pair,participant,Fribble_nr) %>% arrange(.by_group = T)
+
+# input for snaut
+write.table(naming_final_posts$name, file=paste0(outputfolder,"naming/naming_post_both_for_snaut.txt"),row.names=F,col.names=F,quote=F)
+
+# output from snaut
+all_post_dist <- read.csv(file=paste0(outputfolder,"naming/pair_participant_post_dist.csv"))
+```
+
+### for post/pre names of A/B, get avg distances between Fribble x and y (x=1:16; y=x+1:16)
+
+```{r}
+# post
+rdm_mat <- data.frame(matrix(ncol=16, nrow=16))
+colnames(rdm_mat) <- Fribbles
+f1 <- 1
+while(f1 <= 16) {
+  f2 <- f1+1
+  while(f2 <= 16) {
+    rdm_mat[f1,f2] <- mean(rowMeans(all_post_dist[seq(f1,2208,16),seq(f2+1,2209,16)]))
+    rdm_mat[f2,f1] <- rdm_mat[f1,f2]
+    
+    f2 <- f2+1
+  }
+  f1 <- f1+1
+}
+write.csv(rdm_mat, file=paste0(outputfolder,"rdm_mat_post.csv"), row.names=F)
+
+# pre
+rdm_mat_pre <- data.frame(matrix(ncol=16, nrow=16))
+colnames(rdm_mat_pre) <- Fribbles
+f1 <- 1
+while(f1 <= 16) {
+  f2 <- f1+1
+  while(f2 <= 16) {
+    rdm_mat_pre[f1,f2] <- mean(rowMeans(all_pre_dist[seq(f1,2208,16),seq(f2+1,2209,16)]))
+    rdm_mat_pre[f2,f1] <- rdm_mat_pre[f1,f2]
+    
+    f2 <- f2+1
+  }
+  f1 <- f1+1
+}
+write.csv(rdm_mat_pre, file=paste0(outputfolder,"rdm_mat_pre.csv"), row.names=F)
+```
+
+### post/pre distance per pair: 1 vs 31, average per Fribble
+
+```{r}
+# post
+rdm_pair <- data.frame(matrix(ncol=16,nrow=0))
+colnames(rdm_pair) <- Fribbles
+
+row <- 1
+while (row <= 2208) {
+  tt <- rowMeans(all_post_dist[seq(row,row+31),seq(row+1,row+32)],na.rm = T)
+  rdm_pair[nrow(rdm_pair)+1,] <- as.data.frame(t(unname(tt[1:16] + tt[17:32])/2))
+  row <- row+32
+}
+
+rdm_pair$pair <- unique(naming_final_posts$Pair)
+
+
+# same for pre
+rdm_pair_pre <- data.frame(matrix(ncol=16,nrow=0))
+colnames(rdm_pair_pre) <- Fribbles
+
+row <- 1
+while (row <= 2208) {
+  tt <- rowMeans(all_pre_dist[seq(row,row+31),seq(row+1,row+32)],na.rm = T)
+  rdm_pair_pre[nrow(rdm_pair_pre)+1,] <- as.data.frame(t(unname(tt[1:16] + tt[17:32])/2))
+  row <- row+32
+}
+
+rdm_pair_pre$pair <- unique(naming_final_pre$Pair)
+
+# in long format together
+rdm_pair_long <- melt(rdm_pair,"pair")
+rdm_pair_long <- rename(rdm_pair_long,fribble=variable,postdist=value)
+tt <- rdm_pair_pre %>% melt("pair") %>% rename(fribble=variable,predist=value)
+rdm_pair_long <- left_join(rdm_pair_long,tt,by=c("pair","fribble"))
+rdm_pair_long$fribble <- as.numeric(as.character(rdm_pair_long$fribble))
+#rdm_pair_long$pair <- as.numeric(as.character(rdm_pair_long$pair))
+
+write.csv(rdm_pair_long, file=paste0(outputfolder,"rdm_pair_long.csv"), row.names=F)
+```
+
+### visual similarity
++ structural similarity between any two Fribble pictures
++ originally a matlab matrix (from Sara)
+
+```{r}
+vis_sim <- read.csv(paste0(outputfolder,"naming/Ssim_RDM.csv"),header = F) 
+vis_sim <- vis_sim[1:16,1:16]
+vis_sim[row(vis_sim)==col(vis_sim)] <- NA
+
+vis_sim_centrality <- cbind.data.frame(fribble=c(1:16),visdist=rowMeans(vis_sim,na.rm = T))
+
+centrality_all <- rdm_pair_long %>% group_by(fribble) %>% summarise(pair_predist=mean(predist),pair_postdist=mean(postdist)) %>% left_join(vis_sim_centrality,by="fribble")
+
+write.csv(centrality_all, file=paste0(outputfolder,"centrality_all.csv"), row.names=F)
+
+```

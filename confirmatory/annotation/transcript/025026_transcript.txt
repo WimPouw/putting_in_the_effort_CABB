@@ -1,0 +1,802 @@
+"pair","trial","round","trial_nr","trial_id","task","target","director","participant","speech","onset","onset_msec","offset","offset_msec"
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","*laugh*","00:00:02.314",2314,"00:00:02.555",2555
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","ok jij moet hem dus raden","00:00:05.051",5051,"00:00:06.585",6585
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","ja","00:00:06.604",6604,"00:00:06.840",6840
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","um *exhale* *inhale* ja er zit een soort van l] het is een soort van kopje en daar zit een lepeltje in en een steeltje eraan en aan de bovenkant zit een","00:00:07.705",7705,"00:00:16.161",16161
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","*inhale* half rondje *exhale* aan de onderkant is hij wat spitser ik vond het een beetje een koffiekopje","00:00:16.161",16161,"00:00:22.760",22760
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","*laugh*","00:00:18.464",18464,"00:00:19.696",19696
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","ok zit er iets aan de zijkanten?","00:00:24.516",24516,"00:00:26.230",26230
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","ja aan de linkerkant zit een steeltje","00:00:26.930",26930,"00:00:28.570",28570
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","*laugh*","00:00:29.442",29442,"00:00:29.890",29890
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","uh en er zit uh er is maar één uitsteeksel zeg maar aan de bovenkant","00:00:30.309",30309,"00:00:33.320",33320
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","*smack* ja","00:00:32.555",32555,"00:00:33.094",33094
+"025026","1.1_ref",1,"1",1,"ref",9,"B","B","nee ja d] a] e] er is zeg maar één soort van *inhale* lepeltje denk ik en er is een half rondje aan de achterkant *inhale*","00:00:33.842",33842,"00:00:39.618",39618
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","ok","00:00:40.413",40413,"00:00:40.901",40901
+"025026","1.1_ref",1,"1",1,"ref",9,"B","A","ok dan ga ik voor #dertien#","00:00:47.755",47755,"00:00:48.922",48922
+"025026","1.1_loc",1,"1",2,"loc",9,"B","B","um *inhale* hij is een beetje in het midden van het scherm maar dan onderin *smack* niet helemaal aan de onderkant","00:00:52.503",52503,"00:00:59.144",59144
+"025026","1.1_loc",1,"1",2,"loc",9,"B","A","ok","00:00:56.871",56871,"00:00:57.365",57365
+"025026","1.1_loc",1,"1",2,"loc",9,"B","B","um *smack* ja ik denk wel eigenlijk gewoon in het midden en *exhale* zeg maar één plaatje van de onderkant af ongeveer","00:01:01.026",61026,"00:01:08.508",68508
+"025026","1.1_loc",1,"1",2,"loc",9,"B","A","ja dan denk ik dat hij op dezelde plek staat","00:01:08.198",68198,"00:01:10.373",70373
+"025026","1.1_loc",1,"1",2,"loc",9,"B","B","ok zelfde is geel","00:01:10.356",70356,"00:01:13.404",73404
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","top","00:01:14.978",74978,"00:01:15.276",75276
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","ok um *microphone touch* aa hij heeft een beetje een neusje","00:01:16.091",76091,"00:01:20.860",80860
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","uh dus a] eigenlijk een ovaal aan de voorkant of een beetje schuin aan de voorkant *inhale* en daar zit eigenlijk een ja stokje doorheen *inhale* en die heeft dan weer een rondje aan het uiteinde","00:01:20.860",80860,"00:01:30.063",90063
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","hmhm","00:01:24.870",84870,"00:01:25.454",85454
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","*smack* aan de bovenkant van het kopje *inhale* uh heb je eigenlijk weer dat lepeltje er zit verder ook niks aan de bovenkant *inhale* uh je ziet ook niks aan de achterkant","00:01:30.063",90063,"00:01:38.032",98032
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","hmhm","00:01:36.028",96028,"00:01:36.574",96574
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","ja hij heeft zeg maar dat stokje doorheen daar zit een cirkeltje aan","00:01:39.078",99078,"00:01:41.680",101680
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","ja","00:01:41.581",101581,"00:01:42.100",102100
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","ok dan","00:01:42.419",102419,"00:01:43.012",103012
+"025026","1.2_ref",1,"2",3,"ref",6,"A","A","aan het uiteinde","00:01:42.619",102619,"00:01:43.474",103474
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","dan is het #F#","00:01:43.502",103502,"00:01:44.677",104677
+"025026","1.2_ref",1,"2",3,"ref",6,"A","B","um","00:01:45.677",105677,"00:01:46.593",106593
+"025026","1.2_loc",1,"2",4,"loc",6,"A","A","ok hij zit uh aan de rechterkant van het scherm *inhale* en er kan eigenlijk zeg maar nog één plaatje naast *inhale* um hij staat weer ongeveer op midden","00:01:49.136",109136,"00:01:57.735",117735
+"025026","1.2_loc",1,"2",4,"loc",6,"A","B","hmhm","00:01:55.103",115103,"00:01:55.613",115613
+"025026","1.2_loc",1,"2",4,"loc",6,"A","A","*smack* um *exhale*","00:01:57.735",117735,"00:02:00.103",120103
+"025026","1.2_loc",1,"2",4,"loc",6,"A","A","ja midden bijna helemaal rechts kan alleen nog één plaatje naast","00:02:01.861",121861,"00:02:07.476",127476
+"025026","1.2_loc",1,"2",4,"loc",6,"A","B","even kijken ik denk dat hij dan wel op dezelfde plek staat","00:02:08.085",128085,"00:02:11.213",131213
+"025026","1.2_loc",1,"2",4,"loc",6,"A","A","ok","00:02:11.076",131076,"00:02:11.329",131329
+"025026","1.3_ref",1,"3",5,"ref",15,"B","B","ok um *smack* hij is zeg maar aan de onderkant rond en daarna zit er een vierkant omheen en dan loopt hij zeg maar weer verder","00:02:14.152",134152,"00:02:22.191",142191
+"025026","1.3_ref",1,"3",5,"ref",15,"B","B","en hij heeft aan de linkerkant ja beetje zoiets en aan de voorkant zit een *inhale* uh c] cilinder *exhale*","00:02:22.191",142191,"00:02:30.589",150589
+"025026","1.3_ref",1,"3",5,"ref",15,"B","A","hmhm","00:02:30.059",150059,"00:02:30.535",150535
+"025026","1.3_ref",1,"3",5,"ref",15,"B","B","ja het is zeg maar gewoon er zit een vierkant om het object heen volgens mij is dat er maar één","00:02:30.589",150589,"00:02:35.318",155318
+"025026","1.3_ref",1,"3",5,"ref",15,"B","A","ja","00:02:33.134",153134,"00:02:33.820",153820
+"025026","1.3_ref",1,"3",5,"ref",15,"B","A","zit er iets op de bovenkant?","00:02:35.377",155377,"00:02:36.598",156598
+"025026","1.3_ref",1,"3",5,"ref",15,"B","B","ja twee puntjes","00:02:36.582",156582,"00:02:37.695",157695
+"025026","1.3_ref",1,"3",5,"ref",15,"B","A","ok ja dan is het #zes#","00:02:37.387",157387,"00:02:39.050",159050
+"025026","1.3_loc",1,"3",6,"loc",15,"B","B","um *smack* hij zit een beetje aan de rechterkant eigenlijk helemaal bovenin uh ja heel iets rechts van het midden","00:02:41.298",161298,"00:02:47.641",167641
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","hmhm","00:02:43.925",163925,"00:02:44.369",164369
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","ja dan is het dezelfde denk ik kan je er nog ongeveer twee plaatjes naast?","00:02:48.383",168383,"00:02:51.793",171793
+"025026","1.3_loc",1,"3",6,"loc",15,"B","B","aan de rechterkant?","00:02:52.081",172081,"00:02:53.135",173135
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","ja","00:02:52.823",172823,"00:02:53.310",173310
+"025026","1.3_loc",1,"3",6,"loc",15,"B","B","iets meer dan twee","00:02:53.309",173309,"00:02:54.565",174565
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","ok","00:02:57.058",177058,"00:02:57.445",177445
+"025026","1.3_loc",1,"3",6,"loc",15,"B","B","ja als je er drie naast zou doen dan is het zeg maar te krap maar het is niet dat er precies twee naast passen","00:02:57.674",177674,"00:03:02.036",182036
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","ja","00:03:00.180",180180,"00:03:00.736",180736
+"025026","1.3_loc",1,"3",6,"loc",15,"B","A","ok ja dan s] gaat het weer dezelfde zijn","00:03:01.620",181620,"00:03:03.993",183993
+"025026","1.4_ref",1,"4",7,"ref",14,"A","A","ok *inhale* um *smack* hij heeft een uh *smack* ja bolletje op de bovenkant *inhale* en aan de voorkant is een uh l] ja","00:03:06.486",186486,"00:03:15.254",195254
+"025026","1.4_ref",1,"4",7,"ref",14,"A","A","eigenlijk een rechthoek vrij langwerpig *inhale* en aan de zijkant heeft hij eigenlijk twee van *smack* uh *smack* ja *smack* *inhale* hoe omschrijf ik dit *smack*","00:03:15.254",195254,"00:03:22.760",202760
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","o wacht waar staat hij","00:03:22.937",202937,"00:03:24.768",204768
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","oja *smack* ja u] zeg maar zit er aan de voorkant nog een staaf?","00:03:26.564",206564,"00:03:31.560",211560
+"025026","1.4_ref",1,"4",7,"ref",14,"A","A","um*exhale*","00:03:28.604",208604,"00:03:29.841",209841
+"025026","1.4_ref",1,"4",7,"ref",14,"A","A","ja die staaf is zeg maar redelijk lang uh die steekt ook uh nou ongeveer één derde denk ik onder het kopje uit","00:03:31.500",211500,"00:03:37.438",217438
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","ja","00:03:36.727",216727,"00:03:37.350",217350
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","ja en twee van die armpjes beetje","00:03:37.693",217693,"00:03:39.404",219404
+"025026","1.4_ref",1,"4",7,"ref",14,"A","A","ja ja","00:03:38.877",218877,"00:03:39.936",219936
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","ok dan is het #D#","00:03:39.597",219597,"00:03:40.932",220932
+"025026","1.4_ref",1,"4",7,"ref",14,"A","B","*click*um*click*","00:03:42.295",222295,"00:03:43.059",223059
+"025026","1.4_loc",1,"4",8,"loc",14,"A","A","uh hij staat helemaal aan de onderkant van het scherm *inhale* en net iets links van het midden *inhale* um ja echt maar net iets links van het midden kan echt geen plaatje meer","00:03:43.668",223668,"00:03:52.666",232666
+"025026","1.4_loc",1,"4",8,"loc",14,"A","B","hmhm","00:03:48.275",228275,"00:03:48.700",228700
+"025026","1.4_loc",1,"4",8,"loc",14,"A","A","rechts naast zeg maar dan zou hij over het midden heen gaan *inhale* er kunnen nog ongeveer twee plaatjes links van het plaatje","00:03:52.666",232666,"00:04:00.259",240259
+"025026","1.4_loc",1,"4",8,"loc",14,"A","A","dan is het einde van het scherm *inhale* dus eigenlijk helemaal l] on] beneden uh in de benedenste rij *inhale* en dan net iets links van het midden","00:04:00.259",240259,"00:04:07.189",247189
+"025026","1.4_loc",1,"4",8,"loc",14,"A","B","hmhm","00:04:05.249",245249,"00:04:05.766",245766
+"025026","1.4_loc",1,"4",8,"loc",14,"A","B","ok maar aan de linkerkant ervan daar passen geen drie plaatjes","00:04:08.543",248543,"00:04:12.825",252825
+"025026","1.4_loc",1,"4",8,"loc",14,"A","A","nee","00:04:12.444",252444,"00:04:13.292",253292
+"025026","1.4_loc",1,"4",8,"loc",14,"A","B","ok dat past hier denk ik wel dus dan is hij niet op de goeie plek","00:04:13.467",253467,"00:04:16.606",256606
+"025026","1.5_ref",1,"5",9,"ref",13,"B","B","ok *inhale* ja ik vond het een beetje een soort van","00:04:18.307",258307,"00:04:21.520",261520
+"025026","1.5_ref",1,"5",9,"ref",13,"B","B","wasbak denk ik *inhale* het is zeg maar zo'n vierkant en er zitten twee van die boogjes en er zit een soort van *inhale* ton in en uit die ton komen van die *inhale* spiralen","00:04:21.520",261520,"00:04:29.785",269785
+"025026","1.5_ref",1,"5",9,"ref",13,"B","A","*laugh* ok","00:04:22.437",262437,"00:04:23.800",263800
+"025026","1.5_ref",1,"5",9,"ref",13,"B","B","het is gewoon zeg maar u] een vierkant vlak en daarop staat het object","00:04:32.993",272993,"00:04:36.091",276091
+"025026","1.5_ref",1,"5",9,"ref",13,"B","A","ok en uh zitten *inhale* die spiralen eigenlijk een beetje aan de zijkant? of echt aan de bovenkant","00:04:35.961",275961,"00:04:40.740",280740
+"025026","1.5_ref",1,"5",9,"ref",13,"B","B","ja zijkant","00:04:40.040",280040,"00:04:41.160",281160
+"025026","1.5_ref",1,"5",9,"ref",13,"B","A","en zijn dat zeg maar drie hoekj] of uh ja ok dat is #vijf#","00:04:41.242",281242,"00:04:45.879",285879
+"025026","1.5_ref",1,"5",9,"ref",13,"B","B","ja ja","00:04:43.723",283723,"00:04:44.697",284697
+"025026","1.5_loc",1,"5",10,"loc",13,"B","B","um even kijken *exhale* *inhale* als je zeg maar in het midden begint dan is het iets lager dan het midden *inhale* en uh aan de linkerkant","00:04:47.427",287427,"00:04:56.382",296382
+"025026","1.5_loc",1,"5",10,"loc",13,"B","A","ok","00:04:54.213",294213,"00:04:54.530",294530
+"025026","1.5_loc",1,"5",10,"loc",13,"B","B","um en er past aan de linkerkant ervan nog eentje er ongeveer naast en aan de andere kant ook nog één","00:04:56.382",296382,"00:05:03.730",303730
+"025026","1.5_loc",1,"5",10,"loc",13,"B","B","uh heb ik dat goed uitgelegd zo? *inhale* dus hij is ietsjes onder het midden","00:05:05.999",305999,"00:05:10.034",310034
+"025026","1.5_loc",1,"5",10,"loc",13,"B","A","ok ja ik denk dat het niet dezelfde is want deze is wel echt boven het midden *inhale* en die van jou is wel echt helemaal onder het midden zeg maar? of grootste gedeelte?","00:05:10.170",310170,"00:05:17.514",317514
+"025026","1.5_loc",1,"5",10,"loc",13,"B","B","maar niet nie] nie] niet helemaal onder maar het is wel duidelijk onder het midden","00:05:16.395",316395,"00:05:20.333",320333
+"025026","1.5_loc",1,"5",10,"loc",13,"B","A","ok dat is niet dezelfde","00:05:20.192",320192,"00:05:21.296",321296
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","ok um hij heeft twee dezelfde soort uitsteeksels uh ja het is een beetje ovaalachtig maar wel redelijk smal *inhale* zit er eentje aan de bovenkant en eentje aan de zijkant *inhale*","00:05:23.809",323809,"00:05:33.548",333548
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","en hij heeft ernaast nog vierkantjes die steeds iets groter worden *inhale* dus ze lopen eigenlijk een beetje","00:05:33.548",333548,"00:05:38.119",338119
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","uit dus het u] begint h] heel klein vierkantje en dan worden ze steeds iets groter *inhale* en dat steekt eigenlijk um *smack* schuin naar voren","00:05:38.119",338119,"00:05:46.152",346152
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","en dan heb je aan de andere kant zit dan ja eigenlijk zo'n beetje zo'n buisje of zo *inhale* um en aan de achterkant steekt ook nog iets uit","00:05:46.152",346152,"00:05:54.623",354623
+"025026","1.6_ref",1,"6",11,"ref",16,"A","B","um *smack* die snap ik niet helemaal","00:05:55.639",355639,"00:05:57.925",357925
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","uh *smack* nou je hebt in ieder geval um ok ik ga even op de vierkantjes in die zitten ongeveer op twee derde van het kopje aan de bovenkant *inhale*","00:05:57.902",357902,"00:06:04.841",364841
+"025026","1.6_ref",1,"6",11,"ref",16,"A","B","o","00:06:05.115",365115,"00:06:05.455",365455
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","en of aan de zijkant","00:06:06.109",366109,"00:06:08.372",368372
+"025026","1.6_ref",1,"6",11,"ref",16,"A","B","o het is het ziet ziet het eruit als een theekop","00:06:06.448",366448,"00:06:08.788",368788
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","uh ja en dan w] eigenlijk een hele grote lepel erin","00:06:09.624",369624,"00:06:12.106",372106
+"025026","1.6_ref",1,"6",11,"ref",16,"A","B","ja","00:06:11.955",371955,"00:06:12.438",372438
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","en aan de zijkant allemaal vierkantjes die groter worden","00:06:12.649",372649,"00:06:15.173",375173
+"025026","1.6_ref",1,"6",11,"ref",16,"A","B","ja dan is het #E#","00:06:14.826",374826,"00:06:17.066",377066
+"025026","1.6_ref",1,"6",11,"ref",16,"A","A","ok","00:06:15.473",375473,"00:06:15.898",375898
+"025026","1.6_loc",1,"6",12,"loc",16,"A","A","um hij zit h] h] eigenlijk helemaal aan de rechterkant van het scherm *inhale* um ik denk","00:06:18.882",378882,"00:06:26.000",386000
+"025026","1.6_loc",1,"6",12,"loc",16,"A","A","net iets boven het midden *inhale* um ja er kan geen plaatje meer rechts naast um zeg maar nog","00:06:26.000",386000,"00:06:34.510",394510
+"025026","1.6_loc",1,"6",12,"loc",16,"A","B","dan dan is het niet op dezelfde plek","00:06:33.893",393893,"00:06:36.009",396009
+"025026","1.6_loc",1,"6",12,"loc",16,"A","A","ok","00:06:35.533",395533,"00:06:36.625",396625
+"025026","1.7_ref",1,"7",13,"ref",11,"B","B","ok uh deze heeft een soort van grote *inhale* ronde neus een beetje aan de rechterkant *inhale* aan de linkerkant zit een soort van *inhale*","00:06:38.778",398778,"00:06:47.036",407036
+"025026","1.7_ref",1,"7",13,"ref",11,"B","A","ok","00:06:45.045",405045,"00:06:45.515",405515
+"025026","1.7_ref",1,"7",13,"ref",11,"B","B","driehoek balk er boven in zitten twee uitsteeksels eentje is een beetje kegelachtig en de ander is een *inhale* ja rechthoek","00:06:47.036",407036,"00:06:54.576",414576
+"025026","1.7_ref",1,"7",13,"ref",11,"B","A","hmhm","00:06:48.364",408364,"00:06:48.781",408781
+"025026","1.7_ref",1,"7",13,"ref",11,"B","A","ok dan is het #veertien#","00:06:54.510",414510,"00:06:56.033",416033
+"025026","1.7_loc",1,"7",14,"loc",11,"B","B","ja hij zit een beetje net iets onder het midden aan de *inhale* rechter onderkant","00:06:57.746",417746,"00:07:02.935",422935
+"025026","1.7_loc",1,"7",14,"loc",11,"B","A","en hoe hoe hoe ver zit hij naar de onderkant?","00:07:04.413",424413,"00:07:07.627",427627
+"025026","1.7_loc",1,"7",14,"loc",11,"B","B","uh er past nog wel een plaatje onder en aan de zijkant passen er nog wel drie naast","00:07:07.724",427724,"00:07:11.996",431996
+"025026","1.7_loc",1,"7",14,"loc",11,"B","A","ok","00:07:09.185",429185,"00:07:09.975",429975
+"025026","1.7_loc",1,"7",14,"loc",11,"B","A","hij zit wel bijna tegen het midden aan","00:07:11.823",431823,"00:07:14.188",434188
+"025026","1.7_loc",1,"7",14,"loc",11,"B","B","j] jawel maar hij zit niet in het midden","00:07:14.623",434623,"00:07:16.978",436978
+"025026","1.7_loc",1,"7",14,"loc",11,"B","A","nee ok ja dan is het wel dezelfde","00:07:16.578",436578,"00:07:18.269",438269
+"025026","1.8_ref",1,"8",15,"ref",8,"A","A","ok um *smack* *inhale* ja deze heeft aan de bovenkant eigenlijk twee hele smalle vierkantjes *inhale* en a] aan door die vierkantjes heen zit eigenlijk weer een","00:07:20.619",440619,"00:07:30.136",450136
+"025026","1.8_ref",1,"8",15,"ref",8,"A","A","staafje die eigenlijk een beetje bestaat uit vierkantjes *inhale* en aan de onderkant heeft hij eigenlijk zo'n klein *exhale* ja","00:07:30.136",450136,"00:07:39.871",459871
+"025026","1.8_ref",1,"8",15,"ref",8,"A","A","*smack* balkje die wel echt een beetje krom loopt *inhale* en hij heeft één u] armpje en aan de voorkant zit ook nog iets","00:07:39.871",459871,"00:07:48.290",468290
+"025026","1.8_ref",1,"8",15,"ref",8,"A","B","hmhm","00:07:42.431",462431,"00:07:42.975",462975
+"025026","1.8_ref",1,"8",15,"ref",8,"A","B","zeg maar is het tenminste als je die een beetje op z'n zijkant draait k] zou het dan een beetje op een dier kunnen lijken?","00:07:46.778",466778,"00:07:51.569",471569
+"025026","1.8_ref",1,"8",15,"ref",8,"A","B","is het die?","00:07:52.363",472363,"00:07:53.057",473057
+"025026","1.8_ref",1,"8",15,"ref",8,"A","A","hm ja","00:07:52.907",472907,"00:07:53.546",473546
+"025026","1.8_ref",1,"8",15,"ref",8,"A","B","ok dan is *laugh* dan is het #M#","00:07:53.536",473536,"00:07:55.870",475870
+"025026","1.8_ref",1,"8",15,"ref",8,"A","A","*laugh*","00:07:54.322",474322,"00:07:57.892",477892
+"025026","1.8_loc",1,"8",16,"loc",8,"A","A","um hij staat aan de linkerkant van het scherm uh net iets onder het midden *inhale* kan nog één plaatje naast ongeveer *inhale* um *exhale*","00:07:58.139",478139,"00:08:08.047",488047
+"025026","1.8_loc",1,"8",16,"loc",8,"A","B","hij staat onder het midden","00:08:08.950",488950,"00:08:10.014",490014
+"025026","1.8_loc",1,"8",16,"loc",8,"A","A","ja","00:08:09.842",489842,"00:08:10.372",490372
+"025026","1.8_loc",1,"8",16,"loc",8,"A","B","nee dan is het niet op dezelfde plek","00:08:10.490",490490,"00:08:12.104",492104
+"025026","1.9_ref",1,"9",17,"ref",3,"B","B","ok *inhale* deze heeft zeg maar aan de onderkant zo'n grote schroef erin en dan daaronder zit een driehoekje en daarboven zit zeg maar *inhale* dat object en dan twee vierkantjes","00:08:13.759",493759,"00:08:22.914",502914
+"025026","1.9_ref",1,"9",17,"ref",3,"B","A","*smack* ok","00:08:20.539",500539,"00:08:21.274",501274
+"025026","1.9_ref",1,"9",17,"ref",3,"B","A","handjes dat is #vier#","00:08:22.252",502252,"00:08:23.859",503859
+"025026","1.9_loc",1,"9",18,"loc",3,"B","B","hij zit eigenlijk uh rechts bovenin de hoek en er zou misschien rechts nog een plaatje naast kunnen passen maar boven niet","00:08:24.524",504524,"00:08:31.228",511228
+"025026","1.9_loc",1,"9",18,"loc",3,"B","A","*moan* ik twijfel een beetje hoe vaa] veel zouden er ongeveer nog je zei één plaatje aan de rechterkant of niet","00:08:33.042",513042,"00:08:37.822",517822
+"025026","1.9_loc",1,"9",18,"loc",3,"B","B","ja het zou net passen","00:08:37.374",517374,"00:08:39.033",519033
+"025026","1.9_loc",1,"9",18,"loc",3,"B","B","ja","00:08:39.707",519707,"00:08:40.579",520579
+"025026","1.9_loc",1,"9",18,"loc",3,"B","A","maar er staat bij j] n] jou nu zeg maar geen","00:08:39.782",519782,"00:08:41.854",521854
+"025026","1.9_loc",1,"9",18,"loc",3,"B","B","nee het zou missch] ja het zou net passen maar","00:08:41.851",521851,"00:08:44.898",524898
+"025026","1.9_loc",1,"9",18,"loc",3,"B","A","en hoeveel aan ruimte er bovenkant heb je ongeveer nog over?","00:08:44.568",524568,"00:08:47.069",527069
+"025026","1.9_loc",1,"9",18,"loc",3,"B","A","*moan*","00:08:48.929",528929,"00:08:49.524",529524
+"025026","1.9_loc",1,"9",18,"loc",3,"B","B","*laugh*","00:08:51.012",531012,"00:08:56.301",536301
+"025026","1.9_loc",1,"9",18,"loc",3,"B","A","ok nee *laugh*dat is niet dezelfde*laugh* slim *laugh*","00:08:51.040",531040,"00:08:54.657",534657
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","ok um *exhale* *smack* *inhale* ja uh deze heeft uh aan de zijkant eigenlijk gewoon een balk die eigenlijk n] door het glaasje heen loopt zeg maar *inhale*","00:08:54.699",534699,"00:09:03.466",543466
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","en aan het uiteinde van allebei die kanten heeft het weer een rondje *inhale*","00:09:03.466",543466,"00:09:07.678",547678
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","um aan de achterkant zit een uh ja soort vierkant *inhale* uh ja ik moet er een beetje aan denken dat als je het zo naar voren kiept dat er dan water uit komt *inhale* u] um","00:09:07.678",547678,"00:09:17.166",557166
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","heeft het aan de voorkant een vierkant vlak?","00:09:16.882",556882,"00:09:19.185",559185
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","aan het voorkant heeft het niks","00:09:18.949",558949,"00:09:20.438",560438
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","o hij heeft uh heeft hij aan de achterkant een vlak","00:09:20.444",560444,"00:09:22.356",562356
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","uh ja alleen die sch] staat eigenlijk zo een beetje schuin omhoog","00:09:22.500",562500,"00:09:25.359",565359
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","o *inhale* lijkt het ook een beetje op een gieter of zo misschien?","00:09:24.878",564878,"00:09:27.963",567963
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","uh ja maar het heeft dus aan de voorkant helemaal niks","00:09:27.985",567985,"00:09:30.430",570430
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","nee","00:09:29.954",569954,"00:09:30.504",570504
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","ok","00:09:30.532",570532,"00:09:31.069",571069
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","um","00:09:31.690",571690,"00:09:32.663",572663
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","hij heeft zeg maar links een klein stukje eruit en rechts nog iets meer","00:09:31.815",571815,"00:09:34.958",574958
+"025026","1.10_ref",1,"10",19,"ref",10,"A","A","ja","00:09:34.840",574840,"00:09:35.336",575336
+"025026","1.10_ref",1,"10",19,"ref",10,"A","B","ook dan is het #K#","00:09:35.419",575419,"00:09:36.648",576648
+"025026","1.10_loc",1,"10",20,"loc",10,"A","B","um","00:09:38.143",578143,"00:09:39.416",579416
+"025026","1.10_loc",1,"10",20,"loc",10,"A","A","a] hij staat *inhale* um *exhale* *smack* *inhale* bijna helemaal aan de linkerkant van het scherm *inhale*","00:09:39.461",579461,"00:09:46.094",586094
+"025026","1.10_loc",1,"10",20,"loc",10,"A","A","o echt zeker iets boven het midden *inhale* uh er zou als het echt moet nog een plaatje links van kunnen en hij heeft aan de bovenkant nog zoiets over","00:09:46.094",586094,"00:09:54.542",594542
+"025026","1.10_loc",1,"10",20,"loc",10,"A","B","*inhale*","00:09:46.148",586148,"00:09:46.799",586799
+"025026","1.10_loc",1,"10",20,"loc",10,"A","B","ja ik denk dat het wel","00:09:55.037",595037,"00:09:56.159",596159
+"025026","1.10_loc",1,"10",20,"loc",10,"A","A","en aan de zijkant zeg maar dit","00:09:55.699",595699,"00:09:57.903",597903
+"025026","1.10_loc",1,"10",20,"loc",10,"A","B","ja ik denk dat het dezelfde is","00:09:58.015",598015,"00:09:59.627",599627
+"025026","1.10_loc",1,"10",20,"loc",10,"A","A","ok","00:09:59.334",599334,"00:09:59.708",599708
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","ok *exhale* ja deze *exhale* uh heeft aan de bovenkant een uh balk aan de linkerkant een beetje soort van","00:10:01.565",601565,"00:10:10.496",610496
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","ja tuitje of zo en aan de rechterkant *inhale* ja zit er ook een vlak en daar zit dan nog weer een","00:10:10.496",610496,"00:10:18.994",618994
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","balkje op hij is zeg maar alles zit wel heel dicht tegen het object aan","00:10:18.994",618994,"00:10:23.245",623245
+"025026","1.11_ref",1,"11",21,"ref",5,"B","A","ok um hoe hoe zag die balk aan de bovenkant er uit? zat er één op de bovenkant?","00:10:22.916",622916,"00:10:27.366",627366
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","ja ligt ja m] die is zeg maar net iets kleiner dan dat ronde ding zelf","00:10:27.317",627317,"00:10:30.747",630747
+"025026","1.11_ref",1,"11",21,"ref",5,"B","A","ok en is het ding wat aan de voorkant is het i] steekt er wel aan allebei de kanten een klein beetje iets uit?","00:10:30.778",630778,"00:10:36.758",636758
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","ja","00:10:36.492",636492,"00:10:37.002",637002
+"025026","1.11_ref",1,"11",21,"ref",5,"B","A","en hij is wel echt heel compact toch?","00:10:37.435",637435,"00:10:38.867",638867
+"025026","1.11_ref",1,"11",21,"ref",5,"B","B","ja","00:10:38.594",638594,"00:10:39.043",639043
+"025026","1.11_ref",1,"11",21,"ref",5,"B","A","ok dat is #acht#","00:10:39.040",639040,"00:10:40.089",640089
+"025026","1.11_loc",1,"11",22,"loc",5,"B","B","uh ja die zit ik denk heel iets links van het midden en net iets meer naar boven denk ik maar wel redelijk in het midden","00:10:41.005",641005,"00:10:48.107",648107
+"025026","1.11_loc",1,"11",22,"loc",5,"B","A","ja ik dat is dezelfde denk *click*ik*click* ","00:10:48.380",648380,"00:10:50.050",650050
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ok uh deze heeft aan de zijkant twee identieke balken of uh ja eigenlijk hele dunne rè] uh vierkanten *inhale* um *smack* *inhale*","00:10:51.500",651500,"00:11:00.686",660686
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ja eigenlijk gewoon twee precies dezelfde staafjes zitten er *inhale* um daar bovenop zit ja *inhale* ja zo'n figuur","00:11:00.686",660686,"00:11:10.523",670523
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","hmhm","00:11:03.957",663957,"00:11:04.485",664485
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","hm een bakje? of zo? of","00:11:10.731",670731,"00:11:12.851",672851
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ja het lijkt heel smal te zijn want hij het lijkt ook minder op een theekop want eigenlijk het hele ding lijkt heel smal","00:11:12.558",672558,"00:11:20.107",680107
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","uh aan de achterkant heeft hij nog een klein um (klein) staartje achtig *laugh*","00:11:20.107",680107,"00:11:26.492",686492
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","hmhm","00:11:25.395",685395,"00:11:25.956",685956
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","o","00:11:26.861",686861,"00:11:27.965",687965
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","kan het ik weet niet kan het zijn dat het misschien een beetje op een *laugh* een kruiwagen lijkt? als je als er zeg maar een wiel aan zou zitten? of zo","00:11:26.867",686867,"00:11:34.810",694810
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","ik weet niet ik denk dat ik het associeerde met een kruiwagen *laugh*maar ik misschien denk jij*laugh* doe jij dat niet","00:11:34.810",694810,"00:11:39.071",699071
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","*laugh*","00:11:39.099",699099,"00:11:43.501",703501
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","*laugh*het zou kunnen alleen ik zie het niet*laugh* um zie je wel echt twee van die staafjes zo lopen?","00:11:39.768",699768,"00:11:46.552",706552
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","nee ik denk dat het wel die is","00:11:43.531",703531,"00:11:44.806",704806
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","loopt er zeg maar als het ware zo'n balk omheen en daaraan zitten staafjes?","00:11:46.516",706516,"00:11:49.425",709425
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","*exhale* balk omheen","00:11:50.333",710333,"00:11:53.216",713216
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","zeg maar aan de linkerkant zit een balk en aan de rechterkant zi] loopt ook weer een balk ervoor en d] aan die balk zitten twee *inhale* staafjes","00:11:53.413",713413,"00:12:00.835",720835
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ik denk nog niet dezelfde is eigenlijk","00:12:01.007",721007,"00:12:02.931",722931
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","o men *inhale* uh want tussen die twee staafjes zit wel nog wat een klein beetje ruimte tussen","00:12:03.388",723388,"00:12:09.136",729136
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","het steekt um *exhale*","00:12:11.049",731049,"00:12:12.764",732764
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","nee kijk als je dat zeg maar gewoon dat ronde ding hebt wat ei] overal zit *inhale* dan loopt er zeg maar zo'n balk aan die kant langs en aan de voorkant en daaraan zitten twee van die staafjes","00:12:12.843",732843,"00:12:20.871",740871
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ja","00:12:14.607",734607,"00:12:15.158",735158
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","nee? ok h] nog een keer *laugh*","00:12:21.619",741619,"00:12:24.951",744951
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","nee *inhale* ok um *exhale* ok je hebt dat kommetje *inhale* en ik denk dat het dan voor jou aan deze kant zitten twee uh van deze *inhale*","00:12:21.731",741731,"00:12:31.050",751050
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","ja","00:12:25.836",745836,"00:12:26.627",746627
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","um *smack* rechthoeken *inhale* ze zijn *smack* ongeveer zo lang er zitten er twee boven elkaar","00:12:31.050",751050,"00:12:37.246",757246
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","o *microphone touch* ja","00:12:35.815",755815,"00:12:37.881",757881
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","en er zit dus een heel klein beetje ruimte tussen en aan de andere kant zit uh één staaf die is niet per se gelijk aan de a] twee staafjes aan de andere kant","00:12:38.140",758140,"00:12:45.157",765157
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","ja","00:12:39.597",759597,"00:12:40.227",760227
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","ja","00:12:42.805",762805,"00:12:43.217",763217
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","zit een beetje een hoedje op","00:12:44.706",764706,"00:12:45.978",765978
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ja","00:12:45.737",765737,"00:12:46.022",766022
+"025026","1.12_ref",1,"12",23,"ref",4,"A","B","ok ja en aan de onderkant zit nog zo'n dingetje ok dan is het #I#","00:12:46.126",766126,"00:12:49.507",769507
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","ja","00:12:48.197",768197,"00:12:48.507",768507
+"025026","1.12_ref",1,"12",23,"ref",4,"A","A","kijk *laugh*","00:12:49.768",769768,"00:12:51.096",771096
+"025026","1.12_loc",1,"12",24,"loc",4,"A","A","um hij zit uh a] a] richting de bovenkant van het scherm hij zit *inhale* net iets links van het midden u]","00:12:52.000",772000,"00:12:58.359",778359
+"025026","1.12_loc",1,"12",24,"loc",4,"A","B","hmhm","00:12:58.056",778056,"00:12:58.521",778521
+"025026","1.12_loc",1,"12",24,"loc",4,"A","A","um er zit zoveel ruimte boven *inhale* en midden ja niet heel veel zit niet heel veel vanaf *inhale* er zouden nog ongeveer twee à drie plaatjes links van kunnen","00:12:58.359",778359,"00:13:07.914",787914
+"025026","1.12_loc",1,"12",24,"loc",4,"A","B","ja ok dan is het denk ik wel hetzelfde","00:13:08.904",788904,"00:13:10.685",790685
+"025026","1.13_ref",1,"13",25,"ref",7,"B","B","ok nou dit is dus wel de kruiwagen *laugh* weet je dan welke ik bedoel zeg maar","00:13:12.038",792038,"00:13:16.363",796363
+"025026","1.13_ref",1,"13",25,"ref",7,"B","A","*laugh* nn","00:13:13.777",793777,"00:13:17.257",797257
+"025026","1.13_ref",1,"13",25,"ref",7,"B","B","zeg maar er zit een bakje op en er zit zeg maar zo'n ja rand omheen en aan die rand zitten twee van die *inhale* balkjes","00:13:17.287",797287,"00:13:24.441",804441
+"025026","1.13_ref",1,"13",25,"ref",7,"B","A","ok","00:13:18.775",798775,"00:13:19.477",799477
+"025026","1.13_ref",1,"13",25,"ref",7,"B","A","is die *smack* ok ja dat is #zestien#","00:13:22.849",802849,"00:13:25.401",805401
+"025026","1.13_loc",1,"13",26,"loc",7,"B","B","um ja hij zit uh heel iets onder het midden aan de rechterkant","00:13:25.942",805942,"00:13:32.082",812082
+"025026","1.13_loc",1,"13",26,"loc",7,"B","B","en er past één zeg maar anderhalf plaatje ongeveer naast  h]","00:13:32.082",812082,"00:13:36.248",816248
+"025026","1.13_loc",1,"13",26,"loc",7,"B","A","onder het midden zei je hè?","00:13:35.594",815594,"00:13:36.828",816828
+"025026","1.13_loc",1,"13",26,"loc",7,"B","B","ja hij zit net iets onder het midden","00:13:37.017",817017,"00:13:38.603",818603
+"025026","1.13_loc",1,"13",26,"loc",7,"B","A","nee dat is sowieso niet *exhale*","00:13:37.600",817600,"00:13:39.813",819813
+"025026","1.14_ref",1,"14",27,"ref",2,"A","A","ok uh deze heeft een soort piramide hoedje achtig iets *inhale* uh","00:13:40.601",820601,"00:13:45.062",825062
+"025026","1.14_ref",1,"14",27,"ref",2,"A","B","ah daar is er maar één van toch?","00:13:44.381",824381,"00:13:45.886",825886
+"025026","1.14_ref",1,"14",27,"ref",2,"A","A","ja volgens mij wel ja hij heeft aan de voorkant nog best wel een groot figuur","00:13:45.779",825779,"00:13:49.513",829513
+"025026","1.14_ref",1,"14",27,"ref",2,"A","B","ja dan is het #J#","00:13:49.390",829390,"00:13:51.418",831418
+"025026","1.14_ref",1,"14",27,"ref",2,"A","A","ok","00:13:50.051",830051,"00:13:50.387",830387
+"025026","1.14_loc",1,"14",28,"loc",2,"A","A","hij zit helemaal aan de onderkant van het scherm aan de rechterkant *inhale* kan nog één plaatje naast misschien anderhalf","00:13:52.943",832943,"00:14:00.451",840451
+"025026","1.14_loc",1,"14",28,"loc",2,"A","B","ja dan is het wel op dezelfde plek","00:14:00.972",840972,"00:14:03.093",843093
+"025026","1.15_ref",1,"15",29,"ref",1,"B","B","ok um *exhale* dit heeft een vierkant vlak aan de voorkant en er zit een soort van *inhale* spijker achtig dingetje op","00:14:04.295",844295,"00:14:12.637",852637
+"025026","1.15_ref",1,"15",29,"ref",1,"B","B","um en aan de linkerkant zitten twee van die *inhale* ja v] blokken die steeds kleiner worden","00:14:12.637",852637,"00:14:17.937",857937
+"025026","1.15_ref",1,"15",29,"ref",1,"B","A","hm","00:14:16.082",856082,"00:14:16.822",856822
+"025026","1.15_ref",1,"15",29,"ref",1,"B","A","ja ok dat is #twee#","00:14:17.601",857601,"00:14:19.391",859391
+"025026","1.15_loc",1,"15",30,"loc",1,"B","B","uh helemaal aan de onderkant *inhale* uh links en er past nog één blokje ongeveer naast","00:14:20.093",860093,"00:14:26.350",866350
+"025026","1.15_loc",1,"15",30,"loc",1,"B","A","en er kan onder niks meer","00:14:26.645",866645,"00:14:27.972",867972
+"025026","1.15_loc",1,"15",30,"loc",1,"B","B","nee","00:14:27.949",867949,"00:14:28.484",868484
+"025026","1.15_loc",1,"15",30,"loc",1,"B","A","ok dat is niet dezelfde","00:14:28.207",868207,"00:14:29.234",869234
+"025026","1.16_ref",1,"16",31,"ref",12,"A","A","ok deze heeft een soort dienblad *laugh* tenminste daar moet ik het heel erg aan denken *inhale* en aan de andere kant van het glas zit um *smack* *inhale*","00:14:30.944",870944,"00:14:37.548",877548
+"025026","1.16_ref",1,"16",31,"ref",12,"A","A","ja best wel nog een breed uitsteeksel en daar bovenop zit weer iets wat uitloopt","00:14:37.548",877548,"00:14:42.420",882420
+"025026","1.16_ref",1,"16",31,"ref",12,"A","B","ja soort van spijker of zo maar dan","00:14:42.359",882359,"00:14:44.471",884471
+"025026","1.16_ref",1,"16",31,"ref",12,"A","A","ja","00:14:44.093",884093,"00:14:44.553",884553
+"025026","1.16_ref",1,"16",31,"ref",12,"A","B","ok dat is #L#","00:14:44.839",884839,"00:14:45.877",885877
+"025026","1.16_loc",1,"16",32,"loc",12,"A","A","um hij zit aan de linkerkant van het scherm helemaal beneden *inhale* uh er kan nog wel een plaatje links van uh onder zeker niet","00:14:47.281",887281,"00:14:55.407",895407
+"025026","1.16_loc",1,"16",32,"loc",12,"A","B","*smack*","00:14:51.466",891466,"00:14:51.859",891859
+"025026","1.16_loc",1,"16",32,"loc",12,"A","B","ok nee dan is het niet dezelfde","00:14:54.878",894878,"00:14:56.644",896644
+"025026","2.1_ref",2,"1",33,"ref",14,"B","B","ok dit is weer dat zelfde soort van mannetje met die twee armen die zo doet met zo'n balk ervoor","00:14:58.549",898549,"00:15:04.177",904177
+"025026","2.1_ref",2,"1",33,"ref",14,"B","A","ok moet hem even o ja en dan daar bovenop zo'n rondje","00:15:04.646",904646,"00:15:07.917",907917
+"025026","2.1_ref",2,"1",33,"ref",14,"B","B","met zo'n bolletje erop","00:15:05.318",905318,"00:15:06.765",906765
+"025026","2.1_ref",2,"1",33,"ref",14,"B","B","ja","00:15:07.934",907934,"00:15:08.311",908311
+"025026","2.1_ref",2,"1",33,"ref",14,"B","A","uh dit is #vijftien#","00:15:08.480",908480,"00:15:09.737",909737
+"025026","2.1_loc",2,"1",34,"loc",14,"B","B","zit helemaal rechts onderin de hoek","00:15:10.547",910547,"00:15:12.344",912344
+"025026","2.1_loc",2,"1",34,"loc",14,"B","A","geen plaatje meer naast","00:15:12.459",912459,"00:15:13.880",913880
+"025026","2.1_loc",2,"1",34,"loc",14,"B","B","nee","00:15:13.632",913632,"00:15:13.944",913944
+"025026","2.1_loc",2,"1",34,"loc",14,"B","A","ok dat is niet *click*dezelfde*click*","00:15:14.381",914381,"00:15:15.354",915354
+"025026","2.2_ref",2,"2",35,"ref",9,"A","A","uh deze heeft uh weer de cirkel aan de achterkant uh heeft weer zo'n uh lepeltje","00:15:17.003",917003,"00:15:22.109",922109
+"025026","2.2_ref",2,"2",35,"ref",9,"A","A","en aan de zijkant nog één uh ja niet echt een armpje want hij gaat niet zo maar rechts","00:15:22.109",922109,"00:15:27.536",927536
+"025026","2.2_ref",2,"2",35,"ref",9,"A","B","ja","00:15:26.161",926161,"00:15:26.617",926617
+"025026","2.2_ref",2,"2",35,"ref",9,"A","B","ok dat is #O#","00:15:27.299",927299,"00:15:28.809",928809
+"025026","2.2_loc",2,"2",36,"loc",9,"A","A","hij zit net iets rechts van het midden *inhale* uh aan de b] rich] ja *smack* net bo] ook boven het midden en dan zou nog één plaatje boven kunnen","00:15:30.090",930090,"00:15:38.108",938108
+"025026","2.2_loc",2,"2",36,"loc",9,"A","B","hij zit boven het midden","00:15:38.134",938134,"00:15:39.190",939190
+"025026","2.2_loc",2,"2",36,"loc",9,"A","A","ja","00:15:39.124",939124,"00:15:39.685",939685
+"025026","2.2_loc",2,"2",36,"loc",9,"A","B","nee","00:15:39.525",939525,"00:15:39.976",939976
+"025026","2.3_ref",2,"3",37,"ref",16,"B","B","uh ja dit is dat *exhale* uh theekannetje zeg maar met het lepeltje eruit en die vier] vierkantjes die steeds kleiner worden","00:15:42.221",942221,"00:15:48.564",948564
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","ja ik moet heel even kijken *exhale* *smack*","00:15:48.890",948890,"00:15:50.665",950665
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","waar is hij","00:15:55.522",955522,"00:15:56.496",956496
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","het vierkantje wordt steeds kleiner hè?","00:16:00.651",960651,"00:16:02.057",962057
+"025026","2.3_ref",2,"3",37,"ref",16,"B","B","ja er zit zeg maar zo'n tuitje aan de ene kant zo'n lepel achtig ding     in en er zit nog iets aan de voorkant","00:16:02.118",962118,"00:16:07.118",967118
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","kijk ik nou zo scheel","00:16:09.692",969692,"00:16:11.586",971586
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","oja wacht zat uh die vierkantjes za] zat g] um *smack* zitten die richting de voorkant?","00:16:15.788",975788,"00:16:20.681",980681
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","eigenlijk schuin naar één u] we]","00:16:21.382",981382,"00:16:23.488",983488
+"025026","2.3_ref",2,"3",37,"ref",16,"B","B","ze gaan zeg maar naar het object toe","00:16:23.282",983282,"00:16:25.497",985497
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","ja en dan worden ze kleiner","00:16:26.129",986129,"00:16:27.358",987358
+"025026","2.3_ref",2,"3",37,"ref",16,"B","B","ja","00:16:27.225",987225,"00:16:27.637",987637
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","en aan de er zitten nog twee andere dingen a] aan het kopje?","00:16:27.850",987850,"00:16:31.240",991240
+"025026","2.3_ref",2,"3",37,"ref",16,"B","B","ja er zit nog één ding erboven in en één ding aan de voorkant op en zit nog één zeg maar soort van tuitje aan de achterkant","00:16:30.777",990777,"00:16:36.855",996855
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","ja","00:16:31.964",991964,"00:16:32.573",992573
+"025026","2.3_ref",2,"3",37,"ref",16,"B","A","ok dat is #elf#","00:16:36.397",996397,"00:16:37.868",997868
+"025026","2.3_loc",2,"3",38,"loc",16,"B","B","um hij zit iets boven het midden en iets aan de linkerkant","00:16:38.637",998637,"00:16:43.070",1003070
+"025026","2.3_loc",2,"3",38,"loc",16,"B","A","*smack* ok uh ja dat is dezelfde *click*plek*click*","00:16:43.213",1003213,"00:16:45.386",1005386
+"025026","2.4_ref",2,"4",39,"ref",3,"A","A","ok uh deze heeft dat lange ding uh aan de onderkant wat draait *inhale* en daar zit dan weer een driehoek aan vast *inhale* de bovenkant twee v] vierkanten","00:16:46.444",1006444,"00:16:54.221",1014221
+"025026","2.4_ref",2,"4",39,"ref",3,"A","B","oja *inhale* ja dat is #A#","00:16:51.770",1011770,"00:16:54.688",1014688
+"025026","2.4_loc",2,"4",40,"loc",3,"A","A","uh ja hij zit zeg maar op het midden aan de linkerkant van het scherm er kan nog een plaatje links van um","00:16:55.679",1015679,"00:17:02.030",1022030
+"025026","2.4_loc",2,"4",40,"loc",3,"A","B","nee dat past niet *laugh*","00:17:01.790",1021790,"00:17:04.263",1024263
+"025026","2.4_loc",2,"4",40,"loc",3,"A","A","*laugh*ok*laugh*","00:17:02.816",1022816,"00:17:04.362",1024362
+"025026","2.5_ref",2,"5",41,"ref",10,"B","B","ok ja dit is de gieter *laugh* met dat vlakje dat je zo kan omklappen of zo","00:17:05.648",1025648,"00:17:10.906",1030906
+"025026","2.5_ref",2,"5",41,"ref",10,"B","A","*laugh*","00:17:07.986",1027986,"00:17:08.861",1028861
+"025026","2.5_ref",2,"5",41,"ref",10,"B","A","ja ok en waar het aan twee kanten een ding heeft met een rondje aan het uiteinde ok dat is #negen#","00:17:10.899",1030899,"00:17:14.863",1034863
+"025026","2.5_ref",2,"5",41,"ref",10,"B","B","ja","00:17:13.291",1033291,"00:17:13.651",1033651
+"025026","2.5_ref",2,"5",41,"ref",10,"B","B","ja","00:17:14.074",1034074,"00:17:14.321",1034321
+"025026","2.5_loc",2,"5",42,"loc",10,"B","B","um hij zit uh rechs bovenin en er past rechts denk ik nog net een plaatje naast en boven ook nog één","00:17:15.471",1035471,"00:17:22.214",1042214
+"025026","2.5_loc",2,"5",42,"loc",10,"B","A","dat is wel op dezelfde","00:17:22.255",1042255,"00:17:23.241",1043241
+"025026","2.6_ref",2,"6",43,"ref",11,"A","A","uh deze heeft een uh neus uh er zitten twee dingetjes in het kopje één *inhale* um *smack* rechthoekje en één ja","00:17:24.833",1044833,"00:17:32.402",1052402
+"025026","2.6_ref",2,"6",43,"ref",11,"A","A","beetje gekkig figuur en aan de zijkant zit nog een soort uh driehoekje u] wat in driehoekvorm loopt","00:17:32.402",1052402,"00:17:37.378",1057378
+"025026","2.6_ref",2,"6",43,"ref",11,"A","B","ja dat is #N#","00:17:36.082",1056082,"00:17:38.132",1058132
+"025026","2.6_loc",2,"6",44,"loc",11,"A","A","zit helemaal aan de linkerkant van het scherm net iets boven het midden *inhale* uh kan zeker geen plaatje links van","00:17:39.307",1059307,"00:17:45.507",1065507
+"025026","2.6_loc",2,"6",44,"loc",11,"A","B","o nee","00:17:45.147",1065147,"00:17:45.896",1065896
+"025026","2.7_ref",2,"7",45,"ref",12,"B","B","um ja dit is zo'n soort van kopje met een dienbladje en links en met zo'n spijker","00:17:48.513",1068513,"00:17:54.171",1074171
+"025026","2.7_ref",2,"7",45,"ref",12,"B","A","mm","00:17:52.335",1072335,"00:17:52.934",1072934
+"025026","2.7_ref",2,"7",45,"ref",12,"B","A","dat is #zeven#","00:17:54.099",1074099,"00:17:55.019",1075019
+"025026","2.7_loc",2,"7",46,"loc",12,"B","B","um hij zit wel redelijk tegen de rand aan nou niet helemaal maar er past geen plaatje meer boven","00:17:55.877",1075877,"00:18:01.291",1081291
+"025026","2.7_loc",2,"7",46,"loc",12,"B","A","ok dat is niet dezelfde","00:18:01.052",1081052,"00:18:02.258",1082258
+"025026","2.7_loc",2,"7",46,"loc",12,"B","B","ok","00:18:01.922",1081922,"00:18:02.299",1082299
+"025026","2.8_ref",2,"8",47,"ref",7,"A","A","oja uh dit is dat wat um *smack* *inhale* dat vierkant wat richting de bovenkant van het kopje zit en dan zit er zo'n soort kuipje bovenop *inhale*","00:18:03.979",1083979,"00:18:13.371",1093371
+"025026","2.8_ref",2,"8",47,"ref",7,"A","A","uh en heeft twee pootjes zo naar beneden um we hebben hem al gehad volgens mij *inhale*","00:18:13.371",1093371,"00:18:18.701",1098701
+"025026","2.8_ref",2,"8",47,"ref",7,"A","B","o die kruiwagen? *laugh*","00:18:18.253",1098253,"00:18:21.517",1101517
+"025026","2.8_ref",2,"8",47,"ref",7,"A","A","ja volgens mij is het de kruiwagen","00:18:19.846",1099846,"00:18:21.334",1101334
+"025026","2.8_ref",2,"8",47,"ref",7,"A","B","ok gewo] ja ok dat is #P#","00:18:21.571",1101571,"00:18:23.742",1103742
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","*smack* uh *exhale* *smack* hij zit denk ik op het midden misschien net iets erboven *inhale* uh bijna helemaal aan de rechterkant van het scherm kan nog één plaatje rechts naast *inhale* um","00:18:25.275",1105275,"00:18:34.431",1114431
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","passen er zeg maar nog wel net iets meer dan één plaatje als in anderhalf?","00:18:34.855",1114855,"00:18:38.327",1118327
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","nee","00:18:37.265",1117265,"00:18:38.012",1118012
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","*smack* zit zeg maar nog dit tussen","00:18:39.044",1119044,"00:18:41.420",1121420
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","ja","00:18:41.803",1121803,"00:18:42.666",1122666
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","*laugh*","00:18:42.901",1122901,"00:18:47.245",1127245
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","uh zit hij bij jou echt zeg maar wel redelijk op het midden?","00:18:45.832",1125832,"00:18:48.782",1128782
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","ja dat wel","00:18:49.112",1129112,"00:18:50.241",1130241
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","ja het is echt dit zeg maar dus denk dat het wel hetzelfde is","00:18:50.847",1130847,"00:18:53.870",1133870
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","*laugh*wacht*laugh*","00:18:53.139",1133139,"00:18:58.175",1138175
+"025026","2.8_loc",2,"8",48,"loc",7,"A","A","ok ja *laugh* ik vind dat dat *laugh*hetzelfde is*laugh*","00:18:54.971",1134971,"00:18:59.090",1139090
+"025026","2.8_loc",2,"8",48,"loc",7,"A","B","ok dan is het uh wel op dezelfde plek","00:18:58.235",1138235,"00:19:00.850",1140850
+"025026","2.9_ref",2,"9",49,"ref",6,"B","B","o ja um *inhale* ja dit is met die neus en daar gaat zo'n balk door die neus en zo'n rondje eraan","00:19:03.461",1143461,"00:19:09.304",1149304
+"025026","2.9_ref",2,"9",49,"ref",6,"B","A","*laugh*","00:19:04.451",1144451,"00:19:04.711",1144711
+"025026","2.9_ref",2,"9",49,"ref",6,"B","A","o *smack* ja *smack* dat","00:19:07.596",1147596,"00:19:08.672",1148672
+"025026","2.9_ref",2,"9",49,"ref",6,"B","A","en één dingetje aan de bovenkant dat is #vijf#","00:19:09.424",1149424,"00:19:11.948",1151948
+"025026","2.9_ref",2,"9",49,"ref",6,"B","B","ja","00:19:10.656",1150656,"00:19:11.193",1151193
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","um hij zit zeg maar uh aan de rechterkant boven","00:19:12.602",1152602,"00:19:17.025",1157025
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","rechts o nee sowieso *laugh*niet*laugh*","00:19:16.968",1156968,"00:19:18.767",1158767
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","uh nee nee links","00:19:18.048",1158048,"00:19:19.241",1159241
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","*laugh*o ok*laugh* ","00:19:19.238",1159238,"00:19:22.581",1162581
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","*laugh*linksboven*laugh* um ja er past aan de linkerkant nog wel anderhalf a twee plaatjes en daarboven","00:19:20.250",1160250,"00:19:27.958",1167958
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","ja hier zit wel echt dit tussen","00:19:27.027",1167027,"00:19:29.085",1169085
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","*laugh*","00:19:29.891",1169891,"00:19:31.264",1171264
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","past voor jou ook echt nog wel veel?","00:19:30.336",1170336,"00:19:31.751",1171751
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","uh ja er passen denk ik twee plaatjes naast of zo? ja ja en aan de bovenkant past er één","00:19:32.290",1172290,"00:19:38.100",1178100
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","nou dit zit er bij mij nog aan de bovenkant","00:19:39.256",1179256,"00:19:41.506",1181506
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","*laugh*","00:19:41.744",1181744,"00:19:44.698",1184698
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","*laugh*","00:19:42.526",1182526,"00:19:43.423",1183423
+"025026","2.9_loc",2,"9",50,"loc",6,"B","A","ja dan zou het toch wel dezelfde moeten zijn is wel dezelfde plek","00:19:44.451",1184451,"00:19:46.952",1186952
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","ja","00:19:46.022",1186022,"00:19:46.576",1186576
+"025026","2.9_loc",2,"9",50,"loc",6,"B","B","*click*ja*click* ok","00:19:46.958",1186958,"00:19:47.524",1187524
+"025026","2.10_ref",2,"10",51,"ref",13,"A","A","oja deze heeft uh vierkant aan de onderkant um zeg maar dat hij echt het kopje staat er op ja dat is er eigenlijk nog maar één uh aan de zijkant zit uh *smack* *inhale* ja aan allebei die","00:19:48.701",1188701,"00:19:57.896",1197896
+"025026","2.10_ref",2,"10",51,"ref",13,"A","B","ds] die spiralen","00:19:56.977",1196977,"00:19:58.164",1198164
+"025026","2.10_ref",2,"10",51,"ref",13,"A","A","ja","00:19:58.184",1198184,"00:19:58.718",1198718
+"025026","2.10_ref",2,"10",51,"ref",13,"A","B","ok dat is #J#","00:19:58.633",1198633,"00:19:59.633",1199633
+"025026","2.10_loc",2,"10",52,"loc",13,"A","A","en zit helemaal rechts onderin kan niks meer onder of naast","00:20:00.872",1200872,"00:20:03.635",1203635
+"025026","2.10_loc",2,"10",52,"loc",13,"A","B","ok nee","00:20:03.428",1203428,"00:20:04.045",1204045
+"025026","2.11_ref",2,"11",53,"ref",2,"B","B","hum dit is die piramide op dat hoofd *exhale*","00:20:05.881",1205881,"00:20:08.937",1208937
+"025026","2.11_ref",2,"11",53,"ref",2,"B","A","ja um dit is #zes#","00:20:08.477",1208477,"00:20:10.355",1210355
+"025026","2.11_loc",2,"11",54,"loc",2,"B","B","hij zit zeg maar aan de rechter onderkant er past onder misschien net iets naast en rechts nog net iets","00:20:10.999",1210999,"00:20:17.401",1217401
+"025026","2.11_loc",2,"11",54,"loc",2,"B","A","ok dat is dezelfde","00:20:17.214",1217214,"00:20:18.453",1218453
+"025026","2.12_ref",2,"12",55,"ref",15,"A","A","uh deze heeft een vierkant zeg maar door het kopje heen *inhale* uh zit een ja c] een rond ding boven het vierkant er zit een armpje wat zo steekt","00:20:19.978",1219978,"00:20:29.291",1229291
+"025026","2.12_ref",2,"12",55,"ref",15,"A","B","*smack* en twee puntjes?","00:20:29.254",1229254,"00:20:30.287",1230287
+"025026","2.12_ref",2,"12",55,"ref",15,"A","A","ja ","00:20:30.095",1230095,"00:20:30.722",1230722
+"025026","2.12_ref",2,"12",55,"ref",15,"A","B","ok dat is #C#","00:20:30.648",1230648,"00:20:31.595",1231595
+"025026","2.12_loc",2,"12",56,"loc",15,"A","A","uh zit rechts bovenin kan zeker geen plaatje meer boven kunnen nog wel één a twee plaatjes rechts van","00:20:32.671",1232671,"00:20:37.913",1237913
+"025026","2.12_loc",2,"12",56,"loc",15,"A","B","ja is wel hetzelfde","00:20:37.773",1237773,"00:20:38.859",1238859
+"025026","2.13_ref",2,"13",57,"ref",8,"B","B","ok dit is zeg maar dat dier dat als je hem zo draait dan is het een dier","00:20:40.479",1240479,"00:20:43.842",1243842
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","*smack* *inhale*","00:20:42.689",1242689,"00:20:43.143",1243143
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","oja uh *laugh* was dat met die twee vierkantjes?","00:20:44.288",1244288,"00:20:47.033",1247033
+"025026","2.13_ref",2,"13",57,"ref",8,"B","B","*laugh*","00:20:44.601",1244601,"00:20:46.212",1246212
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","of was dat weer een andere","00:20:47.711",1247711,"00:20:48.540",1248540
+"025026","2.13_ref",2,"13",57,"ref",8,"B","B","ja ja maar maar met zeg maar maar twee pootjes","00:20:47.746",1247746,"00:20:50.669",1250669
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","uh *exhale* ok wil je het nog heel even snel omschrijven? *laugh*","00:20:51.729",1251729,"00:20:55.870",1255870
+"025026","2.13_ref",2,"13",57,"ref",8,"B","B","ja zeg maar aan de onderkant loopt zeg maar zo'n ding dat heb je dat dingetje en dan","00:20:55.079",1255079,"00:20:58.578",1258578
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","ja ok","00:20:57.153",1257153,"00:20:57.769",1257769
+"025026","2.13_ref",2,"13",57,"ref",8,"B","A","dat is #negen#","00:20:58.994",1258994,"00:20:59.678",1259678
+"025026","2.13_loc",2,"13",58,"loc",8,"B","B","hij zit zeg maar helemaal tegen de onderkant aan ietsjes links van het midden","00:21:00.429",1260429,"00:21:03.591",1263591
+"025026","2.13_loc",2,"13",58,"loc",8,"B","A","ja dat is wel dezelfde","00:21:03.707",1263707,"00:21:04.688",1264688
+"025026","2.14_ref",2,"14",59,"ref",1,"A","A","oja deze heeft het vierkant aan de voorkant *inhale* heeft een spijker aan de bovenkant en twee *inhale* uh met die vierkantjes die uitlopen","00:21:06.449",1266449,"00:21:13.752",1273752
+"025026","2.14_ref",2,"14",59,"ref",1,"A","B","*smack* ja dat is #G#","00:21:13.225",1273225,"00:21:14.979",1274979
+"025026","2.14_loc",2,"14",60,"loc",1,"A","A","hij zit net iets links van het midden *smack* um eigenlijk ook net iets onder het midden *inhale* er zouden *exhale* eigenlijk één anderhalf plaatje onder kunnen","00:21:15.939",1275939,"00:21:24.191",1284191
+"025026","2.14_loc",2,"14",60,"loc",1,"A","B","dat is wel dezelfde","00:21:23.828",1283828,"00:21:24.853",1284853
+"025026","2.15_ref",2,"15",61,"ref",4,"B","B","ok ja dit is weer dat ding met twee van die dingetjes en zo'n beetje zo'n hoedje *inhale* daar bovenop","00:21:26.962",1286962,"00:21:34.138",1294138
+"025026","2.15_ref",2,"15",61,"ref",4,"B","A","ja en aan de andere kant en hij aan de on] onderkant heeft hij nog zo'n ding","00:21:34.095",1294095,"00:21:36.462",1296462
+"025026","2.15_ref",2,"15",61,"ref",4,"B","B","ja","00:21:36.357",1296357,"00:21:36.711",1296711
+"025026","2.15_ref",2,"15",61,"ref",4,"B","A","ok dat is #twee#","00:21:36.605",1296605,"00:21:37.324",1297324
+"025026","2.15_loc",2,"15",62,"loc",4,"B","B","um ja hij zit aan de linkerkant onder links past nog één plaatje en onder ook nog één","00:21:38.992",1298992,"00:21:45.787",1305787
+"025026","2.15_loc",2,"15",62,"loc",4,"B","A","*smack* dat is dezelfde","00:21:45.790",1305790,"00:21:46.513",1306513
+"025026","2.16_ref",2,"16",63,"ref",5,"A","A","um *exhale* *sigh* o ja ik haat dit ding *inhale* uh er har] zit een balk bovenop het kopje *inhale* en er zit zo'n V aan de voorkant *inhale*","00:21:48.089",1308089,"00:21:56.116",1316116
+"025026","2.16_ref",2,"16",63,"ref",5,"A","A","aan de zijkant heeft hij een soort vin of zo *inhale* um die ook een beetje rond loopt","00:21:56.116",1316116,"00:22:02.376",1322376
+"025026","2.16_ref",2,"16",63,"ref",5,"A","B","*smack* een balk bovenop?","00:22:01.936",1321936,"00:22:03.413",1323413
+"025026","2.16_ref",2,"16",63,"ref",5,"A","A","ja","00:22:03.065",1323065,"00:22:03.350",1323350
+"025026","2.16_ref",2,"16",63,"ref",5,"A","B","is hij zeg maar die hele compacte of niet ok","00:22:03.644",1323644,"00:22:06.472",1326472
+"025026","2.16_ref",2,"16",63,"ref",5,"A","A","ja uh *inhale* ja ja","00:22:05.072",1325072,"00:22:09.463",1329463
+"025026","2.16_ref",2,"16",63,"ref",5,"A","B","zeg maar die balk erop en aan de linkerkant heeft hij zoiets en aan de rechterkant en er zi] zit nog een staafje op","00:22:09.817",1329817,"00:22:14.237",1334237
+"025026","2.16_ref",2,"16",63,"ref",5,"A","A","ja","00:22:13.994",1333994,"00:22:14.478",1334478
+"025026","2.16_ref",2,"16",63,"ref",5,"A","B","ok dan is het #E#","00:22:14.546",1334546,"00:22:15.822",1335822
+"025026","2.16_loc",2,"16",64,"loc",5,"A","A","hij zit net iets r] rechts van het midden en net iets onder het midden dus eigenlijk beetje links in de hoek van het midden a]","00:22:16.541",1336541,"00:22:22.674",1342674
+"025026","2.16_loc",2,"16",64,"loc",5,"A","B","nee deze zit boven het midden","00:22:21.876",1341876,"00:22:23.415",1343415
+"025026","2.16_loc",2,"16",64,"loc",5,"A","A","ok","00:22:23.174",1343174,"00:22:23.951",1343951
+"025026","3.1_ref",3,"1",65,"ref",9,"B","B","um ja dit is dat kopje met de lepeltje die er in (hangt) halve rondje aan de achterkant","00:22:25.101",1345101,"00:22:29.424",1349424
+"025026","3.1_ref",3,"1",65,"ref",9,"B","A","oe","00:22:26.242",1346242,"00:22:26.627",1346627
+"025026","3.1_ref",3,"1",65,"ref",9,"B","A","dat is #acht#","00:22:29.283",1349283,"00:22:30.223",1350223
+"025026","3.1_loc",3,"1",66,"loc",9,"B","B","uh hij zit zeg maar beetje rechts in de hoek past rechts misschien nog eentje naast boven niet","00:22:32.211",1352211,"00:22:37.542",1357542
+"025026","3.1_loc",3,"1",66,"loc",9,"B","A","ok dat is dezelfde","00:22:37.255",1357255,"00:22:38.296",1358296
+"025026","3.2_ref",3,"2",67,"ref",10,"A","A","uh ja dit is het degene met dat vlak schuin wat je eigenlijk zeg maar k] beetje kan klappen en wat aan de zijkant twee","00:22:39.965",1359965,"00:22:45.992",1365992
+"025026","3.2_ref",3,"2",67,"ref",10,"A","B","ja uh dat is #F#","00:22:45.723",1365723,"00:22:47.494",1367494
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","hij zit in het midden denk ik wel *inhale* uh kan nog wel anderhalf plaatje zeg maar links van dan heb je het einde van het scherm *inhale*","00:22:48.776",1368776,"00:22:57.141",1377141
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","*smack* hij zit n] hij zit niet iets links van het midden?","00:22:56.774",1376774,"00:22:59.084",1379084
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","uh ja hij zit uh hij zeg maar zit zo in het midden maa] maar niet zo in het midden","00:23:00.087",1380087,"00:23:04.459",1384459
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","ja","00:23:02.669",1382669,"00:23:03.131",1383131
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","ok","00:23:04.206",1384206,"00:23:04.742",1384742
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","um *exhale* ja hij zit zeker nog wel een plaatje van het midden in deze zin af","00:23:05.317",1385317,"00:23:10.432",1390432
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","ja *inhale* zou hij heel iets boven de midden zeg maar boven de horizontale midden kunnen zitten?","00:23:10.594",1390594,"00:23:16.879",1396879
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","nee","00:23:11.256",1391256,"00:23:11.641",1391641
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","mm","00:23:18.052",1398052,"00:23:19.736",1399736
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","nee ik denk het niet","00:23:22.771",1402771,"00:23:23.986",1403986
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","mm","00:23:24.753",1404753,"00:23:25.210",1405210
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","uh want er kan u] links zeg maar nog ongeveer anderhalf plaatje naast *inhale* rechts nog een plaatje naast dan heb je het midden bereikt uh","00:23:25.951",1405951,"00:23:32.570",1412570
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","*smack* links kan er maar anderhalf plaatje naast","00:23:31.925",1411925,"00:23:34.117",1414117
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","ja *exhale* misschien als je goed propt twee maar","00:23:34.485",1414485,"00:23:37.784",1417784
+"025026","3.2_loc",3,"2",68,"loc",10,"A","B","nee dan is het niet hetzelfde","00:23:37.681",1417681,"00:23:38.986",1418986
+"025026","3.2_loc",3,"2",68,"loc",10,"A","A","ok","00:23:38.790",1418790,"00:23:39.457",1419457
+"025026","3.3_ref",3,"3",69,"ref",15,"B","B","ok ja dit is dat ding waar dat vierkant doorheen loopt","00:23:41.249",1421249,"00:23:44.540",1424540
+"025026","3.3_ref",3,"3",69,"ref",15,"B","B","(?)","00:23:45.328",1425328,"00:23:46.015",1426015
+"025026","3.3_ref",3,"3",69,"ref",15,"B","A","um *exhale*","00:23:45.908",1425908,"00:23:48.005",1428005
+"025026","3.3_ref",3,"3",69,"ref",15,"B","A","is uh met dat u] ronde ding zo naar voren?","00:23:49.299",1429299,"00:23:51.626",1431626
+"025026","3.3_ref",3,"3",69,"ref",15,"B","B","ja en twee van die puntjes bovenop","00:23:51.150",1431150,"00:23:53.107",1433107
+"025026","3.3_ref",3,"3",69,"ref",15,"B","A","ja ok dat is #dertien#","00:23:52.106",1432106,"00:23:53.298",1433298
+"025026","3.3_loc",3,"3",70,"loc",15,"B","B","uh hij zit eigenlijk links bovenin er past boven zeker niks naast en links ook niet","00:23:53.836",1433836,"00:23:57.993",1437993
+"025026","3.3_loc",3,"3",70,"loc",15,"B","A","ok nee is niet *click*dezelfde*click* *exhale*","00:23:56.632",1436632,"00:23:58.632",1438632
+"025026","3.4_ref",3,"4",71,"ref",12,"A","A","uh dit is weer met het dienblad","00:23:59.446",1439446,"00:24:00.694",1440694
+"025026","3.4_ref",3,"4",71,"ref",12,"A","B","uh j]","00:24:00.994",1440994,"00:24:02.530",1442530
+"025026","3.4_ref",3,"4",71,"ref",12,"A","A","met die spijker zo naar achter zeg maar","00:24:02.050",1442050,"00:24:04.242",1444242
+"025026","3.4_ref",3,"4",71,"ref",12,"A","B","ja even kijken waar hij staat","00:24:03.809",1443809,"00:24:05.510",1445510
+"025026","3.4_ref",3,"4",71,"ref",12,"A","A","*laugh*","00:24:07.135",1447135,"00:24:08.603",1448603
+"025026","3.4_ref",3,"4",71,"ref",12,"A","B","oja dat is #C#","00:24:09.887",1449887,"00:24:11.689",1451689
+"025026","3.4_loc",3,"4",72,"loc",12,"A","A","hij zit net iets rechts van het midden *inhale* en wel zeker boven het midden zeg maar uh","00:24:12.711",1452711,"00:24:18.428",1458428
+"025026","3.4_loc",3,"4",72,"loc",12,"A","B","nee deze is onder het midden","00:24:17.853",1457853,"00:24:19.239",1459239
+"025026","3.4_loc",3,"4",72,"loc",12,"A","A","ok","00:24:18.994",1458994,"00:24:19.553",1459553
+"025026","3.5_ref",3,"5",73,"ref",1,"B","B","ok ja dit is ook weer met een soort van spijker aan de bovenkant niet dezelfde *inhale* en dan met die vierkantjes die steeds kleiner worden en een vierkant vlak ervoor","00:24:22.504",1462504,"00:24:30.314",1470314
+"025026","3.5_ref",3,"5",73,"ref",1,"B","A","ok dat is #negen#","00:24:29.968",1469968,"00:24:30.943",1470943
+"025026","3.5_loc",3,"5",74,"loc",1,"B","B","um ja er zit nog één plaatje onder en hij zit denk ik heel iets links van het midden","00:24:31.478",1471478,"00:24:36.044",1476044
+"025026","3.5_loc",3,"5",74,"loc",1,"B","A","*noice*","00:24:32.487",1472487,"00:24:33.638",1473638
+"025026","3.5_loc",3,"5",74,"loc",1,"B","A","dat is dezelfde","00:24:35.720",1475720,"00:24:36.638",1476638
+"025026","3.6_ref",3,"6",75,"ref",4,"A","A","uh *laugh*oja*laugh* dit is die we (deer) die uh met dat hoedje bovenop *inhale* twee van die staafjes aan uh de rechterkant *inhale* uh ja","00:24:37.907",1477907,"00:24:46.004",1486004
+"025026","3.6_ref",3,"6",75,"ref",4,"A","B","ah ja maar niet die piramide","00:24:45.119",1485119,"00:24:46.758",1486758
+"025026","3.6_ref",3,"6",75,"ref",4,"A","A","uh nee het is niet de piramide","00:24:47.237",1487237,"00:24:48.527",1488527
+"025026","3.6_ref",3,"6",75,"ref",4,"A","B","ok dan is het #M#","00:24:47.970",1487970,"00:24:49.430",1489430
+"025026","3.6_loc",3,"6",76,"loc",4,"A","A","uh er kan geen plaatje meer onder hij zit linkerkant van het scherm *inhale* zou heel misschien nog een plaatje links van kunnen zit bijna helemaal onderaan","00:24:50.659",1490659,"00:24:57.867",1497867
+"025026","3.6_loc",3,"6",76,"loc",4,"A","B","ja dat is denk ik wel dezelfde","00:24:57.813",1497813,"00:24:59.162",1499162
+"025026","3.7_ref",3,"7",77,"ref",7,"B","B","ok ja dit is de kruiwagen *laugh*","00:25:00.932",1500932,"00:25:04.239",1504239
+"025026","3.7_ref",3,"7",77,"ref",7,"B","A","*laugh* um","00:25:03.131",1503131,"00:25:05.076",1505076
+"025026","3.7_ref",3,"7",77,"ref",7,"B","A","was met dat met die twee pootjes naar beneden hè?","00:25:06.857",1506857,"00:25:08.568",1508568
+"025026","3.7_ref",3,"7",77,"ref",7,"B","B","ja en dat bakje erop","00:25:08.492",1508492,"00:25:09.777",1509777
+"025026","3.7_ref",3,"7",77,"ref",7,"B","A","ja ok dat is #veertien#","00:25:09.365",1509365,"00:25:10.811",1510811
+"025026","3.7_loc",3,"7",78,"loc",7,"B","B","en hij zit helemaal tegen de onderkant aan heel iets links van het midden","00:25:11.277",1511277,"00:25:14.995",1514995
+"025026","3.7_loc",3,"7",78,"loc",7,"B","A","ja is wel dezelfde","00:25:14.840",1514840,"00:25:15.832",1515832
+"025026","3.8_ref",3,"8",79,"ref",16,"A","A","uh *laugh* dit is weer met dat lepeltje erin *inhale* aan de voorkant zit weer zo'n vierkant wat steeds kleiner wordt *inhale*","00:25:17.409",1517409,"00:25:23.425",1523425
+"025026","3.8_ref",3,"8",79,"ref",16,"A","A","uh a] aan de andere kant en dan zit er eigenlijk nog aan de achterkant zit nog een uitsteeksel en aan de zijkant zit nog eenzelfde uitsteeksel wat ook in het kopje zit","00:25:23.425",1523425,"00:25:31.370",1531370
+"025026","3.8_ref",3,"8",79,"ref",16,"A","B","zeg maar die theepot die beetje zo loopt met dat tuitje","00:25:30.955",1530955,"00:25:33.864",1533864
+"025026","3.8_ref",3,"8",79,"ref",16,"A","A","ja","00:25:33.880",1533880,"00:25:34.432",1534432
+"025026","3.8_ref",3,"8",79,"ref",16,"A","B","ok dan is het #J#","00:25:34.664",1534664,"00:25:36.052",1536052
+"025026","3.8_loc",3,"8",80,"loc",16,"A","A","hij zit aan de rechterkant van het scherm ja misschien net iets boven het midden *inhale*","00:25:37.035",1537035,"00:25:41.431",1541431
+"025026","3.8_loc",3,"8",80,"loc",16,"A","A","um *smack* er kunnen nog ongeveer twee plaatjes rechts naast één a twee *inhale*","00:25:41.431",1541431,"00:25:47.321",1547321
+"025026","3.8_loc",3,"8",80,"loc",16,"A","B","twee plaatjes maar er rechts naast","00:25:46.759",1546759,"00:25:48.684",1548684
+"025026","3.8_loc",3,"8",80,"loc",16,"A","A","ja","00:25:48.867",1548867,"00:25:49.304",1549304
+"025026","3.8_loc",3,"8",80,"loc",16,"A","B","nee dan is dat niet","00:25:49.408",1549408,"00:25:50.873",1550873
+"025026","3.8_loc",3,"8",80,"loc",16,"A","A","ok","00:25:50.765",1550765,"00:25:51.085",1551085
+"025026","3.9_ref",3,"9",81,"ref",13,"B","B","um ja dit is dan vierkante vlak met dat object erop en dan die spiraal","00:25:52.408",1552408,"00:25:57.408",1557408
+"025026","3.9_ref",3,"9",81,"ref",13,"B","A","*smack* ok is #elf#","00:25:57.324",1557324,"00:25:58.293",1558293
+"025026","3.9_loc",3,"9",82,"loc",13,"B","B","uh hij zit aan de *inhale* linkerkant heel iets onder het midden er past links zeker nog één plaatje naast","00:25:59.081",1559081,"00:26:05.765",1565765
+"025026","3.9_loc",3,"9",82,"loc",13,"B","A","mm is niet dezelfde","00:26:05.425",1565425,"00:26:06.558",1566558
+"025026","3.9_loc",3,"9",82,"loc",13,"B","B","*click*ok*click*","00:26:06.351",1566351,"00:26:07.041",1567041
+"025026","3.10_ref",3,"10",83,"ref",2,"A","A","o dit is met de piramide erop *exhale*","00:26:08.060",1568060,"00:26:09.948",1569948
+"025026","3.10_ref",3,"10",83,"ref",2,"A","B","ok dat is #E#","00:26:10.510",1570510,"00:26:11.654",1571654
+"025026","3.10_loc",3,"10",84,"loc",2,"A","A","uh zit rechts van het midden *inhale* um kan nog een plaatje onder uh aan de zijkant is of zeg maar aan de rechterkant is nog best wel veel ruimte *inhale*","00:26:12.492",1572492,"00:26:20.574",1580574
+"025026","3.10_loc",3,"10",84,"loc",2,"A","A","um want hij zit echt maar net een beetje rechts van het midden uh","00:26:20.574",1580574,"00:26:24.654",1584654
+"025026","3.10_loc",3,"10",84,"loc",2,"A","B","maar net rechts van het midden?","00:26:24.955",1584955,"00:26:26.319",1586319
+"025026","3.10_loc",3,"10",84,"loc",2,"A","B","zeg maar","00:26:27.544",1587544,"00:26:28.232",1588232
+"025026","3.10_loc",3,"10",84,"loc",2,"A","A","ja mm","00:26:28.091",1588091,"00:26:29.612",1589612
+"025026","3.10_loc",3,"10",84,"loc",2,"A","B","meer dan minder dan één p] plaatje rechts van het midden? ok nee dan is het niet hetzelfde","00:26:29.037",1589037,"00:26:34.021",1594021
+"025026","3.10_loc",3,"10",84,"loc",2,"A","A","ja","00:26:32.853",1592853,"00:26:33.357",1593357
+"025026","3.11_ref",3,"11",85,"ref",11,"B","B","um dit is met die neus en dan die twee dingen bovenop *exhale*","00:26:35.479",1595479,"00:26:39.564",1599564
+"025026","3.11_ref",3,"11",85,"ref",11,"B","A","um *exhale*","00:26:39.606",1599606,"00:26:41.631",1601631
+"025026","3.11_ref",3,"11",85,"ref",11,"B","B","neus zit een beetje aan de rechterkant","00:26:40.410",1600410,"00:26:41.935",1601935
+"025026","3.11_ref",3,"11",85,"ref",11,"B","A","ja","00:26:42.588",1602588,"00:26:42.767",1602767
+"025026","3.11_ref",3,"11",85,"ref",11,"B","A","er zit ook nog één ander ding zo'n driehoekje ja #negen#","00:26:43.264",1603264,"00:26:45.801",1605801
+"025026","3.11_ref",3,"11",85,"ref",11,"B","B","ja links ja","00:26:44.262",1604262,"00:26:45.359",1605359
+"025026","3.11_loc",3,"11",86,"loc",11,"B","B","um hij zit aan de linkerkant past denk ik net geen plaatje meer naast *inhale* en erboven past ja anderhalf plaatje","00:26:46.816",1606816,"00:26:55.305",1615305
+"025026","3.11_loc",3,"11",86,"loc",11,"B","A","mm nee is niet *click*hetzelfde*click*","00:26:54.632",1614632,"00:26:55.888",1615888
+"025026","3.12_ref",3,"12",87,"ref",6,"A","A","uh ja dit is ook weer met die neus alleen zit er dan zo'n stokje doorheen met een sch] rondje aan het uiteinde","00:26:56.966",1616966,"00:27:01.337",1621337
+"025026","3.12_ref",3,"12",87,"ref",6,"A","B","ja *inhale* oja dat is #A#","00:27:00.207",1620207,"00:27:04.037",1624037
+"025026","3.12_loc",3,"12",88,"loc",6,"A","A","um *smack* hij zit aan de rechterkant van het scherm wel ruim onder het midden *inhale* kan nog","00:27:05.386",1625386,"00:27:10.414",1630414
+"025026","3.12_loc",3,"12",88,"loc",6,"A","B","ruim onder het midden nee","00:27:10.222",1630222,"00:27:11.749",1631749
+"025026","3.12_loc",3,"12",88,"loc",6,"A","A","jawel ja","00:27:11.274",1631274,"00:27:12.433",1632433
+"025026","3.13_ref",3,"13",89,"ref",5,"B","B","ok ja dit is die compacte met dat blok bovenop","00:27:14.397",1634397,"00:27:17.947",1637947
+"025026","3.13_ref",3,"13",89,"ref",5,"B","A","ja dat is #één# *exhale*","00:27:17.516",1637516,"00:27:19.270",1639270
+"025026","3.13_loc",3,"13",90,"loc",5,"B","B","*smack* o ja uh *inhale* hij zit helemaal boven tegen de rand aan eigenlijk gewoon in het midden","00:27:21.754",1641754,"00:27:25.757",1645757
+"025026","3.13_loc",3,"13",90,"loc",5,"B","A","*laugh*","00:27:22.309",1642309,"00:27:23.605",1643605
+"025026","3.13_loc",3,"13",90,"loc",5,"B","A","ok ja dat is dezelfde","00:27:25.768",1645768,"00:27:26.707",1646707
+"025026","3.14_ref",3,"14",91,"ref",8,"A","A","uh ja dit is degene met dat aan de onderkant uh ja zo'n ding en aan de bovenkant van die vierkantjes die gedraaid zijn *inhale* en ook weer met die uitloop","00:27:27.950",1647950,"00:27:36.532",1656532
+"025026","3.14_ref",3,"14",91,"ref",8,"A","B","is dat met die schroef onderin? of niet","00:27:35.642",1655642,"00:27:37.638",1657638
+"025026","3.14_ref",3,"14",91,"ref",8,"A","A","uh niet die gedraaide schroef *inhale* het is gewoon zo","00:27:37.598",1657598,"00:27:41.682",1661682
+"025026","3.14_ref",3,"14",91,"ref",8,"A","B","o","00:27:39.410",1659410,"00:27:39.912",1659912
+"025026","3.14_ref",3,"14",91,"ref",8,"A","B","ja","00:27:41.756",1661756,"00:27:42.467",1662467
+"025026","3.14_ref",3,"14",91,"ref",8,"A","A","en aan de bovenkant heeft hij *inhale* gedraaide vierkantjes zeg maar die twee naast elkaar zitten","00:27:42.316",1662316,"00:27:46.373",1666373
+"025026","3.14_ref",3,"14",91,"ref",8,"A","B","oja die als je die draait zeg maar wat het die? ok","00:27:46.974",1666974,"00:27:50.036",1670036
+"025026","3.14_ref",3,"14",91,"ref",8,"A","A","of smal *exhale*","00:27:47.562",1667562,"00:27:48.880",1668880
+"025026","3.14_ref",3,"14",91,"ref",8,"A","A","ja ja die ja *laugh*","00:27:49.158",1669158,"00:27:50.796",1670796
+"025026","3.14_ref",3,"14",91,"ref",8,"A","B","dan is het #H#","00:27:50.639",1670639,"00:27:51.535",1671535
+"025026","3.14_loc",3,"14",92,"loc",8,"A","A","um pff hij zit wel echt zeker boven het midden *inhale* uh aan linkerkant van het scherm","00:27:52.294",1672294,"00:27:58.693",1678693
+"025026","3.14_loc",3,"14",92,"loc",8,"A","A","kan nog u] anderhalf plaatje links van net een plaatje boven","00:27:58.693",1678693,"00:28:02.668",1682668
+"025026","3.14_loc",3,"14",92,"loc",8,"A","B","*smack* ja dat is wel hetzelfde","00:28:02.517",1682517,"00:28:03.696",1683696
+"025026","3.15_ref",3,"15",93,"ref",3,"B","B","ok ja dit is met die schroef onderaan op dat driehoekje","00:28:05.202",1685202,"00:28:08.719",1688719
+"025026","3.15_ref",3,"15",93,"ref",3,"B","A","die wel draait ok dat is #tien#","00:28:08.285",1688285,"00:28:09.986",1689986
+"025026","3.15_ref",3,"15",93,"ref",3,"B","B","ja","00:28:08.992",1688992,"00:28:09.393",1689393
+"025026","3.15_loc",3,"15",94,"loc",3,"B","B","uh hij zit helemaal u] tegen de onderkant aan er past naast nog anderhalf plaatje twee misschien","00:28:11.195",1691195,"00:28:17.037",1697037
+"025026","3.15_loc",3,"15",94,"loc",3,"B","A","ja dat is wel *click*dezelfde*click*","00:28:16.844",1696844,"00:28:17.894",1697894
+"025026","3.16_ref",3,"16",95,"ref",14,"A","A","uh ja dit is met die twee armpjes rondje bovenop en de ja v] lange vierkant of uh rechthoek","00:28:19.053",1699053,"00:28:25.707",1705707
+"025026","3.16_ref",3,"16",95,"ref",14,"A","B","ja dat is #L#","00:28:23.307",1703307,"00:28:24.934",1704934
+"025026","3.16_loc",3,"16",96,"loc",14,"A","A","um *exhale* *smack* ja kan geen plaatje meer boven hij zit links van het midden *inhale* um kunnen nog twee twee en een half plaatje links naast","00:28:27.061",1707061,"00:28:35.731",1715731
+"025026","3.16_loc",3,"16",96,"loc",14,"A","B","ja dat is dezelfde","00:28:35.593",1715593,"00:28:36.776",1716776
+"025026","4.1_ref",4,"1",97,"ref",10,"B","B","uh ja dit is die *exhale* gieter met dat vierkantje die ja kan klappen","00:28:38.432",1718432,"00:28:42.942",1722942
+"025026","4.1_ref",4,"1",97,"ref",10,"B","A","ja dat is #drie#","00:28:42.362",1722362,"00:28:43.664",1723664
+"025026","4.1_loc",4,"1",98,"loc",10,"B","B","ok ja hij zit helemaal tegen de onderkant aan er past links ongeveer nog twee plaatjes naast","00:28:44.692",1724692,"00:28:49.292",1729292
+"025026","4.1_loc",4,"1",98,"loc",10,"B","A","oe twee","00:28:49.550",1729550,"00:28:50.421",1730421
+"025026","4.1_loc",4,"1",98,"loc",10,"B","A","dat is niet dezelfde","00:28:51.659",1731659,"00:28:52.598",1732598
+"025026","4.2_ref",4,"2",99,"ref",15,"A","A","uh dit is met dat vierkant die er doorheen door het kopje heen gaat met die ja balk die daar eigenlijk op ligt *inhale* twee dingetjes aan de bovenkant z] n] kleine puntjes zeg maar *inhale* en één","00:28:54.047",1734047,"00:29:03.993",1743993
+"025026","4.2_ref",4,"2",99,"ref",15,"A","B","o dat vierkant dat er doorheen gaat ok uh","00:29:03.662",1743662,"00:29:06.399",1746399
+"025026","4.2_ref",4,"2",99,"ref",15,"A","A","ja","00:29:05.149",1745149,"00:29:05.551",1745551
+"025026","4.2_ref",4,"2",99,"ref",15,"A","A","*laugh*","00:29:09.380",1749380,"00:29:09.788",1749788
+"025026","4.2_ref",4,"2",99,"ref",15,"A","B","o ja dat is #J#","00:29:09.841",1749841,"00:29:11.005",1751005
+"025026","4.2_loc",4,"2",100,"loc",15,"A","A","uh hij zit tegen de onderkant van het scherm net iets rechts naast het midden","00:29:12.230",1752230,"00:29:15.795",1755795
+"025026","4.2_loc",4,"2",100,"loc",15,"A","B","ja dat is wel dezelfde","00:29:16.710",1756710,"00:29:18.110",1758110
+"025026","4.3_ref",4,"3",101,"ref",6,"B","B","uh ja dit is die met die neus en dan die balk er doorheen","00:29:19.892",1759892,"00:29:22.910",1762910
+"025026","4.3_ref",4,"3",101,"ref",6,"B","A","*smack* ja dat is #vijf#","00:29:22.766",1762766,"00:29:24.280",1764280
+"025026","4.3_loc",4,"3",102,"loc",6,"B","B","uh hij zit aan de rechterkant van het midden en erboven past nog ongeveer anderhalf plaatje","00:29:24.768",1764768,"00:29:31.845",1771845
+"025026","4.3_loc",4,"3",102,"loc",6,"B","B","hij zit zeg maar net iets rechts dus aan de rechter (balk)","00:29:31.845",1771845,"00:29:34.854",1774854
+"025026","4.3_loc",4,"3",102,"loc",6,"B","A","o dus er passen nog best wel pl] veel plaatjes rechts naast","00:29:34.219",1774219,"00:29:36.550",1776550
+"025026","4.3_loc",4,"3",102,"loc",6,"B","B","twee denk ik","00:29:36.419",1776419,"00:29:37.485",1777485
+"025026","4.3_loc",4,"3",102,"loc",6,"B","A","nee","00:29:36.928",1776928,"00:29:37.534",1777534
+"025026","4.4_ref",4,"4",103,"ref",1,"A","A","uh deze heeft dat die spijker aan de bovenkant vierkant aan de voorkant en ja die twee vierkanten die uh kleiner worden","00:29:39.101",1779101,"00:29:45.282",1785282
+"025026","4.4_ref",4,"4",103,"ref",1,"A","B","mm *smack* twee van die vierkanten aan de zijkant die kleiner worden?","00:29:46.408",1786408,"00:29:50.937",1790937
+"025026","4.4_ref",4,"4",103,"ref",1,"A","A","uh ja en die dat grote vierkant aan de voorkant","00:29:50.872",1790872,"00:29:53.344",1793344
+"025026","4.4_ref",4,"4",103,"ref",1,"A","B","ja dat is #D#","00:29:52.545",1792545,"00:29:54.096",1794096
+"025026","4.4_loc",4,"4",104,"loc",1,"A","A","ja hij zit wel in het midden ik denk net iets boven het midden","00:29:55.367",1795367,"00:29:58.662",1798662
+"025026","4.4_loc",4,"4",104,"loc",1,"A","B","ja dat is ook dezelfde","00:29:59.012",1799012,"00:30:00.601",1800601
+"025026","4.5_ref",4,"5",105,"ref",16,"B","B","um ja dit is die theekan *exhale* met die vierkantjes die s] kleiner worden aan de zijkant","00:30:02.225",1802225,"00:30:07.864",1807864
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","uh","00:30:05.149",1805149,"00:30:06.597",1806597
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","God","00:30:10.432",1810432,"00:30:10.892",1810892
+"025026","4.5_ref",4,"5",105,"ref",16,"B","B","één lepel bovenin","00:30:10.807",1810807,"00:30:12.299",1812299
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","ja ik weet","00:30:13.608",1813608,"00:30:14.400",1814400
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","*laugh*","00:30:16.986",1816986,"00:30:17.856",1817856
+"025026","4.5_ref",4,"5",105,"ref",16,"B","B","bij mij staat hij rechtsonder maar *laugh*ik weet niet*laugh*","00:30:19.775",1819775,"00:30:22.361",1822361
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","*inhale* nee uh want het z] u] *exhale* is bij diezel] zelfde soort vierkantjes als bij de spijker? *inhale*","00:30:21.181",1821181,"00:30:27.610",1827610
+"025026","4.5_ref",4,"5",105,"ref",16,"B","B","uh um","00:30:28.263",1828263,"00:30:29.394",1829394
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","met die we net hadden? *laugh*","00:30:29.558",1829558,"00:30:31.609",1831609
+"025026","4.5_ref",4,"5",105,"ref",16,"B","B","ja maar dan is het er maar één *inhale* en hij heeft zeg maar zo'n grote ja rond ding aan de bovenkant en aan de voorkant ook nog één","00:30:30.453",1830453,"00:30:38.437",1838437
+"025026","4.5_ref",4,"5",105,"ref",16,"B","A","oja *smack* hij staat er gewoon echt naast uh #negen#","00:30:36.570",1836570,"00:30:39.700",1839700
+"025026","4.5_loc",4,"5",106,"loc",16,"B","B","ok ja hij zit zeg maar aan de rechter onderkant maar eronder past er nog wel één *click*ok*click*","00:30:40.555",1840555,"00:30:44.877",1844877
+"025026","4.5_loc",4,"5",106,"loc",16,"B","A","hm nee","00:30:42.947",1842947,"00:30:43.661",1843661
+"025026","4.6_ref",4,"6",107,"ref",13,"A","A","um heeft het vierkant aan de onderkant en daar staat het kopje op","00:30:45.870",1845870,"00:30:48.843",1848843
+"025026","4.6_ref",4,"6",107,"ref",13,"A","B","*smack* ja dat is #P#","00:30:48.799",1848799,"00:30:50.567",1850567
+"025026","4.6_loc",4,"6",108,"loc",13,"A","A","hij staat rechs van het midden kan misschien nog net een plaatje boven *inhale* ja","00:30:52.207",1852207,"00:30:58.090",1858090
+"025026","4.6_loc",4,"6",108,"loc",13,"A","B","en ernaast nog anderhalf of zo?","00:30:57.097",1857097,"00:30:59.197",1859197
+"025026","4.6_loc",4,"6",108,"loc",13,"A","A","aan de *microphone touch*rechterkant?*microphone touch*","00:30:59.570",1859570,"00:31:00.934",1860934
+"025026","4.6_loc",4,"6",108,"loc",13,"A","B","ja","00:31:00.777",1860777,"00:31:01.475",1861475
+"025026","4.6_loc",4,"6",108,"loc",13,"A","A","*microphone touch*nee passen*microphone touch* er zeker nog twee a drie","00:31:01.008",1861008,"00:31:02.566",1862566
+"025026","4.6_loc",4,"6",108,"loc",13,"A","B","nee","00:31:02.623",1862623,"00:31:03.056",1863056
+"025026","4.7_ref",4,"7",109,"ref",12,"B","B","uh ja dit is met dat dienblad en die spijker","00:31:06.143",1866143,"00:31:09.003",1869003
+"025026","4.7_ref",4,"7",109,"ref",12,"B","A","ja um *smack* *inhale* dat is #één#","00:31:08.174",1868174,"00:31:10.604",1870604
+"025026","4.7_loc",4,"7",110,"loc",12,"B","B","uh hij zit denk ik net iets onder het midden en aan de linkerkant en er past nou net geen plaatje naast denk ik p]","00:31:12.386",1872386,"00:31:19.490",1879490
+"025026","4.7_loc",4,"7",110,"loc",12,"B","A","mm is wel *click*dezelfde*click","00:31:19.020",1879020,"00:31:20.330",1880330
+"025026","4.8_ref",4,"8",111,"ref",7,"A","A","uh ja dit is de *exhale* *tongueclick* kruiwagen","00:31:21.384",1881384,"00:31:23.860",1883860
+"025026","4.8_ref",4,"8",111,"ref",7,"A","B","*laugh*","00:31:24.620",1884620,"00:31:25.762",1885762
+"025026","4.8_ref",4,"8",111,"ref",7,"A","A","*laugh*","00:31:25.095",1885095,"00:31:27.101",1887101
+"025026","4.8_ref",4,"8",111,"ref",7,"A","B","uh dat is #N#","00:31:25.961",1885961,"00:31:27.017",1887017
+"025026","4.8_loc",4,"8",112,"loc",7,"A","A","hij zit net iets boven het midden *tongueclick* kan n] is het de linkerkant van het scherm kan er nog één anderhalf twee plaatjes naast *inhale*","00:31:28.111",1888111,"00:31:35.758",1895758
+"025026","4.8_loc",4,"8",112,"loc",7,"A","A","uh *exhale*","00:31:35.758",1895758,"00:31:38.500",1898500
+"025026","4.8_loc",4,"8",112,"loc",7,"A","B","ja dat is wel dezelfde","00:31:38.559",1898559,"00:31:40.419",1900419
+"025026","4.9_ref",4,"9",113,"ref",2,"B","B","uh dit is met de piramide bovenop *exhale*","00:31:41.715",1901715,"00:31:44.138",1904138
+"025026","4.9_ref",4,"9",113,"ref",2,"B","A","ok um dat is #tien#","00:31:43.701",1903701,"00:31:46.231",1906231
+"025026","4.9_loc",4,"9",114,"loc",2,"B","B","uh ja hij zit links onderin en er past links denk ik nog een plaatje naast onder niet","00:31:48.132",1908132,"00:31:53.582",1913582
+"025026","4.9_loc",4,"9",114,"loc",2,"B","A","echt maar één plaatje links van? nee","00:31:54.175",1914175,"00:31:56.195",1916195
+"025026","4.10_ref",4,"10",115,"ref",9,"A","A","uh dit is met de cirkel aan de achterkant lepeltje bovenin uh een uitsteeksel aan de rechterkan] uh linkerkant","00:31:57.978",1917978,"00:32:04.988",1924988
+"025026","4.10_ref",4,"10",115,"ref",9,"A","B","ja dat is #C#","00:32:04.110",1924110,"00:32:05.845",1925845
+"025026","4.10_loc",4,"10",116,"loc",9,"A","A","uh zit aan de rechterkant van het scherm uh kan geen plaatje meer boven *inhale* nog twee plaatjes ongeveer rechs van","00:32:07.607",1927607,"00:32:15.051",1935051
+"025026","4.10_loc",4,"10",116,"loc",9,"A","B","*smack* als je er v] twee plaatjes naast wil heb je dan nog wel een beetje ruimte over?","00:32:15.549",1935549,"00:32:19.225",1939225
+"025026","4.10_loc",4,"10",116,"loc",9,"A","A","het is zeg maar","00:32:19.824",1939824,"00:32:21.122",1941122
+"025026","4.10_loc",4,"10",116,"loc",9,"A","B","ja dat is wel hetzelfde","00:32:25.103",1945103,"00:32:26.327",1946327
+"025026","4.10_loc",4,"10",116,"loc",9,"A","A","*laugh*","00:32:26.113",1946113,"00:32:28.040",1948040
+"025026","4.10_loc",4,"10",116,"loc",9,"A","B","*laugh*","00:32:26.710",1946710,"00:32:27.904",1947904
+"025026","4.11_ref",4,"11",117,"ref",14,"B","B","ok uh ja dat is dat mannetje die zo doet","00:32:28.436",1948436,"00:32:31.646",1951646
+"025026","4.11_ref",4,"11",117,"ref",14,"B","A","ja *smack* uh *sigh* where are you o ja #zes# met de ding aan de bovenkant hè?","00:32:31.754",1951754,"00:32:39.843",1959843
+"025026","4.11_ref",4,"11",117,"ref",14,"B","B","ja","00:32:39.513",1959513,"00:32:40.020",1960020
+"025026","4.11_ref",4,"11",117,"ref",14,"B","A","*click*ja*click*","00:32:40.003",1960003,"00:32:40.248",1960248
+"025026","4.11_loc",4,"11",118,"loc",14,"B","B","um hij zit ongeveer zeg maar zo in het midden aan de rechterkant en past één plaatje naast","00:32:41.136",1961136,"00:32:46.193",1966193
+"025026","4.11_loc",4,"11",118,"loc",14,"B","A","hij zit ongeveer wel zo in het midden?","00:32:46.585",1966585,"00:32:48.057",1968057
+"025026","4.11_loc",4,"11",118,"loc",14,"B","B","ja heel misschien iets onder het midden maar","00:32:48.861",1968861,"00:32:50.898",1970898
+"025026","4.11_loc",4,"11",118,"loc",14,"B","A","hm","00:32:50.170",1970170,"00:32:50.845",1970845
+"025026","4.11_loc",4,"11",118,"loc",14,"B","A","*smack* kan er nog ongeveer een plaatje onder of echt wel veel meer","00:32:52.890",1972890,"00:32:54.930",1974930
+"025026","4.11_loc",4,"11",118,"loc",14,"B","B","wel m] ja twee plaatjes wel","00:32:55.135",1975135,"00:32:56.781",1976781
+"025026","4.11_loc",4,"11",118,"loc",14,"B","A","hm nee","00:32:56.286",1976286,"00:32:56.671",1976671
+"025026","4.12_ref",4,"12",119,"ref",5,"A","A","oja dit is de hele compacte","00:32:58.453",1978453,"00:32:59.991",1979991
+"025026","4.12_ref",4,"12",119,"ref",5,"A","B","uh uh ja","00:33:01.050",1981050,"00:33:02.530",1982530
+"025026","4.12_ref",4,"12",119,"ref",5,"A","B","oja *smack* dat is #E#","00:33:04.757",1984757,"00:33:06.038",1986038
+"025026","4.12_loc",4,"12",120,"loc",5,"A","A","um hij zit zeg maar horizontaal gezien iets onder het midden *inhale* um *exhale* *microphone touch* ja dan zit hij ongeveer d]","00:33:06.938",1986938,"00:33:15.692",1995692
+"025026","4.12_loc",4,"12",120,"loc",5,"A","A","m] m] anderhalf twee plaatjes *inhale* van de zijkant af *inhale* kunnen nog anderhalf plaatje onder zeg maar","00:33:15.692",1995692,"00:33:22.566",2002566
+"025026","4.12_loc",4,"12",120,"loc",5,"A","B","ok dat is wel dezelfde","00:33:23.458",2003458,"00:33:24.790",2004790
+"025026","4.13_ref",4,"13",121,"ref",8,"B","B","uh ja dit is zeg maar dat dier dat je zo kan draaien","00:33:27.568",2007568,"00:33:30.560",2010560
+"025026","4.13_ref",4,"13",121,"ref",8,"B","A","*smack* ja","00:33:30.732",2010732,"00:33:31.112",2011112
+"025026","4.13_ref",4,"13",121,"ref",8,"B","A","uh *exhale* ja dat is #negen#","00:33:32.845",2012845,"00:33:35.995",2015995
+"025026","4.13_loc",4,"13",122,"loc",8,"B","B","hij zit zeg maar linksboven en er past nog wel een plaatje naast boven niet meer","00:33:36.854",2016854,"00:33:42.080",2022080
+"025026","4.13_loc",4,"13",122,"loc",8,"B","A","ja","00:33:43.096",2023096,"00:33:43.930",2023930
+"025026","4.14_ref",4,"14",123,"ref",11,"A","A","uh ja deze heeft een neus niet met die ding d] stang er doorheen met twee dingen in het kopje zeg maar die wel verschillen *inhale* uh en die driehoek aan de zijkant","00:33:45.659",2025659,"00:33:54.715",2034715
+"025026","4.14_ref",4,"14",123,"ref",11,"A","B","ja dat is #G#","00:33:53.742",2033742,"00:33:55.161",2035161
+"025026","4.14_loc",4,"14",124,"loc",11,"A","A","hij zit net iets links van het midden en net ook iets horizontaal gezien van het midden af naar beneden","00:33:56.132",2036132,"00:34:00.549",2040549
+"025026","4.14_loc",4,"14",124,"loc",11,"A","B","ja dus onder past er nog v] wel zeker één","00:34:01.203",2041203,"00:34:03.741",2043741
+"025026","4.14_loc",4,"14",124,"loc",11,"A","A","ja","00:34:03.630",2043630,"00:34:04.108",2044108
+"025026","4.14_loc",4,"14",124,"loc",11,"A","B","ok","00:34:04.275",2044275,"00:34:04.785",2044785
+"025026","4.14_loc",4,"14",124,"loc",11,"A","B","dat is #G# uh *tongueclick* dat heb ik al gezegd *laugh*","00:34:05.485",2045485,"00:34:09.368",2049368
+"025026","4.14_loc",4,"14",124,"loc",11,"A","A","*laugh*","00:34:08.667",2048667,"00:34:09.784",2049784
+"025026","4.15_ref",4,"15",125,"ref",4,"B","B","o ja dit is uh met dat zeg maar hoedje geen piramide met twee van die dingen die zo steken","00:34:10.424",2050424,"00:34:14.879",2054879
+"025026","4.15_ref",4,"15",125,"ref",4,"B","A","ja uh #negen# *laugh*","00:34:14.327",2054327,"00:34:16.474",2056474
+"025026","4.15_loc",4,"15",126,"loc",4,"B","B","hij zit uh zeg maar linksboven maar links ervan passen nog wel twee plaatjes en boven niet meer","00:34:17.384",2057384,"00:34:23.632",2063632
+"025026","4.15_loc",4,"15",126,"loc",4,"B","A","links pa] hm links passen twee plaatjes nog zeker wel ja dat is wel dezelfde","00:34:24.310",2064310,"00:34:28.395",2068395
+"025026","4.15_loc",4,"15",126,"loc",4,"B","B","ja","00:34:27.180",2067180,"00:34:27.723",2067723
+"025026","4.16_ref",4,"16",127,"ref",3,"A","A","oja dit is dat gedraaide ding aan de onderkant met de driehoek zeg maar","00:34:30.185",2070185,"00:34:33.134",2073134
+"025026","4.16_ref",4,"16",127,"ref",3,"A","B","ja dat is #L#","00:34:33.169",2073169,"00:34:34.224",2074224
+"025026","4.16_loc",4,"16",128,"loc",3,"A","A","staat eigelijk helemaal aan de rechterkant van het scherm kan eigenlijk geen plaatje meer o] uh boven of naast","00:34:35.140",2075140,"00:34:40.394",2080394
+"025026","4.16_loc",4,"16",128,"loc",3,"A","B","ok","00:34:40.123",2080123,"00:34:40.659",2080659
+"025026","5.1_ref",5,"1",129,"ref",7,"B","B","uh de kruiwagen","00:34:42.877",2082877,"00:34:44.126",2084126
+"025026","5.1_ref",5,"1",129,"ref",7,"B","A","ja is #tien#","00:34:44.486",2084486,"00:34:45.315",2085315
+"025026","5.1_loc",5,"1",130,"loc",7,"B","B","en hij zit zeg maar boven het midden en denk ik net iets links van het midden","00:34:46.284",2086284,"00:34:51.511",2091511
+"025026","5.1_loc",5,"1",130,"loc",7,"B","A","en hoever zit hij boven het midden echt net maar een beetje?","00:34:52.537",2092537,"00:34:54.862",2094862
+"025026","5.1_loc",5,"1",130,"loc",7,"B","B","ja er past nog wel een kopje boven","00:34:55.058",2095058,"00:34:57.010",2097010
+"025026","5.1_loc",5,"1",130,"loc",7,"B","A","hm *click*","00:34:56.700",2096700,"00:34:57.862",2097862
+"025026","5.2_ref",5,"2",131,"ref",6,"A","A","uh ja dit is die weer die neus met de stang er doorheen","00:34:58.666",2098666,"00:35:00.880",2100880
+"025026","5.2_ref",5,"2",131,"ref",6,"A","B","um ja dat is #H#","00:35:01.846",2101846,"00:35:04.409",2104409
+"025026","5.2_loc",5,"2",132,"loc",6,"A","A","uh zit aan de onderkant van het scherm *smack* wel midden *smack* kan denk ik geen plaatje meer onder","00:35:05.324",2105324,"00:35:10.461",2110461
+"025026","5.2_loc",5,"2",132,"loc",6,"A","B","ok wel eigenlijk bijna in het midden hè?","00:35:10.898",2110898,"00:35:12.485",2112485
+"025026","5.2_loc",5,"2",132,"loc",6,"A","A","ja","00:35:12.495",2112495,"00:35:12.999",2112999
+"025026","5.2_loc",5,"2",132,"loc",6,"A","B","of ja dat is wel dezelfde *click*plek*click*","00:35:12.940",2112940,"00:35:14.922",2114922
+"025026","5.3_ref",5,"3",133,"ref",11,"B","B","um ja dit is met die neus en twee van die dingen bovenin en l] links dat driehoekje","00:35:15.946",2115946,"00:35:20.468",2120468
+"025026","5.3_ref",5,"3",133,"ref",11,"B","A","ja is #vijf# *click*","00:35:20.358",2120358,"00:35:21.708",2121708
+"025026","5.3_loc",5,"3",134,"loc",11,"B","B","hij zit zeg maar aan de rechterkant en ook iets boven het midden boven past nog wel één plaatje en rechts nog wel twee","00:35:21.905",2121905,"00:35:27.910",2127910
+"025026","5.3_loc",5,"3",134,"loc",11,"B","A","rechts passen nog twee plaatjes naast nee","00:35:28.238",2128238,"00:35:30.059",2130059
+"025026","5.3_loc",5,"3",134,"loc",11,"B","B","ja","00:35:29.515",2129515,"00:35:29.970",2129970
+"025026","5.4_ref",5,"4",135,"ref",10,"A","A","uh ja dit is met dat *exhale* vierkant schuin wat je eigenlijk een beetje kan klappen of zo en","00:35:32.238",2132238,"00:35:37.110",2137110
+"025026","5.4_ref",5,"4",135,"ref",10,"A","B","ja um","00:35:36.568",2136568,"00:35:37.800",2137800
+"025026","5.4_ref",5,"4",135,"ref",10,"A","B","dat is #L#","00:35:38.844",2138844,"00:35:40.051",2140051
+"025026","5.4_loc",5,"4",136,"loc",10,"A","A","um hij zit net iets ja *exhale* hij zit eigenlijk wel o] zo in het midden en net iets rechts van het midden maar niet veel ","00:35:41.521",2141521,"00:35:48.597",2148597
+"025026","5.4_loc",5,"4",136,"loc",10,"A","B","hij zit heel erg zo in het midden","00:35:48.972",2148972,"00:35:50.396",2150396
+"025026","5.4_loc",5,"4",136,"loc",10,"A","A","ja *laugh*","00:35:50.281",2150281,"00:35:52.213",2152213
+"025026","5.4_loc",5,"4",136,"loc",10,"A","B","nee","00:35:50.740",2150740,"00:35:51.182",2151182
+"025026","5.5_ref",5,"5",137,"ref",9,"B","B","um *inhale* ja dit is met dat kopje met dat halve rondje aan de achterkant","00:35:53.098",2153098,"00:35:57.025",2157025
+"025026","5.5_ref",5,"5",137,"ref",9,"B","A","ja dat is #zeven#","00:35:56.794",2156794,"00:35:58.188",2158188
+"025026","5.5_loc",5,"5",138,"loc",9,"B","B","hij zit zeg maar linksonder uh niet helemaal tegen de onderlijn aan zeg maar er past niet een plaatje onder maar","00:35:58.632",2158632,"00:36:05.346",2165346
+"025026","5.5_loc",5,"5",138,"loc",9,"B","B","um hij zit er ook niet helemaal tegenaan *inhale* links past ook nog wel anderhalf plaatje","00:36:05.346",2165346,"00:36:09.762",2169762
+"025026","5.5_loc",5,"5",138,"loc",9,"B","A","o nee *laugh* *click*","00:36:09.094",2169094,"00:36:10.747",2170747
+"025026","5.6_ref",5,"6",139,"ref",4,"A","A","uh oja dit is weer met dat hoedje bovenop niet de piramide en aan de zijkant twee van die balken","00:36:11.626",2171626,"00:36:16.314",2176314
+"025026","5.6_ref",5,"6",139,"ref",4,"A","B","ja","00:36:15.468",2175468,"00:36:16.447",2176447
+"025026","5.6_ref",5,"6",139,"ref",4,"A","B","ja dat is #F#","00:36:17.117",2177117,"00:36:18.457",2178457
+"025026","5.6_loc",5,"6",140,"loc",4,"A","A","um hij zit uh rechts van het midden *inhale* uh niet aan de onderkant van het scherm maar er past ook geen plaatje meer onder ja","00:36:20.244",2180244,"00:36:29.319",2189319
+"025026","5.6_loc",5,"6",140,"loc",4,"A","B","*smack* hij zit wel duidelijk rechts van het midden","00:36:30.903",2190903,"00:36:33.068",2193068
+"025026","5.6_loc",5,"6",140,"loc",4,"A","A","ja","00:36:32.865",2192865,"00:36:33.554",2193554
+"025026","5.6_loc",5,"6",140,"loc",4,"A","B","ok en aan de rechterkant passen nog wel drie plaatjes ongeveer? ok dat is hetzelfde dan","00:36:33.986",2193986,"00:36:37.922",2197922
+"025026","5.6_loc",5,"6",140,"loc",4,"A","A","ja dat is wel dezelfde","00:36:36.125",2196125,"00:36:37.580",2197580
+"025026","5.7_ref",5,"7",141,"ref",13,"B","B","uh dit is dat vierkante vlak waar het dan op staat","00:36:39.773",2199773,"00:36:42.576",2202576
+"025026","5.7_ref",5,"7",141,"ref",13,"B","A","is #negen#","00:36:42.283",2202283,"00:36:43.038",2203038
+"025026","5.7_loc",5,"7",142,"loc",13,"B","B","hij zit in het midden en redelijk tegen de bovenkant aan niet helemaal maar er past ook geen plaatje meer boven","00:36:43.391",2203391,"00:36:49.134",2209134
+"025026","5.7_loc",5,"7",142,"loc",13,"B","A","o nee","00:36:48.505",2208505,"00:36:49.390",2209390
+"025026","5.8_ref",5,"8",143,"ref",12,"A","A","o dit is het dienblad *exhale*","00:36:51.193",2211193,"00:36:52.876",2212876
+"025026","5.8_ref",5,"8",143,"ref",12,"A","B","um ja met die spijker","00:36:52.687",2212687,"00:36:56.283",2216283
+"025026","5.8_ref",5,"8",143,"ref",12,"A","A","ja","00:36:56.022",2216022,"00:36:56.360",2216360
+"025026","5.8_ref",5,"8",143,"ref",12,"A","B","ok dat is #A#","00:36:56.444",2216444,"00:36:57.379",2217379
+"025026","5.8_loc",5,"8",144,"loc",12,"A","A","hij zit horizontaal wel redelijk in het midden *inhale* past nog zeker wel een plaatje links van","00:36:58.461",2218461,"00:37:02.841",2222841
+"025026","5.8_loc",5,"8",144,"loc",12,"A","B","kan hij net iets aan de onderkant van het midden zitten?","00:37:04.352",2224352,"00:37:06.839",2226839
+"025026","5.8_loc",5,"8",144,"loc",12,"A","A","*moan* ja zou kunnen","00:37:09.568",2229568,"00:37:11.093",2231093
+"025026","5.8_loc",5,"8",144,"loc",12,"A","B","ok","00:37:12.961",2232961,"00:37:13.507",2233507
+"025026","5.8_loc",5,"8",144,"loc",12,"A","A","het zit *exhale* ja ja dat kan wel","00:37:12.986",2232986,"00:37:16.130",2236130
+"025026","5.8_loc",5,"8",144,"loc",12,"A","B","ok *inhale* dan is het wel dezelfde *click*plek*click*","00:37:15.730",2235730,"00:37:17.933",2237933
+"025026","5.9_ref",5,"9",145,"ref",1,"B","B","um ja dit is met die spijker en dat vierkante vlak voor en die twee dingen die zo kleiner worden","00:37:18.879",2238879,"00:37:24.478",2244478
+"025026","5.9_ref",5,"9",145,"ref",1,"B","A","*sigh* ja um *exhale* *smack* ja is #één#","00:37:23.086",2243086,"00:37:28.288",2248288
+"025026","5.9_ref",5,"9",145,"ref",1,"B","B","um hij zit iets rechts van het midden maar ik denk wel redelijk in het midden","00:37:28.550",2248550,"00:37:34.701",2254701
+"025026","5.9_loc",5,"9",146,"loc",1,"B","A","nee","00:37:34.803",2254803,"00:37:35.888",2255888
+"025026","5.10_ref",5,"10",147,"ref",8,"A","A","uh *exhale* oja was dit nou het dier gedraaid? ja volgens mij wel met die vierkantjes en ja","00:37:37.353",2257353,"00:37:42.703",2262703
+"025026","5.10_ref",5,"10",147,"ref",8,"A","B","ja *inhale* dat is *click*#D#*click*","00:37:41.887",2261887,"00:37:44.154",2264154
+"025026","5.10_loc",5,"10",148,"loc",8,"A","A","uh um hij zit links van het midden","00:37:44.559",2264559,"00:37:47.211",2267211
+"025026","5.10_loc",5,"10",148,"loc",8,"A","B","links onderin?","00:37:47.180",2267180,"00:37:48.154",2268154
+"025026","5.10_loc",5,"10",148,"loc",8,"A","A","nou er kunnen nog wel een paar plaatjes naast t] t] ok","00:37:48.601",2268601,"00:37:51.215",2271215
+"025026","5.10_loc",5,"10",148,"loc",8,"A","B","nee","00:37:50.237",2270237,"00:37:50.547",2270547
+"025026","5.11_ref",5,"11",149,"ref",15,"B","B","uh ja dit is t] waar dat vierkante vlak doorheen loopt","00:37:52.897",2272897,"00:37:56.101",2276101
+"025026","5.11_ref",5,"11",149,"ref",15,"B","A","um ja dat is #negen#","00:37:56.172",2276172,"00:37:58.448",2278448
+"025026","5.11_loc",5,"11",150,"loc",15,"B","B","um hij zit rechts redelijk dicht langs de rand en boven past nog één plaatje anderhalf plaatje","00:37:59.535",2279535,"00:38:05.862",2285862
+"025026","5.11_loc",5,"11",150,"loc",15,"B","A","maar zit niet onder het midden","00:38:05.741",2285741,"00:38:07.244",2287244
+"025026","5.11_loc",5,"11",150,"loc",15,"B","B","nee","00:38:07.639",2287639,"00:38:08.098",2288098
+"025026","5.11_loc",5,"11",150,"loc",15,"B","A","o nee dat is niet dezelfde","00:38:07.903",2287903,"00:38:08.962",2288962
+"025026","5.12_ref",5,"12",151,"ref",14,"A","A","uh ja dit is weer met die armpjes zo en met de bal uh bal bovenop","00:38:10.457",2290457,"00:38:14.973",2294973
+"025026","5.12_ref",5,"12",151,"ref",14,"A","B","mm ja","00:38:13.311",2293311,"00:38:14.859",2294859
+"025026","5.12_ref",5,"12",151,"ref",14,"A","B","dat is #J#","00:38:16.318",2296318,"00:38:17.209",2297209
+"025026","5.12_loc",5,"12",152,"loc",14,"A","A","hij zit horizontaal echt wel in het midden denk ik *laugh* en er kan nog één plaatje rechts van","00:38:17.717",2297717,"00:38:22.564",2302564
+"025026","5.12_loc",5,"12",152,"loc",14,"A","B","ja dat is wel dezelfde *click*plek*click*","00:38:23.794",2303794,"00:38:25.456",2305456
+"025026","5.13_ref",5,"13",153,"ref",5,"B","B","ok dit is die compacte *exhale*","00:38:26.539",2306539,"00:38:28.698",2308698
+"025026","5.13_ref",5,"13",153,"ref",5,"B","A","ja dat is #zestien#","00:38:28.344",2308344,"00:38:30.114",2310114
+"025026","5.13_loc",5,"13",154,"loc",5,"B","B","hij zit wel helemaal tegen de onderkant aan maar rechts past nog wel twee plaatjes","00:38:30.692",2310692,"00:38:35.954",2315954
+"025026","5.13_loc",5,"13",154,"loc",5,"B","A","ja","00:38:35.724",2315724,"00:38:36.183",2316183
+"025026","5.14_ref",5,"14",155,"ref",16,"A","A","uh ja dit is volgens mij was dit de theekop die zo met die vierkantjes die uitliepen en *inhale* één lepel erin en *exhale*","00:38:37.632",2317632,"00:38:46.643",2326643
+"025026","5.14_ref",5,"14",155,"ref",16,"A","B","hmhm","00:38:43.285",2323285,"00:38:44.538",2324538
+"025026","5.14_ref",5,"14",155,"ref",16,"A","B","ja *smack* dat is #B#","00:38:46.968",2326968,"00:38:48.360",2328360
+"025026","5.14_loc",5,"14",156,"loc",16,"A","A","kan nog één plaatje rechts naast *laugh*ok*laugh*","00:38:49.286",2329286,"00:38:52.964",2332964
+"025026","5.14_loc",5,"14",156,"loc",16,"A","B","nee","00:38:51.238",2331238,"00:38:51.472",2331472
+"025026","5.15_ref",5,"15",157,"ref",3,"B","B","uh dit is met die schroef aan de onderkant op zo'n driehoek","00:38:53.865",2333865,"00:38:56.230",2336230
+"025026","5.15_ref",5,"15",157,"ref",3,"B","A","ja dat is #vier#","00:38:56.206",2336206,"00:38:58.804",2338804
+"025026","5.15_loc",5,"15",158,"loc",3,"B","B","um ja hij zit wel redelijk in het midden ik denk iets onder het midden *inhale* en ook iets links van het midden","00:38:59.663",2339663,"00:39:05.366",2345366
+"025026","5.15_loc",5,"15",158,"loc",3,"B","A","mm ja is *click*dezelfde*click*","00:39:04.719",2344719,"00:39:05.908",2345908
+"025026","5.16_ref",5,"16",159,"ref",2,"A","A","uh dit is de piramide bovenop *exhale*","00:39:07.042",2347042,"00:39:08.945",2348945
+"025026","5.16_ref",5,"16",159,"ref",2,"A","B","ja dat is *click*#G#*click*","00:39:10.544",2350544,"00:39:11.668",2351668
+"025026","5.16_loc",5,"16",160,"loc",2,"A","A","zit helemaal links in de hoek bovenin","00:39:11.591",2351591,"00:39:13.401",2353401
+"025026","5.16_loc",5,"16",160,"loc",2,"A","B","ja","00:39:12.785",2352785,"00:39:13.252",2353252
+"025026","6.1_ref",6,"1",161,"ref",10,"B","B","uh ja dit is de gieter","00:39:15.770",2355770,"00:39:17.529",2357529
+"025026","6.1_ref",6,"1",161,"ref",10,"B","A","*inhale* *sigh* was toch uh (met de s] v]) ook met waar die op stond toch? ","00:39:17.407",2357407,"00:39:22.563",2362563
+"025026","6.1_ref",6,"1",161,"ref",10,"B","B","met dat ding dat je kon klappen","00:39:22.505",2362505,"00:39:24.146",2364146
+"025026","6.1_ref",6,"1",161,"ref",10,"B","A","ja uh dat is #vijf#","00:39:23.781",2363781,"00:39:25.911",2365911
+"025026","6.1_loc",6,"1",162,"loc",10,"B","B","ja hij zit ik denk wel redelijk in het midden en er past onder ja net geen plaatje en misschien net wel","00:39:26.430",2366430,"00:39:32.762",2372762
+"025026","6.1_loc",6,"1",162,"loc",10,"B","A","ja is wel dezelfde","00:39:33.102",2373102,"00:39:33.993",2373993
+"025026","6.2_ref",6,"2",163,"ref",11,"A","A","uh dit is met de neus niet met de staaf er doorheen met twee van die lepeltjes erin die wel verschillen","00:39:35.516",2375516,"00:39:40.306",2380306
+"025026","6.2_ref",6,"2",163,"ref",11,"A","B","ja dat is #J#","00:39:40.283",2380283,"00:39:41.944",2381944
+"025026","6.2_loc",6,"2",164,"loc",11,"A","A","um *exhale* ja hij zit wel redelijk u] zeker wel rechts van het midden *inhale* ongeveer zeg ja uh aan de bovenkant kan nog mm misschien net een plaatje net niet misschien","00:39:42.972",2382972,"00:39:52.734",2392734
+"025026","6.2_loc",6,"2",164,"loc",11,"A","B","o nee er past wel *inhale* twee plaatjes","00:39:51.876",2391876,"00:39:54.548",2394548
+"025026","6.2_loc",6,"2",164,"loc",11,"A","A","*smack* o nee *click**laugh**click*","00:39:54.265",2394265,"00:39:55.441",2395441
+"025026","6.3_ref",6,"3",165,"ref",8,"B","B","um ja dit is dat dier dat je kan draaien *exhale*","00:39:56.179",2396179,"00:39:59.372",2399372
+"025026","6.3_ref",6,"3",165,"ref",8,"B","A","uh *exhale* ja dat is #veertien#","00:39:59.781",2399781,"00:40:02.727",2402727
+"025026","6.3_loc",6,"3",166,"loc",8,"B","B","ok hij zit e] links er tegenaan ongeveer *inhale* wel in het midden ongeveer","00:40:03.189",2403189,"00:40:08.261",2408261
+"025026","6.3_loc",6,"3",166,"loc",8,"B","A","nee","00:40:06.714",2406714,"00:40:07.163",2407163
+"025026","6.4_ref",6,"4",167,"ref",7,"A","A","um het is de kruiwagen","00:40:10.333",2410333,"00:40:12.537",2412537
+"025026","6.4_ref",6,"4",167,"ref",7,"A","B","ja dat is #D#","00:40:13.649",2413649,"00:40:14.604",2414604
+"025026","6.4_loc",6,"4",168,"loc",7,"A","A","hij zit helemaal aan de rechterkant van het scherm wel zeker boven het midden *inhale*","00:40:15.367",2415367,"00:40:19.170",2419170
+"025026","6.4_loc",6,"4",168,"loc",7,"A","A","mm *smack* er kan geen plaatje meer rechts naast *inhale* er is nog wel wat ruimte hij zit niet tegen de kant aan mm","00:40:19.170",2419170,"00:40:27.204",2427204
+"025026","6.4_loc",6,"4",168,"loc",7,"A","B","hmhm","00:40:24.977",2424977,"00:40:25.497",2425497
+"025026","6.4_loc",6,"4",168,"loc",7,"A","B","en boven past helemaal niks meer?","00:40:27.314",2427314,"00:40:28.712",2428712
+"025026","6.4_loc",6,"4",168,"loc",7,"A","A","er past nog wel een plaatje","00:40:28.603",2428603,"00:40:29.612",2429612
+"025026","6.4_loc",6,"4",168,"loc",7,"A","B","boven?","00:40:29.649",2429649,"00:40:30.200",2430200
+"025026","6.4_loc",6,"4",168,"loc",7,"A","A","ja","00:40:30.262",2430262,"00:40:30.589",2430589
+"025026","6.4_loc",6,"4",168,"loc",7,"A","B","nee","00:40:30.499",2430499,"00:40:30.854",2430854
+"025026","6.5_ref",6,"5",169,"ref",4,"B","B","o uh dit is met dat *inhale* driehoekje niet de piramide maar met die twee dingetjes","00:40:32.968",2432968,"00:40:38.469",2438469
+"025026","6.5_ref",6,"5",169,"ref",4,"B","A","ja *smack* um *exhale* *inhale* #zes#","00:40:37.243",2437243,"00:40:40.879",2440879
+"025026","6.5_loc",6,"5",170,"loc",4,"B","B","um *exhale* hij zit links van het midden denk net iets onder maar wel redelijk op het midden","00:40:41.756",2441756,"00:40:47.773",2447773
+"025026","6.5_loc",6,"5",170,"loc",4,"B","A","mm ja *click* is wel gelijk","00:40:47.142",2447142,"00:40:48.644",2448644
+"025026","6.6_ref",6,"6",171,"ref",3,"A","A","o ja dit is met die uh ja u] wat draait naar beneden met de driehoek eraan zeg maar","00:40:49.216",2449216,"00:40:53.976",2453976
+"025026","6.6_ref",6,"6",171,"ref",3,"A","B","*smack* ja dat is #F#","00:40:54.381",2454381,"00:40:55.505",2455505
+"025026","6.6_loc",6,"6",172,"loc",3,"A","A","hij zit net iets rechts van het midden en net ook ietsje boven het midden","00:40:56.824",2456824,"00:41:00.589",2460589
+"025026","6.6_loc",6,"6",172,"loc",3,"A","B","nee deze zit links","00:41:00.285",2460285,"00:41:01.477",2461477
+"025026","6.7_ref",6,"7",173,"ref",14,"B","B","um dit is dat mannetje die zo doet","00:41:02.870",2462870,"00:41:04.971",2464971
+"025026","6.7_ref",6,"7",173,"ref",14,"B","A","ja *smack* dat is #drie#","00:41:05.060",2465060,"00:41:07.689",2467689
+"025026","6.7_loc",6,"7",174,"loc",14,"B","B","hij zit helemaal aan de rechterkant um net iets onder het midden","00:41:08.561",2468561,"00:41:12.342",2472342
+"025026","6.7_loc",6,"7",174,"loc",14,"B","A","ja","00:41:12.360",2472360,"00:41:12.823",2472823
+"025026","6.8_ref",6,"8",175,"ref",13,"A","A","uh ja hebben we hetzelfde kopje wat op het vierkante vlak staat","00:41:14.421",2474421,"00:41:17.648",2477648
+"025026","6.8_ref",6,"8",175,"ref",13,"A","B","ja dat is #L# *click*","00:41:18.200",2478200,"00:41:20.579",2480579
+"025026","6.8_loc",6,"8",176,"loc",13,"A","A","uh hij staat links van het midden uh kan geen kopje meer boven","00:41:20.494",2480494,"00:41:24.298",2484298
+"025026","6.8_loc",6,"8",176,"loc",13,"A","B","links van het midden?","00:41:23.533",2483533,"00:41:24.592",2484592
+"025026","6.8_loc",6,"8",176,"loc",13,"A","A","ja","00:41:24.597",2484597,"00:41:24.979",2484979
+"025026","6.8_loc",6,"8",176,"loc",13,"A","B","nee","00:41:24.937",2484937,"00:41:25.259",2485259
+"025026","6.9_ref",6,"9",177,"ref",2,"B","B","uh dit is de piramide er bovenop","00:41:27.270",2487270,"00:41:29.517",2489517
+"025026","6.9_ref",6,"9",177,"ref",2,"B","A","*smack* ja *smack* dat is #tien#","00:41:29.277",2489277,"00:41:30.844",2490844
+"025026","6.9_loc",6,"9",178,"loc",2,"B","B","um hij zit aan de rechterkant ietsjes onder het midden rechts past nog wel een plaatje naast onder ook nog wel","00:41:31.414",2491414,"00:41:37.235",2497235
+"025026","6.9_loc",6,"9",178,"loc",2,"B","A","*smack* ja","00:41:37.298",2497298,"00:41:37.772",2497772
+"025026","6.10_ref",6,"10",179,"ref",9,"A","A","uh ja dit is met die cirkel aan de achterkant die halve cirkel met uh lepeltje erin en staafje aan de zijkant","00:41:39.360",2499360,"00:41:45.412",2505412
+"025026","6.10_ref",6,"10",179,"ref",9,"A","B","hmhm dat is #C#","00:41:45.437",2505437,"00:41:46.541",2506541
+"025026","6.10_loc",6,"10",180,"loc",9,"A","A","hij staat helemaal wel tegen de bovenste rand aan uh kan nog een plaatje rechts naast ok *laugh*","00:41:47.020",2507020,"00:41:51.421",2511421
+"025026","6.10_loc",6,"10",180,"loc",9,"A","B","nee","00:41:49.311",2509311,"00:41:49.928",2509928
+"025026","6.11_ref",6,"11",181,"ref",6,"B","B","um dit is met dat de neus en dan stokje er doorheen","00:41:52.423",2512423,"00:41:55.514",2515514
+"025026","6.11_ref",6,"11",181,"ref",6,"B","A","is *click*#vijftien#*click*","00:41:55.133",2515133,"00:41:56.319",2516319
+"025026","6.11_loc",6,"11",182,"loc",6,"B","B","um aan de rechterkant boven het midden erboven past denk ik nog wel een plaatje en rechts ervan *inhale* ok","00:41:56.733",2516733,"00:42:02.999",2522999
+"025026","6.11_loc",6,"11",182,"loc",6,"B","A","nee","00:42:01.422",2521422,"00:42:02.030",2522030
+"025026","6.12_ref",6,"12",183,"ref",1,"A","A","uh is met de spijker met een vierkant aan de voorkant en dan die vierkantjes die kleiner worden","00:42:03.587",2523587,"00:42:08.679",2528679
+"025026","6.12_ref",6,"12",183,"ref",1,"A","B","ja *inhale* dat is #B#","00:42:07.992",2527992,"00:42:10.161",2530161
+"025026","6.12_loc",6,"12",184,"loc",1,"A","A","uh staat rechts van het midden kan geen plaatje meer onder *inhale* uh *sigh* u]","00:42:10.256",2530256,"00:42:16.885",2536885
+"025026","6.12_loc",6,"12",184,"loc",1,"A","B","passen er nog drie plaatjes naast ongeveer? ok dat is wel *click*dezelfde*click*","00:42:16.509",2536509,"00:42:19.584",2539584
+"025026","6.12_loc",6,"12",184,"loc",1,"A","A","ja","00:42:17.700",2537700,"00:42:18.359",2538359
+"025026","6.13_ref",6,"13",185,"ref",16,"B","B","um dit is het theekopje met die vierkantjes die kleiner worden","00:42:20.575",2540575,"00:42:24.508",2544508
+"025026","6.13_loc",6,"13",186,"loc",16,"B","A","*smack* uh *smack* ja","00:42:24.741",2544741,"00:42:27.092",2547092
+"025026","6.13_loc",6,"13",186,"loc",16,"B","B","bij mij staat hij links bovenin","00:42:24.960",2544960,"00:42:26.279",2546279
+"025026","6.13_loc",6,"13",186,"loc",16,"B","A","vie] o shit #vier# *laugh*k] shit*laugh*","00:42:28.102",2548102,"00:42:31.669",2551669
+"025026","6.13_loc",6,"13",186,"loc",16,"B","B","*laugh*","00:42:28.945",2548945,"00:42:31.251",2551251
+"025026","6.13_loc",6,"13",186,"loc",16,"B","B","um er past geen plaatje meer naast en ook niet meer boven maar *inhale* hij staat niet helemaal in de hoek","00:42:31.792",2551792,"00:42:37.143",2557143
+"025026","6.13_loc",6,"13",186,"loc",16,"B","A","is er links niet zeg maar nog ongeveer dit over?","00:42:37.978",2557978,"00:42:40.752",2560752
+"025026","6.13_loc",6,"13",186,"loc",16,"B","B","jawel maar er past denk ik geen plaatje meer naast","00:42:40.976",2560976,"00:42:42.873",2562873
+"025026","6.13_loc",6,"13",186,"loc",16,"B","A","ja nee ok *inhale* is wel *click*dezelfde*click*","00:42:41.092",2561092,"00:42:43.689",2563689
+"025026","6.14_ref",6,"14",187,"ref",5,"A","A","uh dit is die hele compacte *exhale*","00:42:45.102",2565102,"00:42:47.071",2567071
+"025026","6.14_ref",6,"14",187,"ref",5,"A","A","bij mij staat hij linksonder","00:42:48.525",2568525,"00:42:49.813",2569813
+"025026","6.14_loc",6,"14",188,"loc",5,"A","B","ja *exhale*","00:42:50.321",2570321,"00:42:51.824",2571824
+"025026","6.14_loc",6,"14",188,"loc",5,"A","A","mm *inhale* kan onder zeker geen plaatje meer uh want daar staat hij wel echt wel redelijk tegen de rand maar l] uh links van ook niet meer past ook geen plaatje","00:42:52.422",2572422,"00:43:01.968",2581968
+"025026","6.14_loc",6,"14",188,"loc",5,"A","B","nee maar er is nog wel iets ruimte *inhale* ok","00:43:01.091",2581091,"00:43:03.504",2583504
+"025026","6.14_loc",6,"14",188,"loc",5,"A","A","ja","00:43:02.442",2582442,"00:43:02.968",2582968
+"025026","6.15_ref",6,"15",189,"ref",12,"B","B","uh ja dit is met dat dienblad en die schroef uh spijker","00:43:05.584",2585584,"00:43:08.745",2588745
+"025026","6.15_ref",6,"15",189,"ref",12,"B","A","j] ja uh dat is #dertien#","00:43:08.081",2588081,"00:43:10.658",2590658
+"025026","6.15_loc",6,"15",190,"loc",12,"B","B","hij is onder het midden en ook aan de linkerkant maar links past nog wel een plaatje en eronder misschien","00:43:11.247",2591247,"00:43:16.629",2596629
+"025026","6.15_loc",6,"15",190,"loc",12,"B","A","nee","00:43:15.102",2595102,"00:43:15.896",2595896
+"025026","6.16_ref",6,"16",191,"ref",15,"A","A","um *exhale* *smack* dit is met dat vierkant door het kopje heen *inhale* met twee van die pinnetjes bovenop","00:43:17.484",2597484,"00:43:22.803",2602803
+"025026","6.16_ref",6,"16",191,"ref",15,"A","B","ja dat is #N#","00:43:23.127",2603127,"00:43:24.932",2604932
+"025026","6.16_loc",6,"16",192,"loc",15,"A","A","um staat uh aan de bovenkant van het scherm net iets rechts van het midden *smack* kan zeker geen plaatje meer boven *inhale* um *exhale*","00:43:26.112",2606112,"00:43:34.803",2614803
+"025026","6.16_loc",6,"16",192,"loc",15,"A","B","ja net rechts van het midden zei je hè?","00:43:34.081",2614081,"00:43:35.670",2615670
+"025026","6.16_loc",6,"16",192,"loc",15,"A","A","ja dus kunnen nog ongeveer drie plaatjes","00:43:35.277",2615277,"00:43:37.050",2617050
+"025026","6.16_loc",6,"16",192,"loc",15,"A","B","ja ok","00:43:36.154",2616154,"00:43:37.331",2617331

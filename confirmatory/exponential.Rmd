@@ -1,0 +1,173 @@
+---
+title: "Do Multi-scale Exponential Decays Underlie Power Law reductions?"
+author: 
+date: "2025-04-09"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning = FALSE, message = FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(scales)
+library(gridExtra)
+library(cowplot)
+
+# set u
+knitr::opts_chunk$set(echo = TRUE)
+curfolder <- getwd()
+
+# external dataset
+fnam <- paste0(curfolder,'/external_datasets/HawkinsFranketal2023_dataset/posTagged_tangramsSequential_collapsed.csv')
+extdat <- read.csv(fnam)
+
+# Define custom color palette
+my_custom_palette <- c(
+  "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+  "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf", "#aec7e8"
+)
+
+```
+
+## General effort reduction follows a power law decay
+
+Consistent with our main findings in our report, we observe for Hawkins and colleagues (2020) that the a linear fit of a log-log model approximates the overall pattern in word count reduction (proxy of effort) over the repetitions better than untransformed or a exponential decay (semi-log model) reduction.
+
+```{r, warning = FALSE, message = FALSE, fig.width=5, fig.height=10}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+# plot avg_words_by_rep
+a <- ggplot(extdat, aes(x = repetitionNum, y = numWords)) +
+  geom_smooth(method="loess")+geom_smooth(method="lm", linetype="dashed", color = "black") +
+  labs(title = "#Words \n by Repetition Number",
+       x = "Repetition Number",
+       y = "Average Total Words") +
+  theme_cowplot()
+
+# semilog plot
+b <- ggplot(extdat, aes(x = repetitionNum, y = log(numWords))) +
+  geom_smooth(method="loess")+geom_smooth(method="lm", linetype="dashed", color = "black") +
+  labs(title = "#Words \n by Repetition Number \n (semi-log)",
+       x = "Repetition Number",
+       y = "Log of Average Total Words") +
+  theme_cowplot()
+
+# lot log
+c <- ggplot(extdat, aes(x = log(repetitionNum), y = log(numWords))) +
+  geom_smooth(method="loess")+geom_smooth(method="lm", linetype="dashed", color = "black") +
+  labs(title = "#Words \n by Repetition Number (log-log)",
+       x = "Log of Repetition Number",
+       y = "Log of Average Total Words") +
+  theme_cowplot()
+
+# plot
+gridExtra::grid.arrange(a, b, c, ncol = 1)
+```
+
+## Comparing combined exponential decays, combined power law decays, and combined linear decay models
+However, the idea we have put forward is that the power law may emerge out of the combination of different exponential decay rates. I.e., the power law emerges from multi-scale combinations of simpler constant decay rates. The study by Hawkins (2020) allows use to go deeper into the groups of communicative elements that have different functinal constraints, namely word type. 
+
+```{r wordtypeplot, warning = FALSE, message = FALSE}
+# Define word type columns
+word_types <- c("NOUNcount", "DETcount", "PRONcount", "VERBcount", "ADJcount", 
+                "CCONJcount", "ADPcount", "ADVcount", "AUXcount", "SCONJcount", "NUMcount")
+
+# 1. Combined plot with all word types
+# First reshape the data to long format for easier plotting
+long_data <- extdat %>%
+  select(repetitionNum, all_of(word_types)) %>%
+  pivot_longer(cols = all_of(word_types), 
+               names_to = "WordType", 
+               values_to = "Count")
+
+# Clean up the names
+long_data$WordType <- gsub("count", "", long_data$WordType)
+
+# Create plot with all word types together
+all_types_plot <- ggplot(long_data, aes(x = repetitionNum, y = Count, color = WordType)) +
+  geom_smooth(method = "loess", se = TRUE) +
+  labs(title = "All Word Types by Repetition Number",
+       x = "Repetition Number",
+       y = "Count",
+       color = "Word Type") +
+  theme_cowplot() +
+  scale_color_manual(values = my_custom_palette)
+
+# 2. Global averages plot
+avg_data <- extdat %>%
+  summarize(across(all_of(word_types), mean, na.rm = TRUE)) %>%
+  pivot_longer(cols = everything(), 
+               names_to = "WordType", 
+               values_to = "AvgCount")
+
+# Clean up the names
+avg_data$WordType <- gsub("count", "", avg_data$WordType)
+
+# Create the average count plot
+avg_plot <- ggplot(avg_data, aes(x = reorder(WordType, -AvgCount), y = AvgCount, fill = WordType)) +
+  geom_bar(stat = "identity") + 
+  scale_fill_manual(values = my_custom_palette) +
+  labs(title = "Average Counts for All Word Types",
+       x = "Word Type",
+       y = "Average Count") +
+  theme_cowplot()+ theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1)) +
+  theme(legend.position = "none")
+
+# Display the plots side by side
+combined_plots <- grid.arrange(all_types_plot, avg_plot, ncol = 2)
+```
+
+We can then model the number of word reduction (effort reduction) as a function of repetition that differ per word type (with random slopes and intercepts per conversation), either as combinations linear decays (untransformed), combinations of power law decays (log-log model), or a combination on exponential decay rates (semi-log model). We then compare the explained variance of each model.
+
+```{r exponential, warning = FALSE, message = FALSE}
+library(lme4)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(MuMIn)  # For r.squaredGLMM function
+library(purrr)  # For map functions
+
+# Prepare data by z-scaling the x-variable first (needed to ensure convergence of the models)
+extdat$repetitionNum <- scale(extdat$repetitionNum)
+
+model_data <- extdat %>%
+  select(repetitionNum, all_of(word_types), gameid) %>%
+  pivot_longer(cols = all_of(word_types), 
+               names_to = "WordType", 
+               values_to = "Count") %>%
+  mutate(
+    gameid = as.factor(gameid),
+    logRepetitionNum = log(repetitionNum),
+    logCount = log(Count+1)  # Adding 1 to handle log(zero) associated errors
+  )
+
+# Global models with proper random effects
+# ----------------------------------------------------
+
+# Fit global models with proper random effects syntax
+log_log_model <- lmer(logCount ~ logRepetitionNum*WordType + (logRepetitionNum|gameid), 
+                      data = model_data)
+semilog_model <- lmer(logCount ~ repetitionNum*WordType + (repetitionNum|gameid), 
+                      data = model_data)
+
+untransformed_model <- lmer(Count ~ repetitionNum*WordType + (repetitionNum|gameid), 
+                            data = model_data)
+
+library(MuMIn)
+# Calculate R-squared for log-log and semi-log models (both use logCount)
+r2_log_log <- r.squaredGLMM(log_log_model)
+r2_semilog <- r.squaredGLMM(semilog_model)
+r2_untransformed <- r.squaredGLMM(untransformed_model)
+
+# Format and display results
+r2_results <- data.frame(
+  Model = c("Log-Log", "Semi-Log", "Untransformed"),
+  "Marginal_R2" = c(r2_log_log[1], r2_semilog[1], r2_untransformed[1]),  # Fixed effects only
+  "Conditional_R2" = c(r2_log_log[2], r2_semilog[2], r2_untransformed[2])  # Fixed + random effects
+  
+)
+
+print(r2_results)
+```

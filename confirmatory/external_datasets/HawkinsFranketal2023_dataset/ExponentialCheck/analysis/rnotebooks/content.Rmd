@@ -1,0 +1,506 @@
+---
+title: 'Section 4: Content analyses'
+output:
+  html_document:
+    df_print: paged
+---
+
+*Note: the analyses in this notebook expect certain files to have already been created by the preprocessing.Rmd and structure.ipynb notebooks*
+
+# Import data
+
+```{r message=FALSE,results='hide'}
+library(tidyverse)
+library(lme4)
+library(lmerTest)
+library(ggthemes)
+library(tm)
+library(tidyboot)
+library(xtable)
+library(entropy)
+library(useful)
+library(viridis)
+library(broom.mixed)
+library(gganimate)
+library(modeest)
+library(knitr)
+
+source('../utils/analysis_helpers.R')
+```
+
+# Section 4 | RESULTS: CHARACTERIZING THE DYNAMICS OF SEMANTIC CONTENT
+
+```{r}
+# All analyses reported on sequential cued version of task
+d <- read_csv('../../data/tangramsSequential_collapsed.csv', col_types = 'ciiccil')
+```
+
+
+## Section 4.1: Initially distinctive words are more likely to conventionalize
+
+```{r}
+distinctiveness_d_raw <- read.csv("../outputs/PMI.csv", header = TRUE) %>%
+  mutate(finalRoundMatch = ifelse(finalRoundMatch == 'True', 1, 0)) %>%
+  filter(!is.na(tf.idf)) %>% 
+  mutate(num_tangrams_occurred_with = ifelse(tf.idf == 0, 0, round(1 / ((2^tf.idf) /12))) )
+
+# exclude words that didn't appear on first round
+distinctiveness_d <- distinctiveness_d_raw %>%
+  filter(num_tangrams_occurred_with > 0 )
+```
+
+look at how often final round occurred on early round (noted in main text)
+
+```{r}
+distinctiveness_d_raw %>% 
+  mutate(occuredOnFirstRound = num_tangrams_occurred_with > 0) %>% 
+  group_by(finalRoundMatch, occuredOnFirstRound) %>% 
+  tally() %>%
+  filter(finalRoundMatch == 1) %>%
+  spread(occuredOnFirstRound,n) %>%
+  mutate(proportionOfMatchesInInitialRound = `TRUE`/(`TRUE`+`FALSE`)) %>%
+  pull(proportionOfMatchesInInitialRound)
+```
+
+stats
+
+```{r, cache=TRUE, message=FALSE}
+distinctiveness_d %>% 
+  glmer(finalRoundMatch ~ num_tangrams_occurred_with + 
+            (1 + num_tangrams_occurred_with | intendedName) + 
+            (1 + num_tangrams_occurred_with | gameid), 
+        family = 'binomial', 
+        control = glmerControl(optCtrl = list(maxfun = 200000)), 
+        data = .) %>%
+  tidy()
+```
+
+```{r, cache=TRUE, message=FALSE}
+distinctiveness_d %>%
+  group_by(num_tangrams_occurred_with) %>%
+  tidyboot_mean(finalRoundMatch,nboot = 500) %>%
+  rename(sample_size = n) %>%
+  ggplot(aes(x = as.integer(num_tangrams_occurred_with), y =empirical_stat)) +
+    geom_point(aes(size = sample_size), stat = 'identity') +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0.1) +
+    geom_smooth(method = 'lm', formula = y ~ poly(x, 2), se = F) +
+    ylim(0, .22) +
+    ylab('% appearing in final utterance') +
+    xlab('distinctiveness of word in initial utterance (# tangrams)') +
+    xlim(0,12) +
+    scale_x_continuous(breaks = c(1,3, 5,7,9,11))+
+    theme_few() +
+    theme(aspect.ratio = 1)
+
+ggsave('../../writing/figs/distinctiveness.pdf',  height = 7, width = 10, units = 'cm', useDingbats = F)
+```
+
+Alternatively, we can do a nonparametric analysis.
+Draw a random word from each tangram/gameid pair and look at the percentage that match with round 6.
+This gives a null distribution. 
+Then we can take the highest PMI word (or words) for each tangram/gameid pair and look at the percentage of *those* that match. 
+We see that it's much higher than expected under the null.
+
+```{r, cache=TRUE, message=FALSE}
+nonparametric_ds = seq_len(1000) %>%
+  map_dbl(~ { distinctiveness_d %>%
+    group_by(intendedName, gameid) %>%
+    sample_n(1) %>%
+      ungroup() %>%
+      summarize(m = mean(finalRoundMatch)) %>%
+      pull(m)})
+    
+highest <- seq_len(1000) %>%
+  map_dbl(~ { distinctiveness_d %>%
+    group_by(intendedName, gameid) %>%
+    filter(num_tangrams_occurred_with == min(num_tangrams_occurred_with)) %>%
+    sample_n(1) %>%
+    ungroup() %>%
+    summarize(m = mean(finalRoundMatch)) %>%
+    pull(m)})
+    
+cat('range for permuted=', sort(nonparametric_ds)[1], sort(nonparametric_ds)[1000])
+cat('range for highest=', sort(highest)[1], sort(highest)[1000])
+```
+
+## Section 4.2: Semantic meaning diverges across pairs and stabilizes within pairs
+
+```{r}
+M_mat = read_csv('../outputs/meta_tangrams_embeddings.csv', 
+                 col_types = "nccnlc", na = c('[nan]')) %>%
+  # need to correct for R's (terrible) 1-indexing...
+  mutate(feature_ind = X1 + 1, 
+         gameID = gameid,
+         target = intendedName,
+         repetition = as.numeric(repetitionNum)) #%>% 
+
+```
+
+### Utterances are more similar overall within games than between games
+
+```{r, message=FALSE, cache=TRUE}
+load('F_mat_raw.Rdata')
+combined.df <- compute_within_vs_across(M_mat, F_mat)
+
+true_dprime = dprime(combined.df)
+
+permuted_dprimes <- seq_len(1000) %>%
+  map_dbl(~ dprime(combined.df %>% mutate(source = sample(source))))
+
+cat('CI for permuted=', sort(permuted_dprimes)[25], sort(permuted_dprimes)[975])
+cat('true=', true_dprime)
+
+combined.df %>%
+  ggplot(aes(x = empirical_stat, fill = source)) +
+    geom_density(adjust = 1.5, alpha = .5) +
+    xlab('pairwise cosine similarity') +
+    theme_few()
+
+ggsave('../../writing/figs/across_vs_within.pdf',  
+       height = 7, width = 10, units = 'cm', useDingbats = F)
+```
+
+### Utterances become increasingly consistent within interaction
+
+Stats 
+
+```{r, message=FALSE, cache=TRUE}
+true_lmer.within <- make_within_df(M_mat, F_mat, 'cosine') %>% 
+  filter(rep2 == rep1 + 1) %>% 
+  ungroup()
+
+library(optimx)
+true_lmer.within %>%
+  lmer(sim ~ poly(rep1, 2) + 
+         (1 + poly(rep1, 2) | gameID) + 
+         (1 + poly(rep1, 2) | target), 
+       control = lmerControl(optimizer ='optimx', 
+                             optCtrl=list(method='nlminb')),  
+       data = .) %>%
+  tidy()
+```
+
+Viz
+
+```{r, message=FALSE, cache=TRUE}
+true_lmer.within.toplot <- true_lmer.within %>%
+  group_by(gameID, rep1) %>%
+  summarize(m = mean(sim,na.rm=T)) %>%
+  group_by(rep1) %>%
+  tidyboot_mean(m, na.rm=T)
+
+true_lmer.within.toplot %>%
+  ggplot(aes(x = as.character(rep1), y = empirical_stat, group = 1)) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0) + 
+    geom_line()  +
+    scale_x_discrete(labels = c('(1,2)','(2,3)', '(3,4)', '(4,5)', '(5,6)' )) +
+    ylim(0.4, 1) +
+    ylab('cosine similarity') +
+    ggtitle('convergence within game') +
+    theme_few() +
+    xlab('repetition pair') +
+    guides(color = F, fill = F) +
+    theme(aspect.ratio = 1, legend.position = c(0.6, 0.5), text = element_text(size=18), 
+          element_line(size=1), element_rect(size=2, color="#00000"))
+
+ggsave('../../writing/figs/stability_mean.pdf', 
+       height = 10, width = 10, units = 'cm', useDingbats = F)
+```
+
+### Utterances become increasingly different across interactions
+
+Stats 
+
+```{r, message=FALSE, cache=TRUE}
+true_lmer.across <- M_mat %>% 
+   group_by(target, repetition) %>%  
+   do(flatten_sim_matrix(get_sim_matrix(., F_mat, method = 'cosine'), .$gameID)) %>% 
+  ungroup() %>%
+  mutate(target = factor(target))
+
+true_lmer.across %>%
+  lmer(sim ~ poly(repetition, 2) + (1 +poly(repetition, 2)  | target), 
+       control = lmerControl(optimizer ='optimx', 
+                             optCtrl=list(method='nlminb')),  
+       data = .) %>%
+  tidy()
+```
+
+Viz 
+
+```{r}
+true_lmer.across %>%
+  group_by(dim1, repetition) %>%
+  summarize(m = mean(sim, na.rm=T)) %>%
+  group_by(repetition) %>%
+  tidyboot_mean(m, na.rm=T) %>%
+  ggplot(aes(x = repetition, y = empirical_stat)) +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0) +
+    geom_line()  +
+    scale_x_continuous(breaks = c(1,2,3,4,5,6), labels = c(1,2,3,4,5,6)) +
+    ylim(.4, 1) +
+    ylab('cosine similarity') +
+    ggtitle('divergence across pairs') +
+    theme_few() +
+    xlab('repetition') +
+    guides(color = F, fill = F) +
+    theme(aspect.ratio = 1, legend.position = c(0.5, 0.8), text = element_text(size=18), 
+          element_line(size=1), element_rect(size=2, color="#00000"))
+ggsave('../../writing/figs/divergence_mean.pdf', height = 10, width = 10, units = 'cm', useDingbats = F)
+
+```
+
+# Other figures
+
+## Fig. 6: tsne visualizations
+
+```{r}
+tsne <- read_csv('../outputs/embeddings.csv') %>%
+  left_join(d) %>%
+  select(gameid, intendedName, repetitionNum, x_tsne, y_tsne, contents) %>%
+  mutate(r = useful::cart2pol(x_tsne, y_tsne)$r,
+         theta = useful::cart2pol(x_tsne, y_tsne)$theta) %>%
+  group_by(gameid,  intendedName) %>%
+  arrange(repetitionNum) %>%
+  mutate(finalTheta = last(theta)) 
+
+tsne.toplot <- tsne %>% 
+  filter(intendedName == 'C') %>% 
+  filter(repetitionNum %in% c(1, 6)) %>%
+  filter(!is.na(x_tsne)) %>%
+  group_by(gameid) %>%
+  mutate(next_x = lead(x_tsne) ,
+         next_y = lead(y_tsne))
+
+ggplot(tsne.toplot, aes(x = x_tsne, y = y_tsne, color = finalTheta)) +
+    geom_point(data = subset(tsne.toplot, repetitionNum == 1),
+               size = 1) +
+    geom_segment(aes(xend = next_x, yend = next_y), 
+                 arrow.fill = NULL, 
+                 arrow = arrow(length = unit(0.30,"cm"), 
+                               angle = 15, 
+                               type = "closed")) +
+    # uncomment this line to see text labels
+    # geom_text(aes(label=contents), size = 1)+
+    theme_few(20) +
+    scale_shape_manual(values = c(21)) +
+    scale_alpha_continuous(range = c(0.5, 1))+
+    scale_color_gradientn(colours = viridis(5))+
+      theme(axis.title=element_blank(),
+        axis.text=element_blank(),
+        axis.ticks=element_blank()) +
+    labs(x = "", y = "") +
+    guides(color = F, shape = F, alpha = F) +
+    theme(aspect.ratio = 1)  #+
+
+# make it big to zoom in on text... 
+# ggsave(filename = '../../writing/figs/tsne-tangramC_enlarged.pdf',
+#        width = 15, height = 15)
+
+ggsave(filename = '../../writing/figs/tsne-tangramC.pdf',
+       width = 5, height = 5)
+```
+
+## supplemental figure 11 showing all tangrams
+
+```{r}
+tsne.all <- tsne %>%
+  filter(repetitionNum %in% c(1, 6)) %>%
+  filter(!is.na(x_tsne)) %>%
+  group_by(gameid, intendedName) %>%
+  mutate(next_x = lead(x_tsne) ,
+         next_y = lead(y_tsne))
+
+ggplot(tsne.all, aes(x = x_tsne, y = y_tsne, color = finalTheta)) +
+    geom_point(data = subset(tsne.all, repetitionNum == 1),
+               size = 1) +
+    facet_wrap(~ intendedName, nrow = 4, ncol = 3) +
+    geom_segment(aes(xend = next_x, yend = next_y), arrow.fill = NULL, 
+                 arrow = arrow(length=unit(0.30,"cm"), angle=15, type = "closed"), ) +
+    # uncomment to see text labels
+    # geom_text(aes(label=contents), size = 1)+
+    theme_few(20) +
+    scale_shape_manual(values = c(21)) +
+    scale_alpha_continuous(range = c(0.5, 1))+
+    scale_color_gradientn(colours = viridis(5))+
+      theme(axis.title=element_blank(),
+        axis.text=element_blank(),
+        axis.ticks=element_blank()) +
+    labs(x = "", y = "") +
+    guides(color = F, shape = F, alpha = F) +
+    theme(aspect.ratio = 1) 
+
+ggsave(filename = '../../writing/figs/tsne-alltangrams.pdf',
+       width = 15, height = 15)
+```
+
+## Appendix A: Discrete analyses
+
+How much is within-game similarity disrupted by scrambling utterances across games?
+
+Calculate entropy under permutation tests.
+
+Note that we explicitly do *not* normalize entropies, as this removes the contribution of a bigger vocabulary (as we would expect)
+
+Note: this is inefficient and takes a long time to run...
+
+```{r, message=FALSE, cache=TRUE}
+getCounts <- function(contents) {
+  corpus <- Corpus(VectorSource(paste(contents, collapse = " ")))
+  return(colSums(as.matrix(DocumentTermMatrix(corpus, control = list(
+    removePunctuation = TRUE, stopwords = TRUE, stemming = TRUE)))))
+}
+
+getCI <- function(vector) {
+  l = length(vector)
+  upper95 = ceiling(l*0.975)
+  lower95 = floor(l*0.025)
+  return(data.frame(list(ci_lower = sort(vector)[lower95], 
+                         ci_upper = sort(vector)[upper95],
+                         empirical_stat = mean(sort(vector)))))
+}
+
+permutationTest <- function(d, sample_id) {
+  # scramble across games within each repetition/tangram
+  permuted = d %>%
+    group_by(repetitionNum, intendedName) %>%
+    mutate(permutation = sample(contents)) %>%
+    group_by(gameid, intendedName) %>%
+    summarize(rawEntropy = entropy(getCounts(permutation)),
+              l = length(getCounts(permutation)),
+            normedEntropy = rawEntropy/log(l)) %>%
+    group_by(intendedName) %>%
+    summarize(meanEnt = mean(rawEntropy)) %>%
+    mutate(sample_id = sample_id)
+  return(permuted)
+}
+
+permutations <- map_dfr(seq_len(100), ~permutationTest(d, .x)) %>%
+  group_by(intendedName) %>% 
+  do(., getCI(.$meanEnt)) %>% mutate(sample_id = 'permuted')
+
+trueEntropy <- d %>%
+  group_by(gameid, intendedName) %>%
+  summarize(rawEntropy = entropy(getCounts(contents)), l = length(getCounts(contents)),
+            normedEntropy = rawEntropy/log(l)) %>%
+  group_by(intendedName) %>%
+  tidyboot_mean(rawEntropy, na.rm = T) %>%
+  mutate(sample_id = 'empirical') %>% 
+  select(intendedName, ci_lower,ci_upper, empirical_stat, sample_id)
+
+discrete.out <- bind_rows(permutations, trueEntropy)
+```
+
+Plotted 
+
+```{r}
+ggplot(discrete.out, aes(x = empirical_stat, y = fct_reorder(factor(intendedName), empirical_stat), 
+                         color = sample_id)) +
+  geom_point() +
+  geom_errorbarh(aes(xmax = ci_upper, xmin = ci_lower), height = 0) +
+  theme_few() +
+  ylab('tangram') +
+  xlab('mean entropy') +
+  theme(aspect.ratio = 1/2)
+
+ggsave('../../writing/figs/permutedDiscrete_raw.pdf', height = 8, width = 16, units = 'cm', useDingbats = F)
+```
+
+## Appendix B: Additional baselines for evaluating divergence
+
+we'd like to claim that all people start out with something shared in how they talk about particular tangrams.
+but maybe the similarity at the beginning is just a product of how we're averaging the embeddings, so that longer utterances are necessarily more similar.
+if that were true, then the actual content of the utterances wouldn't matter. 
+if you scramble words across tangrams within games and recompute the averaged utterance vector, then you'd expect that permutation to be equally similar. 
+instead, we find that similarity drops.
+
+```{r}
+# workaround for reticulate python integration not working with knitr
+# np <- import("numpy")
+# for(name in raw_npy_names) {
+#   mat = np$load(name)
+#   saveRDS(paste0(name, '.RData'))
+# }
+```
+
+```{r cache=TRUE}
+M_mat_scrambled <- read_csv('../outputs/meta_tangrams_embeddings_scrambled0.csv', col_types = "nccnlc", na = c('[nan]')) %>%
+    mutate(feature_ind = X1 + 1, # Have to correct for R's (terrible) 1-indexing...
+         gameID = gameid,
+         target = intendedName,
+         repetition = as.numeric(repetitionNum)) 
+
+raw_npy_names <- dir(path = '../outputs/', pattern = "feats_tangrams_embeddings_rawavg_scrambled[0-9]*.npy.RData", full.names = T)
+
+raw_data <- map(raw_npy_names, ~ {
+  print(.x)
+  scrambled_mat <- readRDS(paste0(.x))
+   M_mat_scrambled %>% 
+    group_by(target, repetition) %>%  
+    do(flatten_sim_matrix(get_sim_matrix(., scrambled_mat,
+                                         method = 'cosine'), .$gameID)) %>% 
+    ungroup() %>%
+    group_by(repetition) %>%
+    summarize(m = mean(sim, na.rm = T)) %>%
+    mutate(sample_id = .x)
+  }) %>%
+  reduce(rbind)               # read all csvs and combine into single data frame
+
+raw_data %>% group_by(repetition) %>% summarize(l = length(m), min = min(m), max = max(m)) %>% left_join(true_lmer.across %>% group_by(repetition) %>% summarize(empirical = mean(sim, na.rm = T)))
+```
+
+It appears that similarity is slightly *higher* among utterances for the same tangram across different games than for different tangrams within the same game. 
+
+```{r}
+acrossGames <- M_mat %>%
+    group_by(target, repetitionNum) %>%
+    do(flatten_sim_matrix(get_sim_matrix(., F_mat, method = 'cosine'),
+                          .$gameid)) %>%
+    filter(dim1 != dim2) %>%
+  rename(gameid = dim1) %>%
+    group_by(repetitionNum,gameid) %>%
+  summarize(empirical_stat = mean(sim, na.rm = T)) %>% mutate(source ='across')
+
+diffTangramWithinGames <- M_mat %>%
+  group_by(gameid, repetitionNum) %>%
+  do(flatten_sim_matrix(get_sim_matrix(., F_mat, method = 'cosine'),
+                        .$target)) %>%
+  summarize(empirical_stat = mean(sim, na.rm = T)) %>%
+  filter(!is.na(empirical_stat)) %>%
+  mutate(source = 'across tangrams in game') 
+
+bind_rows(acrossGames,diffTangramWithinGames) %>%
+  spread(source, empirical_stat) %>%
+  mutate(diff = across - `across tangrams in game`) %>%
+  group_by(repetitionNum) %>%
+  tidyboot_mean(diff, na.rm = T) %>%
+  ggplot(aes(x = as.character(repetitionNum), y = empirical_stat)) +
+    geom_line() +
+  geom_point() +
+    geom_errorbar(aes(ymin = ci_lower, ymax = ci_upper), width = 0) +
+    geom_hline(yintercept = 0) +
+    theme_few()
+```
+
+```{r}
+unchanging_model <- lmer(diff ~ (1 |gameid), data = bind_rows(acrossGames,diffTangramWithinGames) %>%
+  spread(source, empirical_stat) %>%
+  mutate(diff = across - `across tangrams in game`))
+mod2 <- lmer(diff ~ repetitionNum + (1 |gameid), data = bind_rows(acrossGames,diffTangramWithinGames) %>%
+  spread(source, empirical_stat) %>%
+  mutate(diff = across - `across tangrams in game`))
+full_model <- lmer(diff ~ poly(repetitionNum,2) + (1 + repetitionNum|gameid), data = bind_rows(acrossGames,diffTangramWithinGames) %>%
+  spread(source, empirical_stat) %>%
+  mutate(diff = across - `across tangrams in game`))
+
+anova(unchanging_model, mod2, full_model)
+summary(full_model)
+
+bind_rows(acrossGames,diffTangramWithinGames) %>%
+  spread(source, empirical_stat) %>%
+  mutate(diff = across - `across tangrams in game`) %>%
+  group_by(repetitionNum) %>%
+  summarize(diff = mean(diff, na.rm = T),
+            across = mean(across, na.rm = T),
+            `across tangrams in game` = mean(`across tangrams in game`, na.rm = T))
+```

@@ -5,7 +5,7 @@ date: "2025-04-09"
 output: html_document
 ---
 
-```{r setup, include=FALSE, warning = FALSE, message = FALSE}
+```{r setup, warning = FALSE, message = FALSE}
 library(ggplot2)
 library(dplyr)
 library(tidyr)

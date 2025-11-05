@@ -4,7 +4,10 @@ Code and data for the confirmatory project: 'There is a power law of joint commu
 
 # Contact
 sara.boegels@donders.ru.nl
-wim.pouw@donders.ru.nl
+w.pouw@tilburguniversity.edu
+
+# Notebook page
+https://wimpouw.github.io/putting_in_the_effort_CABB/
 
 # Folders
 Pre_registration - Contains the processed data and the R code for reproducing the exploratory study

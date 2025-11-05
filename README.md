@@ -7,8 +7,8 @@ sara.boegels@donders.ru.nl
 w.pouw@tilburguniversity.edu
 
 # Notebooks: RMarkdown html pages
-Main analysis: https://wimpouw.github.io/putting_in_the_effort_CABB/
-Analysis multi-scale: https://wimpouw.github.io/putting_in_the_effort_CABB/exponential.html
+* Main analysis: https://wimpouw.github.io/putting_in_the_effort_CABB/
+* Analysis multi-scale: https://wimpouw.github.io/putting_in_the_effort_CABB/exponential.html
 
 # Folders
 Pre_registration - Contains the processed data and the R code for reproducing the exploratory study

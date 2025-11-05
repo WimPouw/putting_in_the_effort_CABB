@@ -13,3 +13,6 @@ w.pouw@tilburguniversity.edu
 # Folders
 Pre_registration - Contains the processed data and the R code for reproducing the exploratory study
 Confirmatory - Contains the processed data and the R code for reproducing the main confirmatory analyses
+
+# Published manuscript
+https://doi.org/10.1016/j.cognition.2025.106370
